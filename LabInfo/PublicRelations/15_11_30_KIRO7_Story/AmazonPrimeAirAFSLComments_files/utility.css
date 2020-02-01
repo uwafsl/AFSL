@@ -1,0 +1,1488 @@
+a img {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmFloatLeft {
+	float: left;
+}
+.cmFloatRight {
+	float: right;
+}
+.cmLeftFloat {
+	float: left;
+}
+.cmRightFloat {
+	float: right;
+}
+.cmCenter {
+	text-align: center;
+}
+.cmHide {
+	display: none;
+}
+.cmShow {
+	display: inline;
+}
+.cmWide {
+	width: 100%; padding-left: 10px; margin-right: 10px;
+}
+.cmStandard {
+	width: 300px; height: auto !important;
+}
+.cmDefault {
+	padding: 10px 10px 5px; text-align: left;
+}
+.cmElement {
+	margin-bottom: 10px;
+}
+.cmFontBold {
+	font-weight: bold;
+}
+.cmMarginRight {
+	margin-right: 10px;
+}
+.cmLightBoxShadow {
+	box-shadow: 2px 2px 4px #d9d9d9; -webkit-box-shadow: 2px 2px 4px #d9d9d9; -moz-box-shadow: 2px 2px 4px #d9d9d9; -o-box-shadow: 2px 2px 4px #d9d9d9;
+}
+.cmDarkBoxShadow {
+	box-shadow: 2px 2px 4px #808080; -webkit-box-shadow: 2px 2px 4px #808080; -moz-box-shadow: 2px 2px 4px #808080; -o-box-shadow: 2px 2px 4px #808080;
+}
+.cmLightTextShadow {
+	text-shadow: 2px 2px 4px #d9d9d9; -webkit-text-shadow: 2px 2px 4px #d9d9d9; -moz-text-shadow: 2px 2px 4px #d9d9d9; -o-text-shadow: 2px 2px 4px #d9d9d9;
+}
+.cmDarkTextShadow {
+	text-shadow: 2px 2px 4px #808080; -webkit-text-shadow: 2px 2px 4px #808080; -moz-text-shadow: 2px 2px 4px #808080; -o-text-shadow: 2px 2px 4px #808080;
+}
+.round {
+	border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px;
+}
+.roundTop {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -webkit-border-topp-right-radius: 5px; -moz-border-radius-topright: 5px;
+}
+.buttonRound {
+	border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px;
+}
+.avatar img {
+	border: 2px solid rgb(255, 255, 255);
+}
+.cmPhotoBorderWhite {
+	border: 2px solid rgb(255, 255, 255) !important;
+}
+.sprite {
+	padding-bottom: 2px; padding-left: 18px; background-image: url("../images/sprites/sprites.png"); background-repeat: no-repeat;
+}
+.iconFacebook.sharing.sprite {
+	background-position: 0px -1744px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconTwitter.sharing.sprite {
+	background-position: -32px -1712px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconGooglePlus.sharing.sprite {
+	background-position: -160px -1195px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconTuneIn.sharing.sprite {
+	background-position: -393px -2156px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconIHeart.sharing.sprite {
+	background-position: -358px -2187px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconMyspace.sharing.sprite {
+	background-position: -64px -1680px;
+}
+.iconEmail.sprite {
+	background-position: -608px -1137px;
+}
+.iconFavorite.sharing.sprite {
+	background-position: -96px -1648px;
+}
+.iconUnfavorite.sharing.sprite {
+	background-position: -128px -1616px;
+}
+.iconIncrease.sprite {
+	background-position: -160px -1584px;
+}
+.iconComments.sprite {
+	background-position: -192px -1550px; padding-right: 0px !important;
+}
+.iconRss.sprite {
+	background-position: -224px -1520px;
+}
+.iconMobile.sprite {
+	background-position: -256px -1488px;
+}
+.iconShares.sprite {
+	background-position: -288px -1456px;
+}
+.iconListen.sprite {
+	background-position: -320px -1423px; padding-top: 3px; padding-left: 15px;
+}
+.iconDownload.sprite {
+	background-position: -352px -1391px; padding-left: 15px;
+}
+.iconVoteUp.sprite {
+	background-position: -384px -1358px; border: currentColor; background-color: transparent;
+}
+.iconVoteDown.sprite {
+	background-position: -416px -1326px;
+}
+.iconAlert.sprite {
+	background-position: -480px -1263px;
+}
+.iconSuccess.sprite {
+	background-position: -512px -1232px;
+}
+.iconPrint.sprite {
+	background-position: -704px -1038px;
+}
+.iconMore.sprite {
+	background-position: -256px -687px;
+}
+.iconReply.sprite {
+	background-position: -416px -530px;
+}
+.iconFlag.sprite {
+	background-position: -384px -560px;
+}
+.iconFlagged.sprite {
+	background-position: -352px -592px;
+}
+.iconListBullet.sprite {
+	background-position: 0px -2543px;
+}
+.iconQuestion.sprite {
+	background-position: -640px -304px;
+}
+.iconStaff.sprite {
+	background-position: -672px -272px;
+}
+.iconAnswers.sprite {
+	background-position: -704px -240px; padding-left: 24px;
+}
+.iconPrevious.sprite {
+	background-position: -32px -144px;
+}
+.iconNext.sprite {
+	background-position: 0px -176px;
+}
+.iconRemove.sprite {
+	background-position: -737px -208px; padding-left: 24px;
+}
+.iconClose.sprite {
+	background-position: -190px -2352px; padding-left: 24px;
+}
+.iconQuestions.sprite {
+	width: 52px; height: 58px; margin-right: 8px; float: left; background-image: url("../images/sprites/sprites_questions.png");
+}
+.iconCalendar.sprite {
+	background-position: -64px -112px;
+}
+.iconRssAlert.sprite {
+	background-position: -96px -80px;
+}
+.iconNowPlaying.sprite {
+	background-position: -160px -17px;
+}
+.iconBuyCD.sprite {
+	background-position: -127px -48px;
+}
+.iconExpand.sprite {
+	background-position: -577px -1168px;
+}
+.iconCollapse.sprite {
+	background-position: -545px -1200px;
+}
+.iconThread.sprite {
+	background-position: -768px -176px;
+}
+.iconBuyTicket.sprite {
+	background-position: -32px -2512px;
+}
+.cmRotatorPreviousInactive.sprite {
+	background-position: -482px -462px;
+}
+.cmRotatorPreviousActive.sprite {
+	background-position: -450px -494px;
+}
+.cmRotatorNextInactive.sprite {
+	background-position: -548px -398px;
+}
+.cmRotatorNextActive.sprite {
+	background-position: -516px -430px;
+}
+.cmRotatorIndicatorInactive.sprite {
+	background-position: -227px -2319px;
+}
+.cmRotatorIndicatorActive.sprite {
+	background-position: -258px -2287px;
+}
+.cmGaugeIndicator.sprite {
+	background-position: -292px -2254px;
+}
+.cmTip.sprite {
+	background-position: -98px -1247px;
+}
+.iconNewspaper.sprite {
+	background-position: -327px -2225px; padding-top: 2px; padding-bottom: 4px;
+}
+.iconBuy.sprite {
+	background-position: -128px -1214px; padding-left: 20px;
+}
+a.sprite:hover {
+	border: currentColor;
+}
+.cmTease ul li {
+	background: url("../images/sprites/sprites.png") no-repeat -608px -336px; padding: 0px 0px 2px 22px;
+}
+.cmTease ol {
+	list-style: decimal;
+}
+.cmTease ol li {
+	padding: 0px 0px 2px;
+}
+.cmSocialMediaLinks .iconFacebook.sharing.sprite {
+	padding-left: 18px;
+}
+.cmSocialMediaLinks .iconTwitter.sharing.sprite {
+	padding-left: 18px;
+}
+.cmSocialMediaLinks .iconGooglePlus.sharing.sprite {
+	padding-left: 18px;
+}
+.cmSocialMediaLinks .iconTuneIn.sharing.sprite {
+	padding-left: 18px;
+}
+.cmSocialMediaLinks .iconIHeart.sharing.sprite {
+	padding-left: 18px;
+}
+.cmSpriteMap {
+	background: url("../images/sprites/sprites_map.png") no-repeat; display: block;
+}
+.sprite_inline.cmSpriteMap {
+	vertical-align: bottom; display: inline-block; -ms-zoom: 1;
+}
+.sprite_pin.cmSpriteMap {
+	width: 9px; height: 15px;
+}
+.iconMapPinNone.cmSpriteMap {
+	background-position: 0px 0px;
+}
+.iconMapPinMedleystory.cmSpriteMap {
+	background-position: -16px 0px;
+}
+.iconMapPinMedleyentry.cmSpriteMap {
+	background-position: -32px 0px;
+}
+.iconMapStar.cmSpriteMap {
+	background-position: 0px -16px; width: 16px; height: 16px;
+}
+._1 {
+	background-image: url("../images/sprites/weather/sprite_weather_1.png");
+}
+._2 {
+	background-image: url("../images/sprites/weather/sprite_weather_2.png");
+}
+._3 {
+	background-image: url("../images/sprites/weather/sprite_weather_3.png");
+}
+._4 {
+	background-image: url("../images/sprites/weather/sprite_weather_4.png");
+}
+._5 {
+	background-image: url("../images/sprites/weather/sprite_weather_5.png");
+}
+._6 {
+	background-image: url("../images/sprites/weather/sprite_weather_6.png");
+}
+._7 {
+	background-image: url("../images/sprites/weather/sprite_weather_7.png");
+}
+._8 {
+	background-image: url("../images/sprites/weather/sprite_weather_8.png");
+}
+._9 {
+	background-image: url("../images/sprites/weather/sprite_weather_9.png");
+}
+._10 {
+	background-image: url("../images/sprites/weather/sprite_weather_10.png");
+}
+._11 {
+	background-image: url("../images/sprites/weather/sprite_weather_11.png");
+}
+._12 {
+	background-image: url("../images/sprites/weather/sprite_weather_12.png");
+}
+._13 {
+	background-image: url("../images/sprites/weather/sprite_weather_13.png");
+}
+._14 {
+	background-image: url("../images/sprites/weather/sprite_weather_14.png");
+}
+._15 {
+	background-image: url("../images/sprites/weather/sprite_weather_15.png");
+}
+._16 {
+	background-image: url("../images/sprites/weather/sprite_weather_16.png");
+}
+._17 {
+	background-image: url("../images/sprites/weather/sprite_weather_17.png");
+}
+._18 {
+	background-image: url("../images/sprites/weather/sprite_weather_18.png");
+}
+._19 {
+	background-image: url("../images/sprites/weather/sprite_weather_19.png");
+}
+._20 {
+	background-image: url("../images/sprites/weather/sprite_weather_20.png");
+}
+._21 {
+	background-image: url("../images/sprites/weather/sprite_weather_21.png");
+}
+._22 {
+	background-image: url("../images/sprites/weather/sprite_weather_22.png");
+}
+._23 {
+	background-image: url("../images/sprites/weather/sprite_weather_23.png");
+}
+._24 {
+	background-image: url("../images/sprites/weather/sprite_weather_24.png");
+}
+._25 {
+	background-image: url("../images/sprites/weather/sprite_weather_25.png");
+}
+._26 {
+	background-image: url("../images/sprites/weather/sprite_weather_26.png");
+}
+._27 {
+	background-image: url("../images/sprites/weather/sprite_weather_27.png");
+}
+._28 {
+	background-image: url("../images/sprites/weather/sprite_weather_28.png");
+}
+._29 {
+	background-image: url("../images/sprites/weather/sprite_weather_29.png");
+}
+._30 {
+	background-image: url("../images/sprites/weather/sprite_weather_30.png");
+}
+._31 {
+	background-image: url("../images/sprites/weather/sprite_weather_31.png");
+}
+._32 {
+	background-image: url("../images/sprites/weather/sprite_weather_32.png");
+}
+._33 {
+	background-image: url("../images/sprites/weather/sprite_weather_33.png");
+}
+._34 {
+	background-image: url("../images/sprites/weather/sprite_weather_34.png");
+}
+._35 {
+	background-image: url("../images/sprites/weather/sprite_weather_35.png");
+}
+._36 {
+	background-image: url("../images/sprites/weather/sprite_weather_36.png");
+}
+._37 {
+	background-image: url("../images/sprites/weather/sprite_weather_37.png");
+}
+._38 {
+	background-image: url("../images/sprites/weather/sprite_weather_38.png");
+}
+._39 {
+	background-image: url("../images/sprites/weather/sprite_weather_39.png");
+}
+._40 {
+	background-image: url("../images/sprites/weather/sprite_weather_40.png");
+}
+._41 {
+	background-image: url("../images/sprites/weather/sprite_weather_41.png");
+}
+._42 {
+	background-image: url("../images/sprites/weather/sprite_weather_42.png");
+}
+._43 {
+	background-image: url("../images/sprites/weather/sprite_weather_43.png");
+}
+._44 {
+	background-image: url("../images/sprites/weather/sprite_weather_44.png");
+}
+._45 {
+	background-image: url("../images/sprites/weather/sprite_weather_45.png");
+}
+._46 {
+	background-image: url("../images/sprites/weather/sprite_weather_46.png");
+}
+._47 {
+	background-image: url("../images/sprites/weather/sprite_weather_47.png");
+}
+._48 {
+	background-image: url("../images/sprites/weather/sprite_weather_48.png");
+}
+._49 {
+	background-image: url("../images/sprites/weather/sprite_weather_49.png");
+}
+._50 {
+	background-image: url("../images/sprites/weather/sprite_weather_50.png");
+}
+._51 {
+	background-image: url("../images/sprites/weather/sprite_weather_51.png");
+}
+._52 {
+	background-image: url("../images/sprites/weather/sprite_weather_52.png");
+}
+._53 {
+	background-image: url("../images/sprites/weather/sprite_weather_53.png");
+}
+._54 {
+	background-image: url("../images/sprites/weather/sprite_weather_54.png");
+}
+._55 {
+	background-image: url("../images/sprites/weather/sprite_weather_55.png");
+}
+._56 {
+	background-image: url("../images/sprites/weather/sprite_weather_56.png");
+}
+._57 {
+	background-image: url("../images/sprites/weather/sprite_weather_57.png");
+}
+._58 {
+	background-image: url("../images/sprites/weather/sprite_weather_58.png");
+}
+._59 {
+	background-image: url("../images/sprites/weather/sprite_weather_59.png");
+}
+._60 {
+	background-image: url("../images/sprites/weather/sprite_weather_60.png");
+}
+._61 {
+	background-image: url("../images/sprites/weather/sprite_weather_61.png");
+}
+._62 {
+	background-image: url("../images/sprites/weather/sprite_weather_62.png");
+}
+._63 {
+	background-image: url("../images/sprites/weather/sprite_weather_63.png");
+}
+._64 {
+	background-image: url("../images/sprites/weather/sprite_weather_64.png");
+}
+._65 {
+	background-image: url("../images/sprites/weather/sprite_weather_65.png");
+}
+._66 {
+	background-image: url("../images/sprites/weather/sprite_weather_66.png");
+}
+._67 {
+	background-image: url("../images/sprites/weather/sprite_weather_67.png");
+}
+._68 {
+	background-image: url("../images/sprites/weather/sprite_weather_68.png");
+}
+._69 {
+	background-image: url("../images/sprites/weather/sprite_weather_69.png");
+}
+._70 {
+	background-image: url("../images/sprites/weather/sprite_weather_70.png");
+}
+._71 {
+	background-image: url("../images/sprites/weather/sprite_weather_71.png");
+}
+._72 {
+	background-image: url("../images/sprites/weather/sprite_weather_72.png");
+}
+._73 {
+	background-image: url("../images/sprites/weather/sprite_weather_73.png");
+}
+._74 {
+	background-image: url("../images/sprites/weather/sprite_weather_74.png");
+}
+._75 {
+	background-image: url("../images/sprites/weather/sprite_weather_75.png");
+}
+._76 {
+	background-image: url("../images/sprites/weather/sprite_weather_76.png");
+}
+._77 {
+	background-image: url("../images/sprites/weather/sprite_weather_77.png");
+}
+._78 {
+	background-image: url("../images/sprites/weather/sprite_weather_78.png");
+}
+._79 {
+	background-image: url("../images/sprites/weather/sprite_weather_79.png");
+}
+._80 {
+	background-image: url("../images/sprites/weather/sprite_weather_80.png");
+}
+._81 {
+	background-image: url("../images/sprites/weather/sprite_weather_81.png");
+}
+._82 {
+	background-image: url("../images/sprites/weather/sprite_weather_82.png");
+}
+._83 {
+	background-image: url("../images/sprites/weather/sprite_weather_83.png");
+}
+._84 {
+	background-image: url("../images/sprites/weather/sprite_weather_84.png");
+}
+._85 {
+	background-image: url("../images/sprites/weather/sprite_weather_85.png");
+}
+._86 {
+	background-image: url("../images/sprites/weather/sprite_weather_86.png");
+}
+._87 {
+	background-image: url("../images/sprites/weather/sprite_weather_87.png");
+}
+._88 {
+	background-image: url("../images/sprites/weather/sprite_weather_88.png");
+}
+._89 {
+	background-image: url("../images/sprites/weather/sprite_weather_89.png");
+}
+._90 {
+	background-image: url("../images/sprites/weather/sprite_weather_90.png");
+}
+._91 {
+	background-image: url("../images/sprites/weather/sprite_weather_91.png");
+}
+._92 {
+	background-image: url("../images/sprites/weather/sprite_weather_92.png");
+}
+._93 {
+	background-image: url("../images/sprites/weather/sprite_weather_93.png");
+}
+._94 {
+	background-image: url("../images/sprites/weather/sprite_weather_94.png");
+}
+._95 {
+	background-image: url("../images/sprites/weather/sprite_weather_95.png");
+}
+.spriteWeatherLarge {
+	background-position: 0px 50%; width: 65px; height: 65px; display: block; background-repeat: no-repeat;
+}
+.spriteWeatherMedium {
+	background-position: -65px 50%; margin: 10px 34px; width: 48px; height: 48px; display: block; background-repeat: no-repeat;
+}
+.spriteWeatherSmall {
+	background-position: -130px 50%; width: 32px; height: 32px; display: block; background-repeat: no-repeat;
+}
+.cmSpriteContentType {
+	background: url("../images/sprites/sprites_content_types.png") no-repeat; width: 13px; height: 13px; margin-left: 5px; display: inline-block;
+}
+.photo.cmSpriteContentType {
+	background-position: 0px 0px;
+}
+.video.cmSpriteContentType {
+	background-position: 0px -14px;
+}
+.external.cmSpriteContentType {
+	background-position: 0px -28px;
+}
+.document.cmSpriteContentType {
+	background-position: 0px -42px;
+}
+.cmGalleryContainer .cmSpriteContentType {
+	background-image: url("../images/sprites/sprites_content_types_light.png");
+}
+.cmSpritePremiumContent {
+	background: url("../images/sprites/sprites_content_types.png") no-repeat 0px -56px; width: 14px; height: 14px; margin-left: 5px; display: inline-block;
+}
+#cmTraffic .nvt_commuter .nvtwa_mapc {
+	z-index: 0;
+}
+form.vote_form .cmVoteText {
+	z-index: 2;
+}
+.cmSiteNav li ul {
+	z-index: 1000;
+}
+#cmSiteSwitch {
+	z-index: 1000;
+}
+.tooltip {
+	z-index: 1000;
+}
+.tipBottom {
+	z-index: 1010;
+}
+.tipTop {
+	z-index: 1010;
+}
+.tipLeft {
+	z-index: 1010;
+}
+.tipRight {
+	z-index: 1010;
+}
+#jquery-overlay {
+	z-index: 2000;
+}
+#jquery-lightbox {
+	z-index: 2010;
+}
+#lightbox-nav {
+	z-index: 2020;
+}
+.cmPreloader {
+	background-position: 50%; background-image: url("../images/loading_150x150.gif"); background-repeat: no-repeat;
+}
+.cmOhioBlog .hide {
+	display: none;
+}
+.cmOhioBlog #content {
+	margin: 0px; width: 405px; float: left; display: inline; position: relative;
+}
+.cmOhioBlog #nav {
+	margin: 0px 0px 0px 15px; width: 195px; float: right; display: inline; position: relative;
+}
+.cmOhioBlog #content p.trail {
+	margin: 10px 0px; padding-top: 5px; font-family: verdana; font-size: x-small;
+}
+.cmOhioBlog #content p.trail a {
+	font-weight: bold;
+}
+.cmOhioBlog #nav ul {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; width: auto;
+}
+.cmOhioBlog #nav ol {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; width: auto;
+}
+.cmOhioBlog #nav table td ul {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; width: auto;
+}
+.cmOhioBlog #nav ul li {
+	background: none; margin: 0px; padding: 0px; border: currentColor; width: auto; text-align: left; line-height: 1.5em; font-weight: inherit; float: none;
+}
+.cmOhioBlog #nav ol li {
+	background: none; margin: 0px; padding: 0px; border: currentColor; width: auto; text-align: left; line-height: 1.5em; font-weight: inherit; float: none;
+}
+.cmOhioBlog #nav table td ul li {
+	background: none; margin: 0px; padding: 0px; border: currentColor; width: auto; text-align: left; line-height: 1.5em; font-weight: inherit; float: none;
+}
+.cmOhioBlog #nav ul li a {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; width: auto; font-weight: inherit; display: inline; -ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav ol li a {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; width: auto; font-weight: inherit; display: inline; -ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav table td ul li a {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; width: auto; font-weight: inherit; display: inline; -ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav ul li a:hover {
+	-ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav ol li a:hover {
+	-ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav table td ul li a:hover {
+	-ms-word-wrap: break-word;
+}
+.cmOhioBlog #nav h4 {
+	clear: both;
+}
+.cmOhioBlog #nav p {
+	margin-top: 3px; margin-bottom: 15px;
+}
+.cmOhioBlog #nav ul li::before {
+	content: "\00BB \0020";
+}
+.cmOhioBlog #blog {
+	position: relative;
+}
+.cmOhioBlog #flag {
+	border: 0px currentColor; height: auto; margin-top: 10px; margin-bottom: 0px;
+}
+.cmOhioBlog #flag h1 {
+	font-size: 32px; display: block !important;
+}
+.cmOhioBlog #content .entry p img {
+	height: auto !important; max-width: 260px !important;
+}
+.cmOhioBlog #flag h1 {
+	padding: 20px; border: 5px double rgb(238, 238, 238); text-align: center; color: rgb(51, 51, 51); letter-spacing: 0.1em; font-family: "lucida grande",lucida,tahoma,arial,sans-serif; font-weight: normal; margin-bottom: 0px; display: block;
+}
+.cmOhioBlog #flag h1 a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.cmOhioBlog #flag h1.image {
+	padding: 0px; border: currentColor !important; height: 100px; text-align: left; display: block;
+}
+.cmOhioBlog #blog h2 {
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif; font-size: 20px; font-weight: bold;
+}
+.cmOhioBlog #blog h3 {
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif; font-size: 20px; font-weight: bold;
+}
+.cmOhioBlog #blog h4 {
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif; font-size: 20px; font-weight: bold;
+}
+.cmOhioBlog #blog p {
+	font-family: georgia;
+}
+.cmOhioBlog img.photo {
+	margin: 0px 7px 2px 0px; padding: 1px; border: 1px solid rgb(0, 0, 0); float: left;
+}
+.cmOhioBlog #flag h1 img {
+	border: 1px solid rgb(0, 0, 0);
+}
+.cmOhioBlog #flag object {
+	border: 1px solid rgb(0, 0, 0);
+}
+.cmOhioBlog #content h2 a {
+	border: currentColor; color: rgb(0, 0, 0); text-decoration: none;
+}
+.cmOhioBlog #content p.byline {
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+.cmOhioBlog #content .entry {
+	clear: both; margin-bottom: 2em;
+}
+.cmOhioBlog #content p {
+	margin: 0.7em 0px; color: rgb(0, 0, 0); line-height: 1.4em; font-size: small;
+}
+.cmOhioBlog #content li {
+	margin: 0.7em 0px; color: rgb(0, 0, 0); line-height: 1.4em; font-size: small;
+}
+.cmOhioBlog #content p a {
+	font-weight: normal;
+}
+.cmOhioBlog #content p.byline {
+	margin: 2px auto; line-height: 1.2em;
+}
+.cmOhioBlog #content ul {
+	margin: 1em 0px; padding: 0px 0px 0px 2em;
+}
+.cmOhioBlog #content p.perma {
+	
+}
+.cmOhioBlog #nav h4 {
+	margin: 20px 0px 6px; color: rgb(153, 153, 153); text-transform: uppercase; letter-spacing: 0.1em; font-size: 11px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmOhioBlog #nav h4.first {
+	margin-top: 0px;
+}
+.cmOhioBlog #nav p {
+	color: rgb(102, 102, 102); line-height: 1.5em; font-size: 12px;
+}
+.cmOhioBlog #nav td {
+	color: rgb(102, 102, 102); line-height: 1.5em; font-size: 12px;
+}
+.cmOhioBlog #nav a.font-fix {
+	font: 11px/17px "lucida grande", lucida, tahoma, arial, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.cmOhioBlog #nav table {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.cmOhioBlog #nav table th {
+	text-align: center; font-size: xx-small; font-weight: normal; vertical-align: middle;
+}
+.cmOhioBlog #nav table td {
+	background: rgb(238, 238, 238); border: 1px solid rgb(255, 255, 255); width: 25px; height: 1.5em; text-align: center; color: rgb(51, 51, 51); font-size: x-small; vertical-align: middle; cursor: default;
+}
+.cmOhioBlog #nav table td a {
+	width: 100%; height: 1.5em; color: rgb(255, 255, 239); text-decoration: none; display: block; cursor: pointer; background-color: rgb(51, 100, 174);
+}
+.cmOhioBlog #nav table td a:hover {
+	background: rgb(255, 255, 239); color: rgb(51, 100, 174);
+}
+.cmOhioBlog #nav table td a:active {
+	background: rgb(255, 255, 239); color: rgb(51, 100, 174);
+}
+.cmOhioBlog #nav table td a:visited {
+	border: currentColor;
+}
+.cmOhioBlog #nav table td .empty {
+	background: rgb(255, 255, 255); width: 100%; height: 1.5em; display: block;
+}
+.cmOhioBlog .latestcomments {
+	background: url("../images/big_quote.gif") no-repeat 0px 0px rgb(255, 255, 255) !important; margin: 0.8em 0px 0px 10px; padding: 10px; border: currentColor; width: 100px; float: right;
+}
+.cmOhioBlog .left.latestcomments {
+	margin-right: 10px !important; margin-left: 0px !important; float: left !important;
+}
+.cmOhioBlog .latestcomments p {
+	margin: 0px auto !important; line-height: 1.2em !important;
+}
+.cmOhioBlog .latestcomments li {
+	margin: 0px auto !important; line-height: 1.2em !important;
+}
+.cmOhioBlog .latestcomments h3 {
+	margin: 20px 0px 6px; padding: 0px; color: rgb(51, 51, 51) !important; text-transform: uppercase; letter-spacing: 0.1em; font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif; font-size: 11px !important; font-weight: normal; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: transparent !important;
+}
+.cmOhioBlog .latestcomments .cpre-text a p {
+	font: bold 12px/normal arial, verdana, sans-serif !important; margin: 0px; padding: 0px; border: currentColor; color: rgb(51, 51, 51) !important; display: inline !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.cmOhioBlog .left.latestcomments .cpre-text p a {
+	font: bold 12px/normal arial, verdana, sans-serif !important; margin: 0px; padding: 0px; border: currentColor; color: rgb(51, 51, 51) !important; display: inline !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.cmOhioBlog .latestcomments .cpre-text a {
+	color: rgb(51, 51, 51) !important; text-decoration: none;
+}
+.cmOhioBlog .latestcomments .cpre-text p a:hover {
+	color: rgb(102, 102, 102) !important;
+}
+.cmOhioBlog .latestcomments .cpre-text a:hover p {
+	color: rgb(102, 102, 102) !important;
+}
+.cmOhioBlog .latestcomments .cpre-text {
+	padding: 0px 10px;
+}
+.cmOhioBlog .latestcomments .cpre-text a .title {
+	font-style: italic;
+}
+.cmOhioBlog .latestcomments .cpre-reply {
+	
+}
+.cmOhioBlog .latestcomments ul {
+	margin: 2px 0px 9px 1em; padding: 0px 0px 0px 16px;
+}
+.cmOhioBlog .latestcomments ul li {
+	font-size: x-small !important; list-style-image: url("../images/speech_bubble.gif");
+}
+.cmOhioBlog .latestcomments ul li a {
+	text-decoration: none;
+}
+.cmOhioBlog .comments h5 {
+	padding-bottom: 0px; font-family: georgia; font-size: x-large; font-weight: normal; margin-bottom: 10px;
+}
+.cmOhioBlog .single_comment {
+	margin: 0.7em 0px; color: rgb(0, 0, 0); line-height: 1.4em; font-family: georgia; font-size: small;
+}
+.cmOhioBlog .single_comment {
+	padding-bottom: 15px; margin-bottom: 15px; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.cmOhioBlog .single_comment p.who {
+	margin: 0px; color: rgb(51, 51, 51); font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif !important; font-weight: bold;
+}
+.cmOhioBlog .commentsform label a {
+	border: currentColor; text-decoration: none;
+}
+.cmOhioBlog .commentsform h5 {
+	padding-bottom: 0px; font-family: georgia; font-size: large; font-weight: normal; margin-bottom: 10px;
+}
+.cmOhioBlog .commentsform form input#author {
+	width: 250px;
+}
+.commentsform form input#email {
+	width: 250px;
+}
+.commentsform form textarea {
+	width: 250px;
+}
+.cmOhioBlog .comments-message {
+	background: rgb(255, 255, 221); margin: 0px 0px 10px; padding: 10px; border: 1px solid rgb(102, 204, 51); color: rgb(102, 102, 102); line-height: 13px; font-family: Verdana,Arial,sans-serif; font-size: x-small; font-weight: bold;
+}
+.cmOhioBlog .commentsform input:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgb(104, 104, 104);
+}
+.commentsform textarea:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgb(104, 104, 104);
+}
+.commentsform label:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgb(104, 104, 104);
+}
+.cmOhioBlog .commentsform textarea {
+	background: rgb(244, 244, 244); margin: 1px; padding: 3px; border: 1px solid rgb(178, 178, 178); color: rgb(0, 0, 0); font-size: large;
+}
+.commentsform input {
+	background: rgb(244, 244, 244); margin: 1px; padding: 3px; border: 1px solid rgb(178, 178, 178); color: rgb(0, 0, 0); font-size: large;
+}
+.commentsform select {
+	background: rgb(244, 244, 244); margin: 1px; padding: 3px; border: 1px solid rgb(178, 178, 178); color: rgb(0, 0, 0); font-size: large;
+}
+.cmOhioBlog .commentsform input.submit {
+	cursor: pointer;
+}
+.cmOhioBlog a.rssbutton {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 204, 153) rgb(102, 51, 0) rgb(51, 51, 0) rgb(255, 153, 102); font: bold 11px/normal arial, verdana, sans-serif !important; margin: 0px 5px 0px 0px; padding: 0px 3px; color: rgb(255, 255, 255); text-decoration: none; font-size-adjust: none !important; font-stretch: normal !important; background-color: rgb(255, 102, 0);
+}
+.cmOhioBlog a.rssbutton:visited {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 204, 153) rgb(102, 51, 0) rgb(51, 51, 0) rgb(255, 153, 102); font: bold 11px/normal arial, verdana, sans-serif !important; margin: 0px 5px 0px 0px; padding: 0px 3px; color: rgb(255, 255, 255); text-decoration: none; font-size-adjust: none !important; font-stretch: normal !important; background-color: rgb(255, 102, 0);
+}
+.cmOhioBlog .blog-links {
+	line-height: 1.2em; font-size: 0.8em;
+}
+.cmOhioBlog #blog abbr {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+.cmOhioBlog blockquote {
+	padding-left: 15px; margin-left: 15px; border-left-color: rgb(51, 51, 51); border-left-width: 1px; border-left-style: dotted;
+}
+.cmOhioBlog .id-111#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-34#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-99#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-125#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-92#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-113#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-119#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-143#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-133#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-150#blog .cats {
+	display: none !important;
+}
+.cmOhioBlog .id-54#blog .comments-message {
+	display: none !important;
+}
+.cmOhioBlog #blog #nav #custom-sidebar ul li {
+	font-weight: normal !important;
+}
+.cmOhioBlog .id-123#blog #content .entry p img {
+	width: 100%; height: auto;
+}
+.cmOhioBlog .id-149#blog #content .entry p img {
+	width: 100%; height: auto;
+}
+.cmOhioBlog .id-106#blog #flag h1.image {
+	border: 0px currentColor; height: 300px;
+}
+.cmOhioBlog #nav #custom-sidebar ul li {
+	font-weight: normal !important;
+}
+.cmOhioBlog .blog_photo_wrap {
+	margin: 4px 0px 12px 8px !important; text-align: center; color: rgb(51, 51, 51); line-height: 1.2em; clear: right; font-family: arial,sans-serif; font-size: x-small; float: right;
+}
+.cmOhioBlog .blog_photo_wrap img {
+	margin: 0px auto 4px !important; padding: 1px; border: 1px solid rgb(204, 204, 204); display: block;
+}
+.cmOhioBlog .blog_photo_caption {
+	margin: 0px auto; width: 130px; text-align: center;
+}
+.cmOhioBlog .blog_photo {
+	margin: 4px 0px 12px 8px !important; width: 130px; text-align: center; color: rgb(51, 51, 51); line-height: 1.2em; clear: right; font-family: arial,sans-serif; font-size: x-small; float: right;
+}
+.cmOhioBlog .blogphoto {
+	margin: 4px 0px 12px 8px !important; width: 130px; text-align: center; color: rgb(51, 51, 51); line-height: 1.2em; clear: right; font-family: arial,sans-serif; font-size: x-small; float: right;
+}
+.cmOhioBlog .blog_photo img {
+	margin: 0px auto 4px !important; padding: 1px; border: 1px solid rgb(204, 204, 204); display: block;
+}
+.cmOhioBlog .blogphoto img {
+	margin: 0px auto 4px !important; padding: 1px; border: 1px solid rgb(204, 204, 204); display: block;
+}
+.cmAustinBlog #blog #content {
+	width: 405px; float: left;
+}
+.cmAustinBlog #blog #nav {
+	margin: 0px 15px 0px 0px; width: 195px; float: left;
+}
+.cmAustinBlog #blog h1 span {
+	display: none;
+}
+.cmAustinBlog #blog div.latestcomments {
+	border: 1px solid rgb(51, 51, 51); padding-bottom: 5px; margin-bottom: 1em;
+}
+.cmAustinBlog #blog div.latestcomments h3 {
+	color: rgb(255, 255, 255); padding-bottom: 3px; padding-left: 5px !important; margin-bottom: 0.5em; background-color: rgb(204, 0, 0);
+}
+.cmAustinBlog #blog div.latestcomments p {
+	padding-right: 5px; padding-left: 5px; margin-bottom: 2px !important;
+}
+.cmAustinBlog #blog div.latestcomments p.perma {
+	margin-top: 2px !important;
+}
+.cmAustinBlog #blog h1 span {
+	display: none;
+}
+.cmAustinBlog #blog #flag h1 span {
+	text-align: center; display: none;
+}
+.cmAustinBlog #blog #flag a img {
+	border: currentColor;
+}
+.cmAustinBlog #blog #content h4.archive_title {
+	margin: 0px 0px 0.3em; font-size: 1.1em; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog #content div.pollbox_bottom h4 {
+	margin: -5px -5px 0px; color: rgb(255, 255, 255); padding-left: 5px; background-color: rgb(0, 0, 153);
+}
+.cmAustinBlog #blog #content div.pollbox_bottom {
+	padding: 5px; border: 1px solid rgb(0, 0, 0); width: 300px; margin-top: -0.5em; margin-bottom: 1.3em;
+}
+.cmAustinBlog #blog #content div.pollbox h4 {
+	margin: -0.5em -0.5em 0px; color: rgb(255, 255, 255); padding-left: 5px; background-color: rgb(0, 0, 153);
+}
+.cmAustinBlog #blog #content div.pollbox {
+	margin: 0.5em 0px 0.5em 0.5em; padding: 0.5em; border: 1px solid rgb(153, 153, 153); width: 190px; clear: right; float: right;
+}
+.cmAustinBlog #blog #content div.rightbox {
+	margin: 0.5em 0px 0.5em 0.5em; padding: 0.5em; border: 1px solid rgb(153, 153, 153); width: 120px; float: right;
+}
+.cmAustinBlog #blog #content div.rightbox span {
+	color: rgb(102, 102, 102); text-transform: capitalize; font-weight: 700;
+}
+.cmAustinBlog #blog #content div.rightbox h4 {
+	margin: 0px; font-size: 1.1em;
+}
+.cmAustinBlog #blog #content img {
+	border: 1px solid rgb(0, 0, 0);
+}
+.cmAustinBlog #blog #content h2 {
+	color: rgb(0, 0, 0); font-size: 1.5em; font-weight: 700; margin-top: 0px; margin-bottom: 0px;
+}
+.cmAustinBlog #blog #content h2 a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.cmAustinBlog #blog #content h2 a:hover {
+	color: blue; text-decoration: underline;
+}
+.cmAustinBlog #blog #content h3 {
+	padding: 0px; color: rgb(0, 0, 0); font-size: 1.3em;
+}
+.cmAustinBlog #blog #content hr {
+	margin: 8px 0px;
+}
+.cmAustinBlog #blog #content p.perma {
+	color: rgb(102, 102, 102); font-size: 1em; margin-top: 0.2em; margin-bottom: 1.1em;
+}
+.cmAustinBlog #blog #content p.byline {
+	color: rgb(0, 0, 0); font-size: 1em; margin-top: 0.5em; margin-bottom: 0.5em;
+}
+.cmAustinBlog #blog #content p.dateline {
+	margin: 0px; color: rgb(102, 102, 102);
+}
+.cmAustinBlog #blog #content p.trail {
+	margin: 0.5em 0px;
+}
+.cmAustinBlog #blog div.comments p.who {
+	margin: 0px !important; padding: 0px; color: rgb(102, 102, 102);
+}
+#blog #blog-storylevel div.comments p.who {
+	margin: 0px !important; padding: 0px; color: rgb(102, 102, 102);
+}
+.cmAustinBlog #blog-storylevel div.single_comment {
+	padding-bottom: 0px; margin-top: 9px; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog div.commentsform textarea {
+	width: 90%;
+}
+.cmAustinBlog #blog div.commentsform input#author {
+	width: 85%;
+}
+input#email {
+	width: 85%;
+}
+input#url {
+	width: 85%;
+}
+.cmAustinBlog #blog div.commentsform input.submit {
+	width: auto;
+}
+.cmAustinBlog #blog #nav .first {
+	margin-top: 0px;
+}
+.cmAustinBlog #blog #nav h4 {
+	color: rgb(0, 0, 0); padding-top: 0px; font-size: 1em; font-weight: bold; margin-top: 1em; margin-bottom: 0px;
+}
+.cmAustinBlog #blog #nav p {
+	margin: 0px 0px 1em;
+}
+.cmAustinBlog div.calendar table {
+	margin: 0px 20px 20px 0px; font-family: arial,helvetica,geneva,sans-serif; font-size: 1em;
+}
+.cmAustinBlog div.calendar caption {
+	margin: 0px 0px 0.2em; padding: 0px; text-align: center; text-indent: 0px; font-family: helvetica,geneva,sans-serif; font-size: 1.3em; font-weight: 700;
+}
+.cmAustinBlog div#calendar th {
+	padding: 0px;
+}
+.cmAustinBlog div#calendar td {
+	padding: 0px;
+}
+.cmAustinBlog div.alert {
+	margin: 0px 0px 1em; padding: 5px; color: rgb(255, 255, 255); border-left-color: rgb(103, 103, 103); border-left-width: 8px; border-left-style: solid; background-color: rgb(204, 204, 204);
+}
+.cmAustinBlog .alert h5 a {
+	text-decoration: none;
+}
+.cmAustinBlog .alert img {
+	margin: 0px 10px 0px 0px !important; padding: 0px !important; float: left;
+}
+.cmAustinBlog .alert h5 {
+	margin: 0px; padding: 0px; font-size: 1.2em; font-weight: 800;
+}
+.cmAustinBlog .alert p {
+	margin: 0px !important; padding: 0px; color: rgb(0, 0, 0); font-size: 1em;
+}
+.cmAustinBlog .alert a {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.cmAustinBlog #blog p {
+	color: rgb(0, 0, 0); font-family: arial,helvetica,geneva,sans-serif; font-weight: 400;
+}
+.cmAustinBlog #blog {
+	color: rgb(0, 0, 0); font-family: arial,helvetica,geneva,sans-serif; font-weight: 400;
+}
+.cmAustinBlog #blog span.writer {
+	font-size: 1.1em; font-weight: 700;
+}
+.cmAustinBlog #blog #nav {
+	padding: 0px 10px 0px 0px; width: 195px; border-right-color: rgb(0, 0, 0); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.cmAustinBlog #blog #content {
+	margin: 0px 0px 0px 10px; padding: 0px; width: 405px; overflow: hidden; float: left;
+}
+.cmAustinBlog #blog-storylevel #content {
+	margin: 0px; padding: 0px; width: 600px; overflow: hidden;
+}
+.cmAustinBlog .byline {
+	margin-bottom: 20px;
+}
+.cmAustinBlog #blog #content img.leftPic {
+	margin: 0px 5px 5px 0px; border: 1px solid rgb(0, 0, 0); float: left;
+}
+.cmAustinBlog #blog #content img.rightPic {
+	margin: 0px 0px 5px 5px; border: 1px solid rgb(0, 0, 0); float: right;
+}
+.cmAustinBlog div.rightPic {
+	margin-left: 10px; float: right;
+}
+.cmAustinBlog .credit {
+	text-align: right;
+}
+.cmAustinBlog blockquote {
+	margin: 0px 25px 12px; font-style: italic;
+}
+.writer_comment {
+	margin: 6px 6px 6px 12px; padding: 6px 10px 1px; border-left-color: rgb(0, 0, 0); border-left-width: 1px; border-left-style: solid; background-color: rgb(221, 221, 221);
+}
+.cmAustinBlog #blog #flag h1 {
+	margin: 0px; padding: 0px;
+}
+.cmAustinBlog #blog #flag img {
+	margin: 0px; padding: 0px;
+}
+.cmAustinBlog #blog div.comments h5 {
+	margin: 0px 200px 0.3em 0px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog .commentsform h5 {
+	margin: 0px 200px 0.3em 0px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog div.comments {
+	margin-bottom: 1em;
+}
+.cmAustinBlog #blog #flag {
+	margin-bottom: 1em;
+}
+.cmAustinBlog .OUTBRAIN .odb_li {
+	background: none; padding: 5px 0px; margin-left: 0px;
+}
+.cmAustinBlog #blog #nav ul {
+	margin: 0px 0px 1em -5px; padding: 0px; list-style-position: inside; list-style-image: url("../../site/www_statesman_com/images/legacy_blog_arrow.gif");
+}
+.cmAustinBlog #blog #nav ul {
+	margin: 0px 0px 1em -5px; padding: 0px; list-style-position: inside; list-style-image: url("../../site/www_statesman_com/images/legacy_blog_arrow.gif");
+}
+#blog #nav ol {
+	margin: 0px 0px 1em -5px; padding: 0px; list-style-position: inside; list-style-image: url("../../site/www_statesman_com/images/legacy_blog_arrow.gif");
+}
+.cmAustinBlog #blog #content ul {
+	margin-left: 18px; list-style-image: url("../../site/www_statesman_com/images/legacy_blog_arrow.gif");
+}
+.cmAustinBlog div.calendar th {
+	font-weight: 700;
+}
+.cmAustinBlog .caption {
+	font-weight: 700;
+}
+span.writer {
+	font-weight: 700;
+}
+.cmAustinBlog #blog strong {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+span.writer a {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.cmAustinBlog div.leftPic {
+	margin-right: 10px; float: left;
+}
+.cmAustinBlog .video_blog {
+	margin-right: 10px; float: left;
+}
+.cmAustinBlog #blog div.latestcomments {
+	border: 1px solid rgb(51, 51, 51); padding-bottom: 5px; margin-bottom: 1em;
+}
+.cmAustinBlog #blog div.latestcomments h3 {
+	color: white; padding-bottom: 3px; padding-left: 5px !important; margin-bottom: 0.5em; background-color: rgb(204, 0, 0);
+}
+.cmAustinBlog #blog div.latestcomments p {
+	padding-right: 5px; padding-left: 5px; margin-bottom: 2px !important;
+}
+.cmAustinBlog #blog div.latestcomments p.perma {
+	margin-top: 2px !important; margin-bottom: 1em !important;
+}
+.cmAustinBlog #blog h1 span {
+	display: none;
+}
+.cmAustinBlog #blog #flag h1 span {
+	text-align: center; display: none;
+}
+.cmAustinBlog #blog #flag h1 {
+	margin: 0px; padding: 0px;
+}
+.cmAustinBlog #blog #flag a img {
+	border: currentColor;
+}
+.cmAustinBlog #blog #flag img {
+	margin: 0px; padding: 0px;
+}
+.cmAustinBlog #blog #content h4.archive_title {
+	margin: 0px 0px 0.3em; font-size: 1.1em; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog #content div.pollbox_bottom h4 {
+	margin: -5px -5px 0px; color: white; padding-left: 5px; background-color: rgb(0, 0, 153);
+}
+.cmAustinBlog #blog #content div.pollbox_bottom {
+	padding: 5px; border: 1px solid black; width: 300px; margin-top: -0.5em; margin-bottom: 1.3em;
+}
+.cmAustinBlog #blog #content div.pollbox h4 {
+	margin: -0.5em -0.5em 0px; color: white; padding-left: 5px; background-color: rgb(0, 0, 153);
+}
+.cmAustinBlog #blog #content div.pollbox {
+	margin: 0.5em 0px 0.5em 0.5em; padding: 0.5em; border: 1px solid rgb(153, 153, 153); width: 190px; clear: right; float: right;
+}
+.cmAustinBlog #blog #content div.rightbox {
+	margin: 0.5em 0px 0.5em 0.5em; padding: 0.5em; border: 1px solid rgb(153, 153, 153); width: 120px; float: right;
+}
+.cmAustinBlog #blog #content div.rightbox span {
+	color: rgb(102, 102, 102); text-transform: capitalize; font-weight: bold;
+}
+.cmAustinBlog #blog #content div.rightbox h4 {
+	margin: 0px; font-size: 1.1em;
+}
+.cmAustinBlog #blog #content img {
+	border: 1px solid black;
+}
+.cmAustinBlog #blog #content h2 {
+	color: black; font-size: 1.5em; font-weight: bold; margin-top: 0px; margin-bottom: 0px;
+}
+.cmAustinBlog #blog #content h2 a {
+	border: currentColor; color: black; text-decoration: none;
+}
+.cmAustinBlog #blog #content h2 a:hover {
+	color: blue; text-decoration: underline;
+}
+.cmAustinBlog #blog #content h3 {
+	padding: 0px; color: black; font-size: 1.3em;
+}
+.cmAustinBlog #blog #content hr {
+	margin: 8px 0px;
+}
+.cmAustinBlog #blog #content p.perma {
+	color: rgb(102, 102, 102); font-size: 1em; margin-top: 0.2em; margin-bottom: 1.1em;
+}
+.cmAustinBlog #blog #content p.byline {
+	color: black; font-size: 1em; margin-top: 0.5em; margin-bottom: 0.5em;
+}
+.cmAustinBlog #blog #content p.dateline {
+	margin: 0px; color: rgb(102, 102, 102);
+}
+.cmAustinBlog #blog #content p.trail {
+	margin: 0.5em 0px;
+}
+.cmAustinBlog #blog #content p {
+	margin-top: 0px; margin-bottom: 1em;
+}
+.cmAustinBlog #blog div.comments h5 {
+	margin: 0px 200px 0.3em 0px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog div.comments {
+	margin-bottom: 1em;
+}
+.cmAustinBlog #blog div.comments p.who {
+	margin: 0px !important; padding: 0px; color: rgb(102, 102, 102);
+}
+#blog #blog-storylevel div.comments p.who {
+	margin: 0px !important; padding: 0px; color: rgb(102, 102, 102);
+}
+#blog-storylevel div.single_comment {
+	padding-bottom: 0px; margin-top: 9px; border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog .commentsform h5 {
+	margin: 0px 200px 0.3em 0px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAustinBlog #blog div.commentsform textarea {
+	width: 90%;
+}
+.cmAustinBlog #blog div.commentsform input#author {
+	width: 85%;
+}
+input#email {
+	width: 85%;
+}
+input#url {
+	width: 85%;
+}
+.cmAustinBlog #blog div.commentsform input.submit {
+	width: auto;
+}
+.cmAustinBlog #blog #nav .first {
+	margin-top: 0px;
+}
+.cmAustinBlog #blog #nav h4 {
+	padding-top: 0px; margin-top: 0px;
+}
+.cmAustinBlog #blog #nav p {
+	margin: 0px 0px 1em;
+}
+.cmAustinBlog #blog #nav ul {
+	margin: 0px 0px 1em; padding: 0px; list-style-position: inside;
+}
+.cmAustinBlog #blog #nav h4 {
+	color: black; font-size: 1em; margin-top: 1em; margin-bottom: 0px;
+}
+.cmAustinBlog #blog #nav ul {
+	margin: 0px 0px 1em; padding: 0px; list-style-position: inside;
+}
+#blog #nav ol {
+	margin: 0px 0px 1em; padding: 0px; list-style-position: inside;
+}
+.cmAustinBlog #blog #flag h1 span {
+	display: none;
+}
+.cmAustinBlog #blog #flag h1 {
+	margin: 0px; padding: 0px; border: currentColor;
+}
+.cmAustinBlog #blog #flag a img {
+	border: currentColor;
+}
+.cmAustinBlog #blog #flag img {
+	margin: 0px; padding: 0px;
+}
+.cmAustinBlog div.calendar table {
+	margin: 0px 20px 20px 0px; font-family: arial,helvetica, geneva, sans-serif; font-size: 1em;
+}
+.cmAustinBlog div.calendar caption {
+	margin: 0px 0px 0.2em; padding: 0px; text-align: center; text-indent: 0px; font-family: helvetica, geneva, sans-serif; font-size: 1.3em; font-weight: bold;
+}
+.cmAustinBlog div#calendar th {
+	padding: 0px;
+}
+.cmAustinBlog div#calendar td {
+	padding: 0px;
+}
+.cmAustinBlog div.calendar th {
+	font-weight: bold;
+}
+.cmAustinBlog div.alert {
+	margin: 0px 0px 1em; padding: 5px; color: white; border-left-color: rgb(103, 103, 103); border-left-width: 8px; border-left-style: solid; background-color: rgb(204, 204, 204);
+}
+.cmAustinBlog .alert h5 a {
+	text-decoration: none;
+}
+.cmAustinBlog .alert img {
+	margin: 0px 10px 0px 0px !important; padding: 0px !important; float: left;
+}
+.cmAustinBlog .alert h5 {
+	margin: 0px; padding: 0px; font-size: 1.2em;
+}
+.cmAustinBlog .alert p {
+	margin: 0px !important; padding: 0px; color: black; font-size: 1em;
+}
+.cmAustinBlog .alert a {
+	color: black; text-decoration: underline;
+}
+.cmAustinBlog #blog {
+	color: rgb(0, 0, 0); font-family: arial, helvetica, geneva, sans-serif; font-weight: normal;
+}
+.cmAustinBlog #blog strong {
+	color: black;
+}
+.cmAustinBlog #blog span.writer {
+	font-size: 1.1em; font-weight: bold;
+}
+.cmAustinBlog #blog #flag {
+	margin-bottom: 1em;
+}
+.cmAustinBlog #blog #nav {
+	padding: 0px 10px 0px 0px; width: 140px; border-right-color: black; border-right-width: 1px; border-right-style: solid; float: left;
+}
+.cmAustinBlog #blog #content {
+	margin: 0px; padding: 0px; width: 445px; overflow: hidden;
+}
+.cmAustinBlog #blog-storylevel #content {
+	margin: 0px; padding: 0px; width: 600px; overflow: hidden;
+}
+.cmAustinBlog .byline {
+	margin-bottom: 20px;
+}
+.cmAustinBlog #blog #content img.leftPic {
+	margin: 0px 5px 5px 0px; border: 1px solid black; float: left;
+}
+.cmAustinBlog #blog #content img.rightPic {
+	margin: 0px 0px 5px 5px; border: 1px solid black; float: right;
+}
+.cmAustinBlog div.rightPic {
+	margin-left: 10px; float: right;
+}
+.cmAustinBlog div.leftPic {
+	margin-right: 10px; float: left;
+}
+.cmAustinBlog .credit {
+	text-align: right;
+}
+.cmAustinBlog .caption {
+	font-weight: bold;
+}
+.cmAustinBlog .video_blog {
+	margin-right: 10px; float: left;
+}
+.cmAustinBlog blockquote {
+	margin-left: 25px;
+}
+.cmAustinBlog .writer_comment {
+	margin: 6px 6px 6px 12px; padding: 6px 10px 1px; border-left-color: black; border-left-width: 1px; border-left-style: solid; background-color: rgb(221, 221, 221);
+}
+.cmAustinBlog span.writer {
+	font-weight: bold;
+}
+.cmAustinBlog span.writer a {
+	color: black;
+}
+.cmAustinBlog #blog em {
+	font-style: italic;
+}
+#blog i {
+	font-style: italic;
+}
+.cmAustinBlog .share-buttons {
+	width: 120px; margin-left: 9px; float: right;
+}
+.cmAustinBlog .tw-share {
+	width: 50px; float: left;
+}
+.cmAustinBlog .fb-share {
+	width: 57px; margin-left: 10px; float: right;
+}
+.cmAustinBlog .share-buttons-blogs {
+	width: 120px; margin-left: 12px; float: right;
+}
+.cmAustinBlog .gg-share-blogs {
+	margin-top: 5px;
+}
+.cmAustinBlog .fb-share-blogs {
+	margin-top: 5px;
+}
+.cmAustinBlog .tw-share-blogs {
+	margin-top: 5px;
+}

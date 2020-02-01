@@ -1,0 +1,4 @@
+perspectiveEntityID = 'ScanEagle01', otherEntityID = 'CursorOnTarget01', ProbabilityOfConflict = 1
+perspectiveEntityID = 'ScanEagle01', otherEntityID = 'Cessna01', ProbabilityOfConflict = 0.998469631357385
+perspectiveEntityID = 'ScanEagle01', otherEntityID = 'Integrator02', ProbabilityOfConflict = 8.93729534823251E-15
+perspectiveEntityID = 'ScanEagle01', otherEntityID = 'Hawaiian343', ProbabilityOfConflict = 0

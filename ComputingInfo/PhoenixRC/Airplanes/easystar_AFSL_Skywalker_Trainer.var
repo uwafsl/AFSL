@@ -1,0 +1,226 @@
+-- Phoenix R/C v5 model variant file
+
+
+-- Model
+
+
+	-- Physical
+
+		modelTypes.easystar.attributes.Physical.Setup = 100.000000
+		modelTypes.easystar.attributes.Physical.Size = 1.800770
+		modelTypes.easystar.attributes.Physical.Weight = 1.045019
+		modelTypes.easystar.attributes.Physical.Robustness = 100.000000
+		modelTypes.easystar.attributes.Physical.Centre_of_gravity = { x = 0.000000, y = 7.686810, z = -3.317850 }
+		modelTypes.easystar.attributes.Physical.Inertia = { yaw = 1.000000, pitch = 1.000000, roll = 1.000000 }
+		modelTypes.easystar.attributes.Physical.Fuselage_drag_area = { frontal = 0.007502, lateral = 0.098326, vertical = 0.098326 }
+		modelTypes.easystar.attributes.Physical.Fuel_Time = 1000.000000
+		modelTypes.easystar.attributes.Physical.Hand_Launch_Speed = 6.818182
+		modelTypes.easystar.attributes.Physical.Flip_Rudder_And_Ailerons = 0
+		modelTypes.easystar.attributes.Physical.Cockpit = "None"
+
+	-- Fine tuning
+
+		modelTypes.easystar.attributes.Fine_tuning.Thrust = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Lift = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Engine = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Stall = { severity = 100.000000, limit = 100.000000, speed = 100.000000 }
+		modelTypes.easystar.attributes.Fine_tuning.Dihedral = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Elevator = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Aileron = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Rudder = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Wash = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Torque = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Ground_Torque_Effect = 100.000000
+		modelTypes.easystar.attributes.Fine_tuning.Rudder_Roll_Coupling = 0.000000
+		modelTypes.easystar.attributes.Fine_tuning.Rudder_Elevator_Coupling = 0.000000
+
+	-- Controls
+
+
+		-- Throttle
+
+			modelTypes.easystar.attributes.Controls.Throttle.Low_Rate = 100.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Advanced_Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Advanced_Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Servo_Speed = 25.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Servo_Dead_Zone = 0.000000
+			modelTypes.easystar.attributes.Controls.Throttle.Trim = 0.000000
+
+			-- Mix
+
+				modelTypes.easystar.attributes.Controls.Throttle.Mix.Input = "None"
+				modelTypes.easystar.attributes.Controls.Throttle.Mix.Amount = 0.000000
+
+		-- Elevator
+
+			modelTypes.easystar.attributes.Controls.Elevator.Low_Rate = 50.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Advanced_Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Advanced_Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Servo_Speed = 25.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Servo_Dead_Zone = 0.000000
+			modelTypes.easystar.attributes.Controls.Elevator.Trim = 0.000000
+
+			-- Mix
+
+				modelTypes.easystar.attributes.Controls.Elevator.Mix.Input = "None"
+				modelTypes.easystar.attributes.Controls.Elevator.Mix.Amount = 0.000000
+
+		-- Aileron
+
+			modelTypes.easystar.attributes.Controls.Aileron.Low_Rate = 50.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Advanced_Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Advanced_Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Servo_Speed = 25.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Servo_Dead_Zone = 0.000000
+			modelTypes.easystar.attributes.Controls.Aileron.Trim = 0.000000
+
+			-- Mix
+
+				modelTypes.easystar.attributes.Controls.Aileron.Mix.Input = "None"
+				modelTypes.easystar.attributes.Controls.Aileron.Mix.Amount = 0.000000
+
+		-- Rudder
+
+			modelTypes.easystar.attributes.Controls.Rudder.Low_Rate = 50.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Advanced_Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Advanced_Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Servo_Speed = 25.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Servo_Dead_Zone = 0.000000
+			modelTypes.easystar.attributes.Controls.Rudder.Trim = 0.000000
+
+			-- Mix
+
+				modelTypes.easystar.attributes.Controls.Rudder.Mix.Input = "None"
+				modelTypes.easystar.attributes.Controls.Rudder.Mix.Amount = 0.000000
+
+		-- Collective
+
+			modelTypes.easystar.attributes.Controls.Collective.Low_Rate = 50.000000
+			modelTypes.easystar.attributes.Controls.Collective.Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Collective.Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Collective.Advanced_Expo = 0.000000
+			modelTypes.easystar.attributes.Controls.Collective.Advanced_Expo_Low_Rate = 0.000000
+			modelTypes.easystar.attributes.Controls.Collective.Servo_Speed = 25.000000
+			modelTypes.easystar.attributes.Controls.Collective.Servo_Dead_Zone = 0.000000
+			modelTypes.easystar.attributes.Controls.Collective.Trim = 0.000000
+
+-- Main wing
+
+	modelTypes.easystar.airfoils[1].attributes.Position = { x = -0.025044, y = 7.572043, z = 3.639577 }
+	modelTypes.easystar.airfoils[1].attributes.Length = 0.914857
+	modelTypes.easystar.airfoils[1].attributes.Root_chord = 0.268861
+	modelTypes.easystar.airfoils[1].attributes.Tip_chord = 0.179240
+	modelTypes.easystar.airfoils[1].attributes.Airfoil = "NACA 0015"
+	modelTypes.easystar.airfoils[1].attributes.Incidence = 0.000000
+	modelTypes.easystar.airfoils[1].attributes.Washout = 0.000000
+	modelTypes.easystar.airfoils[1].attributes.Dihedral = 7.000000
+	modelTypes.easystar.airfoils[1].attributes.Sweep = 4.000000
+	modelTypes.easystar.airfoils[1].attributes.Robustness = 100.000000
+	modelTypes.easystar.airfoils[1].attributes.Trim = { min = 0.000000, max = 0.000000 }
+	modelTypes.easystar.airfoils[1].attributes.Wash = 100.000000
+
+	-- Aileron
+
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Input = "Left Aileron"
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Length = 0.261392
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Tip_distance = 0.186709
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Root_chord = 0.074684
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Tip_chord = 0.074684
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Min_travel = 30.000000
+		modelTypes.easystar.airfoils[1].controlSurfaces[1].attributes.Max_travel = 30.000000
+
+-- Stabiliser
+
+	modelTypes.easystar.airfoils[2].attributes.Position = { x = 0.000000, y = 4.891778, z = -36.589664 }
+	modelTypes.easystar.airfoils[2].attributes.Length = 0.308813
+	modelTypes.easystar.airfoils[2].attributes.Root_chord = 0.138499
+	modelTypes.easystar.airfoils[2].attributes.Tip_chord = 0.107544
+	modelTypes.easystar.airfoils[2].attributes.Airfoil = "NACA 0012"
+	modelTypes.easystar.airfoils[2].attributes.Incidence = -1.000000
+	modelTypes.easystar.airfoils[2].attributes.Washout = 0.000000
+	modelTypes.easystar.airfoils[2].attributes.Dihedral = 0.000000
+	modelTypes.easystar.airfoils[2].attributes.Sweep = 5.000000
+	modelTypes.easystar.airfoils[2].attributes.Robustness = 100.000000
+	modelTypes.easystar.airfoils[2].attributes.Trim = { min = 0.000000, max = 0.000000 }
+	modelTypes.easystar.airfoils[2].attributes.Wash = 100.000000
+
+	-- Elevator
+
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Input = "Left Elevator"
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Length = 0.215089
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Tip_distance = 0.089620
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Root_chord = 0.047797
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Tip_chord = 0.047797
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Min_travel = 26.250000
+		modelTypes.easystar.airfoils[2].controlSurfaces[1].attributes.Max_travel = 26.250000
+
+-- Fin
+
+	modelTypes.easystar.airfoils[3].attributes.Position = { x = 0.000504, y = 4.786411, z = -34.744133 }
+	modelTypes.easystar.airfoils[3].attributes.Length = 0.238987
+	modelTypes.easystar.airfoils[3].attributes.Root_chord = 0.167291
+	modelTypes.easystar.airfoils[3].attributes.Tip_chord = 0.071696
+	modelTypes.easystar.airfoils[3].attributes.Airfoil = "NACA 0012"
+	modelTypes.easystar.airfoils[3].attributes.Incidence = 0.000000
+	modelTypes.easystar.airfoils[3].attributes.Washout = 0.000000
+	modelTypes.easystar.airfoils[3].attributes.Dihedral = 90.000000
+	modelTypes.easystar.airfoils[3].attributes.Sweep = 20.000000
+	modelTypes.easystar.airfoils[3].attributes.Robustness = 100.000000
+	modelTypes.easystar.airfoils[3].attributes.Trim = { min = 0.000000, max = 0.000000 }
+	modelTypes.easystar.airfoils[3].attributes.Wash = 100.000000
+
+	-- Rudder
+
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Input = "Rudder"
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Length = 0.149367
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Tip_distance = 0.083646
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Root_chord = 0.035848
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Tip_chord = 0.029873
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Min_travel = 37.499992
+		modelTypes.easystar.airfoils[3].controlSurfaces[1].attributes.Max_travel = 37.499992
+
+-- Propeller
+
+	modelTypes.easystar.propulsion[1].attributes.Position = { x = -0.230107, y = 9.421981, z = -14.534947 }
+	modelTypes.easystar.propulsion[1].attributes.Diameter = 0.209114
+	modelTypes.easystar.propulsion[1].attributes.Pitch = 0.100000
+	modelTypes.easystar.propulsion[1].attributes.Blade_count = 2.000000
+	modelTypes.easystar.propulsion[1].attributes.Idle_RPM = 0.000000
+	modelTypes.easystar.propulsion[1].attributes.Max_RPM = 12000.000000
+	modelTypes.easystar.propulsion[1].attributes.Throttle_Curve = 1.000000
+	modelTypes.easystar.propulsion[1].attributes.Down_thrust = 0.000000
+	modelTypes.easystar.propulsion[1].attributes.Right_thrust = 0.000000
+	modelTypes.easystar.propulsion[1].attributes.Torque = 100.000000
+	modelTypes.easystar.propulsion[1].attributes.Response = { load = 1.000000, unload = 1.000000 }
+	modelTypes.easystar.propulsion[1].attributes.Engine = "Light electric"
+	modelTypes.easystar.propulsion[1].attributes.Volume_Tuning = 100.000000
+	modelTypes.easystar.propulsion[1].attributes.Pitch_Tuning = 100.000000
+
+-- Streamers
+
+
+	-- Left wingtip
+
+		modelTypes.easystar.streamers[1].attributes.Enabled = 0
+		modelTypes.easystar.streamers[1].attributes.Length = 10.000000
+		modelTypes.easystar.streamers[1].attributes.Colour = { r = 255, g = 255, b = 255, a = 255 }
+
+	-- Right wingtip
+
+		modelTypes.easystar.streamers[2].attributes.Enabled = 0
+		modelTypes.easystar.streamers[2].attributes.Length = 10.000000
+		modelTypes.easystar.streamers[2].attributes.Colour = { r = 255, g = 255, b = 255, a = 255 }
+
+	-- Tail
+
+		modelTypes.easystar.streamers[3].attributes.Enabled = 0
+		modelTypes.easystar.streamers[3].attributes.Length = 10.000000
+		modelTypes.easystar.streamers[3].attributes.Colour = { r = 255, g = 255, b = 255, a = 255 }

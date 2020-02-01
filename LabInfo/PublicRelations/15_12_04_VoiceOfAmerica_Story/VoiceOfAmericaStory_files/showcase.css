@@ -1,0 +1,162 @@
+.body_FlashAudio .showcase#popupHeader h2.popup_top_header {
+	background-image: url("/App_Themes/VOA_en-US/img/small_header_showcase.gif?v=__7.5.0.0.9");
+}
+.showcase#header .content_centered {
+	background: url("/App_Themes/VOA_en-US/img/top_logo_showcase.gif?v=__7.5.0.0.9") no-repeat 12px 8px;
+}
+.showcase#header .content_centered h2#header_logo {
+	width: 500px; height: 75px; margin-right: 12px; background-image: none;
+}
+.showcase#top_bar_expanded .content_centered .pangea_logo {
+	margin-right: 3px; float: right;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text {
+	margin-left: 3px; float: left;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities {
+	margin-right: 3px; float: right;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a {
+	float: left;
+}
+.showcase#top_bar_expanded {
+	height: 85px; overflow: hidden;
+}
+.showcase#top_bar_expanded .top_bar_expanded_inner {
+	
+}
+.showcase#top_bar_expanded .top_bar_expanded_content {
+	height: 85px; overflow: hidden;
+}
+.showcase#top_bar_expanded .content_centered {
+	width: 974px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_logo {
+	width: 226px; height: 85px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_logo a {
+	background: url("/img/sprites/expand_logos.png?v=__7.5.0.0.9") no-repeat 0px -200px; width: 100%; height: 100%; display: block;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_logo a {
+	background-position: 0px -300px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_logo a:hover {
+	background-position: 0px -200px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_logo a span {
+	display: none;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text {
+	width: 120px; height: 85px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text span {
+	width: 100%; height: 100%; line-height: 13px; font-size: 11px; display: block;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text span strong {
+	padding: 20px 15px; display: block;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text span.default {
+	background: rgb(242, 243, 245); color: rgb(102, 102, 102);
+}
+.showcase#top_bar_expanded .content_centered .pangea_text span.hover {
+	background: rgb(242, 243, 245); color: rgb(19, 47, 190); display: none;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text:hover span.default {
+	display: none;
+}
+.showcase#top_bar_expanded .content_centered .pangea_text:hover span.hover {
+	display: block;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities {
+	width: 616px; height: 85px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a {
+	margin: 0px 0px 0px 12px; display: block; background-image: url("/img/sprites/expand_logos.png?v=__7.5.0.0.9"); background-repeat: no-repeat;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a span {
+	display: none;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.rferl {
+	background-position: -370px -215px; width: 130px; height: 55px; margin-top: 15px;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_entities a.rferl {
+	background-position: -370px -315px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.rferl:hover {
+	background-position: -370px -215px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.voa {
+	background-position: -510px -215px; width: 95px; height: 60px; margin-top: 10px;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_entities a.voa {
+	background-position: -510px -315px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.voa:hover {
+	background-position: -510px -215px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.ocb {
+	background-position: -615px -215px; width: 100px; height: 60px; margin-top: 10px;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_entities a.ocb {
+	background-position: -615px -315px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.ocb:hover {
+	background-position: -615px -215px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.alhurra {
+	background-position: -725px -215px; width: 120px; height: 60px; margin-top: 15px;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_entities a.alhurra {
+	background-position: -725px -315px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.alhurra:hover {
+	background-position: -725px -215px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.sawa {
+	background-position: -860px -215px; width: 100px; height: 50px; margin-top: 15px;
+}
+.showcase#top_bar_expanded:hover .content_centered .pangea_entities a.sawa {
+	background-position: -860px -315px;
+}
+.showcase#top_bar_expanded .content_centered .pangea_entities a.sawa:hover {
+	background-position: -860px -215px;
+}
+#top_bar div.site_specific {
+	padding: 3px; margin-right: 9px;
+}
+#top_bar div.site_specific a.pangeaCMS-link {
+	text-transform: uppercase; font-size: 10px;
+}
+#navigace ul {
+	list-style: none; margin: 2px 0px;
+}
+#navigace ul li {
+	margin-bottom: 2px;
+}
+#navigace ul li a {
+	padding-left: 10px; margin-left: 0px; display: block; background-color: rgb(204, 206, 207);
+}
+#navigace ul ul li a {
+	padding-left: 10px; margin-left: 10px; display: block; background-color: rgb(230, 231, 232);
+}
+#navigace ul ul ul li a {
+	padding-left: 10px; margin-left: 20px; display: block; background-color: rgb(230, 231, 232);
+}
+#navigace ul ul ul ul li a {
+	border: 1px solid silver; border-image: none; padding-left: 10px; margin-left: 30px; display: block; background-color: rgb(255, 255, 255);
+}
+#navigace a {
+	color: rgb(0, 0, 0); font-family: Arial; text-decoration: none;
+}
+#navigace a:link {
+	color: rgb(0, 0, 0); font-family: Arial; text-decoration: none;
+}
+#navigace a:active {
+	color: rgb(0, 0, 0); font-family: Arial; text-decoration: none;
+}
+#navigace a:visited {
+	color: rgb(0, 0, 0); font-family: Arial; text-decoration: none;
+}
+#navigace a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(19, 47, 190);
+}

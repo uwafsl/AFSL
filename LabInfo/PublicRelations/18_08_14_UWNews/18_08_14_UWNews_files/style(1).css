@@ -1,0 +1,303 @@
+.home .uw-site-title {
+	display: none;
+}
+.home .widget {
+	padding: 0px;
+}
+.home .widget h3 {
+	color: rgb(75, 46, 131); font-weight: 600;
+}
+.home .pic-text-widget p {
+	display: inline;
+}
+.home .pic-text-widget a {
+	display: inline;
+}
+.home .pic-text-widget a.pic-text-more {
+	text-transform: uppercase; font-family: "Encode Sans Compressed",sans-serif; font-size: 14px; font-weight: 600;
+}
+.home .block-third .pic-text-widget p {
+	display: none;
+}
+.home .uw-sidebar {
+	padding-top: 0px;
+}
+.home .uw-sidebar .widget {
+	padding: 0px 0px 20px 40px;
+}
+.home .uw-sidebar h2 {
+	font-size: 25px; font-weight: 900;
+}
+.home .uw-body h3 a:hover {
+	color: rgb(144, 144, 144);
+}
+.home .uw-body-copy .block-half .widgettitle {
+	padding-bottom: 25px; font-size: 24px; font-weight: 900; position: relative;
+}
+.home .uw-body-copy .block-half .widget-title {
+	padding-bottom: 25px; font-size: 24px; font-weight: 900; position: relative;
+}
+.home .uw-body-copy .block-half .widgettitle::after {
+	left: 0px; height: 6px; bottom: 6px; position: absolute; content: "";
+}
+.home .uw-body-copy .block-half .widget-title::after {
+	left: 0px; height: 6px; bottom: 6px; position: absolute; content: "";
+}
+.home .uw-body-copy .block-half .widgettitle::before {
+	left: 0px; height: 6px; bottom: 6px; position: absolute; content: "";
+}
+.home .uw-body-copy .block-half .widget-title::before {
+	left: 0px; height: 6px; bottom: 6px; position: absolute; content: "";
+}
+.home .uw-body-copy .block-half .widgettitle::before {
+	width: 100px; background-color: rgb(183, 165, 122);
+}
+.home .uw-body-copy .block-half .widget-title::before {
+	width: 100px; background-color: rgb(183, 165, 122);
+}
+.home .uw-body-copy .block-half .widgettitle::after {
+	left: 80px; width: 40px; transform: skewX(-25deg) skewY(0deg); background-color: rgb(255, 255, 255); -webkit-transform: skewX(-25deg) skewY(0); -o-transform: skewX(-25deg) skewY(0);
+}
+.home .uw-body-copy .block-half .widget-title::after {
+	left: 80px; width: 40px; transform: skewX(-25deg) skewY(0deg); background-color: rgb(255, 255, 255); -webkit-transform: skewX(-25deg) skewY(0); -o-transform: skewX(-25deg) skewY(0);
+}
+.home h1 {
+	color: rgb(75, 46, 131); text-transform: uppercase; letter-spacing: -0.02em; font-size: 42px; font-weight: 900;
+}
+.home h1 span {
+	color: rgb(137, 137, 137);
+}
+.home .pic-spotlight-widget {
+	margin: 30px 0px; overflow: hidden; padding-right: 40px; position: relative; background-color: rgb(238, 238, 238);
+}
+.home .pic-spotlight-widget .spotlight-image {
+	background-position: top; left: 0px; top: 0px; width: 223px; bottom: 0px; position: absolute; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+}
+.home .pic-spotlight-widget h3 {
+	padding-top: 26px; font-size: 22px; margin-bottom: 10px;
+}
+.home .pic-spotlight-widget h3::before {
+	padding: 6px 12px; top: -25px; color: rgb(255, 255, 255); font-family: "Encode Sans Compressed",sans-serif; font-size: 15px; font-weight: 900; position: absolute; content: "Spotlight"; background-color: rgb(75, 46, 131);
+}
+.home .pic-spotlight-widget h3::after {
+	left: 100px; width: 100px; height: 50px; color: rgb(255, 255, 255); font-size: 15px; font-weight: 900; position: absolute; transform: skewX(-25deg) skewY(0deg); -webkit-transform: skewX(-25deg) skewY(0); -o-transform: skewX(-25deg) skewY(0);
+}
+.home .pic-spotlight-widget p {
+	line-height: 22px; font-size: 16px; margin-bottom: 5px;
+}
+.home .pic-spotlight-widget a.more {
+	line-height: 22px; font-size: 16px; margin-bottom: 5px;
+}
+.home .pic-spotlight-widget a.more::after {
+	bottom: 0px;
+}
+.home .pic-spotlight-widget span {
+	padding-bottom: 30px; padding-left: 254px; display: block; position: relative;
+}
+.home .pic-spotlight-widget img {
+	width: 229px; height: auto; margin-right: 30px; float: left;
+}
+.home .pic-community-widget img {
+	width: 100%; height: auto;
+}
+.home .pic-community-widget h4 {
+	margin-bottom: 0px;
+}
+.uw-overlay div.wrapper p:last-child {
+	display: none;
+}
+.site-news .uw-content .uw-twitter {
+	margin: 0px;
+}
+#mailchimp #email {
+	padding: 5px 0px 5px 12px; width: 69%;
+}
+#mailchimp .btn {
+	padding: 8px 12px 9px; border-radius: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 14px; font-weight: 700; margin-top: -4px; margin-left: -6px; background-color: rgb(143, 143, 143);
+}
+#mailchimp div * {
+	padding-top: 7px; padding-right: 15px;
+}
+.single .uw-breadcrumbs {
+	display: none;
+}
+.single .uw-news-image {
+	height: 110px; position: relative; background-color: rgb(232, 227, 211);
+}
+.single .uw-news-image::before {
+	background: url("/wp-content/themes/uw-2014/assets/images/stripes-dark-tile.png"); width: 100%; height: 80px; bottom: 0px; position: absolute; content: ""; opacity: 0.8;
+}
+.single p.date {
+	margin: 20px 0px 0px; font-size: 15px; font-weight: 700;
+}
+.single .entry-title {
+	margin: 15px 0px 20px; line-height: 45px;
+}
+.single .wp-caption {
+	max-width: 100%;
+}
+.single .author-info {
+	margin-bottom: 40px; position: relative;
+}
+.single .author-info a {
+	font-size: 16px; margin-bottom: -6px; position: relative;
+}
+.single .author-info::before {
+	left: 1px; width: 50px; height: 1px; bottom: -15px; position: absolute; content: " "; background-color: rgb(207, 207, 207);
+}
+.single.site-news .uw-site-title {
+	background: url("img/uw-today.png") no-repeat 0px 0px; width: 380px; height: 80px; text-indent: -9999999px; overflow: hidden; margin-top: 60px; display: block;
+}
+.blog a.more {
+	margin-bottom: 40px; display: inline-block; position: relative;
+}
+.blog a.more a {
+	font-size: 16px; margin-bottom: -6px; position: relative;
+}
+.blog a.more::before {
+	left: 1px; width: 50px; height: 1px; bottom: -25px; position: absolute; content: " "; background-color: rgb(207, 207, 207);
+}
+p.story-tags {
+	color: rgb(183, 165, 122); text-transform: uppercase; font-size: 14px; font-weight: 700;
+}
+p.story-tags a {
+	color: rgb(183, 165, 122);
+}
+@media only screen and (min-width:768px)
+{
+.first-block {
+	clear: both;
+}
+.block-full {
+	width: 100%; margin-top: 15px; margin-bottom: 30px; float: left;
+}
+.block-full h3 {
+	margin: 25px 0px 5px; font-size: 27px;
+}
+.block-third {
+	width: 30.91%; margin-top: 15px; margin-right: 3.63%; margin-bottom: 15px; float: left;
+}
+.block-third h3 {
+	font-size: 20px; margin-top: 20px; margin-bottom: 5px;
+}
+.block-half {
+	width: 44.9%; margin-top: 15px; margin-right: 7%; margin-bottom: 15px; float: left;
+}
+.last-block {
+	margin-right: 0px;
+}
+#nc-header {
+	height: 108px; border-bottom-color: rgb(207, 207, 207); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#nc-header h1 {
+	background: url("img/uw-today.png") no-repeat 0px 0px; width: 380px; height: 80px; text-indent: -99999px; overflow: hidden; margin-top: 26px; display: block;
+}
+#nc-weather a {
+	background-position: 0px 0px; margin: 0px; height: 99px; right: 160px; bottom: 0px; overflow: hidden; display: block; position: absolute;
+}
+#nc-weather span {
+	position: absolute;
+}
+#nc-weather .weather-datetime {
+	left: 400px; top: 58px; color: rgb(75, 46, 131); font-family: "Encode Sans Compressed",sans-serif; font-size: 20px; font-weight: 800;
+}
+#nc-weather .weather-condition {
+	display: none;
+}
+#nc-weather .weather-temp {
+	top: 23px; right: 95px; color: rgb(75, 46, 131); font-family: "Encode Sans Compressed",sans-serif; font-size: 35px; font-weight: 800;
+}
+#nc-weather .weather-city {
+	top: 68px; right: 97px;
+}
+}
+@media only screen and (max-width:767px)
+{
+.home #nc-header {
+	margin-top: 30px;
+}
+.home .uw-sidebar .widget {
+	padding: 0px;
+}
+.home .widget h3 {
+	margin: 10px 0px 5px;
+}
+.home h1 {
+	margin: -10px 0px 2px;
+}
+.home ul.uw-mobile-menu .uw-mobile-menu-toggle {
+	margin-top: 0px; margin-right: 10px;
+}
+.home .pic-spotlight-widget {
+	padding: 20px;
+}
+.home .pic-spotlight-widget span {
+	padding-left: 0px; margin-top: 30px;
+}
+.home .pic-spotlight-widget .spotlight-image {
+	width: 100%; height: 200px; position: static;
+}
+.home .pic-spotlight-widget img {
+	margin: 0px 0px 30px; width: 100%; height: auto;
+}
+.uw-body-copy .block-third .pic-text-widget {
+	margin: 0px 0px 20px; padding: 15px 0px 0px; text-align: left; overflow: hidden; border-top-color: rgb(211, 211, 211); border-top-width: 1px; border-top-style: dotted;
+}
+.uw-body-copy .block-third .pic-text-widget h3 {
+	font-size: 17px; margin-top: 0px;
+}
+.uw-body-copy .block-third .pic-text-widget img {
+	margin: 0px 20px 10px 0px; width: 100px; float: left;
+}
+.uw-body-copy .block-third .pic-text-widget span {
+	overflow: hidden; display: block;
+}
+.single.site-news .uw-site-title {
+	background-position: 0px 13px; margin: 10px 0px 15px; width: 100%; height: 55px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; background-size: 220px;
+}
+.home .pic-spotlight-widget h3::before {
+	top: -10px;
+}
+.uw-news-image {
+	display: none;
+}
+.block-row {
+	margin-bottom: 30px;
+}
+.frontpage#mobile-relative {
+	margin-top: 15px;
+}
+#nc-weather {
+	width: 75%; height: 70px; position: relative;
+}
+#nc-weather a {
+	background-position: 96px 0px; width: 100% !important; height: 40px; border-bottom-color: rgb(244, 244, 244); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-repeat: no-repeat; background-size: 80px;
+}
+#nc-weather .weather-city {
+	left: 4px; top: 11px; font-size: 16px; position: absolute;
+}
+#nc-weather .weather-temp {
+	left: 63px; top: 8px; color: rgb(75, 46, 131); font-family: "Encode Sans Compressed",sans-serif; font-size: 18px; font-weight: 800; position: absolute;
+}
+#nc-weather .weather-datetime {
+	left: 0px; top: 44px; font-size: 14px; position: absolute;
+}
+#nc-weather .weather-condition {
+	display: none;
+}
+}
+@media only screen and (max-width:992px)
+{
+.uw-sidebar {
+	clear: both;
+}
+}
+@media only screen and (min-width:768px)
+{
+.uw-body-copy {
+	padding: 0px 10px 0px 0px;
+}
+ul.uw-sidebar-menu {
+	margin-top: 10px;
+}
+}

@@ -1,0 +1,15 @@
+.jetpack-video-wrapper {
+	margin-bottom: 1.6em;
+}
+.jetpack-video-wrapper > embed {
+	margin-bottom: 0px;
+}
+.jetpack-video-wrapper > iframe {
+	margin-bottom: 0px;
+}
+.jetpack-video-wrapper > object {
+	margin-bottom: 0px;
+}
+.jetpack-video-wrapper > .wp-video {
+	margin-bottom: 0px;
+}

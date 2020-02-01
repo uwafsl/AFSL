@@ -1,0 +1,144 @@
+body {
+	color: rgb(68, 68, 68); font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+body {
+	background: none;
+}
+.cmContainer9 {
+	background: none;
+}
+.cmHeaderWrap {
+	background: none;
+}
+.cmMainContainer {
+	width: auto; float: none;
+}
+.cmContainer9 {
+	width: auto; float: none;
+}
+.cmCol9.cmBodyWrap {
+	width: auto; float: none;
+}
+.cmContainer9 .cmCol6 {
+	width: auto; float: none;
+}
+a {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a:visited {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a:hover {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a img {
+	border: 0px currentColor;
+}
+.cmBodyWrap {
+	border: 0px currentColor;
+}
+.cmContainer9 .cmCol3 {
+	display: none;
+}
+.cmSubHeaderWrap {
+	display: none;
+}
+#cmWeatherWidget {
+	display: none;
+}
+.cmAd {
+	display: none;
+}
+.cmModule {
+	display: none;
+}
+.cmStoryComment.cmModule {
+	display: none;
+}
+.cmBreadcrumb {
+	display: none;
+}
+.cmToolBox {
+	display: none;
+}
+.cmRelatedArticlesBox {
+	display: none;
+}
+#cmFooterContainer {
+	display: none;
+}
+.cmSocialMedia {
+	display: none;
+}
+.cmHeaderImageOverlay {
+	display: none;
+}
+.cmNavigation {
+	display: none;
+}
+.cmPencilAd {
+	display: none;
+}
+#cmAlertBar {
+	display: none;
+}
+.cmListenLive {
+	display: none;
+}
+#cmNowPlayingWidget {
+	display: none;
+}
+#cmSearchForm {
+	display: none;
+}
+#contentLeftColumn {
+	display: none;
+}
+.cmMenu {
+	display: none;
+}
+.cmInnerFooterWrap {
+	display: none;
+}
+#cmFooter03 {
+	display: none;
+}
+#cmTopBigImage {
+	display: none;
+}
+.cmArticleHeaderImage {
+	display: none;
+}
+.cmElementEnlarge {
+	display: none;
+}
+.cmCaption {
+	display: none;
+}
+.cmCol7 {
+	padding: 10px 0px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.cmCol6 {
+	padding: 10px 0px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#cmHeaderLogo {
+	margin-bottom: 10px;
+}
+.cmHeaderWrap001 {
+	margin-bottom: 10px;
+}
+.cmInfoBoxElement {
+	margin-right: 10px; float: left;
+}
+.cmDateline {
+	display: inline;
+}
+.cmArticle {
+	display: inline;
+}
+.cmArticle p:first-child {
+	display: inline;
+}
+.cmDateline {
+	font-weight: bold;
+}

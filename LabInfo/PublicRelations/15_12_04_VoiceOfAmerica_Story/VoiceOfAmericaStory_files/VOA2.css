@@ -1,0 +1,171 @@
+body {
+	background-image: none; background-color: rgb(255, 255, 255);
+}
+#header {
+	
+}
+#top_bar_expanded .boxwidget {
+	padding: 0px;
+}
+ul.header_navigation {
+	margin: 0px 12px; width: auto; bottom: 1px; border-right-color: rgb(115, 131, 215); border-left-color: rgb(29, 53, 175); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: absolute;
+}
+ul.header_navigation li {
+	height: 31px; text-transform: uppercase;
+}
+ul.header_navigation li a.nav_link {
+	height: 31px; border-right-color: rgb(29, 53, 175); border-left-color: rgb(115, 131, 215); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-image: none;
+}
+ul.header_navigation li a.nav_link:hover {
+	color: rgb(0, 0, 0); border-right-color: rgb(248, 248, 248); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-color: rgb(241, 242, 244);
+}
+ul.header_navigation li a.nav_link:focus {
+	color: rgb(0, 0, 0); border-right-color: rgb(248, 248, 248); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-color: rgb(241, 242, 244);
+}
+ul.header_navigation li.sfHover a.nav_link {
+	color: rgb(0, 0, 0); border-right-color: rgb(248, 248, 248); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-color: rgb(241, 242, 244);
+}
+ul.header_navigation li a.nav_link:active {
+	background-color: rgb(241, 242, 244);
+}
+ul.header_navigation li a.nav_link_active {
+	background-color: rgb(241, 242, 244);
+}
+.header_navigation li ul.selected_nav {
+	top: 31px;
+}
+ul.header_navigation li ul li {
+	height: auto; text-transform: none;
+}
+.header_navigation li ul li div.content_wrap div.content_big_nav .boxwidgetInner h5 a.section_link {
+	color: rgb(0, 0, 0);
+}
+.media-content {
+	
+}
+.tab-content {
+	
+}
+.body_media .tab-content div.tab_list ul {
+	background-image: none;
+}
+.body_media .tab-content div.tab_list ul li.tab {
+	padding-right: 0px; padding-left: 0px; background-image: none;
+}
+.body_media .tab-content div.tab_list ul li.tab a {
+	border-right-color: rgb(130, 131, 135); border-left-color: rgb(130, 131, 135); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.body_media .tab-content div.tab_list ul li.selected a {
+	border-color: rgb(55, 78, 197);
+}
+.body_media .media-content div.footerlinks .share_more a {
+	color: rgb(19, 47, 190);
+}
+.body_media .body_media .paging h5.pagingTitle {
+	padding: 0px; color: rgb(19, 47, 190); text-transform: uppercase;
+}
+.body_media .mediaZoneDiv a.zoneSelected {
+	color: rgb(203, 19, 26);
+}
+.body_media .mediaZoneDiv a:hover {
+	color: rgb(19, 47, 190);
+}
+.body_media .media-content h3.orange_bullet {
+	padding-left: 0px; background-image: none;
+}
+.body_media .media-content h3.boxwidget_part {
+	padding-left: 0px; background-image: none;
+}
+.body_media .media-content h3.titleInside {
+	padding-left: 0px; background-image: none;
+}
+.body_media h5.boxwidget_title {
+	padding-left: 0px; background-image: none;
+}
+#modalWindow span.required_sign {
+	color: rgb(203, 19, 26);
+}
+.body_FlashAudio #popupHeader {
+	background-color: rgb(19, 47, 190);
+}
+.playlist_container .boxwidget {
+	background-color: rgb(235, 235, 235);
+}
+.playlist_container .playlist_item_time {
+	color: rgb(19, 47, 190);
+}
+.content_column2_2 .calendar_form {
+	border-color: rgb(226, 226, 226);
+}
+div.calendar_form .input_select {
+	margin-right: 6px; float: none; display: inline;
+}
+.main-content div.calendar table th {
+	background-color: rgb(55, 78, 197) !important;
+}
+.main-content div.calendar table tr td {
+	color: rgb(16, 16, 16); background-color: rgb(226, 226, 226);
+}
+.main-content div.calendar table tr td {
+	color: rgb(16, 16, 16);
+}
+.main-content div.calendar table tr td a {
+	color: rgb(16, 16, 16);
+}
+.main-content div.calendar table td a:hover {
+	color: rgb(16, 16, 16);
+}
+.main-content div.calendar table td a:focus {
+	color: rgb(16, 16, 16);
+}
+.main-content div.calendar table tr td.calendar_othermonth {
+	color: rgb(68, 68, 68); background-color: rgb(240, 240, 240);
+}
+.main-content div.calendar table tr td.calendar_othermonth a {
+	color: rgb(68, 68, 68);
+}
+.main-content div.calendar table td.calendar_selectedday {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(55, 78, 197) !important;
+}
+.main-content div.calendar table td.calendar_selectedday a {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(55, 78, 197) !important;
+}
+.main-content div.calendar table tr:hover td {
+	color: rgb(16, 16, 16); background-color: rgb(197, 197, 197);
+}
+.main-content div.calendar table tr:hover td.calendar_othermonth {
+	color: rgb(16, 16, 16); background-color: rgb(197, 197, 197);
+}
+.content div.quote div.innerQuote {
+	background-image: url("/img/VOA/quote.png?v=__7.5.0.0.9");
+}
+.content div.box_with_quote div.box_with_innerQuote {
+	background-image: url("/img/VOA/quote.png?v=__7.5.0.0.9");
+}
+.keyword {
+	color: rgb(203, 19, 26);
+}
+.fancybox-type-image a.fancybox-close {
+	top: -20px; height: 20px; background-color: rgb(68, 68, 68);
+}
+.fancybox-type-iframe a.fancybox-close {
+	top: -20px; height: 20px; background-color: rgb(68, 68, 68);
+}
+.imageFancybox a.fancybox-close {
+	top: -20px; height: 20px; background-color: rgb(68, 68, 68);
+}
+.iframeFancybox a.fancybox-close {
+	top: -20px; height: 20px; background-color: rgb(68, 68, 68);
+}
+a.fancybox-close {
+	top: -20px; height: 20px; background-color: rgb(68, 68, 68);
+}
+.fancybox-close span.title {
+	height: 20px; color: rgb(255, 255, 255); line-height: 20px;
+}
+.fancybox-type-image {
+	border-top-width: 0px;
+}
+.imageFancybox {
+	border-top-width: 0px;
+}

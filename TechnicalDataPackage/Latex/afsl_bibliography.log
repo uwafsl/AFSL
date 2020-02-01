@@ -1,0 +1,22 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2017.11.7)  5 DEC 2017 15:32
+entering extended mode
+**A:/devRotta/AFSL/TechnicalDataPackage/Latex/afsl_bibliography.bib
+(A:/devRotta/AFSL/TechnicalDataPackage/Latex/afsl_bibliography.bib
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.40 @MISC{Lum_
+               XPlane_Plugins_2015,
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.40 @MISC{Lum_
+               XPlane_Plugins_2015,
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

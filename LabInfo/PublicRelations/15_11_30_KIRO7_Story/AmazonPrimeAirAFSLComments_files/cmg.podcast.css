@@ -1,0 +1,132 @@
+#time-view .rangeslider {
+	top: 40px !important;
+}
+.rangeslider {
+	background: rgb(230, 230, 230); border-radius: 10px; width: 100%; height: 20px; display: block; box-shadow: inset 0px 1px 3px rgba(0,0,0,0.3); -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+}
+.rangeslider__fill {
+	background: rgb(230, 230, 230); border-radius: 10px; width: 100%; height: 20px; display: block; box-shadow: inset 0px 1px 3px rgba(0,0,0,0.3); -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3); -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+}
+.rangeslider {
+	position: relative;
+}
+.rangeslider--disabled {
+	opacity: 0.4;
+}
+.rangeslider__fill {
+	background: rgb(0, 255, 0); top: 0px; position: absolute;
+}
+.rangeslider__handle {
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1)) white; border-radius: 50%; border: 1px solid rgb(204, 204, 204); top: -10px; width: 40px; height: 40px; margin-top: 0px !important; display: inline-block; position: absolute; cursor: pointer; box-shadow: 0px 0px 8px rgba(0,0,0,0.3); -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;
+}
+.rangeslider__handle::after {
+	margin: auto; border-radius: 50%; left: 0px; top: 0px; width: 18px; height: 18px; right: 0px; bottom: 0px; display: block; position: absolute; content: ""; background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0)); -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;
+}
+.rangeslider__handle:active {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+}
+input[type='range']:focus + .rangeslider .rangeslider__handle {
+	box-shadow: 0px 0px 8px rgba(255,0,255,0.9); -webkit-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9); -moz-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+}
+.cm_podcastPlayer_download {
+	width: 1.25em; height: 2em; background-image: url("../../images/podcast/download.png"); background-repeat: no-repeat; background-size: 100% auto;
+}
+.cmExternalFeed > ul > li {
+	margin: 22px 0px; width: 100%; display: table;
+}
+.cmExternalFeed > ul > li > .row {
+	display: table-row;
+}
+.cmExternalFeed > ul > li > .row > div {
+	display: table-cell;
+}
+.cmExternalFeed > ul > li > .row > .links {
+	padding-right: 1em; vertical-align: middle;
+}
+.cmExternalFeed > ul > li > .row > .info {
+	vertical-align: top;
+}
+.cmExternalFeed > ul > li > .row > .cm_podcastPlayer {
+	vertical-align: top;
+}
+.cmExternalFeed > ul > li > .row > .info {
+	padding-right: 18px;
+}
+.cm_podcastPlayer {
+	width: 250px; margin-left: 1em;
+}
+.mobile.cm_podcastPlayer {
+	margin: 1em auto 0px; width: 90%;
+}
+.cm_podcastPlayer .time_indicator {
+	width: 100%; height: 17px; position: relative; background-color: rgb(171, 171, 171);
+}
+.mobile.cm_podcastPlayer .time_indicator {
+	height: 24px;
+}
+.cm_podcastPlayer .time_indicator .done_indicator {
+	width: 0px; height: 100%; position: absolute; background-color: rgb(132, 132, 132);
+}
+.cm_podcastPlayer .time_indicator .done_indicator .dragger {
+	width: 1em; height: 100%; right: -0.5em; position: absolute; z-index: 2; content: " ";
+}
+.cm_podcastPlayer .time_indicator .time_text {
+	padding: 3.81px 0.5em; color: white; font-size: 9.38px; display: inline-block; position: relative;
+}
+.mobile.cm_podcastPlayer .time_indicator .time_text {
+	padding: 6px 0.5em; font-size: 12px;
+}
+.cm_podcastPlayer .controls {
+	width: 100%; height: 31px; background-color: rgb(13, 13, 13);
+}
+.mobile.cm_podcastPlayer .controls {
+	height: 47px;
+}
+.cm_podcastPlayer .controls .play_button {
+	background-position: 60%; width: 42px; height: 100%; float: left; background-repeat: no-repeat; background-size: auto 50%;
+}
+.mobile.cm_podcastPlayer .controls .play_button {
+	width: 15%;
+}
+.mobile.cm_podcastPlayer .controls .play_button {
+	background-position: 60%; width: 15%; background-size: auto 50%;
+}
+.cm_podcastPlayer .controls .playing.play_button {
+	background-image: url("../../images/podcast/Pause-Button.png");
+}
+.cm_podcastPlayer .controls .paused.play_button {
+	background-image: url("../../images/podcast/Play-Button.png");
+}
+.cm_podcastPlayer .controls .loading.play_button {
+	background-image: url("../../images/podcast/loading_dark.gif"); background-size: 75%;
+}
+.cm_podcastPlayer .controls .volume_control {
+	width: 200px; height: 100%; float: right; position: relative;
+}
+.mobile.cm_podcastPlayer .controls .volume_control {
+	width: 85%;
+}
+.cm_podcastPlayer .controls .volume_control::before {
+	background-position: center; left: 0px; top: 50%; width: 2.25em; height: 2.25em; position: absolute; content: " "; transform: translate(0, -50%); background-image: url("../../images/podcast/volume_low.svg"); background-repeat: no-repeat; background-size: 100% auto; -webkit-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -o-transform: translate(0, -50%);
+}
+.mobile.cm_podcastPlayer .controls .volume_control::before {
+	background-position: center 45%; left: 0px; background-size: 150%;
+}
+.cm_podcastPlayer .controls .volume_control::after {
+	background-position: center; left: 88%; top: 50%; width: 2em; height: 2em; position: absolute; content: " "; transform: translate(0, -50%); background-image: url("../../images/podcast/volume_high.svg"); background-repeat: no-repeat; background-size: 100% auto; -webkit-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -o-transform: translate(0, -50%);
+}
+.mobile.cm_podcastPlayer .controls .volume_control::after {
+	left: 90%; right: auto; background-size: 150%;
+}
+.rangeslider {
+	border-radius: 1px; border: 0px currentColor; left: 48%; top: 48%; width: 75%; height: 3px; position: absolute; transform: translate(-50%, -50%); background-color: rgb(91, 91, 91); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);
+}
+.mobile .rangeslider {
+	left: 48%; width: 78%; right: auto; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);
+}
+.rangeslider__fill {
+	background: rgb(0, 194, 253); border-radius: 1px; border: 0px currentColor; height: 2px;
+}
+.rangeslider__handle {
+	background: white; border-radius: 50%; border: 0px currentColor; width: 16px; height: 16px; margin-top: 4px; -webkit-appearance: none;
+}

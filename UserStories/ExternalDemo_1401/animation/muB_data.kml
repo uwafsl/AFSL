@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <Folder>
+   <name>AnimateScenario</name>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:23Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:23Z</begin>
+     <end>2014-01-17T01:13:23Z</end>
+    </TimeSpan>
+    <name>points[0]</name>
+    <description>timeStamps[0] = 0</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.685803220439, 45.7297535252545, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:23Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:23Z</begin>
+     <end>2014-01-17T01:13:23Z</end>
+    </TimeSpan>
+    <name>points[1]</name>
+    <description>timeStamps[1] = 0.353535353535354</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.685674353662, 45.7298434851719, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:23Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:23Z</begin>
+     <end>2014-01-17T01:13:24Z</end>
+    </TimeSpan>
+    <name>points[2]</name>
+    <description>timeStamps[2] = 0.707070707070707</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.685545486886, 45.7299334450893, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:24Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:24Z</begin>
+     <end>2014-01-17T01:13:24Z</end>
+    </TimeSpan>
+    <name>points[3]</name>
+    <description>timeStamps[3] = 1.06060606060606</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.68541662011, 45.7300234050068, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:24Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:24Z</begin>
+     <end>2014-01-17T01:13:24Z</end>
+    </TimeSpan>
+    <name>points[4]</name>
+    <description>timeStamps[4] = 1.41414141414141</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.685287753333, 45.7301133649242, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:24Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:24Z</begin>
+     <end>2014-01-17T01:13:25Z</end>
+    </TimeSpan>
+    <name>points[5]</name>
+    <description>timeStamps[5] = 1.76767676767677</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.685158886557, 45.7302033248416, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:25Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:25Z</begin>
+     <end>2014-01-17T01:13:25Z</end>
+    </TimeSpan>
+    <name>points[6]</name>
+    <description>timeStamps[6] = 2.12121212121212</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.68503001978, 45.7302932847591, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:25Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:25Z</begin>
+     <end>2014-01-17T01:13:25Z</end>
+    </TimeSpan>
+    <name>points[7]</name>
+    <description>timeStamps[7] = 2.47474747474747</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684901153004, 45.7303832446765, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:25Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:25Z</begin>
+     <end>2014-01-17T01:13:26Z</end>
+    </TimeSpan>
+    <name>points[8]</name>
+    <description>timeStamps[8] = 2.82828282828283</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684772286228, 45.7304732045939, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:26Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:26Z</begin>
+     <end>2014-01-17T01:13:26Z</end>
+    </TimeSpan>
+    <name>points[9]</name>
+    <description>timeStamps[9] = 3.18181818181818</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684643419451, 45.7305631645113, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:26Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:26Z</begin>
+     <end>2014-01-17T01:13:26Z</end>
+    </TimeSpan>
+    <name>points[10]</name>
+    <description>timeStamps[10] = 3.53535353535354</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684514552675, 45.7306531244288, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:26Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:26Z</begin>
+     <end>2014-01-17T01:13:27Z</end>
+    </TimeSpan>
+    <name>points[11]</name>
+    <description>timeStamps[11] = 3.88888888888889</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684385685899, 45.7307430843462, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:27Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:27Z</begin>
+     <end>2014-01-17T01:13:27Z</end>
+    </TimeSpan>
+    <name>points[12]</name>
+    <description>timeStamps[12] = 4.24242424242424</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684256819122, 45.7308330442636, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:27Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:27Z</begin>
+     <end>2014-01-17T01:13:27Z</end>
+    </TimeSpan>
+    <name>points[13]</name>
+    <description>timeStamps[13] = 4.5959595959596</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.684127952346, 45.7309230041811, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:27Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:27Z</begin>
+     <end>2014-01-17T01:13:28Z</end>
+    </TimeSpan>
+    <name>points[14]</name>
+    <description>timeStamps[14] = 4.94949494949495</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683999085569, 45.7310129640985, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:28Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:28Z</begin>
+     <end>2014-01-17T01:13:28Z</end>
+    </TimeSpan>
+    <name>points[15]</name>
+    <description>timeStamps[15] = 5.3030303030303</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683870218793, 45.7311029240159, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:28Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:28Z</begin>
+     <end>2014-01-17T01:13:29Z</end>
+    </TimeSpan>
+    <name>points[16]</name>
+    <description>timeStamps[16] = 5.65656565656566</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683741352017, 45.7311928839334, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:29Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:29Z</begin>
+     <end>2014-01-17T01:13:29Z</end>
+    </TimeSpan>
+    <name>points[17]</name>
+    <description>timeStamps[17] = 6.01010101010101</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.68361248524, 45.7312828438508, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:29Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:29Z</begin>
+     <end>2014-01-17T01:13:29Z</end>
+    </TimeSpan>
+    <name>points[18]</name>
+    <description>timeStamps[18] = 6.36363636363636</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683483618464, 45.7313728037682, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:29Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:29Z</begin>
+     <end>2014-01-17T01:13:30Z</end>
+    </TimeSpan>
+    <name>points[19]</name>
+    <description>timeStamps[19] = 6.71717171717172</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683354751688, 45.7314627636857, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:30Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:30Z</begin>
+     <end>2014-01-17T01:13:30Z</end>
+    </TimeSpan>
+    <name>points[20]</name>
+    <description>timeStamps[20] = 7.07070707070707</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683225884911, 45.7315527236031, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:30Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:30Z</begin>
+     <end>2014-01-17T01:13:30Z</end>
+    </TimeSpan>
+    <name>points[21]</name>
+    <description>timeStamps[21] = 7.42424242424242</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.683097018135, 45.7316426835205, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:30Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:30Z</begin>
+     <end>2014-01-17T01:13:31Z</end>
+    </TimeSpan>
+    <name>points[22]</name>
+    <description>timeStamps[22] = 7.77777777777778</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682968151359, 45.731732643438, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:31Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:31Z</begin>
+     <end>2014-01-17T01:13:31Z</end>
+    </TimeSpan>
+    <name>points[23]</name>
+    <description>timeStamps[23] = 8.13131313131313</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682839284582, 45.7318226033554, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:31Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:31Z</begin>
+     <end>2014-01-17T01:13:31Z</end>
+    </TimeSpan>
+    <name>points[24]</name>
+    <description>timeStamps[24] = 8.48484848484848</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682710417806, 45.7319125632728, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:31Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:31Z</begin>
+     <end>2014-01-17T01:13:32Z</end>
+    </TimeSpan>
+    <name>points[25]</name>
+    <description>timeStamps[25] = 8.83838383838384</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682581551029, 45.7320025231903, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:32Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:32Z</begin>
+     <end>2014-01-17T01:13:32Z</end>
+    </TimeSpan>
+    <name>points[26]</name>
+    <description>timeStamps[26] = 9.19191919191919</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682452684253, 45.7320924831077, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:32Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:32Z</begin>
+     <end>2014-01-17T01:13:32Z</end>
+    </TimeSpan>
+    <name>points[27]</name>
+    <description>timeStamps[27] = 9.54545454545455</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682323817477, 45.7321824430251, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:32Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:32Z</begin>
+     <end>2014-01-17T01:13:33Z</end>
+    </TimeSpan>
+    <name>points[28]</name>
+    <description>timeStamps[28] = 9.8989898989899</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.6821949507, 45.7322724029425, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:33Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:33Z</begin>
+     <end>2014-01-17T01:13:33Z</end>
+    </TimeSpan>
+    <name>points[29]</name>
+    <description>timeStamps[29] = 10.2525252525253</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.682066083924, 45.73236236286, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:33Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:33Z</begin>
+     <end>2014-01-17T01:13:33Z</end>
+    </TimeSpan>
+    <name>points[30]</name>
+    <description>timeStamps[30] = 10.6060606060606</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681937217148, 45.7324523227774, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:33Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:33Z</begin>
+     <end>2014-01-17T01:13:34Z</end>
+    </TimeSpan>
+    <name>points[31]</name>
+    <description>timeStamps[31] = 10.959595959596</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681808350371, 45.7325422826948, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:34Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:34Z</begin>
+     <end>2014-01-17T01:13:34Z</end>
+    </TimeSpan>
+    <name>points[32]</name>
+    <description>timeStamps[32] = 11.3131313131313</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681679483595, 45.7326322426123, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:34Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:34Z</begin>
+     <end>2014-01-17T01:13:35Z</end>
+    </TimeSpan>
+    <name>points[33]</name>
+    <description>timeStamps[33] = 11.6666666666667</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681550616819, 45.7327222025297, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:35Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:35Z</begin>
+     <end>2014-01-17T01:13:35Z</end>
+    </TimeSpan>
+    <name>points[34]</name>
+    <description>timeStamps[34] = 12.020202020202</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681421750042, 45.7328121624471, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:35Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:35Z</begin>
+     <end>2014-01-17T01:13:35Z</end>
+    </TimeSpan>
+    <name>points[35]</name>
+    <description>timeStamps[35] = 12.3737373737374</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681292883266, 45.7329021223646, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:35Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:35Z</begin>
+     <end>2014-01-17T01:13:36Z</end>
+    </TimeSpan>
+    <name>points[36]</name>
+    <description>timeStamps[36] = 12.7272727272727</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681164016489, 45.732992082282, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:36Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:36Z</begin>
+     <end>2014-01-17T01:13:36Z</end>
+    </TimeSpan>
+    <name>points[37]</name>
+    <description>timeStamps[37] = 13.0808080808081</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.681035149713, 45.7330820421994, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:36Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:36Z</begin>
+     <end>2014-01-17T01:13:36Z</end>
+    </TimeSpan>
+    <name>points[38]</name>
+    <description>timeStamps[38] = 13.4343434343434</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680906282937, 45.7331720021169, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:36Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:36Z</begin>
+     <end>2014-01-17T01:13:37Z</end>
+    </TimeSpan>
+    <name>points[39]</name>
+    <description>timeStamps[39] = 13.7878787878788</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.68077741616, 45.7332619620343, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:37Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:37Z</begin>
+     <end>2014-01-17T01:13:37Z</end>
+    </TimeSpan>
+    <name>points[40]</name>
+    <description>timeStamps[40] = 14.1414141414141</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680648549384, 45.7333519219517, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:37Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:37Z</begin>
+     <end>2014-01-17T01:13:37Z</end>
+    </TimeSpan>
+    <name>points[41]</name>
+    <description>timeStamps[41] = 14.4949494949495</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680519682608, 45.7334418818692, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:37Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:37Z</begin>
+     <end>2014-01-17T01:13:38Z</end>
+    </TimeSpan>
+    <name>points[42]</name>
+    <description>timeStamps[42] = 14.8484848484848</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680390815831, 45.7335318417866, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:38Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:38Z</begin>
+     <end>2014-01-17T01:13:38Z</end>
+    </TimeSpan>
+    <name>points[43]</name>
+    <description>timeStamps[43] = 15.2020202020202</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680261949055, 45.733621801704, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:38Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:38Z</begin>
+     <end>2014-01-17T01:13:38Z</end>
+    </TimeSpan>
+    <name>points[44]</name>
+    <description>timeStamps[44] = 15.5555555555556</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680133082278, 45.7337117616215, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:38Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:38Z</begin>
+     <end>2014-01-17T01:13:39Z</end>
+    </TimeSpan>
+    <name>points[45]</name>
+    <description>timeStamps[45] = 15.9090909090909</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.680004215502, 45.7338017215389, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:39Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:39Z</begin>
+     <end>2014-01-17T01:13:39Z</end>
+    </TimeSpan>
+    <name>points[46]</name>
+    <description>timeStamps[46] = 16.2626262626263</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679875348726, 45.7338916814563, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:39Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:39Z</begin>
+     <end>2014-01-17T01:13:39Z</end>
+    </TimeSpan>
+    <name>points[47]</name>
+    <description>timeStamps[47] = 16.6161616161616</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679746481949, 45.7339816413737, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:39Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:39Z</begin>
+     <end>2014-01-17T01:13:40Z</end>
+    </TimeSpan>
+    <name>points[48]</name>
+    <description>timeStamps[48] = 16.969696969697</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679617615173, 45.7340716012912, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:40Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:40Z</begin>
+     <end>2014-01-17T01:13:40Z</end>
+    </TimeSpan>
+    <name>points[49]</name>
+    <description>timeStamps[49] = 17.3232323232323</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679488748397, 45.7341615612086, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:40Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:40Z</begin>
+     <end>2014-01-17T01:13:41Z</end>
+    </TimeSpan>
+    <name>points[50]</name>
+    <description>timeStamps[50] = 17.6767676767677</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.67935988162, 45.734251521126, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:41Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:41Z</begin>
+     <end>2014-01-17T01:13:41Z</end>
+    </TimeSpan>
+    <name>points[51]</name>
+    <description>timeStamps[51] = 18.030303030303</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679231014844, 45.7343414810435, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:41Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:41Z</begin>
+     <end>2014-01-17T01:13:41Z</end>
+    </TimeSpan>
+    <name>points[52]</name>
+    <description>timeStamps[52] = 18.3838383838384</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.679102148068, 45.7344314409609, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:41Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:41Z</begin>
+     <end>2014-01-17T01:13:42Z</end>
+    </TimeSpan>
+    <name>points[53]</name>
+    <description>timeStamps[53] = 18.7373737373737</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678973281291, 45.7345214008783, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:42Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:42Z</begin>
+     <end>2014-01-17T01:13:42Z</end>
+    </TimeSpan>
+    <name>points[54]</name>
+    <description>timeStamps[54] = 19.0909090909091</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678844414515, 45.7346113607958, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:42Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:42Z</begin>
+     <end>2014-01-17T01:13:42Z</end>
+    </TimeSpan>
+    <name>points[55]</name>
+    <description>timeStamps[55] = 19.4444444444444</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678715547738, 45.7347013207132, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:42Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:42Z</begin>
+     <end>2014-01-17T01:13:43Z</end>
+    </TimeSpan>
+    <name>points[56]</name>
+    <description>timeStamps[56] = 19.7979797979798</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678586680962, 45.7347912806306, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:43Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:43Z</begin>
+     <end>2014-01-17T01:13:43Z</end>
+    </TimeSpan>
+    <name>points[57]</name>
+    <description>timeStamps[57] = 20.1515151515152</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678457814186, 45.7348812405481, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:43Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:43Z</begin>
+     <end>2014-01-17T01:13:43Z</end>
+    </TimeSpan>
+    <name>points[58]</name>
+    <description>timeStamps[58] = 20.5050505050505</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678328947409, 45.7349712004655, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:43Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:43Z</begin>
+     <end>2014-01-17T01:13:44Z</end>
+    </TimeSpan>
+    <name>points[59]</name>
+    <description>timeStamps[59] = 20.8585858585859</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678200080633, 45.7350611603829, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:44Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:44Z</begin>
+     <end>2014-01-17T01:13:44Z</end>
+    </TimeSpan>
+    <name>points[60]</name>
+    <description>timeStamps[60] = 21.2121212121212</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.678071213857, 45.7351511203004, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:44Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:44Z</begin>
+     <end>2014-01-17T01:13:44Z</end>
+    </TimeSpan>
+    <name>points[61]</name>
+    <description>timeStamps[61] = 21.5656565656566</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.67794234708, 45.7352410802178, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:44Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:44Z</begin>
+     <end>2014-01-17T01:13:45Z</end>
+    </TimeSpan>
+    <name>points[62]</name>
+    <description>timeStamps[62] = 21.9191919191919</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677813480304, 45.7353310401352, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:45Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:45Z</begin>
+     <end>2014-01-17T01:13:45Z</end>
+    </TimeSpan>
+    <name>points[63]</name>
+    <description>timeStamps[63] = 22.2727272727273</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677684613527, 45.7354210000527, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:45Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:45Z</begin>
+     <end>2014-01-17T01:13:45Z</end>
+    </TimeSpan>
+    <name>points[64]</name>
+    <description>timeStamps[64] = 22.6262626262626</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677555746751, 45.7355109599701, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:45Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:45Z</begin>
+     <end>2014-01-17T01:13:46Z</end>
+    </TimeSpan>
+    <name>points[65]</name>
+    <description>timeStamps[65] = 22.979797979798</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677426879975, 45.7356009198875, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:46Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:46Z</begin>
+     <end>2014-01-17T01:13:46Z</end>
+    </TimeSpan>
+    <name>points[66]</name>
+    <description>timeStamps[66] = 23.3333333333333</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677298013198, 45.7356908798049, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:46Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:46Z</begin>
+     <end>2014-01-17T01:13:47Z</end>
+    </TimeSpan>
+    <name>points[67]</name>
+    <description>timeStamps[67] = 23.6868686868687</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677169146422, 45.7357808397224, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:47Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:47Z</begin>
+     <end>2014-01-17T01:13:47Z</end>
+    </TimeSpan>
+    <name>points[68]</name>
+    <description>timeStamps[68] = 24.040404040404</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.677040279646, 45.7358707996398, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:47Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:47Z</begin>
+     <end>2014-01-17T01:13:47Z</end>
+    </TimeSpan>
+    <name>points[69]</name>
+    <description>timeStamps[69] = 24.3939393939394</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676911412869, 45.7359607595572, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:47Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:47Z</begin>
+     <end>2014-01-17T01:13:48Z</end>
+    </TimeSpan>
+    <name>points[70]</name>
+    <description>timeStamps[70] = 24.7474747474747</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676782546093, 45.7360507194747, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:48Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:48Z</begin>
+     <end>2014-01-17T01:13:48Z</end>
+    </TimeSpan>
+    <name>points[71]</name>
+    <description>timeStamps[71] = 25.1010101010101</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676653679317, 45.7361406793921, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:48Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:48Z</begin>
+     <end>2014-01-17T01:13:48Z</end>
+    </TimeSpan>
+    <name>points[72]</name>
+    <description>timeStamps[72] = 25.4545454545455</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.67652481254, 45.7362306393095, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:48Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:48Z</begin>
+     <end>2014-01-17T01:13:49Z</end>
+    </TimeSpan>
+    <name>points[73]</name>
+    <description>timeStamps[73] = 25.8080808080808</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676395945764, 45.736320599227, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:49Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:49Z</begin>
+     <end>2014-01-17T01:13:49Z</end>
+    </TimeSpan>
+    <name>points[74]</name>
+    <description>timeStamps[74] = 26.1616161616162</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676267078987, 45.7364105591444, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:49Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:49Z</begin>
+     <end>2014-01-17T01:13:49Z</end>
+    </TimeSpan>
+    <name>points[75]</name>
+    <description>timeStamps[75] = 26.5151515151515</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676138212211, 45.7365005190618, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:49Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:49Z</begin>
+     <end>2014-01-17T01:13:50Z</end>
+    </TimeSpan>
+    <name>points[76]</name>
+    <description>timeStamps[76] = 26.8686868686869</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.676009345435, 45.7365904789793, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:50Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:50Z</begin>
+     <end>2014-01-17T01:13:50Z</end>
+    </TimeSpan>
+    <name>points[77]</name>
+    <description>timeStamps[77] = 27.2222222222222</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675880478658, 45.7366804388967, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:50Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:50Z</begin>
+     <end>2014-01-17T01:13:50Z</end>
+    </TimeSpan>
+    <name>points[78]</name>
+    <description>timeStamps[78] = 27.5757575757576</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675751611882, 45.7367703988141, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:50Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:50Z</begin>
+     <end>2014-01-17T01:13:51Z</end>
+    </TimeSpan>
+    <name>points[79]</name>
+    <description>timeStamps[79] = 27.9292929292929</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675622745106, 45.7368603587316, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:51Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:51Z</begin>
+     <end>2014-01-17T01:13:51Z</end>
+    </TimeSpan>
+    <name>points[80]</name>
+    <description>timeStamps[80] = 28.2828282828283</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675493878329, 45.736950318649, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:51Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:51Z</begin>
+     <end>2014-01-17T01:13:51Z</end>
+    </TimeSpan>
+    <name>points[81]</name>
+    <description>timeStamps[81] = 28.6363636363636</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675365011553, 45.7370402785664, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:51Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:51Z</begin>
+     <end>2014-01-17T01:13:52Z</end>
+    </TimeSpan>
+    <name>points[82]</name>
+    <description>timeStamps[82] = 28.989898989899</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675236144777, 45.7371302384839, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:52Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:52Z</begin>
+     <end>2014-01-17T01:13:52Z</end>
+    </TimeSpan>
+    <name>points[83]</name>
+    <description>timeStamps[83] = 29.3434343434343</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.675107278, 45.7372201984013, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:52Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:52Z</begin>
+     <end>2014-01-17T01:13:53Z</end>
+    </TimeSpan>
+    <name>points[84]</name>
+    <description>timeStamps[84] = 29.6969696969697</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674978411224, 45.7373101583187, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:53Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:53Z</begin>
+     <end>2014-01-17T01:13:53Z</end>
+    </TimeSpan>
+    <name>points[85]</name>
+    <description>timeStamps[85] = 30.0505050505051</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674849544447, 45.7374001182361, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:53Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:53Z</begin>
+     <end>2014-01-17T01:13:53Z</end>
+    </TimeSpan>
+    <name>points[86]</name>
+    <description>timeStamps[86] = 30.4040404040404</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674720677671, 45.7374900781536, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:53Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:53Z</begin>
+     <end>2014-01-17T01:13:54Z</end>
+    </TimeSpan>
+    <name>points[87]</name>
+    <description>timeStamps[87] = 30.7575757575758</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674591810895, 45.737580038071, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:54Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:54Z</begin>
+     <end>2014-01-17T01:13:54Z</end>
+    </TimeSpan>
+    <name>points[88]</name>
+    <description>timeStamps[88] = 31.1111111111111</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674462944118, 45.7376699979884, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:54Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:54Z</begin>
+     <end>2014-01-17T01:13:54Z</end>
+    </TimeSpan>
+    <name>points[89]</name>
+    <description>timeStamps[89] = 31.4646464646465</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674334077342, 45.7377599579059, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:54Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:54Z</begin>
+     <end>2014-01-17T01:13:55Z</end>
+    </TimeSpan>
+    <name>points[90]</name>
+    <description>timeStamps[90] = 31.8181818181818</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674205210566, 45.7378499178233, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:55Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:55Z</begin>
+     <end>2014-01-17T01:13:55Z</end>
+    </TimeSpan>
+    <name>points[91]</name>
+    <description>timeStamps[91] = 32.1717171717172</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.674076343789, 45.7379398777407, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:55Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:55Z</begin>
+     <end>2014-01-17T01:13:55Z</end>
+    </TimeSpan>
+    <name>points[92]</name>
+    <description>timeStamps[92] = 32.5252525252525</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673947477013, 45.7380298376582, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:55Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:55Z</begin>
+     <end>2014-01-17T01:13:56Z</end>
+    </TimeSpan>
+    <name>points[93]</name>
+    <description>timeStamps[93] = 32.8787878787879</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673818610236, 45.7381197975756, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:56Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:56Z</begin>
+     <end>2014-01-17T01:13:56Z</end>
+    </TimeSpan>
+    <name>points[94]</name>
+    <description>timeStamps[94] = 33.2323232323232</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.67368974346, 45.738209757493, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:56Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:56Z</begin>
+     <end>2014-01-17T01:13:56Z</end>
+    </TimeSpan>
+    <name>points[95]</name>
+    <description>timeStamps[95] = 33.5858585858586</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673560876684, 45.7382997174105, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:56Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:56Z</begin>
+     <end>2014-01-17T01:13:57Z</end>
+    </TimeSpan>
+    <name>points[96]</name>
+    <description>timeStamps[96] = 33.9393939393939</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673432009907, 45.7383896773279, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:57Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:57Z</begin>
+     <end>2014-01-17T01:13:57Z</end>
+    </TimeSpan>
+    <name>points[97]</name>
+    <description>timeStamps[97] = 34.2929292929293</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673303143131, 45.7384796372453, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:57Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:57Z</begin>
+     <end>2014-01-17T01:13:58Z</end>
+    </TimeSpan>
+    <name>points[98]</name>
+    <description>timeStamps[98] = 34.6464646464646</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673174276355, 45.7385695971628, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+   <Placemark>
+    <TimeStamp>
+     <when>2014-01-17T01:13:58Z</when>
+    </TimeStamp>
+    <TimeSpan>
+     <begin>2014-01-17T01:13:58Z</begin>
+     <end>2014-01-17T01:13:58Z</end>
+    </TimeSpan>
+    <name>points[99]</name>
+    <description>timeStamps[99] = 35</description>
+    <Point>
+     <altitudeMode>absolute</altitudeMode>
+     <coordinates>-119.673045409578, 45.7386595570802, 392.887191836493</coordinates>
+    </Point>
+   </Placemark>
+  </Folder>
+ </Document>
+</kml>

@@ -1,0 +1,135 @@
+.theme-background-color {
+	background-color: rgb(198, 198, 198);
+}
+.theme-background-image {
+	background-position: inherit; background-image: none; background-attachment: inherit; background-repeat: inherit;
+}
+.theme-header-cap-background {
+	background: linear-gradient(rgb(35, 74, 119), rgb(35, 74, 119));
+}
+div.theme-header-cap-font-color p {
+	color: rgb(255, 255, 255);
+}
+div.theme-header-cap-font-color p.cmPosStatement {
+	color: rgb(255, 255, 255);
+}
+.theme-header-cap-link-color a:link {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-cap-link-color.cmHeaderCap a:link {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-cap-link-color #cmHeaderUserRegistrationContainer p a:link {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-cap-link-color a:hover {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-cap-link-color.cmHeaderCap a:hover {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-cap-link-color #cmHeaderUserRegistrationContainer p a:hover {
+	color: rgb(150, 197, 250); border-bottom-color: rgb(150, 197, 250);
+}
+.theme-header-background#cmHeaderMainContainer {
+	background-image: url("http://media.cmgdigital.com/shared/theme-assets/232015/www.kirotv.com_0f150903417847d18379edb0ae2ddf0d.png"); background-size: cover; background-color: rgb(53, 115, 179);
+}
+.theme-header-background {
+	background-image: url("http://media.cmgdigital.com/shared/theme-assets/232015/www.kirotv.com_0f150903417847d18379edb0ae2ddf0d.png"); background-size: cover; background-color: rgb(53, 115, 179);
+}
+.ie8 #cmHeaderMainContainer {
+	background-repeat: no-repeat;
+}
+.theme-navigation-background {
+	background-color: rgb(41, 82, 133);
+}
+a.theme-header-radio-ad-link-color:link {
+	color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);
+}
+a.theme-header-radio-ad-link-color:hover {
+	color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);
+}
+.theme-footer-background {
+	background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+.theme-footer-color h4 {
+	color: rgb(115, 115, 115) !important;
+}
+.theme-footer-color li {
+	color: rgb(68, 68, 68);
+}
+.theme-footer-color p {
+	color: rgb(68, 68, 68);
+}
+.theme-footer-color .cmFooterTerms p {
+	color: rgb(68, 68, 68);
+}
+.theme-footer-color .cmSiteMapColumn ul.cmSiteMapList li a:link {
+	color: rgb(3, 109, 190); border-bottom-color: rgb(3, 109, 190);
+}
+.theme-footer-color .cmSiteMapColumn ul.cmSiteMapList li a:hover {
+	color: rgb(3, 109, 190); border-bottom-color: rgb(3, 109, 190);
+}
+.theme-footer-color .cmFooterTerms a:link {
+	color: rgb(3, 109, 190); border-bottom-color: rgb(3, 109, 190);
+}
+.theme-footer-color .cmFooterTerms a:hover {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(51, 102, 153);
+}
+.theme-navigation-background.cmNavigation {
+	padding-top: 0px;
+}
+.cmRadioHeaderLSPHeader {
+	
+}
+.cmRadioHeaderNowPlayingHeader {
+	
+}
+.cmRadioHeaderOnAirHeader {
+	
+}
+#cmHeaderUserRegistration .cmUserAuthed > a {
+	
+}
+.cmUserAuthed {
+	
+}
+.cmRadioHeaderNowPlayingPlayButton {
+	
+}
+.cmHeaderUserRegistration .cmRadioHeaderNavDropdownCaret {
+	
+}
+#cmRadioHeaderWeatherWidget {
+	
+}
+.cmV2HeaderBackgroundImage {
+	
+}
+.cmRadioNowPlayingArtistImage {
+	
+}
+.cmRadioHeaderOnAirImage {
+	
+}
+.cmRadioHeaderStickyLogoBar {
+	
+}
+.music-site-refresh .cmCol6 > h3.cmModuleHeader::before {
+	background-color: transparent !important;
+}
+.music-site-refresh .cmCol6 > .gridBackground > .gridBackgroundInner > h3.cmModuleHeader::before {
+	background-color: transparent !important;
+}
+.music-site-refresh h3.cmModuleHeader {
+	background-color: transparent !important;
+}
+.music-site-refresh .cmTease > .cmTeaseListMore > a {
+	background-color: transparent !important;
+}
+.music-site-refresh .cmTeaseListStdMore.cmTeaseListMore > a {
+	background-color: transparent !important;
+}
+.music-site-refresh .cmCol3 > .cmFeedUtilities {
+	margin-bottom: 10px; cursor: pointer; background-color: transparent !important;
+}

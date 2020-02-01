@@ -1,0 +1,195 @@
+html {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+body {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+div {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+span {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+applet {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+object {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+iframe {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h1 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h2 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h3 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h4 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h5 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+h6 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+p {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+blockquote {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+pre {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+a {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+abbr {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+acronym {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+address {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+big {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+cite {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+code {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+del {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+dfn {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+em {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+font {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+img {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+ins {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+kbd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+q {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+s {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+samp {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+small {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+strike {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+strong {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+sub {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+sup {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+tt {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+var {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+b {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+u {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+i {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+center {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+fieldset {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+dl {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+dt {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+dd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+ol {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+ul {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+li {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+form {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+label {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+caption {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; white-space: normal;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+:focus {
+	outline: 0px;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+legend {
+	display: none;
+}
+.ios-only {
+	display: none;
+}
+.android-only {
+	display: none;
+}

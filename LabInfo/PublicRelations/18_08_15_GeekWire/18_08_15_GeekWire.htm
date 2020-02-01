@@ -1,0 +1,1956 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0057)https://www.geekwire.com/2018/drone-tracking-experiments/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en-US"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+   
+<META charset="utf-8">   
+<META http-equiv="x-ua-compatible" content="ie=edge"> <!--
+ _____ _     _       _           _ _     _   _                          _                          _            _             _    _                __           
+|_   _| |   (_)     (_)         ( ) |   | | | |                        | |                        ( )          | |           | |  (_)              / _|          
+  | | | |__  _ ___   _ ___ _ __ |/| |_  | |_| |__   ___    ___ ___   __| | ___   _   _  ___  _   _|/ _ __ ___  | | ___   ___ | | ___ _ __   __ _  | |_ ___  _ __ 
+  | | | '_ \| / __| | / __| '_ \  | __| | __| '_ \ / _ \  / __/ _ \ / _` |/ _ \ | | | |/ _ \| | | | | '__/ _ \ | |/ _ \ / _ \| |/ / | '_ \ / _` | |  _/ _ \| '__|
+  | | | | | | \__ \ | \__ \ | | | | |_  | |_| | | |  __/ | (_| (_) | (_| |  __/ | |_| | (_) | |_| | | | |  __/ | | (_) | (_) |   <| | | | | (_| | | || (_) | |   
+  \_/ |_| |_|_|___/ |_|___/_| |_|  \__|  \__|_| |_|\___|  \___\___/ \__,_|\___|  \__, |\___/ \__,_| |_|  \___| |_|\___/ \___/|_|\_\_|_| |_|\__, | |_| \___/|_|   
+                                                                                  __/ |                                                     __/ |                
+                                                                                 |___/                                                     |___/                 
+__   __                                                        _                 _                              _               _                                
+\ \ / /                                                       | |               | |                            | |             (_)                               
+ \ V /___  _   _   _ __ ___   __ _ _   _    __ _  ___     __ _| |__   ___  _   _| |_   _   _  ___  _   _ _ __  | |__  _   _ ___ _ _ __   ___  ___ ___            
+  \ // _ \| | | | | '_ ` _ \ / _` | | | |  / _` |/ _ \   / _` | '_ \ / _ \| | | | __| | | | |/ _ \| | | | '__| | '_ \| | | / __| | '_ \ / _ \/ __/ __|           
+  | | (_) | |_| | | | | | | | (_| | |_| | | (_| | (_) | | (_| | |_) | (_) | |_| | |_  | |_| | (_) | |_| | |    | |_) | |_| \__ \ | | | |  __/\__ \__ \           
+  \_/\___/ \__,_| |_| |_| |_|\__,_|\__, |  \__, |\___/   \__,_|_.__/ \___/ \__,_|\__|  \__, |\___/ \__,_|_|    |_.__/ \__,_|___/_|_| |_|\___||___/___/           
+                                    __/ |   __/ |                                       __/ |                                                                    
+                                   |___/   |___/                                       |___/                                                                     
+--> 
+    
+<META name="viewport" content="width=device-width, maximum-scale=1">   
+<TITLE>Researchers test new and improved systems to track drones – 
+GeekWire</TITLE> 
+<META name="robots" content="noydir"> 
+<META name="description" content="As more and more drones fill the skies, researchers are working on increasingly sophisticated methods to track them under increasingly challenging conditions."> 
+<META content="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg" 
+property="og:image"> 
+<META content="633" property="og:image:width"> 
+<META content="609" property="og:image:height"> 
+<META content="en_US" property="og:locale"> 
+<META content="article" property="og:type"> 
+<META content="No GPS? No problem! Researchers test new and improved systems to track drones" 
+property="og:title"> 
+<META content="As more and more drones fill the skies, researchers are working on increasingly sophisticated methods to track them under increasingly challenging conditions." 
+property="og:description"> 
+<META content="https://www.geekwire.com/2018/drone-tracking-experiments/" 
+property="og:url"> 
+<META content="GeekWire" property="og:site_name"> 
+<META content="https://www.facebook.com/geekwire" property="article:publisher"> 
+<META content="https://www.facebook.com/alan.boyle" property="article:author"> 
+<META content="364309080316986" property="fb:app_id"> 
+<META content="2018-08-15T23:28:52-07:00" property="article:published_time"> 
+<META content="2018-08-15T23:32:47-07:00" property="article:modified_time"> 
+<META content="2018-08-15T23:32:47-07:00" property="og:updated_time"> 
+<META name="twitter:card" content="summary_large_image"> 
+<META name="twitter:site" content="@geekwire"> 
+<META name="twitter:creator" content="@b0yle"> 
+<META name="twitter:title" content="No GPS? No problem! Researchers test new and improved systems to track drones"> 
+<META name="twitter:description" content="As more and more drones fill the skies, researchers are working on increasingly sophisticated methods to track them under increasingly challenging conditions."> 
+<META name="twitter:image" content="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg"> 
+<META name="twitter:image:width" content="633"> 
+<META name="twitter:image:height" content="609"> <LINK href="https://www.geekwire.com/2018/drone-tracking-experiments/" 
+rel="canonical"> 
+<SCRIPT type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.geekwire.com/","name":"GeekWire"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.geekwire.com/transportation/","name":"Transportation"}},{"@type":"ListItem","position":3,"item":{"name":"Researchers test new and improved systems to track drones","image":"https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg"}}]}</SCRIPT>
+ 
+<META content="https://www.geekwire.com/2017/zipline-expands-medical-drone-delivery-tanzania-aid-gates-foundation/" 
+property="og:see_also"> 
+<META content="https://www.geekwire.com/2018/boeing-horizonx-gets-15m-funding-round-fortem-drone-radar-venture/" 
+property="og:see_also"> 
+<META content="https://www.geekwire.com/2018/10-localities-win-federal-approval-push-limits-drones-amazons-left/" 
+property="og:see_also"> 
+<META content="https://www.geekwire.com/2018/drone-deliveries-going-happen-despite-regulatory-hurdles-says-drone-mapping-startup-ceo/" 
+property="og:see_also"> <LINK href="//s0.wp.com" rel="dns-prefetch"> <LINK href="//fonts.googleapis.com" 
+rel="dns-prefetch"> <LINK href="//d1azc1qln24ryf.cloudfront.net" rel="dns-prefetch"> 
+<LINK href="//code.jquery.com" rel="dns-prefetch"> <LINK href="18_08_15_GeekWire_files/widget-calendar-full.css" 
+rel="stylesheet"> <LINK href="18_08_15_GeekWire_files/tribe-events-pro-full.min.css" 
+rel="stylesheet"> <LINK href="18_08_15_GeekWire_files/tribe-events-pro-full-mobile.min.css" 
+rel="stylesheet" media="only screen and (max-width: 768px)"> <LINK href="18_08_15_GeekWire_files/dashicons.min.css" 
+rel="stylesheet"> <LINK href="18_08_15_GeekWire_files/social-icons.css" rel="stylesheet"> 
+<LINK href="18_08_15_GeekWire_files/css.css" rel="stylesheet"> <LINK href="18_08_15_GeekWire_files/style-cf.css" 
+rel="stylesheet"> <LINK href="18_08_15_GeekWire_files/main-c161a8fce4.css" rel="stylesheet"> 
+<SCRIPT src="18_08_15_GeekWire_files/jquery-1.12.4.min.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var TribeMiniCalendar = {"ajaxurl":"https:\/\/www.geekwire.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT>(window.jQuery && jQuery.noConflict()) || document.write('<script src="https://www.geekwire.com/wp-includes/js/jquery/jquery.js"><\/script>')</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/widget-calendar.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/bootstrap-datepicker.min.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/jquery.ba-resize.min.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/jquery.placeholder.min.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var tribe_js_config = {"permalink_settings":"\/%year%\/%postname%\/","events_post_type":"tribe_events","events_base":"https:\/\/www.geekwire.com\/calendar\/"};
+var tribe_js_config = {"permalink_settings":"\/%year%\/%postname%\/","events_post_type":"tribe_events","events_base":"https:\/\/www.geekwire.com\/calendar\/"};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/tribe-events.min.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var TribeEventsPro = {"geocenter":{"max_lat":49.288695,"max_lng":-77.032263,"min_lat":-12.047047,"min_lng":-123.111191},"map_tooltip_event":"Event: ","map_tooltip_address":"Address: "};
+var TribeEventsPro = {"geocenter":{"max_lat":49.288695,"max_lng":-77.032263,"min_lat":-12.047047,"min_lng":-123.111191},"map_tooltip_event":"Event: ","map_tooltip_address":"Address: "};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/tribe-events-pro.min.js"></SCRIPT>
+			 
+<META content="194162997274121" property="fb:pages">							 
+<META content="https://www.geekwire.com/2018/drone-tracking-experiments/?ia_markup=1" 
+property="ia:markup_url">				 
+<SCRIPT>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21513116-1', 'auto');
+  ga('require', 'linkid');
+  ga('require', 'displayfeatures');
+    ga('set', 'title', 'No GPS? No problem! Researchers test new and improved systems to track drones');
+    ga('set', 'dimension1', 'Alan Boyle');
+      ga('set', 'dimension2', 'Science, Transportation');
+        ga('send', 'pageview');
+</SCRIPT>
+ <!-- Facebook Pixel Code --> 
+<SCRIPT>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '451545185034187');
+fbq('track', 'PageView');
+</SCRIPT>
+ <!-- End Facebook Pixel Code --> 
+<SCRIPT>
+    fbq('track', 'ViewContent', {
+    content_category: 'Science',
+    referrer: document.referrer,
+    userAgent: navigator.userAgent,
+    language: navigator.language
+    });
+</SCRIPT>
+ 
+<SCRIPT>
+    fbq('track', 'ViewContent', {
+    content_category: 'Transportation',
+    referrer: document.referrer,
+    userAgent: navigator.userAgent,
+    language: navigator.language
+    });
+</SCRIPT>
+ 
+<META name="tec-api-version" content="v1">
+<META name="tec-api-origin" content="https://www.geekwire.com"><LINK href="https://www.geekwire.com/wp-json/tribe/events/v1/" 
+rel="https://theeventscalendar.com/">
+<STYLE type="text/css">img#wpstats{display:none}</STYLE>
+
+<SCRIPT>
+var pbjs = pbjs || {};
+pbjs.que = pbjs.que || [];
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+pbjs.que.push(function() {
+    pbjs.setConfig({
+        "bidderTimeout": 1000,
+        "enableSendAllBids": true,
+        "priceGranularity": "dense",
+        "publisherDomain": "https://www.geekwire.com"
+    });
+});
+
+googletag.cmd.push(function() {
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().disableInitialLoad();
+});
+
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+(function() {
+    var pbjsEl = document.createElement("script");
+    pbjsEl.type = "text/javascript";
+    pbjsEl.async = true;
+    pbjsEl.src = "/wp-content/themes/geekwire/assets/vendor/prebid/prebid-1.20.0.js";
+    var pbjsTargetEl = document.getElementsByTagName("head")[0];
+    pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+})();
+
+//load APS async
+!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+apstag.init({
+     pubID: 'd5685bed-dabf-4fa2-972a-8fad01c5ca6d',
+     adServer: 'googletag',
+     bidTimeout: 2e3
+});
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/f.txt" async=""></SCRIPT>
+ 
+<SCRIPT>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1002278246661698",
+    enable_page_level_ads: true
+  });
+</SCRIPT>
+			 
+<STYLE type="text/css">
+				html:not( .jetpack-lazy-images-js-enabled ) .jetpack-lazy-image {
+					display: none;
+				}
+			</STYLE>
+			 
+<SCRIPT>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</SCRIPT>
+		 <LINK href="https://www.geekwire.com/2018/drone-tracking-experiments/amp/" 
+rel="amphtml">  
+<META name="application-name" content="GeekWire">   
+<META name="apple-mobile-web-app-title" content="GeekWire">   <LINK href="/favicon.ico" 
+rel="Shortcut Icon">   <LINK href="/apple-touch-icon-57x57.png" rel="apple-touch-icon" 
+sizes="57x57">   <LINK href="/apple-touch-icon-60x60.png" rel="apple-touch-icon" 
+sizes="60x60">   <LINK href="/apple-touch-icon-72x72.png" rel="apple-touch-icon" 
+sizes="72x72">   <LINK href="/apple-touch-icon-76x76.png" rel="apple-touch-icon" 
+sizes="76x76">   <LINK href="/apple-touch-icon-114x114.png" rel="apple-touch-icon" 
+sizes="114x114">   <LINK href="/apple-touch-icon-120x120.png" rel="apple-touch-icon" 
+sizes="120x120">   <LINK href="/apple-touch-icon-144x144.png" rel="apple-touch-icon" 
+sizes="144x144">   <LINK href="/apple-touch-icon-152x152.png" rel="apple-touch-icon" 
+sizes="152x152">   <LINK href="/apple-touch-icon-180x180.png" rel="apple-touch-icon" 
+sizes="180x180">   <LINK href="/favicon-32x32.png" rel="icon" type="image/png" 
+sizes="32x32">   <LINK href="/favicon-16x16.png" rel="icon" type="image/png" 
+sizes="16x16">   <LINK href="/safari-pinned-tab.svg" rel="mask-icon" color="#cb4d28"> 
+  <LINK title="GeekWire Feed" href="https://www.geekwire.com/feed/" rel="alternate" 
+type="application/rss+xml"> 
+<META name="twitter:widgets:link-color" content="#be4825"> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY class="post-template-default single single-post postid-440815 single-format-standard tribe-no-js tribe-theme-geekwire drone-tracking-experiments" 
+data-categories="science,transportation"><!--[if lt IE 9]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]--> 
+  <NOSCRIPT> &lt;img height="1" width="1" 
+src="https://www.facebook.com/tr?id=451545185034187&amp;ev=PageView&amp;noscript=1"/&gt; 
+</NOSCRIPT> 
+<SCRIPT>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '364309080316986',
+      autoLogAppEvents : true,
+      xfbml      : true,
+      version    : 'v2.12'
+    });
+    FB.Event.subscribe('edge.create',function(targetUrl){
+        if (window.ga && ga.loaded) {
+            ga('send', 'social', 'facebook', 'like', targetUrl);
+        }
+    });
+
+    FB.Event.subscribe('edge.remove',function(targetUrl){
+        if (window.ga && ga.loaded) {
+            ga('send', 'social', 'facebook', 'unlike', targetUrl);
+        }
+    });
+
+    FB.Event.subscribe('message.send',function(targetUrl) {
+        if (window.ga && ga.loaded) {
+            ga('send', 'social', 'facebook', 'send', targetUrl);
+        }
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</SCRIPT>
+ <HEADER class="banner navbar navbar-inverse navbar-fixed-top">
+<DIV class="container">
+<DIV class="navbar-header"><BUTTON class="right-toggle collapsed" type="button" 
+data-toggle="collapse" data-target="#search-collapse"><SPAN 
+class="sr-only">Toggle search box</SPAN>             <SPAN 
+class="icon-search3"></SPAN>         </BUTTON>       <BUTTON class="left-toggle collapsed" 
+type="button" data-toggle="collapse" data-target="#nav-collapse"><SPAN class="sr-only">Toggle 
+navigation</SPAN>         <SPAN class="icon-menu9"></SPAN>       </BUTTON>       
+<DIV id="navbar-logo"><A class="right-click-redirect" href="https://www.geekwire.com/"><IMG 
+width="200" height="37" alt="GeekWire" src="18_08_15_GeekWire_files/geekwire-navbar-logo.png"> 
+        </A>       </DIV></DIV><NAV class="nav-primary collapse navbar-collapse navbar-left" 
+id="nav-collapse">
+<UL class="nav navbar-nav" id="menu-primary-menu">
+  <LI class="visible-xs-block menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-131145" 
+  id="menu-item-131145" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="Home" 
+  href="https://www.geekwire.com/">Home</A></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-130997 dropdown" 
+  id="menu-item-130997" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="News" class="dropdown-toggle" aria-haspopup="true" 
+  href="https://www.geekwire.com/2018/drone-tracking-experiments/#" data-toggle="dropdown">News 
+  <SPAN class="caret"></SPAN></A>
+  <UL class=" dropdown-menu" role="menu">
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-130999" 
+    id="menu-item-130999" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Amazon" href="https://www.geekwire.com/amazon/">Amazon</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-130998" 
+    id="menu-item-130998" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Microsoft" href="https://www.geekwire.com/microsoft/">Microsoft</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-136166" 
+    id="menu-item-136166" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Startups" href="https://www.geekwire.com/startups/">Startups</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-210039" 
+    id="menu-item-210039" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Space" href="https://www.geekwire.com/space/">Space</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-210038" 
+    id="menu-item-210038" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Science" href="https://www.geekwire.com/science/">Science</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-181934" 
+    id="menu-item-181934" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Sports Tech" href="https://www.geekwire.com/sports/">Sports 
+    Tech</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-252588" 
+    id="menu-item-252588" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Cloud Tech - presented by Salesforce" href="https://www.geekwire.com/cloud/">Cloud 
+    Tech <SPAN class="text-muted small">– presented by 
+Salesforce</SPAN></A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-429858" 
+    id="menu-item-429858" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="TLDR - presented by ReachNow" href="https://www.geekwire.com/tldr/">TLDR<SPAN 
+    class="text-muted small">– presented by ReachNow</SPAN></A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-141414" 
+    id="menu-item-141414" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Geek Life" href="https://www.geekwire.com/geeklife/">Geek 
+    Life</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131038" 
+    id="menu-item-131038" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Podcast" href="https://www.geekwire.com/podcast/">Podcast</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131000" 
+    id="menu-item-131000" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Apple" href="https://www.geekwire.com/apple/">Apple</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131034" 
+    id="menu-item-131034" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Google" href="https://www.geekwire.com/google/">Google</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-282219" 
+    id="menu-item-282219" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Impact Series" href="https://www.geekwire.com/impact-series/">Impact 
+    Series</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-282220" 
+    id="menu-item-282220" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Real Estate" href="https://www.geekwire.com/real-estate/">Real 
+    Estate</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-375856" 
+    id="menu-item-375856" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Civic Innovation" href="https://www.geekwire.com/civic-innovation/">Civic 
+    Innovation</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-429857" 
+    id="menu-item-429857" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Health/Life Sciences" href="https://www.geekwire.com/health/">Health/Life 
+    Sciences</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131035" 
+    id="menu-item-131035" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="App of the Week" href="https://www.geekwire.com/app-of-the-week/">App 
+    of the Week</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155802" 
+    id="menu-item-155802" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Geek of the Week" href="https://www.geekwire.com/geek-of-the-week/">Geek 
+    of the Week</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-131039" 
+    id="menu-item-131039" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Startup Spotlight" href="https://www.geekwire.com/startup-spotlight/">Startup 
+    Spotlight</A></LI>
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-275453" 
+    id="menu-item-275453" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Geek Home of the Week by Realogics Sotheby's" 
+    href="https://www.geekwire.com/home-of-the-week/">Geek Home of the Week 
+    <SPAN class="text-muted small">by Realogics Sotheby’s</SPAN></A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429850" 
+    id="menu-item-429850" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Shift presented by Intel" href="https://www.geekwire.com/shift-presented-intel-geekwire/">Shift 
+    <SPAN class="text-muted small">presented by Intel</SPAN></A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-282221" 
+    id="menu-item-282221" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Working Geek" href="https://www.geekwire.com/working-geek/">Working 
+    Geek</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155801" 
+    id="menu-item-155801" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Tech Moves" href="https://www.geekwire.com/tech-moves/">Tech 
+    Moves</A></LI>
+    <LI class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155803" 
+    id="menu-item-155803" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Launch Pads" href="https://www.geekwire.com/launchpads/">Launch 
+    Pads</A></LI></UL></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131041" 
+  id="menu-item-131041" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="Jobs" 
+  href="https://www.geekwire.com/jobs/">Jobs</A></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-131042 dropdown" 
+  id="menu-item-131042" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="Events" class="dropdown-toggle" aria-haspopup="true" 
+  href="https://www.geekwire.com/2018/drone-tracking-experiments/#" data-toggle="dropdown">Events 
+  <SPAN class="caret"></SPAN></A>
+  <UL class=" dropdown-menu" role="menu">
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131043" 
+    id="menu-item-131043" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire Events" href="https://www.geekwire.com/events/">GeekWire 
+    Events</A></LI>
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131044" 
+    id="menu-item-131044" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Community Calendar" href="https://www.geekwire.com/calendar/">Community 
+    Calendar</A></LI></UL></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-131045 dropdown" 
+  id="menu-item-131045" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="Resources" class="dropdown-toggle" 
+  aria-haspopup="true" href="https://www.geekwire.com/2018/drone-tracking-experiments/#" 
+  data-toggle="dropdown">Resources <SPAN class="caret"></SPAN></A>
+  <UL class=" dropdown-menu" role="menu">
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131046" 
+    id="menu-item-131046" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Memberships" href="https://www.geekwire.com/memberships/">Memberships</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131047" 
+    id="menu-item-131047" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Health Benefits" href="https://www.geekwire.com/health-benefits/">Health 
+    Benefits</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131048" 
+    id="menu-item-131048" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire Startup Resources" href="https://www.geekwire.com/startup-resources/">GeekWire 
+    Startup Resources</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131049" 
+    id="menu-item-131049" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire Startup List" href="https://www.geekwire.com/startup-list/">GeekWire 
+    Startup List</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131050" 
+    id="menu-item-131050" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire 200" href="https://www.geekwire.com/geekwire-200/">GeekWire 
+    200</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166477" 
+    id="menu-item-166477" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Seattle Engineering Centers" href="https://www.geekwire.com/engineering-centers/">Seattle 
+    Engineering Centers</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179639" 
+    id="menu-item-179639" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire Startup Spaces" href="https://www.geekwire.com/startup-spaces/">GeekWire 
+    Startup Spaces</A></LI>
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131788" 
+    id="menu-item-131788" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="GeekWire Store" href="http://store.geekwire.com/">GeekWire 
+    Store</A></LI>
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131051" 
+    id="menu-item-131051" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Community Calendar" href="https://www.geekwire.com/calendar/">Community 
+    Calendar</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365878" 
+    id="menu-item-365878" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Amazon Office Buildings" href="https://www.geekwire.com/amazon-office-buildings/">Amazon 
+    Office Buildings</A></LI></UL></LI>
+  <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-131052 dropdown" 
+  id="menu-item-131052" itemtype="https://www.schema.org/SiteNavigationElement" 
+  itemscope="itemscope"><A title="About" class="dropdown-toggle" aria-haspopup="true" 
+  href="https://www.geekwire.com/2018/drone-tracking-experiments/#" data-toggle="dropdown">About 
+  <SPAN class="caret"></SPAN></A>
+  <UL class=" dropdown-menu" role="menu">
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131053" 
+    id="menu-item-131053" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="About GeekWire" href="https://www.geekwire.com/about-geekwire/">About 
+    GeekWire</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231614" 
+    id="menu-item-231614" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Email Newsletters" href="https://www.geekwire.com/newsletters/">Email 
+    Newsletters</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131054" 
+    id="menu-item-131054" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Contact Us" href="https://www.geekwire.com/contact-us/">Contact 
+    Us</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131055" 
+    id="menu-item-131055" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Advertise" href="https://www.geekwire.com/advertise/">Advertise</A></LI>
+    <LI class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131056" 
+    id="menu-item-131056" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Sponsors" href="https://www.geekwire.com/sponsors/">Sponsors</A></LI>
+    <LI class="menu-item menu-item-type-custom menu-item-object-custom menu-item-292562" 
+    id="menu-item-292562" itemtype="https://www.schema.org/SiteNavigationElement" 
+    itemscope="itemscope"><A title="Reprints &amp; Permissions" href="http://geekwirereprints.magreprints.com/">Reprints 
+    &amp; Permissions</A></LI></UL></LI></UL>
+<UL class="nav navbar-nav nav-social">
+  <LI><A href="https://www.facebook.com/geekwire"><SPAN 
+  class="icon-facebook"></SPAN></A></LI>
+  <LI><A href="https://twitter.com/intent/user?screen_name=GeekWire"><SPAN 
+  class="icon-twitter"></SPAN></A></LI>
+  <LI><A href="https://www.geekwire.com/rss-feeds/"><SPAN 
+  class="icon-feed2"></SPAN></A></LI>
+  <LI><A href="https://www.geekwire.com/podcast/"><SPAN 
+  class="icon-mic"></SPAN></A></LI>
+  <LI><A 
+  href="https://www.youtube.com/subscription_center?add_user=GeekWire"><SPAN 
+  class="icon-youtube3"></SPAN></A></LI></UL></NAV>       
+<DIV class="collapse navbar-collapse navbar-right" id="search-collapse">
+<FORM class="navbar-form" role="search" action="https://www.geekwire.com/" 
+method="get">
+<DIV class="form-group has-feedback"><LABEL class="sr-only" 
+for="search-box">Search for:</LABEL>                 <INPUT name="s" class="search-field form-control input-sm" id="search-box" required="" type="search" placeholder="Search" value=""><SPAN 
+class="icon-search3 form-control-feedback"></SPAN></DIV></FORM></DIV></DIV></HEADER>
+<DIV class="container">
+<DIV id="ad-leaderboard"></DIV></DIV>
+<DIV id="left_newsfeed" role="tabpanel">
+<UL class="nav nav-tabs nav-justified" id="left_newsfeed_header" 
+  role="tablist"><LI class="active" role="presentation"><A role="tab" 
+  aria-controls="news-stream" href="https://www.geekwire.com/2018/drone-tracking-experiments/#news-stream" 
+  data-toggle="tab"><B>LATEST</B></A></LI>
+  <LI role="presentation"><A role="tab" aria-controls="popular" href="https://www.geekwire.com/2018/drone-tracking-experiments/#popular" 
+  data-toggle="tab"><B>POPULAR</B></A></LI></UL>
+<DIV class="tab-content">
+<DIV class="tab-pane fade in active" id="news-stream" role="tabpanel">
+<UL>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/salesforce-plans-open-source-technology-behind-einstein-machine-learning-services/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/11/SalesforceWest_FrontExterior-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/11/SalesforceWest_FrontExterior-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/11/SalesforceWest_FrontExterior-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/salesforce-plans-open-source-technology-behind-einstein-machine-learning-services/">Salesforce 
+  plans to open-source the technology behind its Einstein machine-learning 
+  services</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/elon-musks-boring-company-takes-swing-building-dugout-loop-l-dodger-stadium/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Dugout Loop terminus" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-dugout-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-dugout-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-dugout-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/elon-musks-boring-company-takes-swing-building-dugout-loop-l-dodger-stadium/">Elon 
+  Musk’s Boring Company takes a swing at building Dugout Loop to Dodger 
+  Stadium</A></LI>
+  <LI class="newsfeed_adunit">
+  <DIV id="ad-left_rail_newsfeed"></DIV></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/amazon-movie-theaters-tech-giant-vying-acquire-landmark-chain-report-says/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/bezos-theater-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/bezos-theater-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/bezos-theater-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/amazon-movie-theaters-tech-giant-vying-acquire-landmark-chain-report-says/">Amazon 
+  movie theaters? Tech giant vying to acquire Landmark chain, report 
+  says</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/russians-toss-satellites-install-animal-tracking-system-overtime-spacewalk/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Satellite deployment" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-spacewalk-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-spacewalk-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-spacewalk-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/russians-toss-satellites-install-animal-tracking-system-overtime-spacewalk/">Russians 
+  toss satellites and install animal tracking system in marathon 
+  spacewalk</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/tldr-alexa-cortana-integrations-now-available-thousands-block-fortune-500-companies-twitter-t-mobile-wants-fix-customer-service/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/thumb-use-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/thumb-use-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/thumb-use-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/tldr-alexa-cortana-integrations-now-available-thousands-block-fortune-500-companies-twitter-t-mobile-wants-fix-customer-service/">TLDR: 
+  Alexa-Cortana integrations now available, thousands block Fortune 500 
+  companies on Twitter, T-Mobile wants to fix customer service</A></LI>
+  <LI class="active"><A class="thumb" href="https://www.geekwire.com/2018/drone-tracking-experiments/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Intel Falcon 8+ drone" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/drone-tracking-experiments/">No GPS? No 
+  problem! Researchers test new and improved systems to track drones</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/geared-podcast-galaxy-note-9-hands-review/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Note9-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Note9-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Note9-300x300.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Note9.jpg 747w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Note9-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/geared-podcast-galaxy-note-9-hands-review/">Geared 
+  Up Podcast: Galaxy Note 9 hands-on review</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/alphabets-sidewalk-labs-reveals-plans-toronto-innovation-district-featuring-light-streets-timber-towers/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/silo_park_png-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/silo_park_png-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/silo_park_png-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/alphabets-sidewalk-labs-reveals-plans-toronto-innovation-district-featuring-light-streets-timber-towers/">Alphabet’s 
+  Sidewalk Labs reveals plans for Toronto innovation district featuring light-up 
+  streets and timber towers</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/perfect-storm-wildfires-puts-seattles-terrible-air-quality-record-books/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Space Needle view of Seattle skyline" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/perfect-storm-wildfires-puts-seattles-terrible-air-quality-record-books/">A 
+  ‘perfect storm’ of wildfires puts Seattle’s terrible air quality in the record 
+  books</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/republicans-outraged-poster-pearl-jams-montana-concert-depicts-white-house-burning/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Pearl Jam poster" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/PJtease-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/PJtease-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/PJtease-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/republicans-outraged-poster-pearl-jams-montana-concert-depicts-white-house-burning/">Republicans 
+  outraged after poster for Pearl Jam’s Montana concert depicts White House 
+  burning</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/clobotics/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Team-pic_Clobotics-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Team-pic_Clobotics-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Team-pic_Clobotics-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/clobotics/">Clobotics lands $11M to keep 
+  wind turbines spinning safely with drones and AI</A></LI>
+  <LI class="newsfeed_adunit">
+  <DIV id="ad-left_rail_newsfeed_bottom" 
+data-loader="leftRailBottom"></DIV></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/seattle-neighborhood-poses-main-street-usa-dell-emc-commercial-new-cloud-marketplace/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/IMG_7075-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/IMG_7075-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/IMG_7075-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/seattle-neighborhood-poses-main-street-usa-dell-emc-commercial-new-cloud-marketplace/">Dell 
+  EMC opening a retail store in Seattle? Turns out this storefront isn’t what it 
+  seems</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/week-geek-podcast-saga-stolen-plane-flaws-revealed-airport-security/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/week-geek-podcast-saga-stolen-plane-flaws-revealed-airport-security/">Week 
+  in Geek Podcast: The saga of the stolen plane — and the flaws it revealed in 
+  airport security</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/yc-combinator-open-research-lab-seattle-hires-former-microsoft-exec-qi-lu-new-china-arm/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Qi Lu" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/05/qilu-233x300-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/05/qilu-233x300-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/05/qilu-233x300-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/yc-combinator-open-research-lab-seattle-hires-former-microsoft-exec-qi-lu-new-china-arm/">Y 
+  Combinator to open research lab in Seattle, hires former Microsoft exec Qi Lu 
+  for new China arm</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/cortana-meets-alexa-lesson-no-1-keep-windows-10-pc-away-amazon-echo/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/cortana-meets-alexa-lesson-no-1-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/cortana-meets-alexa-lesson-no-1-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/cortana-meets-alexa-lesson-no-1-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/cortana-meets-alexa-lesson-no-1-keep-windows-10-pc-away-amazon-echo/">Cortana 
+  meets Alexa, Lesson No. 1: Keep your Windows 10 PC away from your Amazon 
+  Echo</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/americans-believe-tech-companies-regulated-like-news-publishers-survey-finds/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/fix-facebook-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/fix-facebook-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/fix-facebook-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/americans-believe-tech-companies-regulated-like-news-publishers-survey-finds/">Most 
+  Americans believe tech companies should be regulated like news publishers, 
+  survey finds</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/seahawks-qb-russell-wilson-another-new-startup-limitless-minds-applies-mental-lessons-sports-business/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_97-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_97-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_97-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/seahawks-qb-russell-wilson-another-new-startup-limitless-minds-applies-mental-lessons-sports-business/">Seahawks 
+  QB Russell Wilson has another new startup: Limitless Minds applies mental 
+  lessons from sports to business</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/t-mobiles-next-un-carrier-target-customer-service/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/t-mobiles-next-un-carrier-target-customer-service/">T-Mobile’s 
+  next ‘Un-carrier’ target: Customer service</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/loves-biking-birds-beer-quadriplegic-turns-tech-aid-wheelchair-ride-across-washington/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/image1-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/image1-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/image1-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/loves-biking-birds-beer-quadriplegic-turns-tech-aid-wheelchair-ride-across-washington/">Quadriplegic 
+  man keeps on riding, using tech to enable 475-mile trip across state</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/valence-group-acquires-seattle-studio-8ninths-harness-expertise-vr-ar-technology/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/AdamJimWilliam1-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/AdamJimWilliam1-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/AdamJimWilliam1-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/valence-group-acquires-seattle-studio-8ninths-harness-expertise-vr-ar-technology/">Valence 
+  Group acquires Seattle studio 8ninths to harness expertise in VR and AR 
+  technology</A></LI></UL></DIV>
+<DIV class="tab-pane fade" id="popular" role="tabpanel">
+<UL>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/stolen-plane-forced-f-15s-south-seattle-seatac-airport-temporarily-grounded-amid-security-threat/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/fighterjet-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/stolen-plane-forced-f-15s-south-seattle-seatac-airport-temporarily-grounded-amid-security-threat/">Airline 
+  employee steals plane from Sea-Tac, does aerial tricks with F-15s in pursuit 
+  before crashing on island south of Seattle</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/inside-stolen-passenger-plane-played-video-games-know-im-little-bit/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/audio-video-of-fatal-flight-i-pl-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/audio-video-of-fatal-flight-i-pl-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/audio-video-of-fatal-flight-i-pl-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/inside-stolen-passenger-plane-played-video-games-know-im-little-bit/">Inside 
+  the stolen passenger plane: ‘I played video games before, so I know what I’m 
+  doing, a little bit’</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/seattleites-likely-move-amazon-hq2-cities-give-edge/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Migration-Map-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Migration-Map-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Migration-Map-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/seattleites-likely-move-amazon-hq2-cities-give-edge/">Seattleites 
+  are most likely to move to these Amazon HQ2 cities — does that give them an 
+  edge?</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/redfin-ceo-warns-slowing-national-real-estate-market-frustrated-buyers-sitting/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/06/20180601_Tech_Alliance_48-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/06/20180601_Tech_Alliance_48-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/06/20180601_Tech_Alliance_48-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/redfin-ceo-warns-slowing-national-real-estate-market-frustrated-buyers-sitting/">Redfin 
+  CEO warns of slowing national real estate market, as frustrated buyers are 
+  sitting out</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/stars-align-near-perfect-perseid-meteor-shower-heres-catch/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2016/08/20160812_Mt_Rainier_2082-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2016/08/20160812_Mt_Rainier_2082-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2016/08/20160812_Mt_Rainier_2082-50x50.jpg 50w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2016/08/20160812_Mt_Rainier_2082-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/stars-align-near-perfect-perseid-meteor-shower-heres-catch/">The 
+  stars align for a near-perfect Perseid meteor shower: Here’s how to catch 
+  it</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/satya-nadella-offloads-36m-microsoft-stock-biggest-sale-tenure-ceo/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2016/10/20160926_Microsoft_Ignite_1151-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2016/10/20160926_Microsoft_Ignite_1151-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2016/10/20160926_Microsoft_Ignite_1151-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/satya-nadella-offloads-36m-microsoft-stock-biggest-sale-tenure-ceo/">Satya 
+  Nadella offloads $36M in Microsoft stock in biggest sale in his tenure as 
+  CEO</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/paul-allens-stratolaunch-venture-rolls-worlds-biggest-airplane-weekend-tests/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Stratolaunch airplane" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180812-stratolaunch-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180812-stratolaunch-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180812-stratolaunch-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/paul-allens-stratolaunch-venture-rolls-worlds-biggest-airplane-weekend-tests/">Paul 
+  Allen’s Stratolaunch venture rolls out world’s biggest airplane for weekend 
+  tests</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/hey-roomie-im-alexa-saint-louis-university-putting-2300-amazon-echo-dots-student-housing/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/slu-alexa-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/slu-alexa-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/slu-alexa-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/hey-roomie-im-alexa-saint-louis-university-putting-2300-amazon-echo-dots-student-housing/">Hey, 
+  roomie, I’m Alexa: Saint Louis University putting 2,300 Amazon Echo Dots in 
+  student housing</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/offerup-raising-ton-cash-battles-craigslist-ebay-facebook-others/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2015/11/OfferUp-Photo-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2015/11/OfferUp-Photo-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2015/11/OfferUp-Photo-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/offerup-raising-ton-cash-battles-craigslist-ebay-facebook-others/">OfferUp 
+  is raising a ton of cash as it battles Craigslist, eBay, Facebook and 
+  others</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/google-doubles-massive-seattle-campus-plans-another-new-building-amazons-backyard/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/07/IMG_5762-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/07/IMG_5762-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/07/IMG_5762-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/google-doubles-massive-seattle-campus-plans-another-new-building-amazons-backyard/">Google 
+  doubles down on massive Seattle campus with another new building in Amazon’s 
+  backyard</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/microsoft-amazon-begin-public-roll-first-alexa-cortana-integrations-promising-come/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Photo-Cortana-Alexa-demo-Microsoft-Build-2018-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Photo-Cortana-Alexa-demo-Microsoft-Build-2018-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Photo-Cortana-Alexa-demo-Microsoft-Build-2018-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/microsoft-amazon-begin-public-roll-first-alexa-cortana-integrations-promising-come/">Microsoft 
+  and Amazon begin public rollout of first Alexa-Cortana integrations, promise 
+  more to come</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/t-mobiles-next-un-carrier-target-customer-service/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/05/20180510_GeekWire_Awards_1083-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/t-mobiles-next-un-carrier-target-customer-service/">T-Mobile’s 
+  next ‘Un-carrier’ target: Customer service</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/perfect-storm-wildfires-puts-seattles-terrible-air-quality-record-books/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Space Needle view of Seattle skyline" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-skyline-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/perfect-storm-wildfires-puts-seattles-terrible-air-quality-record-books/">A 
+  ‘perfect storm’ of wildfires puts Seattle’s terrible air quality in the record 
+  books</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/ofo-confirms-seattle-departure-date-promises-refunds-riders/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/01/ofo-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/01/ofo-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/01/ofo-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/ofo-confirms-seattle-departure-date-promises-refunds-riders/">Ofo 
+  confirms Seattle departure date, promises refunds to riders</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/homelessness-employment-numbers-say-jobs-economy-housing-affordability/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/06/homeless-camp-ballard-IMG_2629-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/06/homeless-camp-ballard-IMG_2629-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/06/homeless-camp-ballard-IMG_2629-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/homelessness-employment-numbers-say-jobs-economy-housing-affordability/">Homelessness 
+  and jobs: What the numbers say</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/seahawks-qb-russell-wilson-reveals-roots-real-estate-nerd-zillow-appearance/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_23-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_23-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/20180810_Russell_Wilson_Zillow_23-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/seahawks-qb-russell-wilson-reveals-roots-real-estate-nerd-zillow-appearance/">Seahawks 
+  QB Russell Wilson reveals roots as a real estate nerd in Zillow 
+  appearance</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/pentagon-cloud-contract-balance-microsofts-hybrid-cloud-product-azure-stack-now-certified-government-use/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/10/120213-F-MG591-256-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/10/120213-F-MG591-256-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/10/120213-F-MG591-256-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/pentagon-cloud-contract-balance-microsofts-hybrid-cloud-product-azure-stack-now-certified-government-use/">With 
+  Pentagon cloud contract in the balance, Microsoft’s hybrid-cloud product, 
+  Azure Stack, now certified for government use</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/microsoft-touts-xbox-gaming-subscription-service-new-sounders-fc-jersey-design/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+  data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Lodeiro-Xbox-Game-Pass-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Lodeiro-Xbox-Game-Pass-150x150.png 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Lodeiro-Xbox-Game-Pass-100x100.png"></A><A 
+  href="https://www.geekwire.com/2018/microsoft-touts-xbox-gaming-subscription-service-new-sounders-fc-jersey-design/">Microsoft 
+  touts Xbox gaming subscription service with new Sounders FC jersey 
+  design</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/horizon-air-employees-fatal-joyride-points-gaps-airport-security/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="Rogue plane" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180811-airplane-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180811-airplane-150x150.jpg 150w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180811-airplane-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/horizon-air-employees-fatal-joyride-points-gaps-airport-security/">Horizon 
+  Air employee’s fatal joyride points to gaps in airport security, and we’re 
+  lucky it wasn’t worse</A></LI>
+  <LI><A class="thumb" href="https://www.geekwire.com/2018/blue-origin-shows-off-3u-upper-stage-engine-rocket-efforts-ramp/"><IMG 
+  width="100" height="100" class="img-rounded wp-post-image" alt="BE-3U rocket engine" 
+  src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 100px) 100vw, 100px" 
+  data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180810-blue-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180810-blue-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180810-blue-300x300.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180810-blue.jpg 633w" 
+  data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180810-blue-100x100.jpg"></A><A 
+  href="https://www.geekwire.com/2018/blue-origin-shows-off-3u-upper-stage-engine-rocket-efforts-ramp/">Blue 
+  Origin shows off BE-3U upper-stage rocket engine as its many efforts ramp 
+  up</A></LI></UL></DIV></DIV></DIV>
+<DIV class="wrap container" role="document">
+<DIV class="small" id="trending-article"><STRONG>Trending: <A href="https://www.geekwire.com/2018/microsoft-amazon-begin-public-roll-first-alexa-cortana-integrations-promising-come/">Microsoft 
+and Amazon begin public rollout of first Alexa-Cortana integrations, promise 
+more to come</A></STRONG></DIV>
+<DIV class="content row"><main class="main"><ARTICLE class="post-440815 post type-post status-publish format-standard has-post-thumbnail hentry category-science category-transportation tag-aviation tag-choctaw-nation tag-drones tag-intel tag-open-drone-id tag-university-of-washington" 
+itemtype="http://schema.org/NewsArticle" itemscope="">
+<META itemtype="https://schema.org/WebPage" itemscope="" itemid="https://www.geekwire.com/2018/drone-tracking-experiments/" 
+itemprop="mainEntityOfPage">       <HEADER>
+<DIV class="page-header">
+<DIV id="category-heading">
+<DIV class="hidden-xs" id="category-heading-subscribe"><INPUT name="EMAIL" id="mce-email-category" type="email" placeholder="Newsletter signup" value=""></DIV>
+<DIV id="category-heading-title">                      Space &amp; Science       
+           </DIV></DIV>
+<H1 class="entry-title" itemprop="headline">No GPS? No problem! Researchers test 
+new and improved systems to track drones</H1>
+<P class="byline author vcard small"><SPAN class="text-uppercase"><STRONG>by 
+<SPAN itemprop="author"><A title="Posts by Alan Boyle" class="author url fn" 
+href="https://www.geekwire.com/author/alanboyle/" rel="author">Alan 
+Boyle</A></SPAN></STRONG></SPAN> on <time class="published" itemprop="datePublished" 
+datetime="2018-08-15T23:28:52+00:00">August 15, 2018 at 4:28 pm</time><time 
+class="updated hidden" itemprop="dateModified" datetime="2018-08-15T23:32:47+00:00">August 
+15, 2018 at 4:32 pm</time></P>
+<META content="As more and more drones fill the skies, researchers are working on increasingly sophisticated methods to track them under increasingly challenging conditions." 
+itemprop="description">                 
+<DIV itemtype="https://schema.org/ImageObject" itemscope="" itemprop="image">
+<META content="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg" 
+itemprop="url">                     
+<META content="633" itemprop="width">                     
+<META content="609" itemprop="height">                 </DIV>
+<DIV itemtype="https://schema.org/Organization" itemscope="" itemprop="publisher">
+<DIV itemtype="https://schema.org/ImageObject" itemscope="" itemprop="logo">
+<META content="https://www.geekwire.com/wp-content/themes/geekwire/dist/images/geekwire-logo-google.png" 
+itemprop="url">                         
+<META content="324" itemprop="width">                         
+<META content="60" itemprop="height">                     </DIV>
+<META content="GeekWire" itemprop="name">                 </DIV></DIV>
+<DIV class="row">
+<DIV class="col-md-8">
+<DIV class="share hidden-xs"><A class="btn btn-primary btn-sm" href="https://www.geekwire.com/2018/drone-tracking-experiments/#disqus_thread"><SPAN 
+class="icon-bubble"></SPAN> Comments&nbsp;&nbsp;<SPAN class="dsq-postid" 
+data-dsqidentifier="440815 https://www.geekwire.com/?p=440815"></SPAN></A>       
+                <A class="btn btn-facebook btn-sm fb-share"><SPAN class="icon-facebook"></SPAN> 
+Share&nbsp;&nbsp;21</A>                       <A class="btn btn-twitter btn-sm" 
+href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;via=GeekWire&amp;text=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;related=b0yle%3AAuthor"><SPAN 
+class="icon-twitter"></SPAN> Tweet</A>                       <A class="btn btn-linkedin btn-sm" 
+href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;title=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;summary=As%20more%20and%20more%20drones%20fill%20the%20skies%2C%20researchers%20are%20working%20on%20increasingly%20sophisticated%20methods%20to%20track%20them%20under%20increasingly%20challenging%20conditions.&amp;source=GeekWire"><SPAN 
+class="icon-linkedin"></SPAN> Share</A>                       <A class="btn btn-reddit btn-sm" 
+href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F"><SPAN 
+class="icon-reddit"></SPAN> Reddit</A>                       <A class="btn btn-primary btn-sm btn-mailto" 
+href="mailto:?subject=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;body=Article%20from%20GeekWire:%0D%0A%0D%0ANo%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones%0D%0A%0D%0Ahttps%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F%0D%0A"><SPAN 
+class="icon-envelop"></SPAN> Email</A>                   </DIV></DIV>
+<DIV class="col-md-4 hidden-xs">
+<DIV class="share announcement-box"><A class="btn btn-primary btn-sm btn-block" 
+href="https://www.geekwire.com/events/geekwire-summit-2018/">Early-bird tix: The 
+2018 GeekWire Summit!</A></DIV></DIV></DIV></HEADER>
+<DIV class="row">
+<DIV class="col-md-8">
+<DIV class="entry-content clearfix" itemprop="articleBody">
+<P><FIGURE class="wp-caption aligncenter" id="attachment_440832" style="width: 630px;"><IMG 
+width="630" height="420" class="size-full-width wp-image-440832 jetpack-lazy-image" 
+alt="Test drone" src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 630px) 100vw, 630px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-630x420.jpg 630w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-768x512.jpg 768w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-1260x840.jpg 1260w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-630x420.jpg"><NOSCRIPT>&lt;img 
+class="size-full-width wp-image-440832" 
+src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-630x420.jpg" 
+alt="Test drone" width="630" height="420" 
+srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-630x420.jpg 
+630w, 
+https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-768x512.jpg 
+768w, 
+https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone-1260x840.jpg 
+1260w" sizes="(max-width: 630px) 100vw, 630px"&gt;</NOSCRIPT><FIGCAPTION class="wp-caption-text">The 
+University of Washington’s Cory Cantey and Karine Chen prepare a drone nicknamed 
+Papaya for flight at the Columbia Gorge Regional Airport. (UW Autonomous Flight 
+Systems Laboratory Photo)</FIGCAPTION></FIGURE>
+<P></P>
+<P>As more and more drones fill the skies, increasingly sophisticated methods 
+will be required to track them under increasingly challenging conditions. How 
+will they navigate if they lose touch with the Global Positioning System? How 
+will authorities know who to call if a drone goes wrong?</P>
+<P>Two experiments illustrate how those questions are being addressed. One is 
+being conducted by University of Washington researchers at the Columbia Gorge 
+Regional Airport. The other is being done in cooperation with the Choctaw Nation 
+in Oklahoma.</P>
+<DIV class="visible-xs-block text-center" id="ad-300x250_mobile"></DIV>
+<P>First, about that GPS issue …</P>
+<H3>Antenna tracking system for drones</H3>
+<DIV class="jetpack-video-wrapper"><IFRAME width="630" height="354" src="18_08_15_GeekWire_files/container.htm" 
+frameborder="0" allowfullscreen="" 
+allow="autoplay; encrypted-media"></IFRAME></DIV>
+<P>“Right now GPS is the one ring to rule them all: Without it, tiny drones all 
+the way up to commercial aircraft can’t do their jobs. It’s a huge liability,” 
+<A href="http://faculty.washington.edu/lum/">Christopher Lum</A>, a UW research 
+assistant professor of aeronautics and astronautics and the director of 
+the&nbsp;<A href="https://www.aa.washington.edu/research/afsl">Autonomous Flight 
+Systems Laboratory</A>, said today in a<A href="https://www.washington.edu/news/2018/08/15/flying-blind/"> 
+news release</A>.</P>
+<P>Lum and his team have developed a system that’s designed to use a backup 
+navigation technique if GPS satellite links fail. They set up a large 
+ground-based antenna array that can pick up GPS signals from a transponder on a 
+drone, and triangulate on the signals to determine and broadcast the drone’s 
+position.</P>
+<P>“We’re just modifying the autopilot onboard the aircraft,” Lum explained. 
+“Instead of using GPS information to navigate, it’s listening to this message 
+coming from the ground to figure out where it is.”</P>
+<DIV class="visible-xs-block text-center lazy-ad" id="ad-300x250_mid_mobile" 
+data-loader="mobile300x250Mid"></DIV>
+<P>The antenna array was put to the test on June 12 at the Columbia Gorge 
+Regional Airport, which is on the Washington state side of the Columbia River 
+near The Dalles, Ore. A test drone successfully made its way along a 1.25-mile 
+flight path without the use of GPS, with only one deviation that was due to 
+strong winds.</P>
+<P>The team’s next step is to work with T-Mobile to tweak the navigation system 
+so that it works with cellphone towers.</P>
+<P>“T-Mobile has got that black magic to know where a phone is located anywhere 
+within their antenna array,” Lum said. “So instead of being stuck in the 
+Columbia Gorge region, our drones could use the cell network to get that 
+location information anywhere there is cell coverage. It’s beautiful.”</P>
+<P>Eventually, the team aims to incorporate the navigation system into a drone 
+network to transport medical supplies around rural areas of Washington 
+state.</P>
+<H3>Built-in ID system for drones</H3><FIGURE class="wp-caption aligncenter" id="attachment_440831" 
+style="width: 630px;"><IMG width="630" height="606" class="size-full-width wp-image-440831 jetpack-lazy-image" 
+alt="Intel Falcon 8+ drone" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 630px) 100vw, 630px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-630x606.jpg 630w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg 633w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-630x606.jpg"><NOSCRIPT>&lt;img 
+class="size-full-width wp-image-440831" 
+src="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-630x606.jpg" 
+alt="Intel Falcon 8+ drone" width="630" height="606" 
+srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2-630x606.jpg 
+630w, https://cdn.geekwire.com/wp-content/uploads/2018/08/180815-drone2.jpg 
+633w" sizes="(max-width: 630px) 100vw, 630px"&gt;</NOSCRIPT><FIGCAPTION class="wp-caption-text">Team 
+members inspect an Intel Falcon 8+ commercial drone during an Open Drone ID and 
+UAS Integrated Pilot Program event in the Choctaw Nation, outside Durant, Okla. 
+The drone is equipped with thermal sensors for nighttime operations.(Intel 
+Photo)</FIGCAPTION></FIGURE>
+<DIV class="visible-xs-block text-center lazy-ad" id="ad-300x250_mobile_article_bottom" 
+data-loader="mobile300x250ArticleBottom"></DIV>
+<P>Meanwhile, in rural Oklahoma, the Choctaw Nation and its partners have just 
+demonstrated how drones can be used to look for lost cattle, monitor 
+wildlife,&nbsp;lay down bait for wild pigs and take on other agricultural 
+tasks.</P>
+<P>“We see drones as an extension of smart farming technology. Drones provide 
+that next step toward robotics and automation,” <A href="https://www.usatoday.com/story/news/2018/08/15/drones-help-trap-feral-pigs-part-faa-experiment/994498002/">USA 
+Today</A> quoted Mike Komp, an agricultural drone expert at Oklahoma’s Noble 
+Research Institute, as saying.</P>
+<P>Oklahoma’s project is one of <A href="https://www.geekwire.com/2018/10-localities-win-federal-approval-push-limits-drones-amazons-left/">10 
+experiments approved earlier this year</A> by the U.S. Department of 
+Transportation to expand the frontiers for drone operations.</P>
+<P>The Oklahoma experiment is testing <A href="https://newsroom.intel.com/news/intel-advances-safe-integration-drones-us-airspace/">Intel’s 
+Falcon 8+</A> drone, which is equipped with thermal sensors for nighttime 
+operations. It’s also testing a Bluetooth-enabled identification system known as 
+<A href="https://www.opendroneid.org/">Open Drone ID</A>. The beacon-based, 
+wireless system makes it possible to identify drones whenever they’re in range 
+of a receiver, such as an app-equipped smartphone.</P>
+<P>Intel is leading the workgroup that’s developing Open Drone ID to become an 
+ASTM-approved, open-source global standard. If it’s implemented, every drone 
+will broadcast a unique ID as well as its location, direction, altitude, speed, 
+model, base location and other data.</P>
+<P>The technology would address one of the big issues currently surrounding 
+drone operations: how to determine <A href="https://www.faa.gov/news/updates/?newsId=89404&amp;omniRss=news_updatesAoc&amp;cid=101_N_U">who’s 
+responsible for wayward drones</A>. The FAA already has a <A href="https://www.faa.gov/uas/getting_started/registration/">drone 
+registration system</A> in place, but having the ID system built into the drones 
+themselves would ensure compliance.</P></DIV><FOOTER>
+<DIV class="media hidden-xs" id="author-tagline"><A class="media-left" href="https://www.geekwire.com/author/alanboyle/"><IMG 
+width="150" height="150" class="avatar" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 150px) 100vw, 150px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2015/10/alan-boyle-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2015/10/alan-boyle-100x100.jpg 100w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2015/10/alan-boyle-150x150.jpg"></A>
+<DIV class="media-body">
+<DIV class="small"><EM><STRONG>GeekWire aerospace and science editor Alan 
+Boyle</STRONG> is an award-winning science writer and veteran space reporter. 
+Formerly of NBCNews.com, he is the author of "<A href="http://thecaseforpluto.com/">The 
+Case for Pluto: How a Little Planet Made a Big Difference.</A>" Follow him via 
+<A href="http://cosmiclog.com/">CosmicLog.com</A>, on Twitter <A href="https://twitter.com/intent/user?screen_name=b0yle">@b0yle</A>, 
+and on&nbsp;<A href="https://www.facebook.com/alan.boyle">Facebook</A> and <A 
+href="https://plus.google.com/+AlanBoyle">Google+</A>.</EM></DIV></DIV></DIV>
+<DIV class="well clearfix" id="article-footer-ad">
+<H4><A href="https://www.geekwire.com/events/geekwire-summit-2018/">Get your 
+Early Bird Tickets for the GeekWire Summit</A></H4><A href="https://www.geekwire.com/events/geekwire-summit-2018/"><IMG 
+width="267" height="300" class="alignright" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 267px) 100vw, 267px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-267x300.png 267w, https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-768x864.png 768w, https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-630x709.png 630w, https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-200x225.png 200w, https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-89x100.png 89w, https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900.png 800w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/07/Summit-2018-Orange-800x900-267x300.png"></A>
+<DIV>
+<P>What’s next for the innovation economy?</P>
+<P>Find out at<A href="https://www.geekwire.com/summit" target="_blank" rel="noopener noreferrer"> 
+The GeekWire Summit</A>, taking place on Oct. 1-3, 2018 in Seattle, one of the 
+country’s premier technology conferences, bringing together more&nbsp;than 900 
+innovators and tech leaders together for an immersive two-day conference.</P>
+<P>This year’s lineup features the CEO’s of Boeing, The Gates Foundation, Ring, 
+eBay and more. Early bird rates end soon, <A href="https://www.geekwire.com/events/geekwire-summit-2018/">grab 
+your tickets today.</A></P></DIV></DIV>
+<DIV class="share hidden-xs"><A class="btn btn-primary btn-sm" href="https://www.geekwire.com/2018/drone-tracking-experiments/#disqus_thread"><SPAN 
+class="icon-bubble"></SPAN> Comments<SPAN class="dsq-postid" data-dsqidentifier="440815 https://www.geekwire.com/?p=440815"></SPAN></A> 
+                      <A class="btn btn-facebook btn-sm fb-share"><SPAN class="icon-facebook"></SPAN> 
+Share&nbsp;&nbsp;21</A>                       <A class="btn btn-twitter btn-sm" 
+href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;via=GeekWire&amp;text=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;related=b0yle%3AAuthor"><SPAN 
+class="icon-twitter"></SPAN> Tweet</A>                       <A class="btn btn-linkedin btn-sm" 
+href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;title=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;summary=As%20more%20and%20more%20drones%20fill%20the%20skies%2C%20researchers%20are%20working%20on%20increasingly%20sophisticated%20methods%20to%20track%20them%20under%20increasingly%20challenging%20conditions.&amp;source=GeekWire"><SPAN 
+class="icon-linkedin"></SPAN> Share</A>                       <A class="btn btn-reddit btn-sm hidden-xs" 
+href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F"><SPAN 
+class="icon-reddit"></SPAN> Reddit</A>                       <A class="btn btn-primary btn-sm btn-mailto" 
+href="mailto:?subject=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;body=Article%20from%20GeekWire:%0D%0A%0D%0ANo%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones%0D%0A%0D%0Ahttps%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F%0D%0A"><SPAN 
+class="icon-envelop"></SPAN> Email</A>                   </DIV><NAV class="post-nav post-nav-single hidden-xs">
+<UL>
+  <LI class="previous-story"><A href="https://www.geekwire.com/2018/geared-podcast-galaxy-note-9-hands-review/" 
+  rel="prev"><SPAN class="icon-arrow-left2"></SPAN>
+  <H6>Previous Story</H6><SPAN class="text-muted">Geared Up Podcast: Galaxy Note 
+  9 hands-on review</SPAN></A></LI>
+  <LI class="next-story"><A href="https://www.geekwire.com/2018/tldr-alexa-cortana-integrations-now-available-thousands-block-fortune-500-companies-twitter-t-mobile-wants-fix-customer-service/" 
+  rel="next">
+  <H6>Next Story</H6><SPAN class="text-muted">TLDR: Alexa-Cortana integrations 
+  now available, thousands block Fortune 500 companies on Twitter, T-Mobile 
+  wants to fix customer service</SPAN><SPAN 
+  class="icon-arrow-right2"></SPAN></A></LI></UL>
+<DIV class="text-muted hidden-xs"><SMALL><SPAN class="icon-drawer3"></SPAN> 
+Filed Under: <A href="https://www.geekwire.com/science/" 
+rel="category tag">Science</A> • <A href="https://www.geekwire.com/transportation/" 
+rel="category tag">Transportation</A>&nbsp;<SPAN 
+class="icon-price-tags2"></SPAN> Tagged With: <A href="https://www.geekwire.com/tag/aviation/" 
+rel="tag">Aviation</A> • <A href="https://www.geekwire.com/tag/choctaw-nation/" 
+rel="tag">Choctaw Nation</A> • <A href="https://www.geekwire.com/tag/drones/" 
+rel="tag">Drones</A> • <A href="https://www.geekwire.com/tag/intel/" 
+rel="tag">Intel</A> • <A href="https://www.geekwire.com/tag/open-drone-id/" rel="tag">Open 
+Drone ID</A> • <A href="https://www.geekwire.com/tag/university-of-washington/" 
+rel="tag">University of Washington</A></SMALL></DIV></NAV>                       
+          </FOOTER></DIV><ASIDE class="col-md-4 post-sidebar">
+<DIV class="widget hidden-xs">
+<DIV class="text-center" id="ad-300x600_top"></DIV></DIV><SECTION class="widget hidden-xs" 
+id="newsletter-subscribe-sidebar">
+<H3>GeekWire Newsletters</H3>
+<DIV id="subscribe-box">
+<P class="small">Subscribe to GeekWire's Space &amp; Science weekly 
+newsletter</P>
+<FORM name="mc-article-subscribe-form" id="mc-article-subscribe-form" action="//geekwire.us2.list-manage.com/subscribe/post?u=7d9669cf206fb932dea38e25e&amp;id=4e93fc7dfd" 
+method="post" novalidate="">
+<DIV class="form-group">
+<DIV class="input-group"><INPUT name="EMAIL" class="form-control input-sm" id="mce-email-article" type="email" placeholder="Enter your email address" value=""> 
+                                  <LABEL class="sr-only" 
+for="mce-email-article">Email address</LABEL>                                   
+<SPAN class="input-group-btn"><BUTTON name="subscribe" class="btn btn-primary btn-sm" 
+id="mc-subscribe-article" type="submit" value="Subscribe">Subscribe</BUTTON>     
+                              </SPAN>                               </DIV></DIV>
+<DIV class="newsletter-list collapse" id="newsletter-list-article">
+<DIV class="checkbox"><LABEL><INPUT name="group[17][2]" id="mce-daily-article" 
+type="checkbox" checked="" value="2">                                         
+<STRONG>GeekWire Daily</STRONG> - Top headlines daily                            
+         </LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][4]" id="mce-weekly-article" 
+type="checkbox" checked="" value="4">                                         
+<STRONG>GeekWire Weekly</STRONG> - Most-read stories of the week, delivered 
+Sunday                                     </LABEL>                              
+   </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][256]" id="mce-tldr-article" 
+type="checkbox" value="256">                                         
+<STRONG>GeekWire TLDR Afternoon Report</STRONG> - Afternoon roundup of top 
+GeekWire stories, delivered each weekday                                     
+</LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][1]" id="mce-sports-article" 
+type="checkbox" value="1">                                         
+<STRONG>GeekWire Sports Tech</STRONG> - The intersection of sports &amp; 
+technology, delivered weekly                                     </LABEL>        
+                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][16]" id="mce-space-article" 
+type="checkbox" checked="" value="16">                                         
+<STRONG>GeekWire Space &amp; Science</STRONG> - Weekly headlines from Alan 
+Boyle, award-winning aerospace and science editor                                
+     </LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][32]" id="mce-podcast-article" 
+type="checkbox" value="32">                                         
+<STRONG>GeekWire Podcasts</STRONG> — Weekly update with our latest audio 
+episodes                                     </LABEL>                            
+     </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][64]" id="mce-cloudtech-article" 
+type="checkbox" value="64">                                         
+<STRONG>GeekWire Cloud Tech Weekly</STRONG> — Cloud and developer technology, 
+delivered weekly                                     </LABEL>                    
+             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][8]" id="mce-midweek-article" 
+type="checkbox" value="8">                                         
+<STRONG>GeekWire Mid-week Update</STRONG> — Most-read stories so far this week, 
+delivered Wednesday                                     </LABEL>                 
+                </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][128]" id="mce-deals-article" 
+type="checkbox" value="128">                                         
+<STRONG>GeekWire Local Deals</STRONG> — Special offers for Pacific Northwest 
+area readers                                     </LABEL>                        
+         </DIV></DIV>
+<DIV style="left: -5000px; position: absolute;"><INPUT name="b_7d9669cf206fb932dea38e25e_4e93fc7dfd" tabindex="-1" type="text"></DIV></FORM></DIV></SECTION> 
+                            <SECTION class="widget hidden-xs" id="tips-sidebar">
+<H3>Send Us a Tip</H3>
+<P class="small">Have a scoop that you'd like GeekWire to cover? Let us 
+know.</P>
+<DIV class="text-center"><A class="btn btn-primary btn-sm" href="https://www.geekwire.com/tips/">Send 
+Us a Tip</A>                   </DIV></SECTION>                                  
+         
+<DIV class="widget"><!-- 300x250_mid -->                   
+<DIV class="text-center" id="ad-300x250_mid"></DIV></DIV><SECTION class="widget hidden-xs" 
+id="geekwire-events-sidebar">
+<H3><SPAN class="pull-right"><A class="see-more" href="https://www.geekwire.com/events/"><SPAN 
+class="text-primary">See More<SPAN 
+class="icon-arrow-right5"></SPAN></SPAN></A></SPAN>GeekWire Events</H3><A class="gw-event-banner" 
+href="https://www.geekwire.com/events/thirsty-thursday-geekwire-podcast-live-at-neighborhub/"><IMG 
+width="300" height="50" class="img-responsive center-block" alt="Thirsty Thursday + GeekWire Podcast Live at NeighborHub" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/03/thirsty-thursday-small-banner-300x50.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2017/03/thirsty-thursday-small-banner-630x105.jpg 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/03/thirsty-thursday-small-banner-300x50.jpg"></A><A 
+class="gw-event-banner" href="https://www.geekwire.com/events/the-playbook-from-geekwire/"><IMG 
+width="300" height="50" class="img-responsive center-block" alt="The Playbook from GeekWire" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/07/The-Playbook-600x100-banner-300x50.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2018/07/The-Playbook-600x100-banner.jpg 600w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/07/The-Playbook-600x100-banner-300x50.jpg"></A><A 
+class="gw-event-banner" href="https://www.geekwire.com/events/geekwire-summit-2018/"><IMG 
+width="300" height="77" class="img-responsive center-block" alt="GeekWire Summit 2018" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/06/Summit-2018-Banner-with-BOA-300x77.png 300w, https://cdn.geekwire.com/wp-content/uploads/2018/06/Summit-2018-Banner-with-BOA.png 617w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/06/Summit-2018-Banner-with-BOA-300x77.png"></A></SECTION> 
+         </ASIDE></DIV></ARTICLE>
+<DIV class="lazy-ad" id="ad-leaderboard_bottom" 
+data-loader="leaderboardBottom"></DIV><SECTION id="related-stories">
+<H3 class="section_header">Related Stories</H3>
+<DIV class="row">
+<DIV class="col-xs-6 col-md-3"><ARTICLE><HEADER><A href="https://www.geekwire.com/2017/zipline-expands-medical-drone-delivery-tanzania-aid-gates-foundation/"><IMG 
+class="img-responsive" alt="Zipline drone" src="18_08_15_GeekWire_files/170823-zipline-1.jpg"></A> 
+                        
+<P class="small"><STRONG><A href="https://www.geekwire.com/2017/zipline-expands-medical-drone-delivery-tanzania-aid-gates-foundation/">Zipline 
+expands medical drone delivery to Tanzania with aid from Gates 
+Foundation</A></STRONG></P><time class="published" datetime="2017-08-24T05:00:11+00:00"></time> 
+                        <time class="updated" datetime="2017-08-24T03:17:37+00:00"></time> 
+                    </HEADER></ARTICLE></DIV>
+<DIV class="col-xs-6 col-md-3"><ARTICLE><HEADER><A href="https://www.geekwire.com/2018/boeing-horizonx-gets-15m-funding-round-fortem-drone-radar-venture/"><IMG 
+class="img-responsive" alt="Fortem DroneHunter" src="18_08_15_GeekWire_files/180315-fortem.jpg"></A> 
+                        
+<P class="small"><STRONG><A href="https://www.geekwire.com/2018/boeing-horizonx-gets-15m-funding-round-fortem-drone-radar-venture/">Boeing 
+HorizonX gets in on $15M funding round for Fortem drone radar 
+venture</A></STRONG></P><time class="published" datetime="2018-03-15T17:49:48+00:00"></time> 
+                        <time class="updated" datetime="2018-03-15T17:49:48+00:00"></time> 
+                    </HEADER></ARTICLE></DIV>
+<DIV class="clearfix visible-xs-block"></DIV>
+<DIV class="col-xs-6 col-md-3"><ARTICLE><HEADER><A href="https://www.geekwire.com/2018/10-localities-win-federal-approval-push-limits-drones-amazons-left/"><IMG 
+class="img-responsive" alt="Aerix Drone" src="18_08_15_GeekWire_files/Aerix-Drone.jpg"></A> 
+                        
+<P class="small"><STRONG><A href="https://www.geekwire.com/2018/10-localities-win-federal-approval-push-limits-drones-amazons-left/">10 
+teams win federal approval to push the limits with drones, but Amazon’s left 
+out</A></STRONG></P><time class="published" 
+datetime="2018-05-10T00:56:28+00:00"></time>                         <time 
+class="updated" datetime="2018-05-10T00:57:22+00:00"></time>                     
+</HEADER></ARTICLE></DIV>
+<DIV class="col-xs-6 col-md-3"><ARTICLE><HEADER><A href="https://www.geekwire.com/2018/drone-deliveries-going-happen-despite-regulatory-hurdles-says-drone-mapping-startup-ceo/"><IMG 
+class="img-responsive" alt="Drone deliveries are ‘going to happen’ despite regulatory hurdles, says drone mapping startup CEO" 
+src="18_08_15_GeekWire_files/IMG_3722.jpg"></A>                         
+<P class="small"><STRONG><A href="https://www.geekwire.com/2018/drone-deliveries-going-happen-despite-regulatory-hurdles-says-drone-mapping-startup-ceo/">Drone 
+deliveries are ‘going to happen’ despite regulatory hurdles, says drone mapping 
+startup CEO</A></STRONG></P><time class="published" datetime="2018-03-07T22:10:38+00:00"></time> 
+                        <time class="updated" datetime="2018-03-07T23:54:05+00:00"></time> 
+                    </HEADER></ARTICLE></DIV></DIV></SECTION><NAV class="post-nav post-nav-single visible-xs-block">
+<UL>
+  <LI class="previous-story"><A href="https://www.geekwire.com/2018/geared-podcast-galaxy-note-9-hands-review/" 
+  rel="prev"><SPAN class="icon-arrow-left2"></SPAN>
+  <H6>Previous Story</H6><SPAN class="text-muted">Geared Up Podcast: Galaxy Note 
+  9 hands-on review</SPAN></A></LI>
+  <LI class="next-story"><A href="https://www.geekwire.com/2018/tldr-alexa-cortana-integrations-now-available-thousands-block-fortune-500-companies-twitter-t-mobile-wants-fix-customer-service/" 
+  rel="next">
+  <H6>Next Story</H6><SPAN class="text-muted">TLDR: Alexa-Cortana integrations 
+  now available, thousands block Fortune 500 companies on Twitter, T-Mobile 
+  wants to fix customer service</SPAN><SPAN 
+  class="icon-arrow-right2"></SPAN></A></LI></UL></NAV>
+<DIV class="visible-xs-block" id="subscribe-box-mobile">
+<DIV>Subscribe to GeekWire's Space &amp; Science weekly newsletter</DIV>
+<FORM name="mc-mobile-subscribe-form" id="mc-mobile-subscribe-form" action="//geekwire.us2.list-manage.com/subscribe/post?u=7d9669cf206fb932dea38e25e&amp;id=4e93fc7dfd" 
+method="post" novalidate="">
+<DIV class="form-group">
+<DIV class="input-group"><INPUT name="EMAIL" class="form-control input-sm" id="mce-email-mobile" type="email" placeholder="Enter your email address" value=""> 
+                <LABEL class="sr-only" for="mce-email-mobile">Email 
+address</LABEL>                 <SPAN class="input-group-btn"><BUTTON name="subscribe" 
+class="btn btn-primary btn-sm" id="mc-embedded-mobile" type="submit" value="Subscribe">Subscribe</BUTTON> 
+                </SPAN>             </DIV></DIV>
+<DIV class="newsletter-list collapse" id="newsletter-list-mobile">
+<DIV class="checkbox"><LABEL><INPUT name="group[17][2]" id="mce-daily-mobile" 
+type="checkbox" checked="" value="2">                     <STRONG>GeekWire 
+Daily</STRONG> - Top headlines daily                 </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][4]" id="mce-weekly-mobile" 
+type="checkbox" checked="" value="4">                     <STRONG>GeekWire 
+Weekly</STRONG> - Most-read stories of the week, delivered Sunday                
+ </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][256]" id="mce-tldr-mobile" 
+type="checkbox" value="256">                     <STRONG>GeekWire TLDR Afternoon 
+Report</STRONG> - Afternoon roundup of top GeekWire stories, delivered each 
+weekday                 </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][1]" id="mce-sports-mobile" 
+type="checkbox" value="1">                     <STRONG>GeekWire Sports 
+Tech</STRONG> - The intersection of sports &amp; technology, delivered weekly    
+             </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][16]" id="mce-space-mobile" 
+type="checkbox" checked="" value="16">                     <STRONG>GeekWire 
+Space &amp; Science</STRONG> - Weekly headlines from Alan Boyle, award-winning 
+aerospace and science editor                 </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][32]" id="mce-podcast-mobile" 
+type="checkbox" value="32">                     <STRONG>GeekWire 
+Podcasts</STRONG> — Weekly update with our latest audio episodes                 
+</LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][64]" id="mce-cloudtech-mobile" 
+type="checkbox" value="64">                     <STRONG>GeekWire Cloud Tech 
+Weekly</STRONG> — Cloud and developer technology, delivered weekly               
+  </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][8]" id="mce-midweek-mobile" 
+type="checkbox" value="8">                     <STRONG>GeekWire Mid-week 
+Update</STRONG> — Most-read stories so far this week, delivered Wednesday        
+         </LABEL>             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][128]" id="mce-deals-mobile" 
+type="checkbox" value="128">                     <STRONG>GeekWire Local 
+Deals</STRONG> — Special offers for Pacific Northwest area readers               
+  </LABEL>             </DIV></DIV>
+<DIV style="left: -5000px; position: absolute;"><INPUT name="b_7d9669cf206fb932dea38e25e_4e93fc7dfd" tabindex="-1" type="text"></DIV></FORM></DIV>
+<DIV 
+class="mobile-after-newsletter visible-xs-block text-center lazy-ad"></DIV><SECTION 
+id="comments">
+<H3 class="section_header">Comments</H3>
+<DIV class="row">
+<DIV class="col-md-8">
+<DIV id="disqus_thread"></DIV></DIV>
+<DIV class="col-md-4"><!-- 300x250_comments -->             
+<DIV class="lazy-ad" id="ad-300x250_comments" 
+data-loader="comments"></DIV></DIV></DIV></SECTION><SECTION id="most-popular">
+<H3 class="section_header">Most Popular on GeekWire</H3>
+<DIV class="row">
+<DIV class="col-md-8">
+<UL class="list-unstyled" id="most-popular-list">
+  <LI class="clearfix"><A class="pull-left" href="https://www.geekwire.com/2018/stolen-plane-forced-f-15s-south-seattle-seatac-airport-temporarily-grounded-amid-security-threat/"><IMG 
+  alt="Airline employee steals plane from Sea-Tac, does aerial tricks with F-15s in pursuit before crashing on island south of Seattle" 
+  src="18_08_15_GeekWire_files/fighterjet.png"></A>
+  <P class="small"><STRONG><A href="https://www.geekwire.com/2018/stolen-plane-forced-f-15s-south-seattle-seatac-airport-temporarily-grounded-amid-security-threat/">Airline 
+  employee steals plane from Sea-Tac, does aerial tricks with F-15s in pursuit 
+  before crashing on island south of Seattle</A></STRONG></P></LI>
+  <LI class="clearfix"><A class="pull-left" href="https://www.geekwire.com/2018/inside-stolen-passenger-plane-played-video-games-know-im-little-bit/"><IMG 
+  alt="Inside the stolen passenger plane: ‘I played video games before, so I know what I’m doing, a little bit’" 
+  src="18_08_15_GeekWire_files/audio-video-of-fatal-flight-i-pl.jpg"></A>
+  <P class="small"><STRONG><A href="https://www.geekwire.com/2018/inside-stolen-passenger-plane-played-video-games-know-im-little-bit/">Inside 
+  the stolen passenger plane: ‘I played video games before, so I know what I’m 
+  doing, a little bit’</A></STRONG></P></LI>
+  <LI class="clearfix"><A class="pull-left" href="https://www.geekwire.com/2018/seattleites-likely-move-amazon-hq2-cities-give-edge/"><IMG 
+  alt="Seattleites are most likely to move to these Amazon HQ2 cities — does that give them an edge?" 
+  src="18_08_15_GeekWire_files/Migration-Map.png"></A>
+  <P class="small"><STRONG><A href="https://www.geekwire.com/2018/seattleites-likely-move-amazon-hq2-cities-give-edge/">Seattleites 
+  are most likely to move to these Amazon HQ2 cities — does that give them an 
+  edge?</A></STRONG></P></LI>
+  <LI class="clearfix"><A class="pull-left" href="https://www.geekwire.com/2018/redfin-ceo-warns-slowing-national-real-estate-market-frustrated-buyers-sitting/"><IMG 
+  alt="Redfin CEO warns of slowing national real estate market, as frustrated buyers are sitting out" 
+  src="18_08_15_GeekWire_files/20180601_Tech_Alliance_48.jpg"></A>
+  <P class="small"><STRONG><A href="https://www.geekwire.com/2018/redfin-ceo-warns-slowing-national-real-estate-market-frustrated-buyers-sitting/">Redfin 
+  CEO warns of slowing national real estate market, as frustrated buyers are 
+  sitting out</A></STRONG></P></LI></UL></DIV>
+<DIV class="col-md-4">
+<DIV class="lazy-ad" id="ad-300x250_most_popular" 
+data-loader="mostPopular"></DIV></DIV></DIV></SECTION><SECTION id="geekwork">
+<H3 class="section_header">Job Listings on GeekWork</H3>
+<DIV class="row">
+<DIV class="col-xs-12 col-md-6">
+<DIV class="job_listings">
+<DIV class="job_listings_tbody">
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-edi-developer/"><IMG 
+alt="EDI Developer" 
+src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-edi-developer/">EDI 
+Developer</A></STRONG>Centene</DIV></DIV>
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-director-information-technology/"><IMG 
+alt="Director, Information Technology" src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-director-information-technology/">Director, 
+Information Technology</A></STRONG>Centene</DIV></DIV>
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-chesterfield-missouri-2-c-net-developer/"><IMG 
+alt="C#/.NET Developer" 
+src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-chesterfield-missouri-2-c-net-developer/">C#/.NET 
+Developer</A></STRONG>Centene</DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-12 col-md-6">
+<DIV class="job_listings">
+<DIV class="job_listings_tbody">
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-business-systems-analyst-applications/"><IMG 
+alt="Business Systems Analyst (Applications)" src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-rancho-cordova-california-2-business-systems-analyst-applications/">Business 
+Systems Analyst (Applications)</A></STRONG>Centene</DIV></DIV>
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-st-louis-missouri-2-business-intelligence-developer-all-levels/"><IMG 
+alt="Business Intelligence Developer (All levels)" src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-st-louis-missouri-2-business-intelligence-developer-all-levels/">Business 
+Intelligence Developer (All levels)</A></STRONG>Centene</DIV></DIV>
+<DIV class="job_listing_row">
+<DIV class="job_logo"><A href="https://www.geekwire.com/jobs/job/centene-chesterfield-missouri-2-java-developer/"><IMG 
+alt="Java Developer" 
+src="18_08_15_GeekWire_files/CENTENE_logo-150x36.jpg"></A></DIV>
+<DIV class="job_title"><STRONG><A href="https://www.geekwire.com/jobs/job/centene-chesterfield-missouri-2-java-developer/">Java 
+Developer</A></STRONG>Centene</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id="job_listings_caption">Find more jobs on <A href="https://www.geekwire.com/jobs/">GeekWork</A>. 
+Employers, <A href="https://www.geekwire.com/jobs/pricing/">post a job 
+here</A>.</DIV></SECTION>
+<DIV class="visible-xs-block" id="mobile-share-bar">
+<DIV class="btn-group btn-group-justified" role="group"><A class="btn btn-facebook fb-share" 
+role="button"><SPAN class="icon-facebook"></SPAN></A>         <A class="btn btn-twitter" 
+role="button" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;via=GeekWire&amp;text=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;related=b0yle%3AAuthor"><SPAN 
+class="icon-twitter"></SPAN></A>         <A class="btn btn-linkedin" role="button" 
+href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F&amp;title=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;summary=As%20more%20and%20more%20drones%20fill%20the%20skies%2C%20researchers%20are%20working%20on%20increasingly%20sophisticated%20methods%20to%20track%20them%20under%20increasingly%20challenging%20conditions.&amp;source=GeekWire"><SPAN 
+class="icon-linkedin"></SPAN></A>         <A class="btn btn-primary btn-mailto" 
+role="button" href="mailto:?subject=No%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones&amp;body=Article%20from%20GeekWire:%0D%0A%0D%0ANo%20GPS%3F%20No%20problem%21%20Researchers%20test%20new%20and%20improved%20systems%20to%20track%20drones%0D%0A%0D%0Ahttps%3A%2F%2Fwww.geekwire.com%2F2018%2Fdrone-tracking-experiments%2F%0D%0A"><SPAN 
+class="icon-envelop"></SPAN></A>     </DIV></DIV></main><!-- /.main -->          
+ </DIV><!-- /.content -->   </DIV><!-- /.wrap -->         
+<DIV tabindex="-1" class="modal fade" id="newsletter-modal" role="dialog">
+<DIV class="modal-dialog">
+<DIV class="modal-content">
+<DIV class="modal-header"><BUTTON class="close" aria-label="Close" type="button" 
+data-dismiss="modal"><SPAN aria-hidden="true">×</SPAN></BUTTON>                 
+<H4 class="modal-title">Subscribe to GeekWire Newsletters</H4></DIV>
+<DIV class="modal-body">
+<FORM name="mc-category-subscribe-form" id="mc-category-subscribe-form" action="//geekwire.us2.list-manage.com/subscribe/post?u=7d9669cf206fb932dea38e25e&amp;id=4e93fc7dfd" 
+method="post" novalidate="">
+<DIV class="form-group">
+<DIV class="input-group"><INPUT name="EMAIL" class="form-control input-sm" id="mce-email-modal" type="email" placeholder="Enter your email address" value=""> 
+                            <LABEL class="sr-only" for="mce-email-modal">Email 
+address</LABEL>                             <SPAN 
+class="input-group-btn"><BUTTON name="subscribe" class="btn btn-primary btn-sm" 
+id="mc-subscribe-modal" type="submit" value="Subscribe">Subscribe</BUTTON>       
+                      </SPAN>                         </DIV></DIV>
+<DIV id="newsletter-list-modal">
+<DIV class="checkbox"><LABEL><INPUT name="group[17][2]" id="mce-daily-modal" 
+type="checkbox" checked="" value="2">                                 
+<STRONG>GeekWire Daily</STRONG> - Top headlines daily                            
+ </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][4]" id="mce-weekly-modal" 
+type="checkbox" checked="" value="4">                                 
+<STRONG>GeekWire Weekly</STRONG> - Most-read stories of the week, delivered 
+Sunday                             </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][256]" id="mce-tldr-modal" 
+type="checkbox" value="256">                                 <STRONG>GeekWire 
+TLDR Afternoon Report</STRONG> - Afternoon roundup of top GeekWire stories, 
+delivered each weekday                             </LABEL>                      
+   </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][1]" id="mce-sports-modal" 
+type="checkbox" value="1">                                 <STRONG>GeekWire 
+Sports Tech</STRONG> - The intersection of sports &amp; technology, delivered 
+weekly                             </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][16]" id="mce-space-modal" 
+type="checkbox" checked="" value="16">                                 
+<STRONG>GeekWire Space &amp; Science</STRONG> - Weekly headlines from Alan 
+Boyle, award-winning aerospace and science editor                             
+</LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][32]" id="mce-podcast-modal" 
+type="checkbox" value="32">                                 <STRONG>GeekWire 
+Podcasts</STRONG> — Weekly update with our latest audio episodes                 
+            </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][64]" id="mce-cloudtech-modal" 
+type="checkbox" value="64">                                 <STRONG>GeekWire 
+Cloud Tech Weekly</STRONG> — Cloud and developer technology, delivered weekly    
+                         </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][8]" id="mce-midweek-modal" 
+type="checkbox" value="8">                                 <STRONG>GeekWire 
+Mid-week Update</STRONG> — Most-read stories so far this week, delivered 
+Wednesday                             </LABEL>                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][128]" id="mce-deals-modal" 
+type="checkbox" value="128">                                 <STRONG>GeekWire 
+Local Deals</STRONG> — Special offers for Pacific Northwest area readers         
+                    </LABEL>                         </DIV></DIV>
+<DIV style="left: -5000px; position: absolute;"><INPUT name="b_7d9669cf206fb932dea38e25e_4e93fc7dfd" tabindex="-1" type="text"></DIV></FORM></DIV></DIV><!-- /.modal-content --> 
+        </DIV><!-- /.modal-dialog -->     </DIV><!-- /.modal -->       <FOOTER 
+class="content-info"><SECTION id="sponsor_posts">
+<DIV class="container">
+<H3 class="section_header">A Word From Our Sponsors</H3>
+<DIV class="row">
+<DIV class="hidden-xs">
+<DIV class="col-md-2-4 sponsor-post-footer"><A href="https://www.geekwire.com/sponsor-post/realogics-sothebys-international-realty-solterra-announce-45-unit-solis-condominiums-ultra-luxury-super-green-community/"><IMG 
+width="200" height="133" class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-200x133.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-300x200.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-630x420.jpg 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-200x133.jpg"></A> 
+                        
+<DIV class="small"><STRONG>Realogics Sotheby’s International Realty and Solterra 
+Announce 45-Unit Solis Condominiums – Ultra Luxury and Super Green 
+Community</STRONG> <A href="https://www.geekwire.com/sponsor-post/realogics-sothebys-international-realty-solterra-announce-45-unit-solis-condominiums-ultra-luxury-super-green-community/">Read 
+More</A></DIV></DIV>
+<DIV class="col-md-2-4 sponsor-post-footer"><A href="https://geekwire.com/summit" 
+rel="nofollow" data-campaign="KatHolmes_geekwiresummit_8.13.18"><IMG width="200" 
+height="200" class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1.jpg 300w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-200x200.jpg"></A> 
+                        
+<DIV class="small"><STRONG>Kat Holmes, Founder of mismatch.design and Director 
+of User Experience at Google to speak at GeekWire Summit</STRONG> <A href="https://geekwire.com/summit" 
+rel="nofollow" data-campaign="KatHolmes_geekwiresummit_8.13.18">Tickets on sale 
+now.</A></DIV></DIV>
+<DIV class="col-md-2-4 sponsor-post-footer"><A href="https://www.geekwire.com/healthtech/" 
+data-campaign="GeekWire_HealthTech_8.8.18"><IMG width="200" height="199" class="img-responsive wp-post-image" 
+alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 200px) 100vw, 200px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-200x199.png 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-150x150.png 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224.png 225w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-200x199.png"></A> 
+                        
+<DIV class="small"><STRONG>Listen to the GeekWire Health Tech Podcast</STRONG> 
+<A href="https://www.geekwire.com/healthtech/" data-campaign="GeekWire_HealthTech_8.8.18">Listen 
+to the latest episode here.&nbsp;</A></DIV></DIV>
+<DIV class="col-md-2-4 sponsor-post-footer"><A href="https://www.geekwire.com/events/geekwire-summit-2018/" 
+data-campaign="geekwire_summit_8.7.18"><IMG width="200" height="200" class="img-responsive wp-post-image" 
+alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 200px) 100vw, 200px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17.jpg 225w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-200x200.jpg"></A> 
+                        
+<DIV class="small"><STRONG>New Speaker: Dr. Nadia Shouraboura Founder and CEO, 
+Hointer</STRONG> <A href="https://www.geekwire.com/events/geekwire-summit-2018/" 
+data-campaign="geekwire_summit_8.7.18">Reserve your spot today.</A></DIV></DIV>
+<DIV class="col-md-2-4 sponsor-post-footer"><A href="https://www.geekwire.com/events/geekwire-summit-2018/"><IMG 
+width="200" height="200" class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-300x300.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square.jpg 320w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-200x200.jpg"></A> 
+                        
+<DIV class="small"><STRONG>President and CEO of eBay, Devin Wenig, Speaking at 
+GeekWire Summit</STRONG> <A href="https://www.geekwire.com/events/geekwire-summit-2018/">Reserve 
+your spot today.</A></DIV></DIV></DIV>
+<DIV class="visible-xs-block">
+<DIV class="sponsor-post-footer">
+<DIV class="col-xs-4"><A href="https://www.geekwire.com/sponsor-post/realogics-sothebys-international-realty-solterra-announce-45-unit-solis-condominiums-ultra-luxury-super-green-community/"><IMG 
+width="200" height="133" class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-200x133.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-300x200.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-630x420.jpg 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/image-1-200x133.jpg"></A> 
+                        </DIV>
+<DIV class="col-xs-8">
+<DIV class="small"><STRONG>Realogics Sotheby’s International Realty and Solterra 
+Announce 45-Unit Solis Condominiums – Ultra Luxury and Super Green 
+Community</STRONG> <A href="https://www.geekwire.com/sponsor-post/realogics-sothebys-international-realty-solterra-announce-45-unit-solis-condominiums-ultra-luxury-super-green-community/">Read 
+More</A></DIV></DIV>
+<DIV class="clearfix visible-xs-block"></DIV></DIV>
+<DIV class="sponsor-post-footer">
+<DIV class="col-xs-4"><A href="https://geekwire.com/summit" rel="nofollow" 
+data-campaign="KatHolmes_geekwiresummit_8.13.18"><IMG width="200" height="200" 
+class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1.jpg 300w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/10/KatHolmes_300x300-1-200x200.jpg"></A> 
+                        </DIV>
+<DIV class="col-xs-8">
+<DIV class="small"><STRONG>Kat Holmes, Founder of mismatch.design and Director 
+of User Experience at Google to speak at GeekWire Summit</STRONG> <A href="https://geekwire.com/summit" 
+rel="nofollow" data-campaign="KatHolmes_geekwiresummit_8.13.18">Tickets on sale 
+now.</A></DIV></DIV>
+<DIV class="clearfix visible-xs-block"></DIV></DIV>
+<DIV class="sponsor-post-footer">
+<DIV class="col-xs-4"><A href="https://www.geekwire.com/healthtech/" 
+data-campaign="GeekWire_HealthTech_8.8.18"><IMG width="200" height="199" class="img-responsive wp-post-image" 
+alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 200px) 100vw, 200px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-200x199.png 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-150x150.png 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224.png 225w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/225x224-200x199.png"></A> 
+                        </DIV>
+<DIV class="col-xs-8">
+<DIV class="small"><STRONG>Listen to the GeekWire Health Tech Podcast</STRONG> 
+<A href="https://www.geekwire.com/healthtech/" data-campaign="GeekWire_HealthTech_8.8.18">Listen 
+to the latest episode here.&nbsp;</A></DIV></DIV>
+<DIV class="clearfix visible-xs-block"></DIV></DIV>
+<DIV class="sponsor-post-footer">
+<DIV class="col-xs-4"><A href="https://www.geekwire.com/events/geekwire-summit-2018/" 
+data-campaign="geekwire_summit_8.7.18"><IMG width="200" height="200" class="img-responsive wp-post-image" 
+alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 200px) 100vw, 200px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17.jpg 225w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2018/08/Webp.net-resizeimage-17-200x200.jpg"></A> 
+                        </DIV>
+<DIV class="col-xs-8">
+<DIV class="small"><STRONG>New Speaker: Dr. Nadia Shouraboura Founder and CEO, 
+Hointer</STRONG> <A href="https://www.geekwire.com/events/geekwire-summit-2018/" 
+data-campaign="geekwire_summit_8.7.18">Reserve your spot today.</A></DIV></DIV>
+<DIV class="clearfix visible-xs-block"></DIV></DIV>
+<DIV class="sponsor-post-footer">
+<DIV class="col-xs-4"><A href="https://www.geekwire.com/events/geekwire-summit-2018/"><IMG 
+width="200" height="200" class="img-responsive wp-post-image" alt="" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 200px) 100vw, 200px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-200x200.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-150x150.jpg 150w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-300x300.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-100x100.jpg 100w, https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square.jpg 320w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/10/Devin-INC-Image-square-200x200.jpg"></A> 
+                        </DIV>
+<DIV class="col-xs-8">
+<DIV class="small"><STRONG>President and CEO of eBay, Devin Wenig, Speaking at 
+GeekWire Summit</STRONG> <A href="https://www.geekwire.com/events/geekwire-summit-2018/">Reserve 
+your spot today.</A></DIV></DIV>
+<DIV 
+class="clearfix visible-xs-block"></DIV></DIV></DIV></DIV></DIV></SECTION><SECTION 
+id="sponsors">
+<DIV class="container">
+<H4>Galactic Sponsors</H4>
+<DIV class="row">
+<DIV class="col-xs-6 col-md-4">
+<DIV class="galactic-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://bit.ly/1djJHc1" 
+rel="nofollow"><IMG width="300" height="131" class="img-responsive" alt="Bank of America" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2015/05/bank-of-america1-300x131.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2015/05/bank-of-america1.jpg 320w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2015/05/bank-of-america1-300x131.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-6 col-md-4">
+<DIV class="galactic-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.salesforce.com/" rel="nofollow"><IMG 
+width="200" height="140" class="img-responsive" alt="Salesforce" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2016/06/Salesforce-200x140.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-xs"></DIV></DIV>
+<H4>Platinum Sponsors</H4>
+<DIV class="row">
+<DIV class="col-xs-6 col-md-4">
+<DIV class="platinum-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.ey.com/" rel="nofollow"><IMG 
+width="146" height="150" class="img-responsive" alt="EY" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 146px) 100vw, 146px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/12/EY-Logo-293x3002.jpg 146w, https://cdn.geekwire.com/wp-content/uploads/2014/12/EY-Logo-293x3002-97x100.jpg 97w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/12/EY-Logo-293x3002.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-6 col-md-4">
+<DIV class="platinum-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://business.wavebroadband.com/" rel="nofollow"><IMG 
+width="300" height="118" class="img-responsive" alt="Wave Business" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2016/12/Wave_Logo_WaveBiz_RGB-300x118.png 300w, https://cdn.geekwire.com/wp-content/uploads/2016/12/Wave_Logo_WaveBiz_RGB-630x249.png 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2016/12/Wave_Logo_WaveBiz_RGB-300x118.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-xs"></DIV>
+<DIV class="col-xs-6 col-md-4">
+<DIV class="platinum-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.smartsheet.com/" rel="nofollow"><IMG 
+width="300" height="49" class="img-responsive" alt="Smartsheet" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/03/logo-full-core-300x49.png 300w, https://cdn.geekwire.com/wp-content/uploads/2017/03/logo-full-core-630x103.png 630w, https://cdn.geekwire.com/wp-content/uploads/2017/03/logo-full-core.png 1221w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/03/logo-full-core-300x49.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-md visible-lg"></DIV></DIV>
+<H4>Gold Sponsors</H4>
+<DIV class="row">
+<DIV class="col-xs-4 col-md-3">
+<DIV class="gold-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.moz.com/" rel="nofollow"><IMG 
+width="300" height="87" class="img-responsive" alt="Moz" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/Aqua-Roger-Blue-logo-300x87-e1418058203398.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-4 col-md-3">
+<DIV class="gold-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://upsconnect.com/geekwire" rel="nofollow"><IMG 
+width="300" height="154" class="img-responsive" alt="UPS Connect" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/09/UPSRGB-300x154.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2014/09/UPSRGB.jpg 359w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/09/UPSRGB-300x154.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-4 col-md-3">
+<DIV class="gold-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.alaskaair.com/" rel="nofollow"><IMG 
+width="300" height="156" class="img-responsive" alt="Alaska Airlines" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2016/10/AlaskaAirlines_Wordmark_Official_4cp_Lg-300x156.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2016/10/AlaskaAirlines_Wordmark_Official_4cp_Lg-630x328.jpg 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2016/10/AlaskaAirlines_Wordmark_Official_4cp_Lg-300x156.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-xs"></DIV></DIV>
+<H4>Silver Sponsors</H4>
+<DIV class="row">
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.avalara.com/" 
+rel="nofollow"><IMG width="300" height="119" class="img-responsive" alt="Avalara" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/08/NEW-Avalara_Logo_Tagline_RGB-01-cropped-300x119.png 300w, https://cdn.geekwire.com/wp-content/uploads/2014/08/NEW-Avalara_Logo_Tagline_RGB-01-cropped-630x250.png 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/NEW-Avalara_Logo_Tagline_RGB-01-cropped-300x119.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://offerupnow.com/" 
+rel="nofollow"><IMG width="300" height="73" class="img-responsive" alt="OfferUp" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/09/Green_OU_Logo-1-300x73.png 300w, https://cdn.geekwire.com/wp-content/uploads/2017/09/Green_OU_Logo-1-630x154.png 630w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/09/Green_OU_Logo-1-300x73.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.perkinscoie.com/" rel="nofollow"><IMG 
+width="300" height="66" class="img-responsive" alt="Perkins Coie" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/08/perkins-coie-rgb-300x66.jpg 300w, https://cdn.geekwire.com/wp-content/uploads/2014/08/perkins-coie-rgb-620x136.jpg 620w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/perkins-coie-rgb-300x66.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.acumatica.com/" rel="nofollow"><IMG 
+width="300" height="75" class="img-responsive" alt="Acumatica" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2017/11/Acumatica_Logo_FullColor_RGB-NEW-300x75.png 300w, https://cdn.geekwire.com/wp-content/uploads/2017/11/Acumatica_Logo_FullColor_RGB-NEW-630x158.png 630w, https://cdn.geekwire.com/wp-content/uploads/2017/11/Acumatica_Logo_FullColor_RGB-NEW.png 900w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2017/11/Acumatica_Logo_FullColor_RGB-NEW-300x75.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-xs"></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.firsttechfed.com/" rel="nofollow"><IMG 
+width="300" height="92" class="img-responsive" alt="First Tech" src="18_08_15_GeekWire_files/1x1.trans.gif" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/FT_logo_rebrand-300x92-e1418058780854.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.realself.com/" 
+rel="nofollow"><IMG width="300" height="66" class="img-responsive" alt="RealSelf" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2012/07/Copy-of-rs_logo_coral_RGB-300x66.png 300w, https://cdn.geekwire.com/wp-content/uploads/2012/07/Copy-of-rs_logo_coral_RGB-630x139.png 630w, https://cdn.geekwire.com/wp-content/uploads/2012/07/Copy-of-rs_logo_coral_RGB.png 977w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2012/07/Copy-of-rs_logo_coral_RGB-300x66.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-md visible-lg"></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://bit.ly/1JhUj8C" 
+rel="nofollow"><IMG width="300" height="300" class="img-responsive" alt="Level11" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 300px) 100vw, 300px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/10/level11-300x300.png 300w, https://cdn.geekwire.com/wp-content/uploads/2014/10/level11-150x150.png 150w, https://cdn.geekwire.com/wp-content/uploads/2014/10/level11-100x100.png 100w, https://cdn.geekwire.com/wp-content/uploads/2014/10/level11.png 417w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/10/level11-300x300.png"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.sirqul.com/" 
+rel="nofollow"><IMG width="300" height="87" class="img-responsive" alt="Sirqul" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2015/11/sirqul_logo-300x87.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="clearfix visible-xs"></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.seattleu.edu/scieng/computer-science/" 
+rel="nofollow"><IMG width="231" height="300" class="img-responsive" alt="Seattle University" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 231px) 100vw, 231px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-231x300.jpg 231w, https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-592x768.jpg 592w, https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-620x804.jpg 620w, https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-200x259.jpg 200w, https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-77x100.jpg 77w, https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb.jpg 671w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/Seattle-U-Engineeringrgb-231x300.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="http://www.wsgr.com/" 
+rel="nofollow"><IMG width="300" height="135" class="img-responsive" alt="WSGR" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/WSGR-bug_RGB-300x135-e1418058700891.jpg"></A> 
+                                        </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="col-xs-3 col-md-2">
+<DIV class="silver-sponsor-box">
+<DIV class="sponsor-content">
+<DIV class="sponsor-content-table">
+<DIV class="sponsor-logo-row">
+<DIV class="sponsor-logo-cell"><A href="https://www.wellsfargo.com/theprivatebank" 
+rel="nofollow"><IMG width="267" height="150" class="img-responsive" alt="Wells Fargo" 
+src="18_08_15_GeekWire_files/1x1.trans.gif" data-lazy-sizes="(max-width: 267px) 100vw, 267px" 
+data-lazy-srcset="https://cdn.geekwire.com/wp-content/uploads/2014/08/1C_TPBStacked_logo_HEX_web1-e1418020620539.png 267w, https://cdn.geekwire.com/wp-content/uploads/2014/08/1C_TPBStacked_logo_HEX_web1-e1418020620539-200x112.png 200w, https://cdn.geekwire.com/wp-content/uploads/2014/08/1C_TPBStacked_logo_HEX_web1-e1418020620539-150x84.png 150w" 
+data-lazy-src="https://cdn.geekwire.com/wp-content/uploads/2014/08/1C_TPBStacked_logo_HEX_web1-e1418020620539.png"></A> 
+                                        
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></SECTION>       <SECTION id="gw_footer">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-md-4">
+<H3>About</H3>
+<UL class="list-unstyled">
+  <LI><A href="https://www.geekwire.com/about-geekwire/">About GeekWire</A></LI>
+  <LI><A href="https://www.geekwire.com/contact-us/">Contact Us</A></LI>
+  <LI><A href="https://www.geekwire.com/advertise/">Ask About 
+  Advertising</A></LI>
+  <LI><A href="https://www.geekwire.com/tips/">Send Us a Tip</A></LI>
+  <LI><A href="https://www.geekwire.com/startup-spotlight-apply/">Apply for 
+  Startup Spotlight</A></LI>
+  <LI><A href="https://www.geekwire.com/apply-geekwire-geek-of-the-week/">Apply 
+  for Geek of the Week</A></LI>
+  <LI><A href="https://www.geekwire.com/memberships/">Become a GeekWire 
+  Member</A></LI>
+  <LI><A href="https://www.geekwire.com/submit-startup/">Join Our Startup 
+  List</A></LI>
+  <LI><A href="http://geekwirereprints.magreprints.com/">Reprints and 
+  Permissions</A></LI></UL></DIV>
+<DIV class="col-md-4">
+<H3>Follow</H3>
+<UL class="list-inline lead">
+  <LI><A href="https://www.facebook.com/geekwire"><SPAN 
+  class="icon-facebook"></SPAN></A></LI>
+  <LI><A href="https://twitter.com/intent/user?screen_name=geekwire"><SPAN 
+  class="icon-twitter"></SPAN></A></LI>
+  <LI><A href="https://www.linkedin.com/company/geekwire"><SPAN class="icon-linkedin"></SPAN></A></LI>
+  <LI><A href="https://www.instagram.com/geekwire/"><SPAN 
+  class="icon-instagram"></SPAN></A></LI>
+  <LI><A href="https://www.geekwire.com/rss-feeds/"><SPAN 
+  class="icon-feed2"></SPAN></A></LI>
+  <LI><A href="https://www.geekwire.com/podcast/"><SPAN 
+  class="icon-mic"></SPAN></A></LI>
+  <LI><A 
+  href="https://www.youtube.com/subscription_center?add_user=GeekWire"><SPAN 
+  class="icon-youtube3"></SPAN></A></LI></UL>
+<H3>GeekWire Newsletters</H3>
+<P>Catch every headline in your inbox</P>
+<FORM name="mc-footer-subscribe-form" id="mc-footer-subscribe-form" action="//geekwire.us2.list-manage.com/subscribe/post?u=7d9669cf206fb932dea38e25e&amp;id=4e93fc7dfd" 
+method="post" novalidate="">
+<DIV class="form-group">
+<DIV class="input-group"><INPUT name="EMAIL" class="form-control input-sm" id="mce-email-footer" type="email" placeholder="Enter your email address" value=""> 
+                                  <LABEL class="sr-only" 
+for="mce-email-footer">Email address</LABEL>                                   
+<SPAN class="input-group-btn"><BUTTON name="subscribe" class="btn btn-default btn-sm" 
+id="mc-subscribe-footer" type="submit" value="Subscribe">Subscribe</BUTTON>      
+                             </SPAN>                               </DIV></DIV>
+<DIV class="newsletter-list collapse" id="newsletter-list-footer">
+<DIV class="checkbox"><LABEL><INPUT name="group[17][2]" id="mce-daily-footer" 
+type="checkbox" checked="" value="2">                                         
+<STRONG>GeekWire Daily</STRONG> - Top headlines daily                            
+         </LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][4]" id="mce-weekly-footer" 
+type="checkbox" checked="" value="4">                                         
+<STRONG>GeekWire Weekly</STRONG> - Most-read stories of the week, delivered 
+Sunday                                     </LABEL>                              
+   </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][256]" id="mce-tldr-footer" 
+type="checkbox" value="256">                                         
+<STRONG>GeekWire TLDR Afternoon Report</STRONG> - Afternoon roundup of top 
+GeekWire stories, delivered each weekday                                     
+</LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][1]" id="mce-sports-footer" 
+type="checkbox" value="1">                                         
+<STRONG>GeekWire Sports Tech</STRONG> - The intersection of sports &amp; 
+technology, delivered weekly                                     </LABEL>        
+                         </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][16]" id="mce-space-footer" 
+type="checkbox" checked="" value="16">                                         
+<STRONG>GeekWire Space &amp; Science</STRONG> - Weekly headlines from Alan 
+Boyle, award-winning aerospace and science editor                                
+     </LABEL>                                 </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][32]" id="mce-podcast-footer" 
+type="checkbox" value="32">                                         
+<STRONG>GeekWire Podcasts</STRONG> — Weekly update with our latest audio 
+episodes                                     </LABEL>                            
+     </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][64]" id="mce-cloudtech-footer" 
+type="checkbox" value="64">                                         
+<STRONG>GeekWire Cloud Tech Weekly</STRONG> — Cloud and developer technology, 
+delivered weekly                                     </LABEL>                    
+             </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][8]" id="mce-midweek-footer" 
+type="checkbox" value="8">                                         
+<STRONG>GeekWire Mid-week Update</STRONG> — Most-read stories so far this week, 
+delivered Wednesday                                     </LABEL>                 
+                </DIV>
+<DIV class="checkbox"><LABEL><INPUT name="group[17][128]" id="mce-deals-footer" 
+type="checkbox" value="128">                                         
+<STRONG>GeekWire Local Deals</STRONG> — Special offers for Pacific Northwest 
+area readers                                     </LABEL>                        
+         </DIV></DIV>
+<DIV style="left: -5000px; position: absolute;"><INPUT name="b_7d9669cf206fb932dea38e25e_4e93fc7dfd" tabindex="-1" type="text"></DIV></FORM></DIV>
+<DIV class="col-md-4">
+<H3>GeekWire Apps</H3>
+<UL class="list-unstyled">
+  <LI><A href="http://itunes.apple.com/us/app/geekwire/id482653203?mt=8"><SPAN 
+  class="icon-apple2"></SPAN> iOS</A></LI>
+  <LI><A href="https://play.google.com/store/apps/details?id=com.geekwire&amp;hl=en"><SPAN 
+  class="icon-android"></SPAN> Android</A></LI>
+  <LI><A href="https://apple.news/T-EsjXXc_SUaixm4bcBSpAw"><SPAN class="icon-newspaper"></SPAN> 
+  Apple News</A></LI>
+  <LI><A href="https://play.google.com/store/newsstand/news?id=CAowr7HbCg"><SPAN 
+  class="icon-google"></SPAN> Google Play Newsstand</A></LI></UL>
+<H4><A href="https://www.geekwire.com/devblog/">GeekWire Developer 
+Blog</A></H4></DIV></DIV>
+<DIV class="row">
+<DIV class="col-xs-12 col-md-4"><SMALL><A href="https://www.geekwire.com/2018/drone-tracking-experiments/#"><SPAN 
+class="icon-arrow-up6"></SPAN> Return to Top of Page</A></SMALL></DIV>
+<DIV class="col-xs-12 col-md-4"><SMALL><A href="https://www.geekwire.com/privacy/">Privacy 
+Policy</A> | <A href="https://www.geekwire.com/termsofuse/">Terms of 
+Use</A></SMALL></DIV>
+<DIV class="col-xs-12 col-md-4"><SMALL>© 2011-2018 GeekWire, 
+LLC</SMALL></DIV></DIV></DIV></SECTION></FOOTER>
+<SCRIPT>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</SCRIPT>
+ <!-- Begin comScore Tag --> 
+<SCRIPT>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "18289459" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</SCRIPT>
+ <NOSCRIPT>  &lt;img 
+src="http://b.scorecardresearch.com/p?c1=2&amp;c2=18289459&amp;cv=2.0&amp;cj=1" 
+/&gt; </NOSCRIPT> <!-- End comScore Tag --> <!-- Quantcast Tag --> 
+<SCRIPT>
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-bcx6n9uF4x_0A"
+});
+</SCRIPT>
+ <NOSCRIPT>&lt;div style="display:none;"&gt;&lt; img 
+src="//pixel.quantserve.com/pixel/p-bcx6n9uF4x_0A.gif" border="0" height="1" 
+width="1" alt="Quantcast"/&gt;&lt; /div&gt; </NOSCRIPT> <!-- End Quantcast tag --> <!-- Global site tag (gtag.js) - Google AdWords: 925856747 --> 
+<SCRIPT src="18_08_15_GeekWire_files/js.js" async=""></SCRIPT>
+ 
+<SCRIPT>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-925856747');
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+_linkedin_partner_id = "44669";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</SCRIPT>
+ <NOSCRIPT>&lt;img height="1" width="1" style="display:none;" alt="" 
+src="https://dc.ads.linkedin.com/collect/?pid=44669&amp;fmt=gif" /&gt; 
+</NOSCRIPT>		
+<SCRIPT>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</SCRIPT>
+		 
+<SCRIPT> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};var tribe_system_info = {"sysinfo_optin_nonce":"686226cf93","clipboard_btn_text":"Copy to clipboard","clipboard_copied_text":"System info copied","clipboard_fail_text":"Press \"Cmd + C\" to copy"};/* ]]> */ </SCRIPT>
+<LINK href="18_08_15_GeekWire_files/responsive-videos.css" rel="stylesheet"> 
+<SCRIPT src="18_08_15_GeekWire_files/js(1).js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var GeoLoc = {"ajaxurl":"https:\/\/www.geekwire.com\/wp-admin\/admin-ajax.php","nonce":"2ec57f3dad","map_view":"","pin_url":""};
+var GeoLoc = {"ajaxurl":"https:\/\/www.geekwire.com\/wp-admin\/admin-ajax.php","nonce":"2ec57f3dad","map_view":"","pin_url":""};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/tribe-events-ajax-maps.min.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/devicepx-jetpack.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"geekwire"};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/comment_count.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.16"},"disqusIdentifier":"440815 https:\/\/www.geekwire.com\/?p=440815","disqusShortname":"geekwire","disqusTitle":"No GPS? No problem! Researchers test new and improved systems to track drones","disqusUrl":"https:\/\/www.geekwire.com\/2018\/drone-tracking-experiments\/","postId":"440815"};
+/* ]]> */
+</SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/comment_embed.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/search-widget.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/lazy-images.min.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/main-aeb87f116f.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/responsive-videos.min.js"></SCRIPT>
+ 
+<SCRIPT src="18_08_15_GeekWire_files/e-201833.js" defer="defer" type="text/javascript" async="async"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.4.2',blog:'20980079',post:'440815',tz:'-7',srv:'www.geekwire.com'} ]);
+	_stq.push([ 'clickTrackerInit', '20980079', '440815' ]);
+</SCRIPT>
+ </BODY></HTML><!--
+	generated 1016 seconds ago
+	generated in 1.609 seconds
+	served from batcache in 0.008 seconds
+	expires in 784 seconds
+-->

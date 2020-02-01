@@ -1,0 +1,30 @@
+p.schedule_time strong {
+	line-height: 24px; font-size: 18px;
+}
+#header .content_centered {
+	
+}
+#header .content_centered h2#header_logo {
+	background: url("/App_Themes/VOA_en-US/img/top_logo.gif?v=__7.5.0.0.9") no-repeat left 8px; margin-left: 12px;
+}
+#top_bar .top_stories strong.label {
+	color: rgb(203, 19, 26); padding-right: 0px;
+}
+#top_bar .top_stories a {
+	color: rgb(203, 19, 26); padding-right: 0px;
+}
+#top_bar ul li {
+	font-size: 11px; background-image: none;
+}
+#top_bar .top_stories strong.label {
+	color: rgb(203, 19, 26); font-weight: bold;
+}
+#top_bar .top_stories a {
+	color: rgb(203, 19, 26); font-weight: bold;
+}
+.body_FlashAudio #popupHeader h2.popup_top_header {
+	background-image: url("/App_Themes/VOA_en-US/img/small_header.gif?v=__7.5.0.0.9");
+}
+.w_rss-widget .bullet_orange li a {
+	font-size: 13px;
+}

@@ -1,0 +1,252 @@
+#autocomplete {
+	border: 1px solid currentColor; border-image: none; overflow: hidden; position: absolute; z-index: 100;
+}
+#autocomplete ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#autocomplete li {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); white-space: pre; cursor: default;
+}
+html.js input.form-autocomplete {
+	background-position: 100% 2px; background-image: url("/misc/throbber.gif"); background-repeat: no-repeat;
+}
+html.js input.throbbing {
+	background-position: 100% -18px;
+}
+html.js fieldset.collapsed {
+	height: 1em; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;
+}
+html.js fieldset.collapsed .fieldset-wrapper {
+	display: none;
+}
+fieldset.collapsible {
+	position: relative;
+}
+fieldset.collapsible .fieldset-legend {
+	display: block;
+}
+.form-textarea-wrapper textarea {
+	margin: 0px; width: 100%; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.resizable-textarea .grippie {
+	background: url("/misc/grippie.png") no-repeat center 2px rgb(238, 238, 238); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(221, 221, 221); border-image: none; height: 9px; overflow: hidden; cursor: s-resize;
+}
+body.drag {
+	cursor: move;
+}
+.draggable a.tabledrag-handle {
+	margin: -0.4em 0px -0.4em -0.5em; padding: 0.42em 1.5em 0.42em 0.5em; height: 1.7em; text-decoration: none; float: left; cursor: move;
+}
+a.tabledrag-handle:hover {
+	text-decoration: none;
+}
+a.tabledrag-handle .handle {
+	background: url("/misc/draggable.png") no-repeat 0px 0px; width: 13px; height: 13px; margin-top: 4px;
+}
+a.tabledrag-handle-hover .handle {
+	background-position: 0px -20px;
+}
+div.indentation {
+	margin: -0.4em 0.2em -0.4em -0.4em; padding: 0.42em 0px 0.42em 0.6em; width: 20px; height: 1.7em; float: left;
+}
+div.tree-child {
+	background: url("/misc/tree.png") no-repeat 11px;
+}
+div.tree-child-last {
+	background: url("/misc/tree-bottom.png") no-repeat 11px;
+}
+div.tree-child-horizontal {
+	background: url("/misc/tree.png") no-repeat -11px;
+}
+.tabledrag-toggle-weight-wrapper {
+	text-align: right;
+}
+table.sticky-header {
+	margin-top: 0px; background-color: rgb(255, 255, 255);
+}
+.progress .bar {
+	border: 1px solid currentColor; border-image: none; background-color: rgb(255, 255, 255);
+}
+.progress .filled {
+	width: 5px; height: 1.5em; background-color: rgb(0, 0, 0);
+}
+.progress .percentage {
+	float: right;
+}
+.ajax-progress {
+	display: inline-block;
+}
+.ajax-progress .throbber {
+	background: url("/misc/throbber.gif") no-repeat 0px -18px; margin: 2px; width: 15px; height: 15px; float: left;
+}
+.ajax-progress .message {
+	padding-left: 20px;
+}
+tr .ajax-progress .throbber {
+	margin: 0px 2px;
+}
+.ajax-progress-bar {
+	width: 16em;
+}
+.container-inline div {
+	display: inline;
+}
+.container-inline label {
+	display: inline;
+}
+.container-inline .fieldset-wrapper {
+	display: block;
+}
+.nowrap {
+	white-space: nowrap;
+}
+html.js .js-hide {
+	display: none;
+}
+.element-hidden {
+	display: none;
+}
+.element-invisible {
+	position: absolute !important; clip: rect(1px, 1px, 1px, 1px);
+}
+.element-focusable.element-invisible:active {
+	position: static !important; clip: auto;
+}
+.element-focusable.element-invisible:focus {
+	position: static !important; clip: auto;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+* html .clearfix {
+	height: 1%;
+}
+*:first-child + html .clearfix {
+	min-height: 1%;
+}
+ul.menu {
+	list-style: none; border: currentColor; border-image: none; text-align: left;
+}
+ul.menu li {
+	margin: 0px 0px 0px 0.5em;
+}
+ul li.expanded {
+	list-style-type: circle; list-style-image: url("/misc/menu-expanded.png");
+}
+ul li.collapsed {
+	list-style-type: disc; list-style-image: url("/misc/menu-collapsed.png");
+}
+ul li.leaf {
+	list-style-type: square; list-style-image: url("/misc/menu-leaf.png");
+}
+li.expanded {
+	margin: 0px; padding: 0.2em 0.5em 0px 0px;
+}
+li.collapsed {
+	margin: 0px; padding: 0.2em 0.5em 0px 0px;
+}
+li.leaf {
+	margin: 0px; padding: 0.2em 0.5em 0px 0px;
+}
+li a.active {
+	color: rgb(0, 0, 0);
+}
+td.menu-disabled {
+	background: rgb(204, 204, 204);
+}
+ul.inline {
+	padding-left: 0px; display: inline;
+}
+ul.inline.links {
+	padding-left: 0px; display: inline;
+}
+ul.inline li {
+	padding: 0px 0.5em; display: inline; list-style-type: none;
+}
+.breadcrumb {
+	padding-bottom: 0.5em;
+}
+ul.primary {
+	list-style: none; margin: 5px; padding: 0px 0px 0px 1em; height: auto; line-height: normal; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid; white-space: nowrap; border-collapse: collapse;
+}
+ul.primary li {
+	display: inline;
+}
+ul.primary li a {
+	border-width: 1px; border-style: solid solid none; border-color: rgb(187, 187, 187); padding: 0px 1em; height: auto; text-decoration: none; margin-right: 0.5em; background-color: rgb(221, 221, 221);
+}
+ul.primary li.active a {
+	border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255); border-image: none; background-color: rgb(255, 255, 255);
+}
+ul.primary li a:hover {
+	border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+ul.secondary {
+	margin: 5px; padding: 0.5em 1em; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.secondary li {
+	padding: 0px 1em; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+ul.secondary a {
+	padding: 0px; text-decoration: none;
+}
+ul.secondary a.active {
+	border-bottom-color: rgb(153, 153, 153); border-bottom-width: 4px; border-bottom-style: solid;
+}
+div.messages {
+	background-position: 8px 8px; margin: 6px 0px; padding: 10px 10px 10px 50px; border: 1px solid currentColor; border-image: none; background-repeat: no-repeat;
+}
+div.status {
+	border-color: rgb(187, 238, 119); background-image: url("/misc/message-24-ok.png");
+}
+div.status {
+	color: rgb(35, 70, 0);
+}
+.ok {
+	color: rgb(35, 70, 0);
+}
+div.status {
+	background-color: rgb(248, 255, 240);
+}
+table tr.ok {
+	background-color: rgb(248, 255, 240);
+}
+div.warning {
+	border-color: rgb(238, 221, 85); background-image: url("/misc/message-24-warning.png");
+}
+div.warning {
+	color: rgb(136, 68, 0);
+}
+.warning {
+	color: rgb(136, 68, 0);
+}
+div.warning {
+	background-color: rgb(255, 252, 229);
+}
+table tr.warning {
+	background-color: rgb(255, 252, 229);
+}
+div.error {
+	border-color: rgb(237, 84, 29); background-image: url("/misc/message-24-error.png");
+}
+div.error {
+	color: rgb(140, 46, 11);
+}
+.error {
+	color: rgb(140, 46, 11);
+}
+div.error {
+	background-color: rgb(254, 245, 241);
+}
+table tr.error {
+	background-color: rgb(254, 245, 241);
+}
+div.error p.error {
+	color: rgb(51, 51, 51);
+}
+div.messages ul {
+	margin: 0px 0px 0px 1em; padding: 0px;
+}
+div.messages ul li {
+	list-style-image: none;
+}

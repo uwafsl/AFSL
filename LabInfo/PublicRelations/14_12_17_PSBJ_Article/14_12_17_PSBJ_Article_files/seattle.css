@@ -1,0 +1,189 @@
+#mainHead .body .logo {
+	background-position: 0px; margin: -6px 0px 4px; height: 62px; background-image: url("../img/pinstripe/logos/seattle.png");
+}
+#email-capture #header h1 {
+	background-position: 0px; margin: -6px 0px 4px; height: 62px; background-image: url("../img/pinstripe/logos/seattle.png");
+}
+#promo-page #header h1 {
+	background-position: 0px; margin: -6px 0px 4px; height: 62px; background-image: url("../img/pinstripe/logos/seattle.png");
+}
+.no-nav#mainHead .ps-stripes {
+	margin-top: 0px;
+}
+.no-nav#mainHead .body .logo {
+	margin-top: -108px;
+}
+#promo-page #header h1 a {
+	display: block;
+}
+#mainHead {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.membersOnly .head {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.membersOnly .tabs {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.ie6 .membersOnly .tabs {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.ancContent .searchCategory .head {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.poll .survey .result_bar {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+#m-email-capture #header {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+#m-email-capture form input.submitCapture {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.container .body .eventTableData .eventCalendarDeadline {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+.container .body .eventTableData .eventCalendarMonth {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+#promo-page #header {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+#email-capture #header {
+	background-image: -ms-linear-gradient(bottom, rgb(11, 38, 105), rgb(31, 58, 125), rgb(51, 78, 145)); background-color: rgb(31, 58, 125);
+}
+#email-capture #header .ps-stripes {
+	background: url("http://assets.bizjournals.com/lib/img/pinstripe/stripes.png") 0px 0px; margin: 0px 0px 0px -20px; height: 104px;
+}
+#promo-page #header .ps-stripes {
+	background: url("http://assets.bizjournals.com/lib/img/pinstripe/stripes.png") 0px 0px; margin: 0px 0px 0px -20px; height: 104px;
+}
+.ps-header#mainHead .ps-stripes {
+	background: url("http://assets.bizjournals.com/lib/img/pinstripe/stripes.png") 0px 0px; margin: 0px 0px 0px -20px; height: 104px;
+}
+#email-capture #header .ps-stripes {
+	width: 960px;
+}
+#promo-page #header .ps-stripes {
+	width: 980px;
+}
+#email-capture #header h1 {
+	width: 327px; margin-top: -90px; background-repeat: no-repeat;
+}
+#promo-page #header h1 {
+	width: 327px; margin-top: -90px; background-repeat: no-repeat;
+}
+#promo-page #header h1 {
+	margin-left: 18px;
+}
+#email-capture #header {
+	padding-top: 0px;
+}
+#promo-page #header {
+	padding-top: 0px;
+}
+.datePickerWidget .ui-widget-header {
+	background: rgb(32, 45, 123);
+}
+.datePickerWidget .ui-state-active {
+	background: rgb(32, 45, 123); border: 1px solid rgb(32, 45, 123); border-image: none;
+}
+.datePickerWidget .ui-widget-content .ui-state-active {
+	background: rgb(32, 45, 123); border: 1px solid rgb(32, 45, 123); border-image: none;
+}
+.datePickerWidget .ui-widget-header .ui-state-active {
+	background: rgb(32, 45, 123); border: 1px solid rgb(32, 45, 123); border-image: none;
+}
+.bizWatch .tabs {
+	background: none;
+}
+.promoBox .tabs li {
+	background-image: url("../img/bg_research_tabBox.png");
+}
+.promoBox .tabs li.current {
+	background-image: url("../img/bg_research_tabBox.png");
+}
+.promoBox .tabs li span {
+	background: none;
+}
+#pane-target li.current {
+	border: 3px solid rgb(32, 45, 123); border-image: none;
+}
+.persistentFooter .expandableWrap {
+	background-image: url("../img/seattle/bg_persistent_footer_fc.png");
+}
+.persistentFooter .footerContent {
+	background-image: url("../img/seattle/bg_persistent_footer_fc.png");
+}
+.persistentFooter .ribbon {
+	background-image: url("../img/seattle/bg_persistent_footer_ribbon.png");
+}
+.persistentFooter .expandableMenu dt {
+	height: 44px; border-right-color: rgb(9, 19, 75); border-left-color: rgb(91, 99, 151); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left; background-image: url("../img/seattle/sprite_bg_persistentNav.png");
+}
+.persistentFooter .expandableMenu dd {
+	height: 44px; border-right-color: rgb(9, 19, 75); border-left-color: rgb(91, 99, 151); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left; background-image: url("../img/seattle/sprite_bg_persistentNav.png");
+}
+#email-capture #header {
+	background-color: rgb(32, 45, 123);
+}
+#email-capture #header h1 {
+	width: 327px; height: 58px; background-repeat: no-repeat;
+}
+#email-capture #header h1 a {
+	height: 58px; display: block;
+}
+#email-capture form input.submitCapture {
+	border-radius: 6px; border: currentColor; border-image: none; width: 131px; height: 54px; text-align: center; color: rgb(255, 255, 255); padding-top: 0px; font-size: 18px; display: inline-block; background-color: rgb(32, 45, 123); -moz-border-radius: 6px;
+}
+#email-capture #arrow {
+	background: url("../img/seattle/email/morningCall/email_capture/bg_arrow.png") no-repeat; margin: -16px -10px 0px -11px; height: 50px; z-index: 100;
+}
+#email-capture .morningCall .preview {
+	background: url("../img/seattle/email/morningCall/email_capture/img_preview.png"); width: 260px; height: 156px;
+}
+#email-capture .morningCall #main h2 {
+	background: url("http://assets.bizjournals.com/lib/img/seattle/morning_call/psbj_morningcall_315x77.png") no-repeat rgb(255, 255, 255); margin: 30px 0px; width: 315px; height: 77px;
+}
+#email-capture .dailyUpdate #sidebar #sidebar-in .preview {
+	background: url("../img/seattle/email/dailyUpdate/email_capture/img_preview.png"); width: 260px; height: 156px;
+}
+#m-email-capture #header h1 {
+	background-image: url("../img/mobile/market/seattle.png");
+}
+#m-email-capture #header h1 {
+	width: 250px; height: 40px; background-repeat: no-repeat;
+}
+#m-email-capture #header h1 a {
+	display: block;
+}
+#m-email-capture .morningCall #m-main h2 {
+	background: url("http://assets.bizjournals.com/lib/img/seattle/morning_call/psbj_morningcall_250x60.png") no-repeat rgb(255, 255, 255); width: 250px; height: 60px;
+}
+.pinstripe #brandnav #branding #mkt-logo a {
+	background-image: url("../img/pinstripe/logos/seattle.png");
+}
+@media not all, all and (min-resolution:192dpi)
+{
+.pinstripe #brandnav #branding #mkt-logo a {
+	background-position: 0px; background-image: url("../img/pinstripe/logos/seattle@2x.png");
+}
+#mainHead .body .logo {
+	background-position: 0px; background-image: url("../img/pinstripe/logos/seattle@2x.png");
+}
+#email-capture #header h1 {
+	background-position: 0px; background-image: url("../img/pinstripe/logos/seattle@2x.png");
+}
+#promo-page #header h1 {
+	background-position: 0px; background-image: url("../img/pinstripe/logos/seattle@2x.png");
+}
+#mainHead .body .logo {
+	background-size: 75%;
+}
+#email-capture #header h1 {
+	background-size: 75%;
+}
+#promo-page #header h1 {
+	background-size: 75%;
+}
+}

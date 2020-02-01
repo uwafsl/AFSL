@@ -1,0 +1,4059 @@
+#cmHeaderMainContainer {
+	padding: 5px 10px 0px 16px; position: relative;
+}
+#cmHeaderLogoContainer {
+	width: 180px; height: 80px; text-align: center; overflow: hidden; float: left;
+}
+#cmHeaderLogoContainer a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmHeaderImageOverlay a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmHeaderLogo {
+	max-width: 380px;
+}
+#cmHeaderUserRegistration {
+	float: right;
+}
+.cmHeaderCap {
+	background: rgb(221, 221, 221); padding: 0px 15px; height: 26px; border-bottom-color: rgb(147, 147, 147); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmHeaderCapInner {
+	padding-top: 4px;
+}
+.cmHeaderCap p {
+	font-weight: bold;
+}
+.cmHeaderCap ul.cmSocialMediaLinks {
+	padding: 2px 20px 0px 0px;
+}
+.cmHeaderCap ul.cmSocialMediaLinks li {
+	padding-left: 6px; float: left;
+}
+.cmHeaderCap p.cmPosStatement {
+	text-align: center; font-weight: normal;
+}
+#cmSearchForm {
+	text-align: right; clear: right;
+}
+#cmSearchForm p {
+	padding: 0px;
+}
+#cmSearchForm form {
+	width: 250px;
+}
+#cmSearchForm form.search_form input {
+	width: 155px;
+}
+.cmCol9.cmHeaderWrap {
+	width: 960px; margin-left: 0px;
+}
+.cmHeaderCap .cmHeaderCap001 {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap005 {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap010 {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap020 {
+	float: right;
+}
+.cmHeaderCap .cmHeaderCap001 p {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap005 p {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap010 p {
+	float: left;
+}
+.cmHeaderCap .cmHeaderCap020 p {
+	float: left;
+}
+.cmHeaderCap .cmUserRegistration p a {
+	border-bottom-width: 1px; border-bottom-style: dotted !important;
+}
+#cmHeaderUserRegistrationContainer a {
+	border-bottom-width: 1px; border-bottom-style: dotted !important;
+}
+.cmHeaderCap .cmUserRegistration p a:hover {
+	border-bottom-width: 1px; border-bottom-style: solid !important;
+}
+#cmHeaderUserRegistrationContainer a:hover {
+	border-bottom-width: 1px; border-bottom-style: solid !important;
+}
+#cmHeaderUserRegistration {
+	visibility: hidden;
+}
+#cmHeaderUserRegistration .cmUserAuthed {
+	display: none;
+}
+#cmHeaderUserRegistration .cmUserAnonymous {
+	display: none;
+}
+.cmHeaderCap .cmUserRegistration p a:hover {
+	border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmHeaderUserRegistrationContainer a:hover {
+	border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmSearchFormContainer {
+	padding: 10px 0px 0px; width: 260px; height: 50px; float: right;
+}
+.cmSearchFormContainer .cmSearchChoice {
+	margin: 3px 0px 0px; width: 110px; height: 20px; line-height: 20px; float: left;
+}
+.cmSearchFormContainer .cmSearchChoice label {
+	margin-right: 10px;
+}
+.cmSearchFormContainer .cmSearchChoice input {
+	margin-left: 0px;
+}
+.cmSearchFormContainer button {
+	background: rgb(15, 116, 192); margin: 0px 0px 0px 5px; padding: 2px 0px 3px; border-radius: 5px; border: currentColor; width: 65px; display: inline-block; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.cmSearchFormContainer button:hover {
+	background: rgb(15, 116, 192);
+}
+.cmSearchFormContainer button:active {
+	top: 1px; position: relative;
+}
+.cmSearchList {
+	margin: 10px 0px;
+}
+.cmSearchList li {
+	margin: 0px 0px 20px;
+}
+.cmSearchList h3 {
+	margin: 0px;
+}
+.cmSearchList h3 a {
+	font-weight: normal;
+}
+.cmWebResultsContainer {
+	margin: 5px 0px; clear: both;
+}
+.cmWebResultsContainer span {
+	margin-right: 5px; display: inline-block;
+}
+.cmSearchWidget .cmSearchFormContainer {
+	width: 500px; clear: both; float: none;
+}
+.cmSearchFormContainer .cmSearchText {
+	width: 170px;
+}
+.cmSearchWidget .cmSearchText {
+	width: 380px;
+}
+.cmSearchWidget {
+	margin: 5px 0px 10px; padding: 0px; clear: both; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmSearchWidgetBottom.cmSearchWidget {
+	padding: 15px 0px 5px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.cmSolrResults.cmSearchWidget {
+	border: currentColor; margin-bottom: -5px;
+}
+.cmSearchWidgetBottom.cmSolrResults.cmSearchWidget {
+	padding: 0px 0px 5px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmInvalidSearch {
+	margin: 10px 0px; clear: both;
+}
+.cmYahooError.cmErrorBox {
+	margin: 0px;
+}
+.cmPencilAd {
+	
+}
+.cmRightRail .cmModule {
+	clear: both;
+}
+.cmRightRailHeader.cmModuleHeader {
+	background: none; padding-left: 0px; margin-bottom: 0px; border-top-color: rgb(205, 205, 205); border-top-width: 1px; border-top-style: solid; min-height: 28px;
+}
+.cmRightRail .cmModule .cmTeaseRelated {
+	display: none;
+}
+.cmRightRail .cmModule .cmTeaseShare {
+	display: none;
+}
+#cmFooter {
+	
+}
+#cmFooterContainer {
+	margin-bottom: 15px;
+}
+#cmSiteMap {
+	margin: 1em 0px;
+}
+.cmSiteMapColumn {
+	border: currentColor; width: 190px; overflow: hidden; margin-left: 20px; float: left; display: inline;
+}
+:first-child.cmSiteMapColumn {
+	border: currentColor;
+}
+.cmSiteMapColumn h4 {
+	margin: 3px 0px;
+}
+.cmSiteMapColumn h5 {
+	margin: 0px 1em; padding: 0px 1em;
+}
+.cmSiteMapColumn ul.cmSiteMapList {
+	margin: 0px; padding: 0px;
+}
+.cmSiteMapColumn ul.cmSiteMapList li {
+	background-position: 0px 6px; padding: 0px 0px 2px 10px; background-repeat: no-repeat;
+}
+.cmSiteMapColumn ul.cmSiteMapList li a:visited {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.cmSiteMapColumn ul.multiColumnList {
+	margin-top: 1.8em;
+}
+.cmOuterFooterWrap {
+	margin: 0px auto; padding: 10px 0px 0px; width: 960px;
+}
+.cmFooterTerms {
+	margin-top: 1.5em;
+}
+.cmTerms {
+	margin: 1em 0px;
+}
+.cmTerms p {
+	text-align: center;
+}
+.cmFooterTerms a {
+	border-bottom-color: rgb(125, 220, 252); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.cmFooterLogos {
+	padding: 0.5em 0px 1em;
+}
+.cmFooterLogos .cmACAPLogo {
+	margin: 0.5em 0px 0px; text-align: center;
+}
+.cmFooterLogos .cmCMGLogo {
+	margin: 0.5em 0px 0px; text-align: center;
+}
+.cmContentBlockHeader {
+	text-transform: uppercase; padding-bottom: 3px; margin-bottom: 17px; border-bottom-color: rgb(205, 205, 205); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#cmError {
+	margin-top: 10px;
+}
+.cmHeaderFooterWrap.cmCol6 {
+	margin: 20px auto; float: none; display: block;
+}
+.cmBreadcrumbSignIn.cmBreadcrumb {
+	margin: 12px 0px 20px;
+}
+.cmInputText {
+	font-weight: normal;
+}
+.registerInput {
+	width: 150px;
+}
+.displayNameCheckError {
+	color: rgb(255, 0, 0); font-weight: bold; margin-left: 2px;
+}
+.screenNameCheckError {
+	color: rgb(255, 0, 0); font-weight: bold; margin-left: 2px;
+}
+.displayNameCheckSuccess {
+	color: rgb(33, 124, 115); font-weight: bold; margin-left: 2px;
+}
+.screenNameCheckSuccess {
+	color: rgb(33, 124, 115); font-weight: bold; margin-left: 2px;
+}
+.cmSigninWrap .cmErrorBox {
+	width: auto;
+}
+#cmSigninPadding {
+	padding-bottom: 144px;
+}
+.cmTitleBar {
+	border: 1px solid rgb(169, 169, 169); text-transform: uppercase; padding-left: 5px; font-weight: bold; margin-top: 15px; background-color: rgb(236, 234, 234);
+}
+.cmTitleBar p {
+	color: rgb(124, 124, 124); font-size: 0.91em;
+}
+#cmUserRegistration p {
+	font-size: 1.16em; font-weight: bold;
+}
+.cmSigninButton {
+	margin-right: 15px; float: left;
+}
+#cmSignin h2 a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h3 a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h4 a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h5 a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin p a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin li a:link {
+	color: rgb(255, 255, 182); border-bottom-color: rgb(255, 255, 182); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h2 a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h3 a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h4 a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h5 a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin p a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin li a:visited {
+	color: rgb(232, 205, 255); border-bottom-color: rgb(232, 205, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin h2 a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h2 a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h3 a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h3 a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h4 a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h4 a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h5 a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin h5 a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin p a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin p a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin li a:hover {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSignin li a:active {
+	color: rgb(241, 240, 209); border-bottom-color: rgb(241, 240, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSigninBorder {
+	padding: 8px; border: 1px solid rgb(203, 203, 203); background-color: rgb(214, 214, 214);
+}
+#cmSignin {
+	background: rgb(122, 121, 121); padding: 14px 28px; border: 1px solid rgb(226, 226, 226); color: rgb(255, 255, 255);
+}
+#cmSignin #cmSigninHeader {
+	background: rgb(229, 107, 40); padding: 16px 0px; border: 3px solid rgb(255, 255, 255); text-align: center; margin-bottom: 16px;
+}
+#cmSignin #cmSigninHeader h1 {
+	text-align: center; color: rgb(254, 253, 253) !important; margin-bottom: 0px !important;
+}
+#cmSignin #cmSigninHeader a {
+	color: rgb(254, 207, 171); margin-left: 14px; border-bottom-color: rgb(245, 200, 174); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin #cmSigninNormal {
+	float: left;
+}
+#cmSignin #cmSigninSocial {
+	float: left;
+}
+#cmSignin #cmSigninDivider {
+	float: left;
+}
+#cmSignin #cmSigninDivider {
+	padding: 0px 35px; text-align: center;
+}
+#cmSignin p {
+	color: rgb(255, 255, 255);
+}
+#cmSignin label {
+	color: rgb(255, 255, 255);
+}
+#cmSignin .cmSigninTitle {
+	font-weight: bold;
+}
+#id_username {
+	width: 226px;
+}
+#id_password {
+	width: 226px;
+}
+#cmSignin .cmForgotPwd {
+	text-align: right; color: rgb(254, 207, 171); font-size: 0.91em;
+}
+#cmSignin .cmForgotPwd a {
+	color: rgb(254, 207, 171); border-bottom-color: rgb(188, 80, 224); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmSignin .cmDividerVert {
+	width: 1px; height: 168px;
+}
+#cmSignin .cmDividerHorizHalf {
+	width: 223px; height: 1px; margin-bottom: 10px;
+}
+#cmSignin .cmDividerHoriz {
+	margin: 10px 0px; width: 535px; height: 1px;
+}
+#cmSignin .cmSigninSocialIcon {
+	margin-bottom: 12px;
+}
+#cmSignin .cmSigninCox {
+	text-align: center; color: rgb(214, 214, 214);
+}
+.cmSigninHeader {
+	padding: 16px 0px; border: 3px solid rgb(255, 255, 255); text-align: center; color: rgb(255, 255, 255); font-weight: bold; margin-bottom: 16px; box-shadow: 0px 0px 6px #808080; background-color: rgb(229, 107, 40); -webkit-box-shadow: 0 0 6px #808080; -moz-box-shadow: 0 0 6px #808080; -o-box-shadow: 0 0 6px #808080;
+}
+#cmRegister .cmOptional {
+	font-weight: normal;
+}
+#cmRegister a {
+	color: rgb(3, 109, 190); border-bottom-color: rgb(245, 200, 174); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmRegister .cmCaptcha a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmRegister .cmPasswordHelpText {
+	padding: 0px;
+}
+#cmAccount {
+	padding-bottom: 10px;
+}
+.line.cmPublicProfileRow {
+	margin: 0px; padding: 15px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+#cmProfilePublic .cmPublicProfileForm {
+	float: left;
+}
+#cmProfilePublic .cmPublicProfileDisplay {
+	width: 70px; float: left;
+}
+#cmProfilePublic .cmTitleBar {
+	padding: 2px 0px 2px 10px; border: 1px solid rgb(236, 234, 234); color: rgb(124, 124, 124); text-transform: uppercase; font-weight: bold; background-color: rgb(236, 234, 234);
+}
+#cmProfilePublic .cmInputProfileBtn {
+	margin-left: 4px;
+}
+#cmProfilePublic .cmPublicProfileBio {
+	width: 436px; height: 132px;
+}
+#cmProfilePublic .cmProfilePicture {
+	left: 280px; clear: both; position: absolute;
+}
+#cmProfilePublic .cmProfileInput {
+	width: 160px;
+}
+#cmProfilePrivate .cmProfileInput {
+	width: 160px;
+}
+#cmProfilePublic .cmProfileInputFull {
+	width: 360px;
+}
+#cmProfilePrivate .cmProfileInputFull {
+	width: 360px;
+}
+#cmProfilePublic .cmViewProfile {
+	font-weight: bold; float: right;
+}
+#id_first_name {
+	width: 286px;
+}
+#id_last_name {
+	width: 286px;
+}
+#id_home-line2 {
+	width: 286px;
+}
+#id_work-line2 {
+	width: 286px;
+}
+#id_home-city {
+	width: 286px;
+}
+#id_work-city {
+	width: 286px;
+}
+#id_email {
+	width: 286px;
+}
+#id_optional_email {
+	width: 286px;
+}
+#screen_name {
+	width: 286px;
+}
+#id_display_name {
+	width: 286px;
+}
+#id_mobile_phone {
+	width: 168px;
+}
+#id_home_phone {
+	width: 168px;
+}
+#id_work_phone {
+	width: 168px;
+}
+#id_day_phone {
+	width: 168px;
+}
+#id_old_password {
+	width: 168px;
+}
+#id_new_password1 {
+	width: 168px;
+}
+#id_new_password2 {
+	width: 168px;
+}
+#id_password1 {
+	width: 168px;
+}
+#id_password2 {
+	width: 168px;
+}
+.migrated #id_display_name {
+	width: 168px;
+}
+.migrated #id_password {
+	width: 168px;
+}
+.migrated #id_confirm_password {
+	width: 168px;
+}
+#id_home_zip {
+	width: 102px;
+}
+#id_home-line1 {
+	width: 450px;
+}
+#id_work-line1 {
+	width: 450px;
+}
+#cmProfilePublic .cmProfileInputSmall {
+	width: 85px;
+}
+#cmProfilePrivate .cmProfileInputSmall {
+	width: 85px;
+}
+#cmProfilePublic .cmInputText {
+	font-weight: normal;
+}
+#cmProfilePrivate .cmInputText {
+	font-weight: normal;
+}
+#cmProfilePrivate .cmInputProfileBtn {
+	margin-left: 20px;
+}
+#cmProfilePrivate .cmInputProfileSpace {
+	margin-left: 8px;
+}
+.cmInputCol {
+	clear: both;
+}
+.cmInputColLabel {
+	margin-right: 15px; float: left;
+}
+#cmProfilePrivate .cmPrivateHeader {
+	font-weight: bold; float: left;
+}
+#cmProfilePublic .cmSubmitBtn {
+	margin: 10px 0px; clear: both; float: right;
+}
+#cmProfilePrivate .cmSubmitBtn {
+	margin: 10px 0px; clear: both; float: right;
+}
+.cmSubmitBtn {
+	margin: 10px 0px; clear: both; float: right;
+}
+#cmProfilePrivate .cmToggle {
+	display: block;
+}
+#cmProfilePrivate .cmToggleLink {
+	margin: -5px 5px 0px 0px; right: 0px; float: right; position: absolute;
+}
+#cmProfilePrivate .cmTabbedContainer {
+	padding-top: 10px;
+}
+#viewPublicProfile {
+	margin-bottom: 20px;
+}
+#viewPublicProfile .cmProfileTitle {
+	font-weight: bold;
+}
+#viewPublicProfile .cmViewProfileContent {
+	width: 560px; float: left;
+}
+#viewPublicProfile .cmProfileImage {
+	width: 100%; margin-left: 0px; float: right;
+}
+.cmPrivateProfileRow {
+	margin-bottom: 15px;
+}
+#check_display_name_message {
+	margin-left: 4px;
+}
+#check_screen_name_message {
+	margin-left: 4px;
+}
+#favFilter {
+	width: 90px; margin-right: 20px; float: left;
+}
+#favContent {
+	width: 490px; float: left;
+}
+.cmProfileImage {
+	float: left; max-width: 90px;
+}
+.cmPublicProfileRow .cmProfileImage {
+	margin-left: 30px;
+}
+#viewPublicProfile .editLink {
+	margin-bottom: 10px; float: right;
+}
+#viewPublicProfile .cmProfileImage {
+	margin: 0px; width: 45px; text-align: right; float: right;
+}
+#cmProfileInfo {
+	margin-left: 15px; float: left; max-width: 195px;
+}
+.cmProfileTitle {
+	font-size: 1.16em; font-weight: bold;
+}
+#subNav {
+	height: 27px; margin-bottom: 10px; list-style-type: none;
+}
+#subNav li {
+	background: none; margin: 0px; text-align: center; float: left;
+}
+#subNav li:first-child a {
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px;
+}
+#subNav li:first-child a:hover {
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px;
+}
+#subNav li:last-child a {
+	border-top-right-radius: 5px; border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px;
+}
+#subNav li:last-child a:hover {
+	border-top-right-radius: 5px; border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px;
+}
+#subNav a {
+	background: rgb(186, 186, 186); border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(204, 204, 204) currentColor rgb(204, 204, 204) rgb(204, 204, 204); padding: 8px 0px 5px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 0.91em; font-weight: bold; display: block; box-shadow: 2px 2px 4px #d9d9d9; -webkit-box-shadow: 2px 2px 4px #d9d9d9; -moz-box-shadow: 2px 2px 4px #d9d9d9; -o-box-shadow: 2px 2px 4px #d9d9d9;
+}
+#subNav a:hover {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+#subNav a.selected {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+#subNav li:first-child a:hover {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 3px; -moz-border-radius-topleft: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px;
+}
+#subNav li:first-child a.selected {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 3px; -moz-border-radius-topleft: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px;
+}
+#subNav li:last-child a:hover {
+	margin-right: -1px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-top-right-radius: 3px; border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-bottomright: 3px;
+}
+#subNav li:last-child a.selected {
+	margin-right: -1px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; border-top-right-radius: 3px; border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-bottomright: 3px;
+}
+#subSubNav {
+	list-style: none; height: 27px; margin-bottom: 10px; border-bottom-color: rgb(137, 137, 135); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#subSubNav li {
+	background: rgb(252, 253, 254); text-align: center; padding-left: 1px; margin-right: 2px; float: left;
+}
+#subSubNav li:last-child {
+	margin-right: 0px;
+}
+#subSubNav a {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(169, 169, 169) rgb(169, 169, 169) currentColor; padding: 8px 0px 5px; color: rgb(51, 102, 153); text-transform: uppercase; font-size: 0.91em; font-weight: bold; display: block; border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+#subSubNav a:hover {
+	margin: 0px; padding: 8px 0px 5px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+#subSubNav a.selected {
+	margin: 0px; padding: 8px 0px 5px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+ul.cmTabbedTabs li a:hover {
+	margin: 0px; padding: 8px 0px 5px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.ui-tabs .ui-tabs-hide {
+	display: none;
+}
+.ui-widget-content.cmRotatorLede {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-widget-content {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-state-default {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-state-active {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget.cmRotatorLede {
+	font-size: 1em;
+}
+#cmGridObject .cmRotatorLede {
+	margin-bottom: 10px;
+}
+.cmRotatorLede ul.cmLedeTabNav {
+	background: none; margin: 0px 0px -2px -1px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative; -ms-zoom: 1;
+}
+.cmRotatorLede ul.cmLedeTabNav li {
+	margin: 0px 3px 0px 0px; padding: 0px; float: left;
+}
+.cmRotatorLede ul.cmLedeTabNav li a {
+	background: rgb(35, 74, 119); border-width: 2px 2px medium; border-style: solid solid none; border-color: rgb(35, 74, 119) rgb(35, 74, 119) currentColor; padding: 6px 10px 5px; border-radius: 8px 8px 0px 0px; color: rgb(255, 255, 255); display: block; white-space: nowrap; -webkit-border-radius: 8px 8px 0 0; -moz-border-radius: 8px 8px 0 0;
+}
+.cmRotatorLede ul.cmLedeTabNav li.ui-state-default a {
+	background: rgb(35, 74, 119); color: rgb(255, 255, 255);
+}
+.cmRotatorLede ul.cmLedeTabNav li.ui-tabs-selected a {
+	background: rgb(255, 255, 255); color: rgb(35, 74, 119);
+}
+#cmGridObject .cmRotatorLede .gridBackground {
+	background: rgb(255, 255, 255); padding: 12px 6px 0px; border-radius: 0px 8px 8px; border: 2px solid rgb(35, 74, 119); width: 602px; -webkit-border-radius: 0 8px 8px 8px; -moz-border-radius: 0 8px 8px 8px;
+}
+#cmGridObject .cmRotatorLede .cmTopRounded.gridBackground {
+	border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+#cmGridObject .cmRotatorLede .cmTabContent {
+	background: rgb(255, 255, 255); width: 100%; float: left;
+}
+.cmRotatorLede .cmCol6 {
+	margin: 0px 10px; width: 580px;
+}
+.cmRotatorLede .cmCol4 {
+	margin: 0px 10px; width: 380px;
+}
+.cmRotatorLede .cmCol3 {
+	margin: 0px 10px 0px 5px; width: 280px;
+}
+.cmRotatorLede .cmCol2 {
+	margin: 0px 7px; width: 185px;
+}
+.cmRotatorLede .cmTeaseCol6 .cmRotatorLedeVideo {
+	min-height: 372px;
+}
+.cmRotatorLede .cmTeaseCol4 .cmRotatorLedeVideo {
+	min-height: 260px;
+}
+.cmRotatorLede .cmTeaseCol3 .cmRotatorLedeVideo {
+	min-height: 209px;
+}
+.cmRotatorLede .cmTeaseCol6 .cmRotatorLedeVideoPlaylist {
+	min-height: 482px;
+}
+.cmRotatorLede .cmTeaseCol4 .cmRotatorLedeVideoPlaylist {
+	min-height: 370px;
+}
+.cmRotatorLede .cmTeaseCol3 .cmRotatorLedeVideoPlaylist {
+	min-height: 319px;
+}
+.cmTabbedContainer ul {
+	list-style: none; height: 27px; border-bottom-color: rgb(137, 137, 135); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmTabbedContainer ul li {
+	background: rgb(252, 253, 254); text-align: center; margin-right: 2px; float: left; display: inline;
+}
+.cmTabbedContainer ul a {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(169, 169, 169) rgb(169, 169, 169) currentColor; margin: 0px; padding: 8px 0px 5px; color: rgb(51, 102, 153); text-transform: uppercase; font-size: 0.91em; font-weight: bold; display: block; border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.cmTabbedContainer ul li a.selected {
+	background: rgb(255, 255, 255); padding: 8px 0px 5px; color: rgb(0, 0, 0); border-top-color: rgb(137, 137, 135); border-right-color: rgb(137, 137, 135); border-left-color: rgb(137, 137, 135); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+ul.cmTabbedContainerTabs li a:hover {
+	background: rgb(255, 255, 255); padding: 8px 0px 5px; color: rgb(0, 0, 0); border-top-color: rgb(137, 137, 135); border-right-color: rgb(137, 137, 135); border-left-color: rgb(137, 137, 135); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+ul.cmTabbedTabs li a:hover {
+	background: rgb(255, 255, 255); padding: 8px 0px 5px; color: rgb(0, 0, 0); border-top-color: rgb(137, 137, 135); border-right-color: rgb(137, 137, 135); border-left-color: rgb(137, 137, 135); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+div.cmTabbedContainer > .cmTabbedModuleTabs {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); margin-top: 3px;
+}
+.cmTabbedContainer ul a {
+	border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+#subSubNav a:hover {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.cmTabbedContainer ul li a.selected {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+ul.cmTabbedContainerTabs li a:hover {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+#subSubNav a:hover {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+#subSubNav a.selected {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+ul.cmTabbedTabs li a:hover {
+	border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-topright-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.cmTabbedContainer ul li:last-child {
+	margin-right: 0px;
+}
+.cmModule {
+	margin-bottom: 10px;
+}
+.cmTimestamp {
+	margin-bottom: 0px;
+}
+.cmArticleHeaderImage {
+	margin-bottom: 10px; min-width: 615px; max-width: 615px;
+}
+.cmArticleHeaderImage img {
+	min-width: 615px; max-width: 615px;
+}
+span.cmRss {
+	margin-left: 5px;
+}
+.cmLargerH1 .iconRss.sprite {
+	background-position: -224px -1513px;
+}
+span.cmRss a {
+	border: currentColor;
+}
+.cmBreadcrumb {
+	width: 100%; height: 40px; display: inline-block;
+}
+.cmBreadcrumb ul {
+	padding: 7px 0px; width: 100%; border-top-color: rgb(205, 205, 205); border-bottom-color: rgb(205, 205, 205); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid; position: absolute;
+}
+.cmBreadcrumb ul li {
+	float: left; display: inline;
+}
+.cmBreadcrumb ul li:first-child {
+	padding-left: 0px;
+}
+.cmTimeStamp {
+	margin-bottom: 10px;
+}
+#cmArticleWell {
+	clear: both; margin-top: 10px; margin-bottom: 10px;
+}
+.entry_list .item {
+	margin-bottom: 10px;
+}
+.poll_list .item {
+	margin-bottom: 10px;
+}
+.poll_list .item h4 {
+	margin-bottom: 10px;
+}
+.list .item .footer {
+	margin: 0px; padding: 0px; clear: both; list-style-type: none;
+}
+.list .item .footer li:first-child {
+	padding-left: 0px;
+}
+.list .item .footer li {
+	padding-left: 1em; display: inline;
+}
+.list .item .footer li .vote_form {
+	display: inline;
+}
+.inline_list {
+	margin: 0px 0px 10px; padding: 0px; list-style-type: none;
+}
+.inline_list li:first-child {
+	padding-left: 0px;
+}
+.inline_list li {
+	padding-left: 0.5em; display: inline;
+}
+#cmArticleWell p {
+	padding-top: 1em;
+}
+#cmArticleWell .cmCredit {
+	padding: 0px 0px 0.25em;
+}
+#cmArticleWell .cmSource {
+	padding: 0px 0px 0.25em;
+}
+#cmArticleWell .cmPreBlurb {
+	padding: 0px 0px 0.25em;
+}
+#cmArticleWell .cmSourceRestriction {
+	padding: 0px 0px 0.25em;
+}
+.cmTeaseImage {
+	margin-right: 10px; float: left;
+}
+.cmTeaseImage {
+	max-height: 90px; max-width: 90px;
+}
+.cmTeaseImage img {
+	max-height: 90px; max-width: 90px;
+}
+#cmArticleWell .oembed-photo.oembed {
+	margin: 0.75em 1em 0.75em 0px; height: auto !important; clear: both; float: left;
+}
+#cmArticleWell .oembed-photo.oembed + p {
+	margin-top: -2em;
+}
+#cmArticleWell .oembed-photo.oembed p.credit {
+	padding-top: 0.15em; font-size: 1em;
+}
+#cmArticleWell .oembed-video.oembed {
+	margin: 0px auto; width: auto !important; text-align: center;
+}
+.cmOembedContainer .oembed-video.oembed object {
+	width: 329px; height: 267px;
+}
+#cmArticleWell img {
+	margin: 0px auto; display: block;
+}
+.cmFlatPage#cmArticleWell img {
+	margin: 0px; display: inline-block; max-width: 100%;
+}
+.cmFlatPage#cmArticleWell .prodbuttons a:hover {
+	border: 0px currentColor;
+}
+#cmArticleWell .cmVideoMedium .ndn_embed {
+	width: 100% !important;
+}
+.cmMedia {
+	margin: 0px 1.5em 0.5em 0px; width: 405px; float: left;
+}
+.cmLeadLargePhoto.cmMedia {
+	width: 615px; margin-right: 0px; margin-bottom: 15px; float: none;
+}
+.cmMedia .cmElementEnlarge {
+	text-align: right; margin-bottom: 5px; white-space: nowrap;
+}
+.cmMedia .cmCredit {
+	text-align: right; padding-bottom: 2px; clear: both; margin-top: 7px; display: block;
+}
+.cmMedia .cmCaption {
+	margin-top: 5px;
+}
+.cmDateline {
+	display: inline;
+}
+.cmArticle {
+	display: inline;
+}
+.cmArticle p:first-child {
+	display: inline;
+}
+.cmHeaderImage {
+	margin-bottom: 10px;
+}
+.cmAuthorBox {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); clear: both;
+}
+.cmAuthorBox img {
+	margin-right: 10px; float: left; min-width: 90px; max-width: 90px;
+}
+.cmAuthorBox span.cmNetwork {
+	margin-right: 10px;
+}
+.cmPreviousPosts .cmPostDate {
+	padding: 0px 5px;
+}
+.cmPreviousPosts .iconShares {
+	margin: 0px 0px 0px 5px;
+}
+.cmPreviousPosts span.cmPostDate {
+	padding-left: 0px;
+}
+.cmPreviousPosts ul li {
+	margin-bottom: 5px;
+}
+.cmPreviousPosts ul li span:last-child {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.tease.cmPollMessage {
+	display: none;
+}
+#cmArticleWell .tease.cmPollMessage p {
+	line-height: 1.2em; font-size: 1.08em;
+}
+.cmPollForm .choiceImage {
+	font-size: 1.25em; float: left;
+}
+.cmPollForm label {
+	width: auto; font-weight: normal; float: none; display: inline;
+}
+.cmPollForm .choice_photo_container {
+	margin: 0px 15px;
+}
+.cmPollForm .choice_photo_container {
+	margin-bottom: 18px; float: left;
+}
+.cmPollResults .choice_photo_container {
+	margin-bottom: 18px; float: left;
+}
+.tease.cmPollResults .choice_photo_container {
+	margin-bottom: 10px; float: left;
+}
+.cmPollResults .choice_photo_container {
+	margin-top: 8px;
+}
+.tease.cmPollResults .choice_photo_container {
+	margin-top: 4px;
+}
+.cmPollResults .choice {
+	margin-bottom: 10px;
+}
+.tease.cmPollResults .choice {
+	margin: 0px;
+}
+.cmPollResults .title {
+	clear: both; font-weight: bold;
+}
+.cmPollResults .title .correct {
+	color: rgb(0, 153, 0); text-transform: uppercase; font-size: 0.91em;
+}
+.cmPollResults .bar {
+	width: 100%;
+}
+.cmTeaseCol2.cmTease .tease.cmPollResults .bar {
+	width: 100%;
+}
+#cmArticleWell .tease.cmPollResults .bar {
+	width: 100%;
+}
+.cmTeaseCol3.cmTease .tease.cmPollResults .bar {
+	width: 100%;
+}
+.cmTeaseCol4.cmTease .tease.cmPollResults .bar {
+	width: 100%;
+}
+.cmPollResults .bar_percent {
+	background: rgb(223, 223, 223); border: 1px solid rgb(184, 185, 185); width: 0%; height: 9px; float: left;
+}
+.cmPollResults .percent {
+	margin-left: 10px; float: left;
+}
+.cmPollResults .choice_is_correct .bar_percent {
+	background: rgb(0, 153, 0);
+}
+.cmPollResults .choice_is_correct .percent {
+	color: rgb(0, 153, 0);
+}
+.tease.cmPollResults {
+	display: none;
+}
+.cmPollResults .title span {
+	font-weight: normal;
+}
+.cmPollArchive .cmListWell .footer {
+	margin-bottom: 12px;
+}
+.cmPollArchive .cmListWell .footer li {
+	margin-right: 10px; display: inline;
+}
+.cmPollArchive .inline_list_title {
+	font-weight: bold; float: left;
+}
+.cmPollArchive .inline_list li {
+	padding-left: 5px;
+}
+.cmPollArchive .cmListItem li {
+	margin-bottom: 10px;
+}
+.cmPollArchive .cmListItem {
+	margin-bottom: 0px;
+}
+.cmRow {
+	margin: 0px 0px 10px;
+}
+.cmTease90 .cmTeasePhoto {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.cmTease90 .cmTeaseSummary {
+	clear: right;
+}
+.cmTease90 .cmTeaseRelated {
+	clear: both;
+}
+.cmTease300 .cmTeaseHeadline a {
+	margin: 0px 0px 10px;
+}
+.cmTease300 .cmTeasePhoto {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.cmTease300 .cmTeaseSummary {
+	clear: right;
+}
+.cmTease300 .cmTeaseInfobox {
+	margin: 5px 0px 10px;
+}
+.cmTease h2 {
+	margin-bottom: 4px;
+}
+.cmTease h5 {
+	margin-bottom: 4px;
+}
+.cmTease h6 {
+	margin-bottom: 4px;
+}
+.cmTeaseSummary {
+	padding: 0.25em 0px;
+}
+h3.cmModuleHeader {
+	background: url("../images/moduleHeaderBackground.png") repeat-x 0px 0px rgb(255, 255, 255); padding: 11px 0px 0px 5px; font-size: 1.33em; font-weight: bold; margin-bottom: 5px; min-height: 30px; text-shadow: 1px 1px 2px #fff; -webkit-text-shadow: 1px 1px 2px #fff; -moz-text-shadow: 1px 1px 2px #fff; -o-text-shadow: 1px 1px 2px #fff;
+}
+.cmTease .cmTeasePhoto {
+	margin: 0px 0px 4px;
+}
+.cmTease .cmTeaseRelated {
+	padding: 0.25em 0px;
+}
+.cmTease .cmTeaseRelated .iconListBullet.sprite {
+	padding-left: 11px;
+}
+.cmTeasePhotoLeft.cmTease .cmTeasePhoto {
+	margin: 0px 15px 6px 0px; float: left;
+}
+.cmTeaseListPhotoBullets.cmTease .cmTeasePhoto {
+	margin: 0px 15px 6px 0px; float: left;
+}
+.cmTeaseHeadlineOver100.cmTease .cmTeasePhoto {
+	margin: 0px 0px 10px; width: 100%;
+}
+.cmTeaseListPhotoBullets.cmTease .cmTeaseHdlnList {
+	clear: both;
+}
+.cmTeasePhotoLeft.cmTease .cmTeasePhotoCredit {
+	margin: 4px 0px;
+}
+.cmTeasePhotoTop.cmTease .cmTeasePhotoCredit {
+	margin: 4px 4px 0px 0px;
+}
+.cmTeaseCol3.cmTease {
+	width: 300px;
+}
+.cmTeaseCol6.cmTease {
+	width: 615px;
+}
+.cmTeaseCol2.cmTease {
+	width: 195px;
+}
+.cmTease .oembed-video {
+	margin: 0px 0px 5px; min-height: 200px;
+}
+.cmTeaseCol3 .cmRotatorLedeVideo div.provider-brightcove.oembed-video.oembed object {
+	width: 280px;
+}
+.cmTeasePhotoLeft ol {
+	width: 47%; display: inline-block;
+}
+.cmTeasePhotoLeft ul {
+	width: 47%; display: inline-block;
+}
+.cmTease ul li {
+	background: url("../images/sprites/sprites.png") no-repeat 0px -2543px; margin: 0px; padding-left: 14px;
+}
+.cmTeasePhotoLeft ul li {
+	background: url("../images/sprites/sprites.png") no-repeat 0px -2543px; margin: 0px; padding-left: 14px;
+}
+.cmTease ol li {
+	list-style: decimal; margin: 0px 0px 0px 22px; padding: 0px 0px 2px;
+}
+.cmTeasePhotoLeft ol li {
+	list-style: decimal; margin: 0px 0px 0px 22px; padding: 0px 0px 2px;
+}
+.cmTease #__wxMap ul li {
+	background: none;
+}
+.cmTease .cmTeaseListItem {
+	width: 100%; overflow: hidden; margin-bottom: 6px;
+}
+.cmTease .cmTeaseListItemPhoto {
+	width: 45px; height: 45px; margin-right: 14px; float: left;
+}
+.cmTeaseListStd {
+	width: 100%; margin-bottom: 15px; float: left;
+}
+.cmTeaseListStdLast {
+	width: 100%; float: left;
+}
+.cmTeaseListStdMore {
+	width: 100%; float: left;
+}
+.cmTeaseListAudio.cmTease ul li {
+	margin: 20px 0px;
+}
+.cmTeaseListAudio.cmTease ul li h4 {
+	margin: 0px;
+}
+.cmTeaseListPodcast.cmTease .cmPodcastImage {
+	width: 75px; margin-right: 10px; float: left;
+}
+.cmTeaseListPodcast.cmTease .cmPodcastContent {
+	width: 495px; float: left;
+}
+.cmTeaseListPodcast.cmTease .cmPodcastForm {
+	margin: 10px 0px;
+}
+.cmTeaseListPodcast.cmTease .cm_podcastPlayer {
+	margin-left: 0px;
+}
+#cmGridObject .gridBackground {
+	border-radius: 8px; border: 1px solid rgb(216, 213, 205); background-color: rgb(228, 226, 219); -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px;
+}
+#cmGridObject .gridBackground h3 {
+	background: none; padding-top: 0px;
+}
+#cmGridObject .gridBackground .cmTease .cmTeasePhoto .cmDarkBoxShadow {
+	box-shadow: 2px 2px 4px #bfbfbf; -webkit-box-shadow: 2px 2px 4px #bfbfbf; -moz-box-shadow: 2px 2px 4px #bfbfbf; -o-box-shadow: 2px 2px 4px #bfbfbf;
+}
+#cmGridObject .gridBackground .cmTease {
+	display: block !important;
+}
+#cmGridObject .gridBackground .cmTease {
+	max-width: 99%;
+}
+#cmGridObject .cmTeasePhotoTop.cmTease .cmTeasePhoto img {
+	max-width: 100%;
+}
+.cmTeaseHeadlineOver100.cmTease .cmTeasePhoto img {
+	max-width: 100%;
+}
+#cmGridObject .gridBackground .gridBackgroundInner {
+	padding: 12px 8px 6px; border-radius: 8px; border: 2px solid rgb(255, 255, 255); -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px;
+}
+#cmGridObject .cmGridHeaderOnly {
+	height: auto;
+}
+#cmGridObject .cmClear {
+	margin: 0px; padding: 0px; width: 615px;
+}
+#cmGridObject .cmGridDivider {
+	margin: 0px; padding: 0px; height: 1px;
+}
+.cmTease .cmTeaseHorizList li {
+	background: none; margin: 5px 0px; padding: 0px 5px; line-height: 1em; border-right-color: rgb(68, 68, 68); border-right-width: 2px; border-right-style: solid; float: left; display: inline;
+}
+.cmTease .cmTeaseHorizList li.cmHozListLastItem {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cmTease .cmTeaseHorizList li a {
+	text-transform: uppercase; font-weight: bold;
+}
+.cmTeaseListPhotoBullets.cmTease .cmTeaseListItemPhoto {
+	width: auto; height: auto; margin-bottom: 5px;
+}
+.cmTeaseListMultiFeed h5 {
+	margin-bottom: 2px;
+}
+.cmTeaseListMultiFeedItemTextPhoto {
+	margin-left: 60px;
+}
+.cmTeaseListMultiFeedItemTextNoPhoto {
+	margin-left: 0px;
+}
+.cmAd {
+	text-align: center; margin-bottom: 10px;
+}
+.HP00.adgeletti-ad-div {
+	padding: 10px 0px;
+}
+.HP01.adgeletti-ad-div {
+	padding: 10px 0px;
+}
+.HP01.adgeletti-ad-div div {
+	margin: auto; text-align: center;
+}
+.adgeletti-center_ad-table {
+	margin: 0px auto; display: table;
+}
+.adgeletti-center_ad-table-column {
+	display: table-cell;
+}
+.HP00.adgeletti-ad-div {
+	padding-left: 15px; margin-right: 10px;
+}
+.PB00.adgeletti-ad-div {
+	line-height: 30px; float: right; position: relative; z-index: 50;
+}
+.PB00.adgeletti-ad-div span {
+	padding: 0px 8px 0px 0px; color: rgb(102, 102, 102); font-size: 0.83em; float: left;
+}
+.PB00.adgeletti-ad-div div {
+	padding-left: 6.5em;
+}
+.PB01.adgeletti-ad-div div {
+	margin: 0px auto; text-align: center;
+}
+.RP01.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP02.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP03.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP04.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP05.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP08.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.RP09.adgeletti-ad-div {
+	padding: 0px 0px 10px; text-align: center;
+}
+.FP01.adgeletti-ad-div {
+	margin-bottom: 10px; margin-left: 15px;
+}
+.FP02.adgeletti-ad-div {
+	margin-bottom: 10px;
+}
+.FP01.adgeletti-ad-div div {
+	margin: auto; text-align: center;
+}
+.FP02.adgeletti-ad-div div {
+	margin: auto; text-align: center;
+}
+.cmAdContextual {
+	margin: 30px 0px; clear: both;
+}
+#cmBreadcrumbAd {
+	height: 31px; overflow: hidden; font-size: 0.83em; float: right;
+}
+.cmAdPerfectMarket {
+	margin: 0px; width: 300px; overflow: hidden;
+}
+.cmAdPerfectMarket h5 {
+	background: rgb(194, 194, 194); margin: 0px 0px 2px; padding: 5px 10px;
+}
+#cmPerfectMarketFeaturedArticles {
+	float: right;
+}
+#cmPerfectMarketBlockAd {
+	clear: left;
+}
+#cmPerfectMarketBannerAd {
+	width: auto;
+}
+.cmBreadcrumb .cmAd span {
+	font-size: 0.83em; float: right;
+}
+#cmBreadcrumbAd span {
+	font-size: 0.83em; float: right;
+}
+#cmBreadcrumbAd span {
+	right: 0px; position: absolute;
+}
+#LP01 {
+	margin-bottom: 0px;
+}
+.nojitter#LP01 {
+	width: 1px; height: 31px; overflow: hidden; visibility: hidden;
+}
+.cmBreadcrumb .cmAd {
+	width: 175px;
+}
+.cmBreadcrumb .cmAd div {
+	background: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255) !important; border-left-width: 5px !important; border-left-style: solid !important; float: right; position: relative; z-index: 1;
+}
+.cmBreadcrumb .cmAd span {
+	padding: 10px 5px 0px 0px; color: rgb(153, 153, 153); font-size: 1em;
+}
+.cmAdSponsoredLinksBox {
+	margin-top: 20px;
+}
+.cmAdSponsoredLinksBox .cmAd {
+	text-align: left; margin-bottom: 0.5em;
+}
+.cmTeaseAdSponsoredLinks .cmAd {
+	text-align: left; margin-bottom: 0.5em;
+}
+.cmTeaseAdSponsoredLinks ul li {
+	padding: 0px 0px 0px 14px;
+}
+.cmOembed {
+	margin: 0px 1.5em 0.5em 0px; width: 615px;
+}
+.oembed .credit {
+	text-align: right;
+}
+.oembed span {
+	display: inline !important;
+}
+.cmExternalFeed ul li {
+	margin: 20px 0px;
+}
+.cmExternalFeed ul li h4 {
+	margin-bottom: 0px;
+}
+.cmExternalFeed ul li .cmTimestamp {
+	padding-right: 10px;
+}
+.cmPodcastImage {
+	width: 75px; margin-right: 10px; float: left;
+}
+.cmPodcastContent {
+	width: 500px; float: left;
+}
+.cmPodcastForm {
+	margin: 10px 0px;
+}
+.cmAvatar {
+	width: 50px; margin-right: 15px; float: left;
+}
+.cmAvatar img {
+	border: 2px solid rgb(255, 255, 255);
+}
+#cmComments {
+	margin-bottom: 10px;
+}
+#cmComments .cmListItem {
+	padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmComments :last-child.cmListItem {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.cmCommentPostForm {
+	width: 550px; float: left;
+}
+.cmCommentPostForm textarea {
+	width: 100%; height: 112px; margin-bottom: 10px;
+}
+.cmCommentEditForm textarea {
+	width: 100%; height: 112px; margin-bottom: 10px;
+}
+.cmCommentEditForm {
+	width: 550px; float: left; display: none;
+}
+.cmCommentSubmitBtn {
+	margin-left: 5px; float: right;
+}
+.cmCommentCancelBtn {
+	margin-left: 5px; float: right;
+}
+.cmCommentPostEditHighlight {
+	background-color: rgb(125, 205, 195);
+}
+.cmCommentContainer {
+	width: 550px; float: left;
+}
+.cmCommentBody {
+	padding: 5px 10px;
+}
+.cmCommentBody ul {
+	margin-bottom: 5px;
+}
+.cmCommentBodyLinks li {
+	float: right;
+}
+.cmCommentBodyLinks li:first-child {
+	float: left;
+}
+.cmCommentBodyLinks .sprite {
+	padding-left: 25px;
+}
+.cmCommentsMsg {
+	margin: 0px auto 10px; padding: 5px 10px;
+}
+.cmCommentsMsg p.sprite {
+	padding-left: 20px;
+}
+.sprite.cmCommentsMsg li {
+	padding-left: 20px;
+}
+.cmCommentsMsgError {
+	background-color: rgb(187, 1, 2);
+}
+.cmCommentsMsgError p {
+	color: rgb(255, 255, 255);
+}
+.cmCommentsMsgError li {
+	color: rgb(255, 255, 255);
+}
+.cmCommentsMsgSuccess {
+	background-color: rgb(51, 155, 143);
+}
+.cmCommentsMsgSuccess p {
+	color: rgb(255, 255, 255);
+}
+.cmCommentsMsgSuccess li {
+	color: rgb(255, 255, 255);
+}
+.cmCommentsMsgGeneric {
+	background-color: rgb(203, 217, 230);
+}
+.cmToolBox .cmComments #lfcount {
+	font-weight: bold; text-decoration: none;
+}
+.answer_form textarea {
+	padding: 5px; width: 67%;
+}
+#thread-reply-form textarea {
+	padding: 5px; width: 67%;
+}
+.answer_form p.submit button {
+	float: right; cursor: pointer;
+}
+#thread-reply-form p.submit button {
+	float: right; cursor: pointer;
+}
+.cmFlagArea .iconFlagged.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmFlagArea .iconFlag.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmFlagArea .iconStaff.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmFlagArea .iconAnswers.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmFlagArea .iconRemove.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmFlagArea .iconReply.sprite {
+	padding-left: 24px; margin-top: 3px; float: left;
+}
+.cmQuestionBox .flagged {
+	display: none;
+}
+.cmAnswerBox .flagged {
+	display: none;
+}
+.cmAnswers .flagged {
+	display: none;
+}
+.cmQuestionBox .already_flagged {
+	display: none;
+}
+.cmAnswerBox .already_flagged {
+	display: none;
+}
+.cmAnswers .already_flagged {
+	display: none;
+}
+.cmQuestionBox .flagged.already_flagged {
+	display: block;
+}
+.cmAnswerBox .flagged.already_flagged {
+	display: block;
+}
+.cmAnswers .flagged.already_flagged {
+	display: block;
+}
+.cmFlagArea {
+	width: 120px; height: 10px; margin-right: 10px; float: left; display: inline-block;
+}
+.cmFlagArea form.vote_form .cmVoteText {
+	text-transform: capitalize;
+}
+.cmFlagArea form.vote_form .cmVoteText span {
+	text-transform: capitalize;
+}
+.comment_textarea p {
+	padding: 0px; margin-bottom: 10px;
+}
+span.st_sharethis {
+	background: none !important;
+}
+span.st_sharethis .stButton .chicklets {
+	color: rgb(0, 0, 152) !important; text-transform: uppercase; line-height: 18px !important; font-family: Arial,"MS Trebuchet",sans-serif !important; cursor: pointer;
+}
+span.st_sharethis .stButton .chicklets:hover {
+	color: rgb(0, 0, 102); text-decoration: none; border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.cmToolBox span.st_sharethis .stButton .chicklets:active {
+	color: rgb(0, 0, 102); text-decoration: none; border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmExtraHeader {
+	background: rgb(122, 121, 121);
+}
+#cmGalleryName {
+	margin: 0px 0px 5px;
+}
+.cmGalleryNavigation {
+	right: 0px; position: absolute;
+}
+.cmGalleryThumbNav .cmGalleryForward {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryThumbNav .cmGalleryBackText {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryThumbNav .cmGalleryForwardText {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryNavigation .cmGalleryForward {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryNavigation .cmGalleryBack {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryNavigation .cmGalleryBackText {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmGalleryNavigation .cmGalleryForwardText {
+	width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+#cmGalleryNavPosition {
+	margin: 0px 0px 0px 12px;
+}
+#cmGalleryNavTotal {
+	margin: 0px 12px 0px 0px;
+}
+.cmGalleryThumbNav .cmGalleryForward {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px;
+}
+.cmGalleryNavigation .cmGalleryForward {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px;
+}
+.cmGalleryNavigation .cmGalleryBack {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	background-position: -452px -495px;
+}
+.cmGalleryNavigation .cmGalleryBack {
+	background-position: -452px -495px;
+}
+.cmGalleryThumbNav .cmGalleryForward {
+	background-position: -517px -431px; right: 0px; display: inline;
+}
+.cmGalleryThumbNav .cmGalleryForwardText {
+	background-position: -517px -431px; right: 0px; display: inline;
+}
+.cmGalleryNavigation .cmGalleryForward {
+	background-position: -517px -431px; right: 0px; display: inline;
+}
+.cmGalleryNavigation .cmGalleryForwardText {
+	background-position: -517px -431px; right: 0px; display: inline;
+}
+.cmGalleryThumbNav .cmGalleryForwardInactive {
+	background-position: -549px -399px;
+}
+.cmGalleryNavigation .cmGalleryForwardInactive {
+	background-position: -549px -399px;
+}
+.cmGalleryThumbNav .cmGalleryBackInactive {
+	background-position: -484px -463px;
+}
+.cmGalleryNavigation .cmGalleryBackInactive {
+	background-position: -484px -463px;
+}
+.cmGalleryThumbNav .cmGalleryForward {
+	top: 50%; margin-top: -9px;
+}
+.cmGalleryThumbNav .cmGalleryForwardText {
+	top: 50%; margin-top: -9px;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	top: 50%; margin-top: -9px;
+}
+.cmGalleryThumbNav .cmGalleryBackText {
+	top: 50%; margin-top: -9px;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	left: 10px;
+}
+.cmGalleryThumbNav .cmGalleryBackText {
+	left: 10px;
+}
+.cmGalleryThumbNav .cmGalleryBack {
+	left: 10px;
+}
+.cmGalleryThumbNav .cmGalleryBackText {
+	left: 10px;
+}
+.cmGalleryThumbNav .cmGalleryForward {
+	right: 10px;
+}
+.cmGalleryThumbNav .cmGalleryForwardText {
+	right: 10px;
+}
+#cmGalleryLastDisplay {
+	border: 1px solid rgb(220, 220, 220); width: 100%; clear: both; margin-top: 10px; margin-bottom: 0px; background-color: rgb(237, 237, 237);
+}
+#cmGalleryDisplay {
+	border: 1px solid rgb(220, 220, 220); width: 100%; clear: both; margin-top: 10px; margin-bottom: 0px; background-color: rgb(237, 237, 237);
+}
+.cmGalleryImageDisplay {
+	margin: 0px auto; text-align: center;
+}
+.cmGalleryImageDisplay img {
+	margin: 1em 0px;
+}
+.cmGalleryImageAttribution {
+	text-align: right;
+}
+#cmGalleryImageSource {
+	text-align: right;
+}
+#cmGalleryImageCredit {
+	text-align: right;
+}
+.cmGalleryOrderLink {
+	margin-left: 20px;
+}
+.cmGalleryThumbNav {
+	border-radius: 5px; border: 1px solid rgb(220, 220, 220); width: 100%; padding-top: 5px; margin-bottom: 10px; position: relative; background-color: rgb(237, 237, 237); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#cmGalleryThumbList {
+	margin: 0px; padding: 0px; left: 0px; width: 999999px; position: relative;
+}
+#cmGalleryThumbList li {
+	margin: 0px; padding: 0px; width: 45px; height: 45px; text-align: left; vertical-align: top; display: inline;
+}
+#cmGalleryThumbList li a {
+	border: currentColor;
+}
+#cmGalleryThumbWell {
+	margin: 0px 69px; overflow: hidden; clear: both; position: relative;
+}
+.cmGalleryThumbImage {
+	margin: 3px 3px 6px; border: 1px solid rgb(255, 255, 255); width: 45px; height: 45px; box-shadow: 0px 2px 2px rgba(0,0,0,0.7); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7); -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+}
+.cmGalleryCurrentThumb {
+	border: 2px solid rgb(84, 171, 163);
+}
+.cmGalleryStartOver {
+	width: 49%; text-align: center; vertical-align: middle; float: left; display: inline;
+}
+.cmGalleryRelatedGalleries {
+	width: 49%; text-align: center; vertical-align: middle; float: left; display: inline;
+}
+#cmGalleryLastDisplay {
+	padding-top: 30px; padding-bottom: 30px; margin-bottom: 15px; display: none;
+}
+.cmGalleryStartOver img {
+	
+}
+.cmGalleryRelatedGalleries {
+	padding: 10px 0px; text-align: left;
+}
+.cmGalleryRelatedEntry {
+	margin: 3px;
+}
+.cmGalleryRelatedEntry img {
+	border: 2px solid rgb(255, 255, 255); margin-right: 15px; float: left; display: inline;
+}
+.cmGalleryRelatedInfo {
+	margin-left: 65px; position: relative;
+}
+a.cmGalleryRelatedLink:link {
+	font-weight: bold; margin-bottom: 10px;
+}
+a.cmGalleryRelatedLink:visited {
+	font-weight: bold; margin-bottom: 10px;
+}
+a.cmGalleryRelatedLink:active {
+	font-weight: bold; margin-bottom: 10px;
+}
+a.cmGalleryRelatedLink:hover {
+	font-weight: bold; margin-bottom: 10px;
+}
+#cmGalleryImageBuyLink {
+	float: left; display: none;
+}
+.cmPhotoOrderDiv {
+	background: url("../images/photos/order_cart.png") no-repeat 0px 0px; margin-bottom: 1em; float: right; display: none;
+}
+.cmPhotoImageAttribution {
+	text-align: right; clear: both;
+}
+.cmPhotoImageSource {
+	text-align: right; clear: both;
+}
+.cmPhotoImageCredit {
+	text-align: right; clear: both;
+}
+.cmPhotoImageDisplay {
+	margin: 0px auto; text-align: center;
+}
+.cmPhotoImageDisplay img {
+	margin: 1em 0px;
+}
+#cmPhotoDisplay {
+	border: 1px solid rgb(220, 220, 220); width: 100%; clear: both; margin-top: 10px; margin-bottom: 0px; background-color: rgb(237, 237, 237);
+}
+.cmPhotoBuyLink {
+	float: left;
+}
+.cmListHeader ul {
+	list-style: inside; margin: 10px 0px;
+}
+.cmListHeader ul.category_list {
+	list-style: none;
+}
+.cmListHeader ul li {
+	margin-bottom: 2px;
+}
+.cmListHeader h3.divider {
+	font-size: 1.16em; margin-top: 10px;
+}
+.cmListWell {
+	margin: 10px 0px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.cmListItemCount {
+	margin: 10px 0px; font-weight: bold; float: left;
+}
+.cmListItem h4 {
+	margin-bottom: 2px;
+}
+.cmListItem h5 {
+	margin-bottom: 2px;
+}
+.cmListItem--sponsored h4::after {
+	color: rgb(159, 158, 161); padding-left: 5px; font-style: italic; font-weight: normal; content: "Sponsored";
+}
+.site_tv .cmListItem--sponsored h4::after {
+	content: "";
+}
+.cmListItem .cmSiteAttrib {
+	padding: 0px;
+}
+.cmListItem ul.footer li {
+	margin-right: 10px; display: inline;
+}
+.cmListItem .cmTimestamp li {
+	margin-right: 10px; display: inline;
+}
+.cmListImage {
+	margin: 0px 10px 5px 0px; float: left;
+}
+.cmListImage a {
+	border: currentColor;
+}
+.cmListImage a:visited {
+	border: currentColor;
+}
+.cmListImage a:hover {
+	border: currentColor;
+}
+.cmListImage a:active {
+	border: currentColor;
+}
+.cmListImage img {
+	width: 90px; height: 90px;
+}
+.list .item .cmListItem {
+	margin-bottom: 15px;
+}
+.cmListItem {
+	margin-bottom: 15px;
+}
+.list .item .cmListItem ul {
+	clear: none;
+}
+ul.category_list li {
+	width: 45%; margin-right: 5px; float: left;
+}
+.cmModule ul li {
+	padding-bottom: 3px;
+}
+.cmTeaseListMore {
+	padding-bottom: 2px; margin-top: 10px;
+}
+.cmTeaseListMore a:link span {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;
+}
+.cmTeaseListMore a:visited span {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;
+}
+.cmTeaseListMore a:hover span {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;
+}
+.cmTeaseListMore a:active span {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: left;
+}
+.cmListMoreStdDiv {
+	float: left;
+}
+.cmTeaseListHeadlineMap .cmTeaseListMore {
+	margin-left: 16px;
+}
+.cmSiteSwitch {
+	margin: 1em auto; width: 990px; height: 3em; text-align: center; clear: both; position: relative; z-index: 9000;
+}
+.cmSiteSwitch p {
+	margin: 0px auto; width: 970px; color: rgb(3, 109, 190); line-height: 1.6em; font-size: 1.4em; background-color: rgb(255, 255, 255);
+}
+.cmSiteSwitch span {
+	width: 100%; color: rgb(3, 109, 190); font-weight: bold;
+}
+h3 {
+	margin-bottom: 10px;
+}
+h4 {
+	margin-bottom: 10px;
+}
+#answers .list .cmListItem .answer_textarea {
+	width: 68%; float: left;
+}
+.cmQuestionBox {
+	margin: 0px auto 10px; padding: 5px 10px; border: 1px solid rgb(160, 178, 192); width: 90%; background-color: rgb(243, 249, 255);
+}
+.cmQuestionBox h1 {
+	padding: 0px; color: rgb(0, 0, 0); font-size: 1.5em; font-weight: bold; margin-bottom: 0.25em;
+}
+.cmQuestionBox p.cmQuestion {
+	color: rgb(0, 0, 0); font-size: 1.16em;
+}
+.cmQuestionBox ul.footer li {
+	padding-bottom: 0px; margin-right: 10px; float: left;
+}
+.cmForumPost ul.footer li {
+	padding-bottom: 0px; margin-right: 10px; float: left;
+}
+.cmQuestionBox label {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.cmAnswerBox {
+	margin: 0px auto 10px; padding: 5px 10px; border: 1px solid rgb(214, 215, 230); width: 90%;
+}
+.cmAcceptedAnswer.cmAnswerBox {
+	border: 1px solid rgb(154, 198, 178);
+}
+.cmAnswerBox .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmAnswerBox .comment_text {
+	width: 64%; float: left;
+}
+.cmAnswerBox p.cmQuestion {
+	color: rgb(0, 0, 0); padding-left: 20px; font-size: 1.5em; font-weight: bold;
+}
+.cmAnswerBox label {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.cmAnswers .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmAnswers .cmList .cmListItem .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.question_form .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.answer_form .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.newthread_form .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+#cmNewReply .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+#thread-form-edit .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmThreadEdit .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmThreadUserReply .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmForumPost .avatar {
+	width: 50px; margin-right: 10px; float: left;
+}
+.cmQuestionBox .comment_text {
+	width: 83%; float: left;
+}
+.cmAnswers .cmList .cmListItem .comment_text {
+	width: 83%; float: left;
+}
+.question_form .cmFlagArea {
+	height: 120px;
+}
+#thread-form-edit .cmFlagArea {
+	height: 120px;
+}
+.cmThreadEdit .cmFlagArea {
+	height: 120px;
+}
+#cmNewReply .cmFlagArea {
+	height: 120px;
+}
+.question_form .comment_textarea textarea {
+	width: 68%;
+}
+.question_form p input {
+	width: 68%;
+}
+.cmAnswers .cmList .cmListItem .comment_text {
+	width: 68%; float: left;
+}
+.cmAnswers .comment_text {
+	width: 68%; float: left;
+}
+#thread-form-edit textarea {
+	width: 100%;
+}
+.cmThreadEdit textarea {
+	width: 100%;
+}
+#thread-form-edit p input {
+	width: 100%;
+}
+#thread-form-edit .comment_text {
+	width: 100%;
+}
+.question_form button {
+	float: right; cursor: pointer;
+}
+#thread-form-edit button {
+	float: right; cursor: pointer;
+}
+.cmThreadEdit button {
+	float: right; cursor: pointer;
+}
+.cmAnswers.cmListWell {
+	border: currentColor;
+}
+.cmAnswers.cmListWell .cmList .cmListItem h4 {
+	margin-bottom: 0px;
+}
+.cmAnswers .cmListItem {
+	padding-bottom: 10px; clear: both; margin-bottom: 10px;
+}
+.cmAnswers :last-child.cmListItem {
+	border: currentColor;
+}
+.cmAnswers .cmFlagArea {
+	height: auto !important; min-height: 10px;
+}
+.cmAnswerTitle {
+	color: rgb(124, 124, 124); text-transform: uppercase; font-size: 1.16em; font-weight: bold; margin-bottom: 10px;
+}
+.cmToolBox form.vote_form .cmVoteText span {
+	font-size: 0.91em;
+}
+.cmAnswerText {
+	color: rgb(3, 109, 190);
+}
+.cmAnswers .cmTabbedContainer {
+	margin-bottom: 10px;
+}
+.cmAnswers .cmPostaQuestion {
+	padding-top: 3px; float: right;
+}
+.cmAnswers .answers.cmList .cmListItem {
+	border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmAnswerBox .comment_text div {
+	font-weight: bold;
+}
+.cmAnswerBox .cmFlagMessageBox {
+	width: 95%;
+}
+.cmQuestionBox .cmFlagMessageBox {
+	width: 95%;
+}
+.cmAnswers .cmFlagMessageBox {
+	width: 95%;
+}
+.cmAnswerBox .cmFlagMessageBox span.iconFlagged {
+	margin-top: 5px; float: left;
+}
+.cmQuestionBox .cmFlagMessageBox span.iconFlagged {
+	margin-top: 5px; float: left;
+}
+.cmAnswers .cmFlagMessageBox span.iconFlagged {
+	margin-top: 5px; float: left;
+}
+.cmAnswerBox .cmFlagMessageBox p {
+	font-weight: bold; float: left;
+}
+.cmQuestionBox .cmFlagMessageBox p {
+	font-weight: bold; float: left;
+}
+.cmAnswers .cmFlagMessageBox p {
+	font-weight: bold; float: left;
+}
+.cmAnswerBox .cmFlagMessageBox p.flagSubmit {
+	margin-left: 5px;
+}
+.cmQuestionBox .cmFlagMessageBox p.flagSubmit {
+	margin-left: 5px;
+}
+.cmAnswers .cmFlagMessageBox p.flagSubmit {
+	margin-left: 5px;
+}
+.cmAnswerBox .cmFlagMessageBox label {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.cmQuestionBox .cmFlagMessageBox label {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.answers.cmList .cmListItem .cmFlagMessageBox p select {
+	max-width: 250px;
+}
+.cmAnswerBox .cmFlagMessageBox p select {
+	max-width: 250px;
+}
+.cmAnswerBox .cmFlagMessageBox p.flagSubmit {
+	float: right;
+}
+#cmFormInteractive {
+	margin: 20px 0px;
+}
+#cmFormInteractive ul li {
+	margin: 0px 5px 0px 0px; display: inline;
+}
+#cmFormInteractive input.charfield {
+	width: 195px;
+}
+#cmFormInteractive input.emailfield {
+	width: 195px;
+}
+#cmFormInteractive select.choicefield {
+	min-width: 195px;
+}
+#cmFormInteractive select.multiplechoicefield {
+	min-width: 195px;
+}
+#cmFormInteractive textarea.charfield {
+	width: 300px;
+}
+#cmFormInteractive .cmFormOptional {
+	font-weight: normal;
+}
+#cmFormInteractive ul li label {
+	font-weight: normal;
+}
+#cmFormInteractive .iconQuestion.sprite {
+	cursor: pointer;
+}
+.cmFormInterTooltipWidth {
+	width: 300px;
+}
+.cmNewsletter {
+	margin: 0px 25px 10px 0px; width: 40%; float: left;
+}
+.cmNewsletter .cmNewsletterItem {
+	margin-left: 18px; display: block;
+}
+.cmNewsletterDisplay {
+	padding: 12px 10px 0px; width: 66%; float: left;
+}
+.cmTitleBar .cmNewsletterDisplay {
+	padding: 8px 15px 8px 5px;
+}
+.cmTitleBar .cmSubStatusDisplay {
+	padding: 8px 10px;
+}
+.cmTitleBar > p {
+	padding: 8px 0px;
+}
+.cmSubStatusDisplay {
+	padding: 12px 0px 0px 10px; width: 25%; float: left;
+}
+.cmSubStatusDisplay label {
+	font-weight: normal;
+}
+.cmNewsletterHeader {
+	color: rgb(144, 119, 47);
+}
+.cmNewsletterGroup h5 {
+	padding-bottom: 3px; margin-top: 10px; border-bottom-color: rgb(68, 68, 68); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmNewsletterGroup #cmSchoolSearch {
+	width: 60%; margin-right: 5px;
+}
+.cmSchoolAlerts.cmNewsletterGroup {
+	margin-bottom: 30px;
+}
+.cmSchoolAlerts.cmNewsletterGroup li {
+	margin-bottom: 10px;
+}
+.cmSchoolAlerts.cmNewsletterGroup li .checkbox {
+	margin-right: 10px;
+}
+.cmAlertSubConfirmation li {
+	padding: 4px 10px;
+}
+.cmYearArchive {
+	margin-top: 10px; margin-bottom: 5px;
+}
+.archive_list.cmList {
+	margin-bottom: 20px;
+}
+h4.cmArchiveDivider {
+	font-size: 1.25em;
+}
+.cmDocument {
+	width: 300px;
+}
+.cmDownload {
+	background: url("../images/document_btn.png") no-repeat; margin: 10px 0px; width: 147px; height: 36px;
+}
+.cmDownload a {
+	padding: 10px 0px; text-align: center; color: rgb(255, 255, 255); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: block;
+}
+.cmDownload a:link {
+	padding: 10px 0px; text-align: center; color: rgb(255, 255, 255); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: block;
+}
+.cmDownload a:visited {
+	padding: 10px 0px; text-align: center; color: rgb(255, 255, 255); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: block;
+}
+.cmDocumentImage {
+	margin-bottom: 10px;
+}
+table.cmTableList {
+	width: 100%;
+}
+table.cmTableList th {
+	padding: 5px; color: rgb(124, 124, 124); text-transform: uppercase; font-size: 1em;
+}
+table.cmTableList td {
+	padding: 5px;
+}
+table.cmTableList tr.title {
+	background: rgb(234, 227, 208); text-align: left;
+}
+table.cmTableList tr.even {
+	background: rgb(233, 232, 227);
+}
+.cmStaff .cmStaffContent {
+	clear: both; margin-bottom: 25px;
+}
+g .cmStaff .mugshot {
+	border: 2px solid rgb(255, 255, 255);
+}
+.cmStaff .cmStaffBioImage {
+	margin: 0px 25px 0px 0px; float: left;
+}
+.cmStaff .cmStaffBioLinks li {
+	margin: 0px; padding: 8px 0px;
+}
+.cmStaff .cmStaffBioContent {
+	display: block;
+}
+#cmWeather {
+	margin-bottom: 20px;
+}
+#cmWeather h1 {
+	line-height: 1.87em; float: left;
+}
+.cmWeatherWidgetCap {
+	background: rgb(209, 209, 209); padding: 10px; border: 1px solid rgb(211, 210, 210); height: 15px; margin-bottom: 2px;
+}
+.cmWeatherFiveDayForecast .cmWeatherWidgetCap {
+	background-color: rgb(241, 220, 179);
+}
+.cmWeatherRadar .cmWeatherWidgetCap {
+	background-color: rgb(211, 211, 211);
+}
+.cmWeatherCurrent .cmWeatherWidgetCap {
+	background: rgb(170, 191, 215);
+}
+.cmWeatherCurrent .cmWeatherWidgetCap h2 {
+	padding: 0px; border: currentColor; margin-right: 10px; float: left;
+}
+.cmWeatherUvindex .cmWeatherWidgetCap h2 {
+	padding: 0px; float: left; display: inline-block;
+}
+.cmWeatherCurrent .cmWeatherWidgetCap .cmWeatherUpdated {
+	padding: 3px 0px 0px;
+}
+.cmWeatherUvindex .cmWeatherWidgetCap .cmWeatherLink {
+	float: right; display: inline-block;
+}
+.cmWeatherHourbyHour .cmWeatherWidgetCap {
+	margin-bottom: 0px; border-bottom-color: rgb(211, 210, 210); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherHour .cmWeatherWidgetCap {
+	margin-bottom: 0px; border-bottom-color: rgb(211, 210, 210); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTodayBox h2 {
+	margin: 10px;
+}
+#cmWeather form.cmWeatherSearchForm {
+	margin: 0px 0px 5px; float: right;
+}
+form.cmWeatherSearchForm input {
+	background: rgb(236, 236, 236); padding: 2px; width: 150px;
+}
+ul.cmWeatherMultiCityResults {
+	margin: 0px 0px 5px;
+}
+ul.cmWeatherMultiCityResults li {
+	padding: 0px 0px 10px; font-weight: bold;
+}
+#cmWeather .cmWeatherAnchor {
+	width: 0px; height: 0px; float: left;
+}
+#cmWeather .cmWeatherFiveDayForecast {
+	margin-top: 5px;
+}
+#cmWeather .cmWeatherRadar {
+	margin-top: 5px;
+}
+#cmWeather .cmWeatherDescription {
+	height: 38px; display: block;
+}
+#cmWeather .cmWeatherCurrent {
+	margin: 0px 0px 10px; width: 100%; clear: both; float: none;
+}
+#cmWeather .cmWeatherCurrentBox {
+	padding: 0px 15px; height: 365px; border-top-color: rgb(211, 210, 210); border-bottom-color: rgb(211, 210, 210); border-left-color: rgb(211, 210, 210); border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(210, 222, 237);
+}
+#cmWeather .cmWeatherCurrent .cmContentRule {
+	background: rgb(255, 255, 255);
+}
+#cmWeather .cmWeatherCurrent li {
+	margin-bottom: 10px;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherUpdated {
+	padding: 3px 0px 0px;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentBox {
+	padding: 20px 0px; height: 170px; border-right-color: rgb(211, 210, 210); border-right-width: 1px; border-right-style: solid;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentInfo {
+	margin: -10px 0px 0px; width: 150px; float: left;
+}
+#cmWeather .cmWeatherCurrent .spriteWeatherLarge {
+	margin: 0px auto 10px; float: none; display: block;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentTemp {
+	padding: 0px; display: block;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherFeelsLike {
+	padding: 0px; display: block;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherDescription {
+	height: auto;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentBox ul {
+	margin: 0px 0px 0px 20px; width: 196px; float: left;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentBox ul li {
+	margin: 0px; padding: 10px 0px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentBox ul li:first-child {
+	padding-top: 0px;
+}
+#cmWeather .cmWeatherCurrent .cmWeatherCurrentBox ul li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmWeather .cmWeatherToday {
+	margin: 0px 0px 10px; width: 100%; float: none;
+}
+#cmWeather .cmWeatherHour {
+	margin: 0px 0px 10px; width: 100%; float: none;
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayBox {
+	border: 1px solid rgb(211, 210, 210); height: 215px;
+}
+#cmWeather .cmWeatherToday h2 {
+	background-color: rgb(209, 209, 209);
+}
+#cmWeather .cmWeatherHour h2 {
+	background-color: rgb(209, 209, 209);
+}
+#cmWeather .cmWeatherHourbyHour h2 {
+	background-color: rgb(209, 209, 209);
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn {
+	padding: 12px 9px 20px; width: 30%; height: auto; border-left-color: rgb(211, 210, 210); border-left-width: 1px; border-left-style: solid; float: left;
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTime {
+	padding-bottom: 0px;
+}
+#cmWeather .cmWeatherTodayColumn .cmContentRule {
+	background: rgb(211, 210, 210); margin-top: 10px;
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn hr {
+	margin: 10px 0px; border: 0px currentColor; height: 1px; background-color: rgb(211, 210, 210);
+}
+#cmWeather .cmWeatherToday .spriteWeatherLarge {
+	margin: 0px auto;
+}
+#cmWeather .cmWeatherToday .cmWeatherFiveDayForecastHighSymbol {
+	bottom: 3px; margin-right: 5px; position: relative;
+}
+#cmWeather .cmWeatherToday .cmWeatherFiveDayForecastLowSymbol {
+	bottom: 3px; margin-right: 5px; position: relative;
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherDescription {
+	height: auto;
+}
+#cmWeather .cmWeatherToday ul {
+	margin: 5px 0px 0px;
+}
+#cmWeather .cmWeatherToday li:last-child {
+	margin: 0px 0px 5px; padding: 0px;
+}
+#cmWeather .cmWeatherFiveDayForecast {
+	margin: 0px 0px 10px;
+}
+#cmWeather .cmWeatherFiveDayForecastBox {
+	background: rgb(255, 255, 255); height: 100%; border-top-color: rgb(211, 210, 210); border-right-color: rgb(211, 210, 210); border-bottom-color: rgb(211, 210, 210); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid;
+}
+#cmWeather .cmWeatherFiveDayForecast .cmWeatherFiveDayForecastColumn {
+	padding: 10px 8px 10px 9px; width: 17%; text-align: center; border-left-color: rgb(211, 210, 210); border-left-width: 1px; border-left-style: solid; float: left;
+}
+#cmWeather .cmWeatherFiveDayForecast .cmWeatherDescription {
+	margin-bottom: 6px;
+}
+#cmWeather .cmWeatherFiveDayForecast .cmWeatherFiveDayForecastExt {
+	margin-bottom: 3px;
+}
+#cmWeather .cmWeatherFiveDayForecastHighSymbol {
+	margin-right: 5px;
+}
+#cmWeather .cmWeatherFiveDayForecastLowSymbol {
+	margin-right: 5px;
+}
+#cmWeather a.cm_tooltip {
+	cursor: default;
+}
+#cmWeather a.cm_tooltip:link {
+	cursor: default;
+}
+#cmWeather a.cm_tooltip:hover {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(51, 102, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmWeather .cmWeatherRadar {
+	margin: 0px;
+}
+#cmWeather .cmWeatherHour {
+	border: 1px solid rgb(211, 210, 210);
+}
+#cmWeather .cmWeatherHour .cmWeatherHourMoreLink {
+	padding: 8px 0px; clear: both;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourBox {
+	background: rgb(210, 209, 209); width: 100%; height: 100%;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourBox .cmWeatherDay {
+	float: left;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourBox .tmrwHours.cmWeatherDay {
+	border-left-color: rgb(181, 181, 181); border-left-width: 1px; border-left-style: solid;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourBox .cmWeatherDay p.weekday {
+	background: rgb(235, 235, 235); padding-left: 5px; border-bottom-color: rgb(211, 210, 210); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourColumn {
+	padding: 9px 5px 20px; width: 66px; height: auto; border-left-color: rgb(181, 181, 181); border-left-width: 1px; border-left-style: solid; float: left;
+}
+#cmWeather .cmWeatherHour .hourColumn1.cmWeatherHourColumn {
+	margin-left: -1px; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+#cmWeather .cmWeatherHour .twoday.cmWeatherHourBox .cmWeatherHourColumn {
+	width: 66px;
+}
+#cmWeather .cmWeatherHour .twoday.cmWeatherHourBox .column1.cmWeatherHourColumn {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+#cmWeather .cmWeatherHour :last-child.cmWeatherHourColumn {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourColumn .cmWeatherTime {
+	padding-bottom: 0px; margin-bottom: 3px;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourColumn .cmWeatherDescription {
+	height: 35px; display: block;
+}
+#cmWeather .cmWeatherHour .cmWeatherHourColumn .spriteWeatherSmall {
+	margin: 0px auto;
+}
+#cmWeather .cmWeatherHourbyHour table {
+	width: 100%;
+}
+#cmWeather .cmWeatherHourbyHour table tr.odd {
+	background: rgb(255, 255, 255);
+}
+#cmWeather .cmWeatherHourbyHour table tr.even {
+	background: rgb(240, 240, 240);
+}
+#cmWeather .cmWeatherHourbyHour tr.cmTableWeatherHourHeaders {
+	
+}
+#cmWeather .cmWeatherHourbyHour th {
+	padding: 3px 0px 3px 10px; border: 1px solid rgb(182, 182, 182); height: 100%;
+}
+#cmWeather .cmWeatherHourbyHour th.cmTableWeatherTemp {
+	width: 75px; padding-left: 0px;
+}
+#cmWeather .cmWeatherHourbyHour th.cmTableWeatherHumidity {
+	width: 75px; padding-left: 0px;
+}
+#cmWeather .cmWeatherHourbyHour th.cmTableWeatherFeelsLike {
+	width: 75px; padding-left: 0px;
+}
+#cmWeather .cmWeatherHourbyHour th.cmTableWeatherWind {
+	width: 75px; padding-left: 0px;
+}
+#cmWeather .cmWeatherHourbyHour th.cmTableWeatherDewPoint {
+	width: 75px; padding-left: 0px;
+}
+#cmWeather .cmWeatherHourbyHour td {
+	padding: 3px 0px 3px 10px; border: 1px solid rgb(182, 182, 182);
+}
+#cmWeather .cmWeatherHourbyHour td.cmTableWeatherDay {
+	background: rgb(235, 235, 235);
+}
+#cmWeather .cmWeatherHourbyHour td.cmTableWeatherConditions .spriteWeatherSmall {
+	margin: 0px; display: inline-block;
+}
+#cmWeather .cmWeatherHourbyHour td.cmTableWeatherConditions span {
+	vertical-align: middle;
+}
+#cmWeather .cmWeatherHourbyHour td.cmTableWeatherConditions span.cmWeatherConditionsText {
+	margin-left: 10px;
+}
+.cmTeasePhotoLeft .cmWeatherTease ol {
+	width: auto;
+}
+.cmTeasePhotoLeft .cmWeatherTease ul {
+	width: auto;
+}
+.cmWeatherTease h1 {
+	line-height: 1.87em; margin-bottom: 0px; float: left;
+}
+.cmWeatherTease form.cmWeatherSearchForm {
+	margin: 0px 0px 5px; float: right;
+}
+.cmWeatherTease ul li {
+	background: none; padding: 0px;
+}
+.cmWeatherTease .cmWeatherAnchor {
+	width: 0px; height: 0px; float: left;
+}
+.cmWeatherTease .cmContentRule {
+	background: rgb(255, 255, 255);
+}
+.cmWeatherTease .cmWeatherTodayColumn .cmContentRule {
+	background: rgb(211, 210, 210); margin-top: 10px;
+}
+.cmWeatherTease .spriteWeatherLarge {
+	margin: 0px auto 10px; float: none; display: block;
+}
+.cmWeatherTease .cmWeatherCurrent {
+	clear: both;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherHeading {
+	background: rgb(170, 191, 215); padding: 10px 0px 10px 10px; border: 1px solid rgb(211, 210, 210); margin-bottom: 2px;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherHeading h2 {
+	background: none; padding: 0px; border: currentColor; margin-right: 10px; float: left;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherUpdated {
+	padding: 3px 0px 0px; display: block;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherCurrentBox {
+	padding: 20px 0px; border: 1px solid rgb(211, 210, 210); height: 155px; background-color: rgb(255, 255, 255);
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherDescription {
+	height: auto; font-size: 1.33em; display: block;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherCurrentInfo {
+	margin: -10px 0px 0px; width: 150px; text-align: center; float: left;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherCurrentBox ul {
+	margin: 0px 0px 0px 20px; width: 196px; float: left;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherCurrentBox ul li:first-child {
+	padding-top: 0px;
+}
+.cmWeatherTease .cmWeatherCurrent .cmWeatherCurrentTemp {
+	padding: 0px 0px 5px; display: block;
+}
+.cmWeatherTease .cmWeatherCurrent ul li {
+	margin: 0px; padding: 10px 0px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherTodayBox .cmWeatherDescription {
+	height: auto;
+}
+.cmWeatherTease .cmWeatherToday h2 {
+	background-color: rgb(209, 209, 209);
+}
+.cmWeatherTease .cmWeatherTodayBox {
+	border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(211, 210, 210) rgb(211, 210, 210) rgb(211, 210, 210) currentColor; border-radius: 0px; height: 232px; background-color: rgb(255, 255, 255); -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.cmWeatherTease .cmWeatherToday .cmWeatherTodayColumn {
+	padding: 12px 9px 20px; width: 30%; height: auto; border-left-color: rgb(211, 210, 210); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.cmWeatherTease .cmWeatherToday .spriteWeatherLarge {
+	margin: 0px auto;
+}
+.cmWeatherTease .cmWeatherToday ul {
+	margin: 5px 0px 0px;
+}
+.cmWeatherTease .cmWeatherToday li {
+	text-align: center; margin-bottom: 10px;
+}
+.cmWeatherTease .cmWeatherToday a.cm_tooltip {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(3, 109, 190); border-bottom-width: 1px; border-bottom-style: dotted; cursor: default;
+}
+#cmWeather .cmWeatherToday a.cm_tooltip:link {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(3, 109, 190); border-bottom-width: 1px; border-bottom-style: dotted; cursor: default;
+}
+.cmWeatherTease .cmWeatherToday a.cm_tooltip:hover {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(51, 102, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherFiveDayForecastBox {
+	background: rgb(255, 255, 255); height: 100%; border-top-color: rgb(211, 210, 210); border-right-color: rgb(211, 210, 210); border-bottom-color: rgb(211, 210, 210); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherFiveDayForecast .cmWeatherFiveDayForecastColumn {
+	padding: 10px 8px 10px 9px; width: 17%; border-left-color: rgb(211, 210, 210); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.cmWeatherTease .cmWeatherFiveDayForecast .cmWeatherDescription {
+	height: 38px; margin-bottom: 6px; display: block;
+}
+.cmWeatherTease .cmWeatherFiveDayForecast .cmWeatherFiveDayForecastExt {
+	margin-bottom: 3px;
+}
+.cmWeatherTease .cmWeatherFiveDayForecastHighSymbol {
+	margin-right: 5px;
+}
+.cmTease .cmWeatherTease .cmWeatherFiveDayForecastLowSymbol {
+	margin-right: 5px;
+}
+.cmWeatherTease .cmWeatherHour {
+	border: 1px solid rgb(211, 210, 210); width: 100%; float: none;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourBox {
+	background: rgb(210, 209, 209); width: 100%; height: 100%;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourBox .cmWeatherDay {
+	float: left;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourMoreLink {
+	padding: 8px 0px; clear: both;
+}
+.cmWeatherTease .cmWeatherUvindex .cmWeatherUvindexGauge .cmGaugeIndicator {
+	width: 8px; height: 5px; padding-left: 10px;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourMoreLink a:link {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(3, 109, 190); border-bottom-width: 1px; border-bottom-style: dotted; cursor: pointer;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourMoreLink a:hover {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(51, 102, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherUvindex a.cm_tooltip:hover {
+	color: rgb(51, 102, 153); border-bottom-color: rgb(51, 102, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherUvindex a.cm_tooltip {
+	color: rgb(0, 0, 137); cursor: pointer;
+}
+.cmWeatherTease .cmWeatherUvindex a.cm_tooltip:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourBox .tmrwHours.cmWeatherDay {
+	border-left-color: rgb(181, 181, 181); border-left-width: 1px; border-left-style: solid;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourBox .cmWeatherDay {
+	float: left;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourBox .cmWeatherDay p.weekday {
+	background: rgb(235, 235, 235); padding-left: 5px; border-bottom-color: rgb(211, 210, 210); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourColumn {
+	padding: 9px 5px 20px; width: 66px; height: auto; border-left-color: rgb(181, 181, 181); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.cmWeatherTease .cmWeatherHour .hourColumn1.cmWeatherHourColumn {
+	margin-left: -1px; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.cmWeatherTease .cmWeatherHour .twoday.cmWeatherHourBox .column1.cmWeatherHourColumn {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.cmWeatherTease .cmWeatherHour .twoday.cmWeatherHourBox .cmWeatherHourColumn {
+	width: 66px;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourColumn .cmWeatherTime {
+	padding-bottom: 0px; margin-bottom: 3px;
+}
+.cmWeatherTease .cmWeatherHour .cmWeatherHourColumn .spriteWeatherSmall {
+	margin: 0px auto;
+}
+.cmWeatherTease .cmWeatherHourColumn .cmWeatherDescription {
+	height: 35px; display: block;
+}
+.cmWeatherWidgetCap {
+	background: rgb(209, 209, 209); padding: 10px; border: 1px solid rgb(211, 210, 210); height: 15px; margin-bottom: 2px;
+}
+.cmWeatherWidgetCap h2 {
+	padding: 0px; margin-bottom: 0px; float: left; display: inline-block;
+}
+.cmWeatherWidgetCap .cmWeatherLink {
+	margin-top: 3px; float: right; display: inline-block;
+}
+.cmWeatherUvindex h3 {
+	height: 100%; margin-bottom: 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherAirQuality h3 {
+	height: 100%; margin-bottom: 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherUvindex .cmWeatherUvindexBox {
+	background: rgb(255, 255, 255); padding: 5px; border: 1px solid rgb(211, 210, 210);
+}
+.cmWeatherTease .cmWeatherAirQuality .cmWeatherAirQualityBox {
+	background: rgb(255, 255, 255); padding: 5px; border: 1px solid rgb(211, 210, 210);
+}
+.cmWeatherTease .cmWeatherAirQuality .cmWeatherAirQualityDay {
+	margin-bottom: 5px;
+}
+.cmWeatherTease .cmWeatherUvindex .cmWeatherUvindexConditions {
+	width: 88px; height: 100%; padding-top: 10px; float: left;
+}
+#cmWeatherUvindexNumber {
+	padding: 4px 10px 0px 0px; width: 30px; height: 100%; float: left;
+}
+#cmWeatherAirQualityNumber {
+	padding: 4px 10px 0px 0px; width: 40px; height: 100%; float: left;
+}
+#cmWeatherAirQualityConditions {
+	width: 88px; height: 100%; padding-top: 10px; float: left;
+}
+.cmWeatherTease .cmWeatherUvindex .cmWeatherUvindexGauge {
+	width: 146px; margin-top: 2px; float: right;
+}
+.cmWeatherTease .cmWeatherAirQuality .cmWeatherAirQualityGauge {
+	width: 146px; margin-top: 2px; float: right;
+}
+.cmWeatherTease .cmWeatherAirQuality .cmWeatherAirQualityGauge .cmGaugeIndicator {
+	width: 8px; height: 5px; padding-left: 10px;
+}
+.cmWeatherTease .cmWeatherUvindex a.cm_tooltip {
+	color: rgb(0, 0, 137); cursor: pointer;
+}
+.cmWeatherTease .cmWeatherAirQuality a.cm_tooltip {
+	color: rgb(0, 0, 137); cursor: pointer;
+}
+.cmWeatherTease .cmWeatherUvindex a.cm_tooltip:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherTease .cmWeatherAirQuality a.cm_tooltip:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmUvIndex#cm_tooltip {
+	width: 175px;
+}
+#cm_tooltip h5 {
+	margin-bottom: 5px;
+}
+#cm_tooltip .cmUvIndexColorGuide p {
+	padding: 0px 0px 2px;
+}
+#cm_tooltip .cmAirQualiltyColorGuide p {
+	padding: 0px 0px 2px;
+}
+#cm_tooltip .cmGuidebox {
+	border: 1px solid rgb(0, 0, 0); width: 10px; height: 10px; margin-right: 5px; display: inline-block;
+}
+#cm_tooltip .cmAirQualiltyColorGuide .cmGuidebox {
+	width: 20px; margin-left: -28px;
+}
+#cm_tooltip .cmAirQualiltyColorGuide p {
+	margin-left: 30px;
+}
+#cm_tooltip .low {
+	background: rgb(119, 167, 68);
+}
+#cm_tooltip .good {
+	background: rgb(119, 167, 68);
+}
+#cm_tooltip .moderate {
+	background: rgb(255, 255, 0);
+}
+#cm_tooltip .high {
+	background: rgb(255, 153, 0);
+}
+#cm_tooltip .sensitive {
+	background: rgb(255, 153, 0);
+}
+#cm_tooltip .veryhigh {
+	background: rgb(216, 0, 16);
+}
+#cm_tooltip .extreme {
+	background: rgb(152, 121, 186);
+}
+#cm_tooltip .unhealthy {
+	background: rgb(255, 0, 0);
+}
+#cm_tooltip .veryunhealthy {
+	background: rgb(146, 27, 81);
+}
+#cm_tooltip .hazardous {
+	background: rgb(0, 0, 0);
+}
+.cmSubPMC {
+	margin-top: 15px;
+}
+.cmSubRadar {
+	margin-top: 15px;
+}
+.cmTipsLink {
+	margin-bottom: 10px;
+}
+.cmTipsLink a {
+	border-bottom-color: rgb(3, 109, 190); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#cmPMCFrame {
+	width: 100%;
+}
+#cmRadarFrame {
+	width: 100%;
+}
+#cmRadarLegend {
+	background: -ms-linear-gradient(rgb(250, 250, 250) 0%, rgb(204, 204, 204) 75%, rgb(170, 170, 170) 100%); border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+#cmRadarLegend h4 {
+	padding: 10px 10px 0px; margin-bottom: 5px;
+}
+#cmRadarLegend p {
+	padding: 5px 10px;
+}
+#cmRadarLegend ul {
+	padding: 5px 10px;
+}
+ul.cmWxLegendList {
+	list-style: none;
+}
+.cmTease ul.cmWxLegendList li {
+	background: none; padding: 5px 5px 0px 0px; width: 48%; float: left; display: list-item;
+}
+img.cmRadarSprite {
+	width: 32px; height: 32px;
+}
+img.cmRadarSprite {
+	vertical-align: middle; background-image: url("../images/sprites/sprite_weather_radar.png"); background-repeat: no-repeat;
+}
+.cmRainCell.cmRadarSprite {
+	background-position: 0px 0px;
+}
+.cmHeavyRainCell.cmRadarSprite {
+	background-position: 0px -32px;
+}
+.cmWindRainCell.cmRadarSprite {
+	background-position: 0px -64px;
+}
+.cmHailCell.cmRadarSprite {
+	background-position: 0px -96px;
+}
+.cmTornadoCell.cmRadarSprite {
+	background-position: 0px -128px;
+}
+.cmSnowCell.cmRadarSprite {
+	background-position: 0px -160px;
+}
+.cmRainSnowCell.cmRadarSprite {
+	background-position: 0px -192px;
+}
+.cmWeatherPMC .cmWeatherTipBox {
+	width: 295px; float: left;
+}
+.cmWeatherInteractiveRadar .cmWeatherTipBox {
+	width: 295px; float: left;
+}
+.cmWeatherPMC h3 {
+	color: rgb(124, 124, 124); margin-bottom: 8px; float: left; display: inline-block;
+}
+.cmWeatherInteractiveRadar h3 {
+	color: rgb(124, 124, 124); margin-bottom: 8px; float: left; display: inline-block;
+}
+.cmWeatherPMC h3 span.sprite {
+	padding-left: 13px;
+}
+.cmWeatherInteractiveRadar h3 span.sprite {
+	padding-left: 13px;
+}
+.cmWeatherPMC .cmTipControls {
+	right: 0px; position: absolute;
+}
+.cmWeatherInteractiveRadar .cmTipControls {
+	right: 0px; position: absolute;
+}
+.cmWeatherPMC .cmTipControls li {
+	background: none; padding: 0px 3px; float: left; display: list-item;
+}
+.cmWeatherInteractiveRadar .cmTipControls li {
+	background: none; padding: 0px 3px; float: left; display: list-item;
+}
+.cmWeatherPMC .cmTipControls li span {
+	padding-left: 10px;
+}
+.cmWeatherInteractiveRadar .cmTipControls li span {
+	padding-left: 10px;
+}
+.cmWeatherPMC .cmTipControls li a:link {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmWeatherInteractiveRadar .cmTipControls li a:link {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmWeatherPMC .cmTipControls li a:visited {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmWeatherInteractiveRadar .cmTipControls li a:visited {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmWeatherPMC .cmWeatherTips_orig {
+	display: none;
+}
+.cmWeatherInteractiveRadar .cmWeatherTips_orig {
+	display: none;
+}
+.cmWeatherPMC .cmWeatherTips {
+	clear: both;
+}
+.cmWeatherInteractiveRadar .cmWeatherTips {
+	clear: both;
+}
+.cmWeatherPMC .cmWeatherTip {
+	width: 100%; margin-bottom: 10px;
+}
+.cmWeatherInteractiveRadar .cmWeatherTip {
+	width: 100%; margin-bottom: 10px;
+}
+.cmWeatherPMC .cmWeatherTip h5 {
+	margin-bottom: 3px;
+}
+.cmWeatherInteractiveRadar .cmWeatherTip h5 {
+	margin-bottom: 3px;
+}
+#cmWeatherAlert .cmWeatherAlertLine {
+	border: 0px currentColor; height: 3px; background-color: rgb(204, 0, 0);
+}
+#cmWeatherAlert h2 {
+	padding: 0px; border: 0px currentColor; color: rgb(204, 0, 0); text-transform: uppercase; font-weight: bold; margin-bottom: 10px;
+}
+#cmWeatherAlert ul li {
+	width: 30%; float: left;
+}
+#cmWeatherAlert ul li:last-child {
+	margin-bottom: 10px;
+}
+#cmWeatherAlertWell ul {
+	margin-bottom: 10px;
+}
+.cmWeatherTeaseTooltip {
+	width: 200px;
+}
+#cmWeather .cmWeatherToday a.cm_tooltip {
+	font-size: 0.91em;
+}
+#cmWeather .cmWeatherToday a.cm_tooltip {
+	color: rgb(0, 0, 137); cursor: default;
+}
+#cmWeather .cmWeatherToday a.cm_tooltip:link {
+	color: rgb(0, 0, 137); cursor: default;
+}
+#cmWeather .cmWeatherToday a.cm_tooltip:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmWeather .cmMeteorologistBio .cmTeasePhoto {
+	margin-left: 10px;
+}
+#cmWeather .cmMeteorologistBio .cmTeaseSummary {
+	padding-right: 10px; padding-left: 10px;
+}
+#cmWeather .cmMeteorologistBio .cmTeaseSummary p {
+	padding: 0px; display: inline-block;
+}
+#cmWeather .cmMeteorologistBio .cmTeaseSummary a {
+	padding-top: 4px; display: inline-block;
+}
+#cmWeather .cmMeteorologistBio {
+	display: inline-block;
+}
+#cmWeather .cmWeatherToday .cmWeatherVLeftLine.cmWeatherTodayColumn {
+	border-left-color: rgb(207, 219, 231); border-left-width: 1px; border-left-style: solid;
+}
+#cmWeather .cmWeatherTodayBox {
+	height: 100%; background-color: rgb(255, 255, 255);
+}
+#cmWeather .cmCol6Weather .cmWeatherCurrentBox {
+	height: auto;
+}
+#cmWeather .cmWeatherDescription {
+	height: auto;
+}
+#cmWeather .cmWeatherSkyDescription {
+	min-height: 2.25em;
+}
+#cmWeather .cmWeatherToday .spriteWeatherSmall {
+	margin: 5px auto;
+}
+#cmGridObject #cmWeather .cmWeatherCurrent li {
+	margin: 0px; padding: 8px 0px 7px; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayTempHigh {
+	color: rgb(186, 3, 0);
+}
+#cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayTempLow {
+	color: rgb(86, 129, 180);
+}
+.cmCol6 #cmWeather .cmWeatherCurrent .cmWeatherUpdated {
+	padding-top: 10px; clear: both;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent .cmWeatherUpdated {
+	padding-top: 2px; clear: none;
+}
+.cmCol3 #cmWeather .cmWeatherCurrentBox {
+	border-width: 1px medium medium; border-style: solid none none; border-color: rgb(172, 185, 201) currentColor currentColor; width: 100%; height: auto; padding-top: 5px; padding-bottom: 10px; display: inline-block;
+}
+.cmCol3 #cmWeather .cmWeatherTodayBox {
+	padding-bottom: 5px; background-color: rgb(255, 255, 255);
+}
+.cmCol3 #cmWeather .cmWeatherToday .cmWeatherTodayColumn {
+	width: 94%; text-align: left; padding-bottom: 5px; min-height: 0px;
+}
+.cmCol3 #cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayCol1 {
+	width: 85px; padding-right: 10px; margin-bottom: 10px; float: left; display: inline-block;
+}
+.cmCol3 #cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayCol2 {
+	width: 117px; float: left; display: inline-block;
+}
+.cmCol3 #cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayCol2 p {
+	padding: 0px;
+}
+.cmCol3 #cmWeather .cmWeatherToday hr {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(167, 189, 212); margin: 4px auto; width: 90%;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent h2 {
+	margin-right: 6px; float: left;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent {
+	width: 100%;
+}
+.cmCol3 #cmWeather .cmWeatherSkyDescription {
+	min-height: 1em;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent .cmWeatherUpdated {
+	font-size: 0.85em; float: right;
+}
+.cmCol3 #cmWeather .cmWeatherToday {
+	width: 100%;
+}
+.cmCol3 #cmWeather .cmWeatherToday .spriteWeatherMedium {
+	margin: 10px; float: left;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent .cmWeatherCurrentBoxWrapIcon {
+	width: 40%; float: left;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent .cmWeatherCurrentBoxWrapData {
+	margin: 0px; width: 58%; padding-left: 2%; float: left;
+}
+.cmCol3 #cmWeather .cmWeatherCurrent .cmWeatherCurrentBoxWrapData ul {
+	margin: 0px; width: 95%; float: left;
+}
+.cmCol3 #cmWeather .cmWeatherTodayBox {
+	border-radius: 0px 0px 8px 8px; border: 1px solid rgb(211, 210, 210); width: 100%; -webkit-border-radius: 0 0 8px 8px; -moz-border-radius: 0 0 8px 8px;
+}
+#cmWeather {
+	margin-bottom: 0px;
+}
+.cmCol3 .gridBackground #cmWeather .cmWeatherToday .cmWeatherTodayColumn .cmWeatherTodayCol2 {
+	width: 96px;
+}
+.cmCol3 .gridBackground #cmWeather .cmWeatherCurrentBox {
+	width: 89.5%;
+}
+.cmCol3 .gridBackground #cmWeather .cmWeatherCurrent .cmWeatherCurrentBoxWrapData {
+	width: 57%;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherToday .cmWeatherTodayBox {
+	height: 100%; border-left-color: currentColor; border-left-width: medium; border-left-style: none; display: inline-block; background-color: rgb(255, 255, 255);
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrent .cmWeatherUpdated {
+	padding-top: 10px; clear: both;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrent {
+	width: 32.5%; clear: none; float: left; display: inline;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherTodayBox {
+	border-radius: 0px 8px 8px 0px; width: 67%; padding-bottom: 10px; display: block; -webkit-border-radius: 0 8px 8px 0; -moz-border-radius: 0 8px 8px 0;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherToday .cmWeatherTodayColumn {
+	padding: 12px 9px 20px; width: 28%; height: auto; border-left-color: rgb(211, 210, 210); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherToday :first-child.cmWeatherTodayColumn {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrentBox {
+	padding-top: 6px;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrentBox .cmWeatherCurrentBoxWrapData {
+	margin: 0px 15px;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrentBox .cmWeatherCurrentBoxWrapData ul {
+	margin: 0px 0px 10px; width: 100%; float: left;
+}
+.cmCol6Weather.cmWeatherMeteorologist#cmWeather .cmWeatherCurrentBox .cmWeatherCurrentBoxWrapData li {
+	margin: 0px; padding: 8px 0px 7px; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmWeatherMeteorologist#cmWeather .cmWeatherCurrent .cmWeatherWidgetCap {
+	background: rgb(193, 210, 230); padding: 10px 5px;
+}
+.cmWeatherMeteorologist#cmWeather .cmWeatherCurrent .spriteWeatherLarge {
+	margin: 0px auto; padding: 0px; float: none; display: block;
+}
+.cmWeatherMeteorologist#cmWeather .cmWeatherCurrent .cmWeatherCurrentInfo {
+	margin: 0px; width: 100%; text-align: center; float: none;
+}
+.cmWeatherMeteorologist#cmWeather .cmWeatherToday .cmWeatherTodayColumn {
+	border: currentColor;
+}
+.cmWeatherMeteorologist#cmWeather .cmWeatherToday .cmWeatherTodayBox {
+	height: 100%; display: inline-block; min-height: 346px; background-color: rgb(255, 255, 255);
+}
+.cmWeatherMeteorologist#cmWeather .cmMeteorologistBio .cmTeaseSummary p {
+	display: block;
+}
+.cmWeatherMeteorologist#cmWeather .cmMeteorologistBio h2 {
+	background: none;
+}
+.cmPlaylist form {
+	margin-bottom: 10px;
+}
+.cmPlaylist label {
+	padding-right: 10px; font-size: 1.16em; font-weight: bold;
+}
+.cmPlaylist ul {
+	margin: 10px 0px;
+}
+.cmPlaylist li {
+	margin: 0px; padding: 10px 0px; width: 615px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.cmPlaylist .cmPlaylistTime {
+	width: 104px; text-align: center; padding-bottom: 10px; float: left;
+}
+.cmPlaylist .cmPlaylistImage {
+	width: 104px; text-align: center; padding-bottom: 10px; float: left;
+}
+.cmPlaylist .cmFALlistTime {
+	width: 104px; text-align: center; padding-bottom: 10px; float: left;
+}
+.cmPlaylist .cmFALlistImage {
+	width: 104px; text-align: center; padding-bottom: 10px; float: left;
+}
+.cmPlaylistImage .cmStationLogo {
+	background: rgb(0, 0, 0); width: 85px; height: 85px; overflow: hidden; vertical-align: middle; display: table-cell; max-width: 85px;
+}
+.cmPlaylistImage .cmStationLogo img {
+	width: 100%;
+}
+.cmPlaylist .cmPlaylistContent {
+	width: 400px; line-height: 24px; padding-bottom: 0px; float: left;
+}
+.cmPlaylist .cmFALlistContent {
+	width: 400px; line-height: 24px; padding-bottom: 0px; float: left;
+}
+.cmPlaylist .cmPlaylistComments {
+	clear: both;
+}
+.cmPlaylistContent a {
+	line-height: 18px;
+}
+.cmPlaylist .cmPlaylistSearchResults {
+	clear: both;
+}
+input#id_search-q {
+	background: rgb(236, 236, 236); padding: 2px; width: 350px;
+}
+.cmPlaylist .cmPagination {
+	padding: 0px 0px 10px; width: 100%; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmPlaylist .cmPagination .cmNext {
+	width: 30%; float: left;
+}
+.cmPlaylist .cmPagination .cmHourRange {
+	width: 13%; text-align: center; float: left;
+}
+.cmPlaylist .cmPagination .cmPrevious {
+	width: 30%; text-align: right; float: left;
+}
+.cmPlaylist .cmFAL {
+	width: 615px; text-align: center; font-weight: bold; margin-bottom: 10px;
+}
+.cmFeaturedAdvertisers.cmPlaylist ul {
+	margin: 10px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.cmFeaturedAdvertisers.cmPlaylist ul li {
+	background: rgb(240, 240, 240); margin: 0px; padding: 5px 0px 0px; width: 615px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.cmFALBackground {
+	background: rgb(240, 240, 240); margin: 0px !important; padding: 10px 0px 0px;
+}
+.cmRecentOnAirAds.cmPlaylist {
+	margin-top: 20px;
+}
+.cmRecentOnAirAds h3 .cmFloatRight {
+	font-size: 0.83em;
+}
+.cmRecentOnAirAds.cmPlaylist ul {
+	margin: 10px 0px;
+}
+.cmRecentOnAirAds.cmPlaylist li {
+	padding: 5px 0px 0px; width: 615px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.cmRecentOnAirAds .cmPagination {
+	padding: 0px 0px 10px; width: 100%; margin-bottom: 15px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmRecentOnAirAds .cmPagination .cmPrevious {
+	width: 30%; text-align: left; float: left;
+}
+.cmRecentOnAirAds .cmPagination .cmNext {
+	width: 30%; text-align: right; float: right;
+}
+.cmArtistDetail {
+	float: left;
+}
+.cmArtistBio {
+	float: right;
+}
+.cmArtistDetail img {
+	margin-bottom: 10px; display: block;
+}
+.cmArtistSnapshot img {
+	margin-bottom: 10px; display: block;
+}
+.cmArtistSnapshot .cmStationLogo {
+	background: rgb(0, 0, 0); width: 180px; overflow: hidden; margin-bottom: 10px; max-width: 180px;
+}
+.cmArtistSnapshot .cmStationLogo img {
+	width: auto; margin-bottom: 0px;
+}
+#cmArticleWell .cmArtistBio h2 {
+	font-size: 1.16em; font-weight: bold;
+}
+#cmArticleWell .cmArtistDetail {
+	font-size: 0.87em;
+}
+#cmArticleWell .cmTrackDetail {
+	font-size: 0.87em;
+}
+#cmArticleWell .cmArtistDetail p {
+	margin: 0px; padding: 0px;
+}
+#cmArticleWell .cmTrackDetail p {
+	margin: 0px; padding: 0px;
+}
+#cmArticleWell .cmArtistDetail ul {
+	list-style: none; margin: 0px 0px 10px; padding: 0px;
+}
+#cmArticleWell .cmArtistDetail ul li {
+	padding: 3px 0px; line-height: 1.16em;
+}
+.cmTrackDetail {
+	float: left;
+}
+.cmTrackLyrics {
+	float: right;
+}
+.cmArtistFeaturedAlbum {
+	margin: 0px 0px 10px; clear: both;
+}
+.cmArtistFeaturedAlbum img {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.cmTrackDetail .cmArtistSnapshot img {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.cmArtistSnapshot .cmStationLogo {
+	margin: 0px 10px 10px 0px; float: left;
+}
+.cmArtistSnapshot {
+	margin: 0px 0px 10px; clear: both;
+}
+.cmArtistExtras {
+	margin: 0px 0px 10px; clear: both;
+}
+.cmTrackDetail .cmStationLogo {
+	margin-bottom: 0px;
+}
+.cmTrackDetail .cmStationLogo img {
+	margin-bottom: 0px;
+}
+#cmArticleWell .cmTrackDetail .cmArtistSnapshot p {
+	font-size: 1.33em;
+}
+.cmForumPost {
+	padding-bottom: 10px;
+}
+.cmThreadDescription {
+	width: 500px; float: right;
+}
+.cmThreadTree {
+	list-style: none; width: 100%;
+}
+.cmThreadReply {
+	padding: 7px 0px 7px 150px;
+}
+.cmThreadReply .cmThreadReplyContent {
+	width: 68%; float: left;
+}
+.cmThreadReplyLevel1 {
+	padding-left: 0px;
+}
+.cmThreadReplyLevel1 .cmThreadReplyContent {
+	
+}
+.cmThreadReplyLevel2 {
+	padding-left: 75px;
+}
+.cmThreadReplyLevel2 .cmThreadReplyContent {
+	width: 340px;
+}
+.cmThreadReplyLevel3 {
+	padding-left: 150px;
+}
+.cmThreadReplyLevel3 .cmThreadReplyContent {
+	width: 265px;
+}
+.cmReplyThreadOpen {
+	display: block;
+}
+.cmForumHeader {
+	margin-bottom: 10px;
+}
+.cmThreadCount {
+	font-size: 1.16em; font-weight: bold; float: right;
+}
+.cmThreadCount span {
+	margin-left: 20px;
+}
+.cmThreadReplySelected .cmThreadUserReply {
+	background-color: rgb(255, 244, 158);
+}
+.cmThreadControl {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); height: 1em; margin-bottom: 10px; background-color: rgb(238, 238, 238);
+}
+.cmThreadController {
+	position: relative;
+}
+.cmThreadController span {
+	left: 0px; top: 0px; width: 100%; text-align: center; position: absolute;
+}
+.cmThreadController .cmThreadToggleSpacer {
+	visibility: hidden; position: relative;
+}
+.cmReplyThreadClosed .cmThreadUserReply {
+	display: none;
+}
+.cmReplyThreadClosedParent {
+	display: none;
+}
+.cmReplyThreadOpen .cmThreadToggleShow {
+	display: none;
+}
+.cmReplyThreadClosed .cmThreadToggleHide {
+	display: none;
+}
+.cmThreadControl a.cmThreadToggle {
+	float: right;
+}
+.cmThreadControl a.cmThreadToggle .iconCollapse.sprite {
+	text-indent: -6000px; padding-left: 10px;
+}
+.cmThreadControl a.cmThreadToggle .iconExpand.sprite {
+	text-indent: -6000px; padding-left: 10px;
+}
+.cmForumPost .flagged.iconFlag.sprite {
+	display: block;
+}
+.cmThreadReply .flagged.iconFlag.sprite {
+	display: block;
+}
+.cmForumPost .iconFlag.sprite {
+	display: none;
+}
+.cmForumPost .flagged.iconFlagged.sprite {
+	display: none;
+}
+.cmThreadReply .iconFlag.sprite {
+	display: none;
+}
+.cmThreadReply .flagged.iconFlagged.sprite {
+	display: none;
+}
+.cmForumPost .flaggedTarget .iconFlag.sprite {
+	display: block;
+}
+.cmThreadReplyContent .iconFlag.sprite {
+	display: block;
+}
+.cmForumPost .cmThreadDescription .footer .iconRemove.iconFlag.sprite {
+	display: block;
+}
+.cmForumPost .flaggedTarget .comment_text div {
+	font-weight: bold;
+}
+.cmThreadReplyContent .comment_text div {
+	font-weight: bold;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox {
+	width: 95%;
+}
+.cmThreadReplyContent .cmFlagMessageBox {
+	width: 95%;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox span.iconFlagged {
+	margin-top: 5px; float: left;
+}
+.cmThreadReplyContent .cmFlagMessageBox span.iconFlagged {
+	margin-top: 5px; float: left;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox p {
+	font-weight: bold; float: left;
+}
+.cmThreadReplyContent .cmFlagMessageBox p {
+	font-weight: bold; float: left;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox p.flagSubmit {
+	margin-left: 5px;
+}
+.cmThreadReplyContent .cmFlagMessageBox p.flagSubmit {
+	margin-left: 5px;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox p select {
+	max-width: 250px;
+}
+.cmThreadReplyContent .cmFlagMessageBox p select {
+	max-width: 250px;
+}
+.cmForumPost .flaggedTarget .cmFlagMessageBox p.flagSubmit {
+	float: left;
+}
+.cmThreadReplyContent .cmFlagMessageBox p.flagSubmit {
+	float: left;
+}
+.forums .cmSortFilter {
+	margin: 35px 0px 10px; padding: 10px 0px; width: 100px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 3px; border-bottom-style: double; float: left;
+}
+.forums .cmSortFilter li {
+	padding-top: 3px;
+}
+.cmForumList {
+	width: 80%; margin-left: 20px; float: left;
+}
+.cmForumList .cmTopic {
+	padding: 5px 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmForumList .cmTopicHead {
+	padding: 3px; border: 1px solid rgb(188, 186, 188); color: rgb(136, 136, 136); text-transform: uppercase; font-weight: bold; background-color: rgb(230, 230, 230);
+}
+.cmForumList .cmTopicHead span {
+	color: rgb(136, 136, 136);
+}
+.cmForumList .cmLeftColumn {
+	width: 70%; margin-right: 5px; float: left;
+}
+.cmForumList .cmRightColumn {
+	width: 25%; margin-left: 10px; float: left;
+}
+.cmForumList .cmTopic h4 {
+	margin-bottom: 5px;
+}
+.cmForumList .cmTopic span {
+	padding-bottom: 5px; display: block;
+}
+.newthread_form .cmFlagArea {
+	height: 120px;
+}
+.newthread_form p input#id_title {
+	width: 68%;
+}
+.newthread_form .comment_textarea textarea {
+	width: 68%;
+}
+.newthread_form .forum_textarea p {
+	margin-bottom: 10px;
+}
+.newthread_form p.submit input {
+	float: right;
+}
+#cmNewReply h3 {
+	color: rgb(68, 68, 68);
+}
+#cmNewReply .comment_textarea {
+	width: 68%; float: left;
+}
+#thread-form-edit .comment_textarea {
+	width: 68%; float: left;
+}
+.cmThreadEdit .comment_textarea {
+	width: 68%; float: left;
+}
+#thread-reply-form [name=comment] {
+	width: 98%; height: 200px;
+}
+.cmThreadReplyFormContext {
+	font-style: italic;
+}
+.cmThreadSiblings {
+	margin: 10px 0px;
+}
+.cmThreadSiblings .previous_thread {
+	width: 40%; display: block;
+}
+.cmThreadSiblings .next_thread {
+	width: 40%; display: block;
+}
+.cmThreadSiblings .next_thread {
+	text-align: right; float: right;
+}
+form .help-text {
+	right: 0px; float: right; position: relative;
+}
+#cmTrafficMap {
+	position: relative;
+}
+#cmTraffic {
+	height: 400px; position: relative;
+}
+#cmTraffic .nvt_commuter .nvtwa_content {
+	width: 282px;
+}
+#cmTraffic .nvt_commuter .nvtwa_mapc {
+	left: 292px; margin-left: 0px;
+}
+#cmTraffic .nvt_localSearch_Form input.nvt_searchfor {
+	width: 73%;
+}
+#cmTraffic .nvt_roads_List .nvt_roadslist_name {
+	width: 76px;
+}
+#cmTraffic .nvt_map_Toolbar {
+	background: url("../images/traffic_menu.png") repeat-x;
+}
+#cmTraffic .nvt_commuter .nvt_menu_tab {
+	background: url("../images/traffic_menu.png") repeat-x;
+}
+#cmTraffic .nvt_commuter .nvtwa_menu .nvt_menu_tab_selected {
+	background: url("../images/traffic_menu_hover.png") repeat-x;
+}
+#cmTraffic .nvt_tab_content {
+	color: rgb(255, 255, 255);
+}
+#cmTraffic .nvt_map_Toolbar .nvt_menu {
+	color: rgb(255, 255, 255) !important;
+}
+#cmTraffic .nvt_commuter .nvt_menu_tab .nvt_img_Traffic {
+	background: none; padding-left: 0px;
+}
+#cmTraffic .nvt_commuter .nvt_menu_tab .nvt_img_Search {
+	background: none; padding-left: 0px;
+}
+#cmTraffic .nvt_commuter .nvt_menu_tab .nvt_img_Directions {
+	background: none; padding-left: 0px;
+}
+#cmTraffic .nvt_roads_List .nvt_roadslist_name {
+	margin-left: 0px;
+}
+#cmTraffic .nvt_road_shield {
+	display: none;
+}
+#cmTraffic .nvt_routing_Form div.nvt_links_holder a.nvt_Routing_Form_calc {
+	margin: 0px; width: 38px; clear: both; float: none;
+}
+#cmTraffic .nvt_routing_Form .nvt_form_options {
+	padding-bottom: 10px;
+}
+#cmTraffic .nvt_routing_Form .nvt_links_holder {
+	height: 100%;
+}
+#cmTraffic .nvt_gizmo a.nvt_btn span {
+	line-height: 21px;
+}
+#cmTraffic .nvt_routing_Summary .nvt_details {
+	clear: both; float: none;
+}
+#cmTraffic .nvt_routing_Summary .nvt_summary_details .nvt_show_details_freeflowtime {
+	clear: both; float: none;
+}
+#cmTraffic .nvt_routing_Summary div.nvt_find_faster .nvt_Routing_Summary_find_faster {
+	float: none;
+}
+#cmTraffic .nvt_routing_Summary .nvt_details_holder {
+	height: 100%; margin-top: 0px; display: block;
+}
+#cmTraffic .nvt_routing_Form .nvt_advOptions_right {
+	margin-left: 138px;
+}
+#cmTraffic .nvt_routing_Form .nvt_advOptions_left {
+	width: 129px;
+}
+#cmTraffic .nvt_routing_Summary div.nvt_find_faster {
+	width: 109px; clear: none; float: none;
+}
+#cmTraffic .nvt_map_Toolbar .nvt_tbLeft {
+	margin-left: 10px;
+}
+#cmTraffic .nvt_map_Toolbar .nvt_tbSep {
+	display: none;
+}
+#cmTrafficSpeed {
+	background: rgb(255, 255, 255); border: 1px solid rgb(0, 0, 0); left: 10px; width: 200px; height: 30px; bottom: 70px; position: absolute;
+}
+#cmTrafficSpeed .cmTrafficTitle {
+	width: 80px; line-height: 30px; padding-left: 6px; font-weight: bold; float: left;
+}
+#cmTrafficSpeed .cmTrafficColors {
+	background: url("../images/traffic_colors.png") no-repeat center; width: 85px; height: 30px; margin-right: 15px; float: right;
+}
+#cmTrafficDriveTimeTabs {
+	border: 0px solid rgb(0, 0, 0);
+}
+#cmTrafficDriveTimeTabs .ui-state-default {
+	border: 0px solid rgb(0, 0, 0);
+}
+#cmTrafficTriptime {
+	display: none;
+}
+#cmTrafficDriveTimeTabs {
+	margin-top: 20px;
+}
+#cmTrafficDriveTimeTabs table {
+	width: 100%;
+}
+#cmTrafficDriveTimeTabs table th {
+	text-align: left; padding-bottom: 6px; vertical-align: top;
+}
+#cmTrafficDriveTimeTabs table td {
+	text-align: left; padding-bottom: 6px; vertical-align: top;
+}
+#cmTrafficDriveTimeTabs table th.cmHwy {
+	width: 60px;
+}
+#cmTrafficDriveTimeTabs table th.cmLocation {
+	width: 100px;
+}
+#cmTrafficDriveTimeTabs table th.cmDirection {
+	width: 80px;
+}
+#cmTrafficDriveTimeTabs table th.cmStarttime {
+	width: 132px;
+}
+#cmTrafficDriveTimeTabs table td.cmHwy {
+	padding-right: 10px;
+}
+#cmTrafficDriveTimeTabs table td.cmLocation {
+	padding-right: 10px;
+}
+#cmTrafficDriveTimeTabs table td.cmHwyDescription {
+	padding-right: 10px;
+}
+#cmTrafficDriveTimeTabs .cmTabbedModuleTabs {
+	border: currentColor;
+}
+#cmTrafficDriveTimeTabs .cmTabbedContainer ul {
+	padding-bottom: 0px;
+}
+#cmTrafficDriveTimeTabs .cmTabbedContainer ul a {
+	padding: 6px 0px; width: 200px; color: rgb(51, 102, 153); font-weight: bold;
+}
+#cmTrafficDriveTimeTabs .cmTabbedContainer ul li.ui-tabs-selected {
+	color: rgb(0, 0, 0); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#cmTrafficDriveTimeTabs .cmTabbedContainer ul li.ui-tabs-selected a {
+	color: rgb(0, 0, 0);
+}
+#cmTrafficDriveTimeTabs .cmTabbedModuleTabs {
+	padding-top: 20px;
+}
+#cmTrafficDriveTimeTabs .cmTabbedModuleTabs .cmListItemCount {
+	margin-bottom: 20px;
+}
+#cmTrafficDriveTimeTabs .cmTabbedModuleTabs .cmPaginationContainer {
+	margin-bottom: 20px;
+}
+.cmTease #cmTrafficDriveTimeTabs .cmTabbedContainer ul {
+	padding-bottom: 1px;
+}
+.cmTease #cmTrafficDriveTimeTabs ul li {
+	background: none; padding: 0px; line-height: 15px; margin-right: 2px;
+}
+.cmTease #cmTrafficDriveTimeTabs .cmTabbedContainer ul li {
+	background: rgb(198, 198, 197); text-align: center; float: left; display: inline;
+}
+.cmMapToolTip {
+	width: 250px;
+}
+#cmTrafficIncidents .cmIconSeverity {
+	width: 15px;
+}
+#cmTrafficIncidents .cmSpriteMap {
+	height: 15px; margin-top: 0px; display: inline-block;
+}
+#cmTrafficIncidents .trafficIconRed.cmSpriteMap {
+	background-position: -60px 0px;
+}
+#cmTrafficIncidents .trafficIconYello.cmSpriteMap {
+	background-position: -75px 0px;
+}
+.cmTabbedContainer select {
+	width: auto; min-width: 100px;
+}
+#cmNoIncidents {
+	padding: 10px 0px 50px; display: none;
+}
+#cmNoIncidents .cmMessageBox {
+	text-align: center; color: rgb(255, 255, 255);
+}
+#cmIncidents td.cmHwyDescription {
+	text-transform: capitalize;
+}
+#cmIncidents th.cmHwyDescription {
+	width: 187px;
+}
+.cmDivider {
+	background-color: rgb(244, 244, 244);
+}
+#cmEventPlaceWell {
+	margin: 10px 0px; clear: both;
+}
+#cmEventPlaceWell .cmCol {
+	margin: 0px 15px 20px 0px; width: 195px; float: left;
+}
+#cmEventPlaceWell .cmColLast {
+	margin-right: 0px;
+}
+#cmEventPlaceWell .cmCol h5 {
+	margin-bottom: 2px;
+}
+#cmEventPlaceWell .cmCol p {
+	margin-bottom: 10px;
+}
+#cmEventPlaceWell .cmEventShortDesc {
+	margin-bottom: 10px;
+}
+#cmEventPlaceWell .cmEventLongDesc {
+	margin-bottom: 10px;
+}
+#cmEventPlaceWell .cmEventLongDesc ul {
+	margin-left: 34px; list-style-type: disc;
+}
+#cmEventPlaceWell .cmEventLongDesc ol {
+	margin-left: 34px; list-style-type: decimal;
+}
+#cmEventPlaceWell .cmPlaceMapDesc {
+	margin-bottom: 10px;
+}
+#cmEventPlaceWell #cmPlaceMapCanvas {
+	margin: 0px 15px 10px 0px; width: 195px; height: 195px; float: left;
+}
+#cmEventPlaceWell .cmRelatedArticlesBox {
+	margin-top: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+#twitterFeed .tweet {
+	padding: 0px 0px 5px; height: 160px; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+#mylasttweets {
+	padding: 0px 0px 5px; height: 160px; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+#twitterFeed {
+	border: 1px solid rgb(206, 206, 206);
+}
+#twitterFeed h4 {
+	background: url("../images/twitterFeed.png") repeat-x; padding: 4px; color: rgb(124, 124, 124); font-size: 1em; font-weight: bold; margin-bottom: 4px; text-shadow: 1px 1px 2px #fff;
+}
+#twitterFeed h4 img {
+	margin: -2px 0px 0px; padding: 0px 4px 0px 0px;
+}
+#twitterFeed ul li {
+	margin: 0px 4px; padding: 5px 0px 5px 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#twitterFeed ul li:last-child {
+	border: currentColor;
+}
+.cmModuleHeader .status {
+	font-weight: bold;
+}
+#twitterFeed ul li img {
+	display: none;
+}
+.cmModuleHeader .status {
+	font-weight: bold;
+}
+.cmFFDialog {
+	padding: 0px; overflow: auto;
+}
+.ui-widget-content.cmFFDialog {
+	border: currentColor; background-color: transparent;
+}
+.ui-dialog.cmFFDialog .ui-dialog-content {
+	padding: 15px;
+}
+.cmFFDialog .ui-dialog-titlebar {
+	display: none;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none;
+}
+.ui-widget-content.cmRotatorLede {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-widget-content {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-state-default {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget-content.cmRotatorLede .ui-state-active {
+	border: currentColor; background-color: transparent;
+}
+.ui-widget.cmRotatorLede {
+	font-size: 1em;
+}
+#cmGridObject .cmRotatorLede {
+	margin-bottom: 10px;
+}
+#cmGridObject .cmRotatorLede .gridBackground {
+	background: rgb(255, 255, 255); padding: 12px 6px 0px; border-radius: 0px 8px 8px; border: 2px solid rgb(35, 74, 119); -webkit-border-radius: 0 8px 8px 8px; -moz-border-radius: 0 8px 8px 8px;
+}
+#cmGridObject .cmRotatorLede .cmTopRounded.gridBackground {
+	border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.cmRotatorLede ul.cmTabNav li a.cmTabNavLink:visited {
+	
+}
+.cmRotatorLede .cmTabNav li a.cmTabNavLink {
+	
+}
+.cmRotatorLede ul.cmTabNav {
+	background: none; margin: 0px 0px -2px -1px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative; -ms-zoom: 1;
+}
+.cmRotatorLede ul.cmTabNav li.ui-state-default a.cmTabNavLink {
+	background: rgb(35, 74, 119); border-width: 2px 2px medium; border-style: solid solid none; border-color: rgb(35, 74, 119) rgb(35, 74, 119) currentColor; border-radius: 8px 8px 0px 0px; color: rgb(255, 255, 255); -webkit-border-radius: 8px 8px 0 0; -moz-border-radius: 8px 8px 0 0;
+}
+.cmRotatorLede ul.cmTabNav li.ui-state-default a.cmTabNavLink:visited {
+	background: rgb(35, 74, 119); border-width: 2px 2px medium; border-style: solid solid none; border-color: rgb(35, 74, 119) rgb(35, 74, 119) currentColor; border-radius: 8px 8px 0px 0px; color: rgb(255, 255, 255); -webkit-border-radius: 8px 8px 0 0; -moz-border-radius: 8px 8px 0 0;
+}
+.cmRotatorLede ul.cmTabNav li.ui-tabs-selected a.cmTabNavLink {
+	background: rgb(255, 255, 255); border-color: rgb(35, 74, 119); color: rgb(35, 74, 119);
+}
+.cmRotatorLede .cmCol6 {
+	margin: 0px 10px; width: 580px;
+}
+.cmRotatorLede .cmCol4 {
+	margin: 0px 10px; width: 380px;
+}
+.cmRotatorLede .cmCol3 {
+	margin: 0px 10px 0px 5px; width: 280px;
+}
+.cmRotatorLede .cmCol2 {
+	margin: 0px 7px; width: 185px;
+}
+div.cmWp-aligncenter {
+	margin: auto; display: block;
+}
+div.cmWp-alignright {
+	margin: 0px 0px 10px 20px; float: right;
+}
+div.cmWp-alignleft {
+	margin: 0px 20px 10px 0px; float: left;
+}
+p.cmWpCaption {
+	color: rgb(85, 85, 85); font-size: 1em !important;
+}
+.fb_iframe_widget iframe {
+	position: relative !important;
+}
+.cmHTMLSiteMapPages {
+	list-style: none; margin: 30px; width: 100%; text-align: center;
+}
+.cmHTMLSiteMapPages li {
+	margin: 3px; display: inline-block;
+}
+.cmHTMLSiteMapResults li h3 {
+	margin-top: 10px;
+}
+.cmNewsletterSignupContainer {
+	border: 1px solid rgb(183, 183, 183); width: 540px; margin-bottom: 15px; background-color: rgb(200, 200, 200);
+}
+.cmNewsletterSignup input {
+	padding: 4px; height: 21px; font-size: 1em; min-width: 300px;
+}
+.cmNewsletterSignup button {
+	background: rgb(19, 16, 80); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(174, 174, 174) rgb(174, 174, 174) rgb(174, 174, 174) currentColor; border-radius: 0px 8px 8px 0px; height: 33px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 14px; vertical-align: top;
+}
+.cmNewsletterSignupContainer .cmErrorBox {
+	margin: 15px 0px 0px 15px; color: white;
+}
+.cmNewsletterSignupMessage h1 {
+	font-size: 2em;
+}
+.cmNewsletterSignupMessage h1 {
+	color: rgb(19, 16, 80);
+}
+.cmNewsletterSignupMessage p {
+	color: rgb(19, 16, 80);
+}
+.cmNewsletterSignupMessageRightRail h1 {
+	text-align: center; font-size: 10px;
+}
+.cmNewsletterSignupMessageRightRail p {
+	text-align: center; font-size: 10px;
+}
+.cmNewsletterSignupMessageRightRail h1 {
+	color: rgb(41, 82, 133); margin-bottom: 0px;
+}
+.cmRightRail .cmNewsletterSignupContainer {
+	margin: 0px 0px 10px; padding: 5px; width: 100%; box-sizing: border-box; background-color: rgb(245, 243, 243); -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.cmRightRail .cmNewsletterSignupRightRail input {
+	padding: 4px; width: 209px; height: 16px; font-size: 12px;
+}
+.cmRightRail .cmNewsletterSignupRightRail button {
+	background: rgb(41, 82, 133); border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(174, 174, 174) rgb(174, 174, 174) rgb(174, 174, 174) currentColor; border-radius: 0px 5px 5px 0px; height: 28px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 12px; vertical-align: top;
+}
+.cmErrorBox.cmNewsletterSignupMessageRightRail {
+	margin: 0px 0px 5px; text-align: center;
+}
+.cmNewsletterSignupContainer .cm_NewsletterHeader {
+	background: linear-gradient(rgb(61, 144, 226) 0px, rgb(0, 71, 143) 100%); padding: 15px 0px 15px 15px; color: rgb(255, 255, 255); font-size: 22px; font-weight: 400; margin-bottom: 0px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmNewsletterSignup {
+	padding: 15px;
+}
+.cmNewsletterSignupMessage {
+	background: rgb(255, 255, 255);
+}
+.cmNewsletterSignupMessage h1 {
+	padding: 15px 0px 0px 15px;
+}
+.cmNewsletterSignupMessage p {
+	padding: 0px 0px 15px 15px;
+}
+.site_tv .cm-sponsor {
+	color: rgb(159, 158, 161); font-size: 1.16em; font-style: italic; margin-left: 4px; display: inline;
+}
+.site_tv .cm-sponsor {
+	color: rgb(159, 158, 161); font-size: 1em; font-style: italic; margin-left: 4px; display: inline;
+}
+.site_tv .cm-sponsor-head {
+	color: rgb(159, 158, 161); font-weight: normal;
+}
+.site_tv .cmHozListLastItem {
+	display: inline-block;
+}
+.site_tv .cmTeaseHorizList .cm-sponsor {
+	margin-left: 6px; float: left;
+}
+.site_tv .cm-story-sponsor-head {
+	color: rgb(159, 158, 161); font-size: 1.25em; font-style: italic; font-weight: bold;
+}
+.site_tv .cm-story-sponsor-name {
+	color: rgb(68, 68, 68); font-size: 1.25em; font-weight: bold;
+}
+.site_tv .cm-story-source-content {
+	display: inline-block;
+}
+.site_tv .cm-story-source-logo {
+	display: inline-block;
+}
+.site_tv .cm-story-source-content {
+	line-height: 25px; margin-right: 15px;
+}
+.site_tv .cm-story-source-logo {
+	padding: 0px 15px; border-left-color: rgb(159, 158, 161); border-left-width: 1px; border-left-style: solid;
+}
+.site_tv .cm-story-sponsor-image {
+	max-height: 31px; max-width: 88px;
+}
+.site_tv .cm-story-source-logo a:hover {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cm-sponsored-img-overlay {
+	left: 2px; width: 100%; height: 16px; text-align: center; bottom: 0px; color: rgb(255, 255, 255); line-height: 16px; font-style: italic; font-weight: bold; display: block; position: absolute; -ms-overflow-y: hidden; background-color: rgba(0, 0, 0, 0.85);
+}
+.page__header {
+	margin-bottom: 20px;
+}
+.page__title {
+	margin: 0px; font-size: 24pt;
+}
+.page__timestamp {
+	font-size: 10pt;
+}
+.page__label {
+	text-align: right; color: rgb(32, 28, 159); font-weight: bold;
+}
+.game {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.game th {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.game td {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.game {
+	border-width: 0px 1px 1px 0px; width: 100%; line-height: 25px; font-size: 14px; margin-bottom: 20px; border-spacing: 0;
+}
+.game__title {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.game__final {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.game__title {
+	text-align: left; background-color: rgb(32, 28, 159);
+}
+.game__final {
+	background-color: rgb(95, 133, 75);
+}
+.game__title {
+	padding: 0px 20px; width: 80%;
+}
+.game__team__name {
+	padding: 0px 20px; width: 80%;
+}
+.game__final {
+	width: 20%;
+}
+.game__team__score {
+	width: 20%;
+}
+.game__team--winner {
+	font-weight: bold;
+}
+.game__team--winner .game__team__score::after {
+	border-width: 7px 7px 7px 0px; border-style: solid; border-color: transparent rgb(0, 0, 0) transparent transparent; top: 50%; right: 0px; margin-top: -7px; display: block; position: absolute; content: " ";
+}
+.game__team--home .game__team__name::before {
+	margin-left: -12px; position: absolute; content: "*";
+}
+.game__team__name {
+	color: rgb(32, 28, 159);
+}
+.game__team__score {
+	text-align: center; position: relative; background-color: rgb(228, 240, 218);
+}

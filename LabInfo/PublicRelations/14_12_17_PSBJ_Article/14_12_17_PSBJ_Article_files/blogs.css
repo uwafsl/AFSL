@@ -1,0 +1,165 @@
+.bloghead {
+	margin: 0px 10px; padding: 15px 0px 0px; line-height: 22px; display: block;
+}
+.bloghead .centered {
+	margin-left: 24%;
+}
+.ie6 .bloghead .bloglogo_landing {
+	width: 345px;
+}
+.ie6 .bloghead .module_right {
+	width: 260px; padding-right: 0px; margin-right: 0px;
+}
+.blogarticlehead {
+	margin: 0px 10px; padding: 15px 0px 0px; line-height: 22px; display: block;
+}
+.blogarticlehead .centered {
+	margin-left: 24%;
+}
+.ie6 .blogarticlehead .bloglogo_landing {
+	width: 345px;
+}
+.ie6 .blogarticlehead .module_right {
+	width: 260px; padding-right: 0px; margin-right: 0px;
+}
+.blogsponsor {
+	width: 100%; text-align: right; padding-bottom: 5px; display: block;
+}
+.blogarticlesponsor {
+	vertical-align: top;
+}
+.sponsor1 {
+	width: auto; margin-right: 5px; float: right; display: inline; min-width: 88px;
+}
+.sponsor2 {
+	width: auto; margin-right: 5px; float: right; display: inline; min-width: 88px;
+}
+.sponsor3 {
+	width: auto; margin-right: 5px; float: right; display: inline; min-width: 88px;
+}
+.sponsor1 {
+	margin-right: 0px;
+}
+.articles .body .articleContentWrapper {
+	padding-top: 0px; margin-top: 0px;
+}
+.articles .body .articleContentWrapper h2.kicker {
+	font: bold 11px/normal Tahoma, arial, sans-serif; color: rgb(0, 0, 0); margin-bottom: 2px; font-size-adjust: none; font-stretch: normal;
+}
+.ie6 .articles .body .articleContentWrapper h2.kicker {
+	width: 100px;
+}
+.articles .body .bloglanding h4 {
+	margin: 0px 0px 10px; font-size: 12px; font-weight: bold;
+}
+.articles .body .bloglanding img {
+	margin-left: 0px;
+}
+.articles .body .articleContentWrapper .bloglanding .blogtags {
+	margin: 0px 0px 20px;
+}
+.articles .body .articleContentWrapper .bloglanding .blogtags p {
+	padding: 0px;
+}
+.articles .body .articleContentWrapper .bloglanding .imageText {
+	padding: 10px; background-color: rgb(248, 248, 248);
+}
+.articles .body .articleContentWrapper .bloglanding .imageText span {
+	font-size: 9px; font-weight: bold;
+}
+.articles .body .articleContentWrapper .bloglanding .imageText p {
+	padding: 8px 0px 6px; line-height: 16px; font-size: 11px;
+}
+.articles .body .articleContentWrapper .bloglanding .imageText a {
+	font-size: 10px; font-weight: normal;
+}
+.articles .body .articleContentWrapper .bloglanding .imageText li {
+	margin: 4px 0px;
+}
+.articles .body .articleContentWrapper .bloglanding .imageText li a {
+	font-size: 12px; font-weight: normal;
+}
+.related_articles {
+	margin-top: 20px;
+}
+.related_articles h5 {
+	margin-bottom: 6px;
+}
+.oldernewer span {
+	font-size: 13px; margin-top: 10px;
+}
+.olderposts {
+	float: left;
+}
+.newerposts {
+	float: right;
+}
+.articles .body .bloglanding {
+	padding-top: 15px; margin-bottom: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+.articles .related_articles {
+	padding-top: 15px; margin-bottom: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+.oldernewer {
+	padding-top: 15px; margin-bottom: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+.articles .body .bloglanding {
+	padding-top: 25px; padding-bottom: 15px;
+}
+.articles .body .bloglanding h2 {
+	margin: 0px 15px 8px 0px; line-height: 22px; font-family: Tahoma,arial,sans-serif; font-size: 21px; font-weight: normal;
+}
+.articles .body .bloglanding h2.kicker {
+	font: bold 11px/normal Tahoma, arial, sans-serif; color: rgb(0, 0, 0); margin-bottom: 4px; font-size-adjust: none; font-stretch: normal;
+}
+.articles .body .bloglanding p {
+	color: rgb(68, 68, 68);
+}
+.articles .body .bloglanding span {
+	color: rgb(68, 68, 68);
+}
+.articles .body .bloglanding p {
+	clear: left;
+}
+.articles .body .bloglanding span.datestamp {
+	line-height: 11px; font-size: 11px; display: block;
+}
+.articles .body .bloglanding .bloggerbio {
+	border: currentColor; border-image: none; margin-top: 10px; margin-bottom: 10px;
+}
+.articles .body .bloglanding .bloggerbio dl {
+	color: rgb(153, 153, 153); line-height: 17px; font-size: 12px;
+}
+.articles .body .bloglanding .bloggerbio ul {
+	color: rgb(153, 153, 153); line-height: 17px; font-size: 12px;
+}
+.articles .body .bloglanding .bloggerbio ul {
+	width: 55px; margin-top: 3px; margin-right: 11px; margin-bottom: 10px; float: left; box-shadow: 0px 0px 2px 2px #c9c9c9;
+}
+.articles .body .bloglanding .bloggerbio img {
+	width: 55px; margin-top: 3px; margin-right: 11px; margin-bottom: 10px; float: left; box-shadow: 0px 0px 2px 2px #c9c9c9;
+}
+.articles .body .bloglanding .bloggerbio em {
+	display: block;
+}
+.articles .body .bloglanding .bloggerbio .blogger_name {
+	font-size: 12px;
+}
+.articles .body .bloglanding .blogPic {
+	margin-bottom: 15px; margin-left: 15px; float: right;
+}
+.articles .how-to .body .bloglanding .blogPic {
+	margin-bottom: 15px; margin-left: 15px; float: right;
+}
+.articles .how-to .body .bloglanding .blogPic {
+	margin-top: 10px;
+}
+#sm_ad {
+	float: left;
+}
+.sm_ad_capone {
+	text-align: left;
+}
+.sm_ad_label {
+	color: rgb(153, 153, 153); font-size: 10px; margin-left: 5px; display: block;
+}

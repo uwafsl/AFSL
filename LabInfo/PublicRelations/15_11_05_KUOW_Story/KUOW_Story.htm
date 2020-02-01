@@ -1,0 +1,542 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0107)http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems -->
+<!DOCTYPE html PUBLIC "" ""><HTML class="no-js" lang="en"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+     
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<SCRIPT type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgYHV1dVGwIBVFlVBQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:20,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(4),t(5),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:21,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:21,2:22,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:22,2:21,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:22,2:21,ee:"QJf3ax"}],8:[function(t,e){function n(){u.inPlace(this,p,"fn-")}function r(t,e){u.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),u=c(a),f=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,u.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:22,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=n(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=n(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var f=0;c>f;f++)e.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:8,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:20,2:21,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===f.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=u.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),u=c.document,f=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:f,features:{}};u.addEventListener?(u.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(u.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:20,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],20:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],21:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],22:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:21,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</SCRIPT>
+ 
+<META content="Drones Go To College: Northwest Universities Add Programs in Unmanned Aerial Systems" 
+property="og:title"> 
+<META content="article" property="og:type"> <LINK href="http://mediad.publicbroadcasting.net/p/northwestnews/files/201511/110515TB_DroneEd.jpg" 
+rel="image_src"> 
+<META name="description" content="If you want to go to college to learn how to design, build, fly or fix a drone, your time has come. Many institutions of higher learning around the"> 
+<LINK href="/sites/all/themes/pilot/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"> 
+<META content="http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems" 
+property="og:url"> 
+<META content="If you want to go to college to learn how to design, build, fly or fix a drone, your time has come. Many institutions of higher learning around the" 
+property="og:description"> 
+<META content="@TomBanse" property="twitter:creator"> 
+<META content="Drones Go To College: Northwest Universities Add Programs in Unmanned Aerial Systems" 
+property="dc:title" about="/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems"> 
+<META content="@nwNewsNetwork" property="twitter:site"> 
+<META content="summary" property="twitter:card"> 
+<META content="http://mediad.publicbroadcasting.net/p/northwestnews/files/styles/medium/public/201511/110515TB_DroneEd.jpg" 
+property="og:image"> 
+<META name="datePublished" content="2015-11-05"> 
+<META name="wordCount" content="977"> <LINK href="/node/501214" rel="shortlink"> 
+<META name="pop" content="1"> <LINK href="/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems" 
+rel="canonical"> 
+<SCRIPT type="text/javascript">var _sf_startpt=(new Date()).getTime();</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18052"> 
+<META name="has_audio" content="1"> 
+<META name="programs" content="none"> 
+<META name="org_id" content="0"> 
+<META name="keywords" content="drones, unmanned aerial vehicles"> 
+<META name="author" content="Tom Banse"> 
+<META name="nid" content="501214"> 
+<META name="category" content="Education and Training"> 
+<META name="story_id" content="454942886">     <TITLE>Drones Go To College: 
+Northwest Universities Add Programs in Unmanned Aerial Systems | NW News 
+Network</TITLE>     <LINK href="KUOW_Story_files/css_zXr1pRkjUmFHX10b6Pv5_DqzyewvdLNQ8QgccGQIRQQ.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="KUOW_Story_files/css_ZFlaYqkiQzTmlBPX4mQeT33IFQX3nR-zpGlyqFhtTNM.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="KUOW_Story_files/css_XHTm2cMU6sD6pzlNwtS19lgDRK8GjAz14nQaxKhle30.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="KUOW_Story_files/css_6CN4QSFLFfjTe4zIgRj1q8f9Wda0tRTET8T7gAfoYWQ.css" 
+rel="stylesheet" type="text/css" media="all"> 
+<STYLE type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+.header-region-outer{background-color:#DBE7ED;}@media screen and (min-width:1024px){.header-region-outer{background-image:url(http://mediad.publicbroadcasting.net/p/northwestnews/files/201506/background_fid.jpg);background-position:center top;background-size:auto;background-repeat:no-repeat;}}.branding .tagline{color:#000;}.branding .listen-live-toggle > a,.branding .header-utility > a,.branding .header-utility > a.trigger-nav{color:#4b4b4d;}@media screen and (min-width:641px){.branding .trigger-nav{background:#777777;}}@media screen and (max-width:640px){.branding .header-utility > a.trigger-nav,.active-menu .branding .header-utility > a.trigger-nav{color:#777777;}}#listen-live .listen-live-toggle{background-color:#0A88BC;}#listen-live .listen-live-btn{background-color:transparent;color:#4b4b4d;}@media screen and (min-width:640px){#listen-live .listen-live-btn{background-color:#0A88BC;}}.branding .give{background:#00A32B19;}
+
+/*]]>*/-->
+</STYLE>
+ <LINK href="KUOW_Story_files/css_MIGkFc3yYwyAMNdvFt5Qogp4Te9zEis4DZi6lNVYgUQ.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="KUOW_Story_files/css.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="KUOW_Story_files/css_wUc16cE-oO7pbtCZKWdoXMdZnhHYaWh5uzvFvZw4AOk.css" 
+rel="stylesheet" type="text/css" media="all">     
+<SCRIPT src="KUOW_Story_files/js_xSpMA4ArVcBKOZ43sPqNRk0gxQZdDVifw27pIUCzWU0.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="KUOW_Story_files/js_NSSlHy9MRgw4Q19KZtB9IXAk9uX7KZXXi6Ejn0x_e0I.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="KUOW_Story_files/js_-WcrGf3pH5GnSWA1Y-B28tyjknNjFr4asJklCZQ5NUA.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="KUOW_Story_files/js_GY6Z-Na7M89xkXwkhe2XqG32lDGvA-MMuPG6n_a7LuY.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="KUOW_Story_files/gpt.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="KUOW_Story_files/js_-zc7WEn4JuL8e6XDluYv3-3Bqx8D0Af2dI22U572738.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src="//stream.publicbroadcasting.net/analytics/aalq.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responso","theme_token":"7FpNYgi0u6E00f9RJiGy35KF945yeegAaj_i4aJzrbA","js":{"0":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/magnific-popup\/jquery.magnific-popup.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/foundation\/foundation.topbar.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/custom\/pi_media_types\/pi_audio\/js\/pi-audio.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/pi-hull.js":1,"sites\/all\/modules\/custom\/pi_hull\/js\/jquery.innerfade.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/jquery.jplayer.min.js":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/js\/main.js":1,"\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"sites\/all\/modules\/custom\/responsive_ads\/js\/main.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/modernizr.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/media.match.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/matchMedia.addListener.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/enquire.min.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/vendor\/fastclick.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.mediaqueries.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.scripts.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.responsiveimages.js":1,"sites\/all\/modules\/custom\/responsive_utilities\/js\/responsive-utilities.js":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/js\/npr-image-gallery.js":1,"sites\/all\/modules\/custom\/pi_assets\/plugins\/images\/js\/popup.js":1,"sites\/all\/modules\/contrib\/disqus\/disqus.js":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/js\/related-content-carousel.js":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/js\/jcarousel.min.js":1,"1":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"sites\/all\/libraries\/magnific-popup\/magnific-popup.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/pi_outrigger.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/pi_guide\/css\/pi_guide.css":1,"sites\/all\/modules\/custom\/pi_hull\/jplayer\/css\/jplayer.npr.css":1,"sites\/all\/modules\/custom\/pi_npr_story\/css\/pi_npr_story.css":1,"sites\/all\/modules\/custom\/pi_views\/pi_reports_views\/css\/pi_reports.css":1,"sites\/all\/modules\/custom\/pi_menus\/css\/flexiMenu.css":1,"sites\/all\/modules\/custom\/responsive_footer\/responsive-footer.admin.css":1,"sites\/all\/modules\/custom\/npr_entities\/npr_fields\/npr_image_gallery\/css\/npr-image-gallery.css":1,"0":1,"sites\/all\/modules\/custom\/pi_hull\/pi_outrigger\/css\/jcarousel.css":1,"http:\/\/fonts.googleapis.com\/css?family=Lato:300,700,700italic,900,italic,regular\u0026subset=latin":1,"sites\/all\/themes\/responso\/css\/icon-fonts.css":1,"sites\/all\/themes\/responso\/css\/screen.css":1}},"chartbeat":{"uid":33583,"domain":"nwnewsnetwork.org"},"googleCSE":{"cx":"010251366440257945544:v_vb3tjjd5y","language":"","resultsWidth":600,"domain":"www.google.com"},"responsive_ads":{"networkCode":"1031771","placement":{"leaderboard_1":"main#content","medium_1":".node .field-name-body","medium_2":".node p:nth-of-type(3)","medium_3":".node p:nth-of-type(3)","tablet_1":"main#content","mobile_1":"#block-pi-responsive-ads-mobile-1 .content"},"targeting":{"id":"501214","type":"post","tags":["drones","unmanned aerial vehicles"],"category":"Education and Training","programs":[]},"ads":{"leaderboard_1":{"type":"leaderboard","adUnit":"northwestnews_leaderboard_1","name":"leaderboard_1","width":728,"height":90},"medium_1":{"type":"medium","adUnit":"northwestnews_medium_1","name":"medium_1","width":300,"height":250},"medium_2":{"type":"medium","adUnit":"northwestnews_medium_2","name":"medium_2","width":300,"height":250},"medium_3":{"type":"medium","adUnit":"northwestnews_medium_3","name":"medium_3","width":300,"height":250},"tablet_1":{"type":"tablet","adUnit":"northwestnews_tablet_1","name":"tablet_1","width":728,"height":90},"mobile_1":{"type":"mobile","adUnit":"northwestnews_mobile_1","name":"mobile_1","width":320,"height":50}}},"tms_meta":{"has_audio":"1","programs":"none","category":"Education and Training","nid":501214,"author":"Tom Banse","org_id":0,"keywords":"drones, unmanned aerial vehicles","wordCount":977,"story_id":"454942886","datePublished":"2015-11-05"},"disqus":{"domain":"npr-northwestnews","url":"http:\/\/nwnewsnetwork.org\/post\/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems","title":"Drones Go To College: Northwest Universities Add Programs in Unmanned Aerial Systems","identifier":"node\/501214"},"responsive_utilities":{"body_classes":"html not-front not-logged-in no-sidebars page-node page-node- page-node-501214 node-type-post fixed-header","media_queries":{"mobile":"all and (max-width: 40em)","tablet":"screen and (min-width: 40.063em) and (max-width: 64em)","desktop":"screen and (min-width: 64.063em)"}}});
+//--><!]]>
+</SCRIPT>
+     
+<META name="viewport" content="width=device-width">   </HEAD>   
+<BODY class="html not-front not-logged-in page-node page-node- page-node-501214 node-type-post fixed-header"><HEADER 
+class="header" role="banner">
+<DIV class="skiptocontent"><A href="http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems#main-content">skip 
+to main content</A></DIV>
+<DIV class="region region-header">
+<DIV class="block block-baby-bear" id="block-baby-bear-baby-bear-header">
+<DIV class="content">
+<DIV class="header-region-outer"><SECTION class="header-region-inner row">
+<DIV class="branding large-12 columns">
+<DIV class="brand-inner-wrapper"><A title="NW News Network Home" class="logo" 
+href="http://nwnewsnetwork.org/" rel="home"><IMG title="NW News Network Home" 
+alt="NW News Network logo" src="KUOW_Story_files/logo_fid.png" typeof="foaf:Image"></A> 
+        
+<DIV class="tagline"></DIV></DIV>
+<DIV class="header-utility"><A class="trigger-nav" href="http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems#"><SPAN 
+class="icon-list"></SPAN>           <SPAN class="menu-text">Site Menu</SPAN>     
+    </A>         <A class="give" href="http://nwnewsnetwork.org/post/">  
+Donate</A>       </DIV></DIV></SECTION></DIV></DIV></DIV></DIV></HEADER>
+<DIV class="nav-wrapper mobile"><NAV>
+<DIV class="top-bar contain-to-grid" data-topbar="">
+<UL class="title-area">
+  <LI class="toggle-topbar menu-icon"><A href="http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems#">Menu</A> 
+              </LI></UL><SECTION class="top-bar-section">
+<DIV class="table-queue" id="table-queue-fleximenu">
+<UL class="menu dropdown">
+  <LI><A href="http://nwnewsnetwork.org/">Home</A></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/partners">Partner 
+  Stations</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://radio.boisestate.edu/">Boise State Public 
+    Radio</A></LI>
+    <LI class="left"><A href="http://coastradio.org/index16.html">Coast 
+    Community Radio</A></LI>
+    <LI class="left"><A href="http://www.ijpr.org/">Jefferson Public 
+    Radio</A></LI>
+    <LI class="left"><A href="http://www.kcuwradio.org/">KCUW - Umatilla, 
+    OR</A></LI>
+    <LI class="left"><A href="http://www.klcc.org/">KLCC - Eugene, OR</A></LI>
+    <LI class="left"><A href="http://www.kplu.org/">KPLU - Tacoma, 
+    Seattle</A></LI>
+    <LI class="left"><A href="http://www.ksvr.org/">KSVR - Mt. Vernon, 
+    WA</A></LI>
+    <LI class="left"><A href="http://www.kuow.org/">KUOW - Puget Sound</A></LI>
+    <LI class="left"><A href="http://www.kwso.org/">KWSO - Warm Springs</A></LI>
+    <LI class="left"><A href="http://nwpr.org/">Northwest Public Radio</A></LI>
+    <LI class="left"><A href="http://news.opb.org/">OPB - Oregon, SW 
+    Wash.</A></LI>
+    <LI class="left"><A href="http://www.kpbx.org/">Spokane Public 
+  Radio</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A 
+  href="http://nwnewsnetwork.org/news">News</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/crime-law-and-justice">Crime, 
+    Law &amp; Justice</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/disasters-and-accidents">Disasters 
+    &amp; Accidents</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/economy-business-finance-and-labor">Economy 
+    &amp; Business</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/environment-and-planning">Environment</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/term/health-and-medicine">Health</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/government-and-politics">Politics 
+    &amp; Government</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/about-northwest-news-network">About 
+  Us</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/about-northwest-news-network">What 
+    is the Northwest News Network?</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/underwriting">Underwriting Regional 
+    News</A></LI>
+    <LI class="left"><A 
+  href="http://nwnewsnetwork.org/awards">Awards</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/people">Our 
+  Staff</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/people/anna-king">Anna 
+    King</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/austin-jenkins">Austin 
+Jenkins</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/chris-lehman">Chris Lehman</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/phyllis-fletcher">Phyllis 
+    Fletcher</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/people/tom-banse">Tom 
+    Banse</A></LI></UL></LI>
+  <LI><A 
+href="http://nwnewsnetwork.org/search">Search</A></LI></UL></DIV></SECTION></DIV></NAV></DIV>
+<DIV id="page-wrapper">
+<DIV class="page" id="page-document" role="document">
+<DIV class="nav-wrapper"><NAV>
+<DIV class="top-bar contain-to-grid" data-topbar="">
+<UL class="title-area">
+  <LI class="toggle-topbar menu-icon"><A href="http://nwnewsnetwork.org/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems#">Menu</A> 
+            </LI></UL><SECTION class="top-bar-section">
+<DIV class="table-queue" id="table-queue-fleximenu">
+<UL class="menu dropdown">
+  <LI><A href="http://nwnewsnetwork.org/">Home</A></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/partners">Partner 
+  Stations</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://radio.boisestate.edu/">Boise State Public 
+    Radio</A></LI>
+    <LI class="left"><A href="http://coastradio.org/index16.html">Coast 
+    Community Radio</A></LI>
+    <LI class="left"><A href="http://www.ijpr.org/">Jefferson Public 
+    Radio</A></LI>
+    <LI class="left"><A href="http://www.kcuwradio.org/">KCUW - Umatilla, 
+    OR</A></LI>
+    <LI class="left"><A href="http://www.klcc.org/">KLCC - Eugene, OR</A></LI>
+    <LI class="left"><A href="http://www.kplu.org/">KPLU - Tacoma, 
+    Seattle</A></LI>
+    <LI class="left"><A href="http://www.ksvr.org/">KSVR - Mt. Vernon, 
+    WA</A></LI>
+    <LI class="left"><A href="http://www.kuow.org/">KUOW - Puget Sound</A></LI>
+    <LI class="left"><A href="http://www.kwso.org/">KWSO - Warm Springs</A></LI>
+    <LI class="left"><A href="http://nwpr.org/">Northwest Public Radio</A></LI>
+    <LI class="left"><A href="http://news.opb.org/">OPB - Oregon, SW 
+    Wash.</A></LI>
+    <LI class="left"><A href="http://www.kpbx.org/">Spokane Public 
+  Radio</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A 
+  href="http://nwnewsnetwork.org/news">News</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/crime-law-and-justice">Crime, 
+    Law &amp; Justice</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/disasters-and-accidents">Disasters 
+    &amp; Accidents</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/economy-business-finance-and-labor">Economy 
+    &amp; Business</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/environment-and-planning">Environment</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/term/health-and-medicine">Health</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/term/government-and-politics">Politics 
+    &amp; Government</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/about-northwest-news-network">About 
+  Us</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/about-northwest-news-network">What 
+    is the Northwest News Network?</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/underwriting">Underwriting Regional 
+    News</A></LI>
+    <LI class="left"><A 
+  href="http://nwnewsnetwork.org/awards">Awards</A></LI></UL></LI>
+  <LI class="dd has-dropdown not-click"><A href="http://nwnewsnetwork.org/people">Our 
+  Staff</A>
+  <UL class="dropdown">
+    <LI class="left"><A href="http://nwnewsnetwork.org/people/anna-king">Anna 
+    King</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/austin-jenkins">Austin 
+Jenkins</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/chris-lehman">Chris Lehman</A></LI>
+    <LI class="left"><A 
+    href="http://nwnewsnetwork.org/people/phyllis-fletcher">Phyllis 
+    Fletcher</A></LI>
+    <LI class="left"><A href="http://nwnewsnetwork.org/people/tom-banse">Tom 
+    Banse</A></LI></UL></LI>
+  <LI><A 
+href="http://nwnewsnetwork.org/search">Search</A></LI></UL></DIV></SECTION></DIV></NAV></DIV>
+<DIV class="player" id="player"></DIV>
+<DIV class="row"><main class="main-content small-12 columns" id="content" role="main"><ARTICLE 
+class="story"><A id="main-content"></A>                                          
+                                                                       
+<DIV class="region region-content">
+<DIV class="block block-system" id="block-system-main">
+<DIV class="content">
+<DIV class="node node-post node-promoted full row" id="node-501214" about="/post/drones-go-college-northwest-universities-add-programs-unmanned-aerial-systems" 
+typeof="sioc:Item foaf:Document">
+<DIV class="small-12 columns">
+<H1 class="post-title" itemprop="name">      Drones Go To College: Northwest 
+Universities Add Programs in Unmanned Aerial Systems    </H1>
+<DIV class="by-date"><SPAN class="submitted"><SPAN property="dc:date dc:created" 
+content="2015-11-05T17:18:32-08:00" rel="sioc:has_creator" datatype="xsd:dateTime"><SPAN 
+class="submitted-label">By</SPAN> <SPAN class="name"><A href="http://nwnewsnetwork.org/people/tom-banse" 
+rel="author">Tom Banse</A></SPAN></SPAN></SPAN>         <I class="bullet">•</I>  
+       <SPAN class="pub-date">Nov 5,  2015 </SPAN>       </DIV>
+<DIV class="row">
+<DIV class="large-2 columns">
+<DIV class="social-share clearfix"><SPAN class="share-label">Share</SPAN><A 
+title="Twitter" class="social-share-twitter" href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.tinyurl.com%2Fp3jncng&amp;text=Drones%20Go%20To%20College%3A%20Northwest%20Universities%20Add%20Programs%20in%20Unmanned%20Aerial%20Systems" 
+target="_blank">Twitter</A>&nbsp;<A title="Facebook" class="social-share-facebook" 
+href="http://facebook.com/sharer.php?u=http%3A%2F%2Fwww.tinyurl.com%2Fp3jncng&amp;t=Drones%20Go%20To%20College%3A%20Northwest%20Universities%20Add%20Programs%20in%20Unmanned%20Aerial%20Systems" 
+target="_blank">Facebook</A>&nbsp;<A title="Google+" class="social-share-googleplus" 
+href="https://plus.google.com/share?url=http%3A%2F%2Fwww.tinyurl.com%2Fp3jncng" 
+target="_blank">Google+</A>&nbsp;<A title="Email" class="social-share-email" 
+href="mailto:?subject=Drones%20Go%20To%20College%3A%20Northwest%20Universities%20Add%20Programs%20in%20Unmanned%20Aerial%20Systems&amp;body=http%3A%2F%2Fwww.tinyurl.com%2Fp3jncng" 
+target="_blank">Email</A>&nbsp;</DIV></DIV>
+<DIV class="medium-10 medium-pull-1 large-8 large-pull-2 columns">
+<DIV class="field field-name-field-image-gallery field-type-image field-label-hidden">
+<DIV class="field-items">
+<DIV class="field-item even">
+<UL class="gallery no-bullet">
+  <LI><FIGURE><A title="The Autonomous Flight Systems Laboratory at the University of Washington" 
+  class="noexit lightbox" href="http://mediad.publicbroadcasting.net/p/northwestnews/files/styles/x_large/public/201511/110515TB_DroneEd.jpg"><IMG 
+  alt="The Autonomous Flight Systems Laboratory at the University of Washington" 
+  src="KUOW_Story_files/110515TB_DroneEd.jpg">           </A>
+  <DIV class="image-meta"><FIGCAPTION>
+  <DIV class="caption">The Autonomous Flight Systems Laboratory at the 
+  University of Washington</DIV>
+  <DIV class="attribution"><SPAN class="credit">Tom Banse</SPAN>   <SPAN class="agency">Northwest 
+  News Network</SPAN> 
+</DIV></FIGCAPTION></DIV></FIGURE></LI></UL></DIV></DIV></DIV>
+<DIV class="field field-name-body field-type-text-with-summary field-label-hidden">
+<DIV class="field-items">
+<DIV class="field-item even" property="content:encoded">
+<P>
+<DIV class="audio-container">
+<DIV class="jp-interface" id="jp-interface--5643acd225c44">
+<DIV class="jp-player" id="post-audio--5643acd225c44" jp-instance="-5643acd225c44"></DIV>
+<DIV class="playpause"><A title="" class="jp-play" href="http://cpa.ds.npr.org/northwestnews/audio/2015/11/110515TB_DroneEd_web.mp3"></A><A 
+class="jp-pause"></A>     </DIV>
+<DIV class="audio-meta">
+<DIV class="listen-text-box">
+<DIV class="listen-text">Listen </DIV>
+<DIV class="listening-text">Listening...</DIV></DIV>
+<DIV class="jp-controls">
+<DIV class="jp-progress">
+<DIV class="jp-seek-bar" id="seekbar">
+<DIV class="jp-play-bar" id="playbar">
+<DIV class="scrubber"></DIV></DIV></DIV></DIV></DIV>
+<DIV class="duration-wrapper">
+<DIV class="jp-custom-current-time"></DIV><SPAN class="divider">/</SPAN>         
+
+<DIV class="jp-custom-duration">3:44</DIV></DIV></DIV></DIV></DIV>
+<P></P>
+<P>If you want to go to college to learn how to design, build, fly or fix a 
+drone, your time has come. Many institutions of higher learning around the 
+Northwest are recognizing that unmanned aircraft could become a key technology 
+of the future.</P>
+<P><!--break--></P>
+<P>But the murky and evolving regulations for drone flying present lots of 
+hurdles to give hands-on piloting experience.</P>
+<P>The <A href="https://www.aa.washington.edu/research/afsl/">University of 
+Washington's Autonomous Flight Systems Laboratory</A> is working on how civilian 
+drones can safely share the skies with manned aircraft. Other research 
+universities in the Northwest have also added programs that play to traditional 
+strengths. For example, drones in forestry at Oregon State University and for <A 
+href="http://www.capitalpress.com/Washington/20141031/wsu-seeks-federal-approval-for-uav-ag-research">automating 
+farming tasks at Washington State University</A>.</P>
+<P>Earlier this year, the Federal Aviation Administration selected OSU to be 
+part of a national academic research consortium called the "<A href="https://www.faa.gov/uas/legislative_programs/coe/">Center 
+of Excellence for Unmanned Aircraft Systems</A>," which came with federal grant 
+funding to expand research and training.</P>
+<P>Community colleges are the latest to get in the act. At least half a dozen 
+schools in Idaho, Oregon and Washington are standing up vocational UAS operator 
+courses. Within the last year, <A href="http://www.cocc.edu/aviation/uas-degree-program/">Central 
+Oregon Community College</A> in Bend and <A href="http://www.greenriver.edu/academics/areas-of-study/details/aviation-technology.htm">Green 
+River College</A> in Auburn, Washington, established Associate of Applied 
+Science degrees in unmanned aerial systems.</P>
+<P><STRONG>‘An opportunity that a lot of students don't usually 
+get’</STRONG></P>
+<P>“There seems like there is a lot of demand [from students for this 
+curriculum],” Green River College Senior Aviation Instructor George Comollo 
+said. “It is getting to be very promising.”</P>
+<P>For the promise to be fully realized though, Comollo said the FAA needs to 
+complete the promulgation of rules for operation of small unmanned aerial 
+vehicles in the national airspace and set the minimum qualifications of 
+commercial drone operators.</P>
+<P>At UW, senior Ryan Valach savored his three years in the autonomous flight 
+lab.</P>
+<P>"One of the coolest parts is the collaboration we get to do with industries 
+and all the cool technology we work with,” he said. “It is definitely an 
+opportunity that a lot of students don't usually get."</P>
+<P>Aeronautics and Astronautics master's student Ward Handley wasn't as sold at 
+first.</P>
+<P>"I specifically decided, ‘No, I do not want to work on drones because of the 
+privacy issues,’” he said recalling his introductory campus tours.</P>
+<P>But then came an offer for a paid position in a drone lab. Handley said his 
+initial negative perception has radically changed.</P>
+<P>"I'd like to see them used for good rather than ill,” Handley said. “I think 
+there are enough good applications for them that are really useful to society so 
+that it is worthwhile to pursue these things."</P>
+<P><STRONG>Where to fly: gyms, conference rooms and Down Under</STRONG></P>
+<P>A challenge for many academic unmanned aerial systems programs is finding a 
+place to fly legally. At Blue Mountain Community College in Pendleton, Oregon, 
+students fly inside the college gym.</P>
+<P>In Seattle, UW student Alec Bueing showed off his department’s flight test 
+range for small, remote-controlled copters.</P>
+<P>"Just a conference room that we move the tables and chairs out of the way 
+for, make sure to bring the blinds down so if it happens to get out of control 
+toward the windows we minimize any damage,” Bueing said.</P>
+<P>Why indoors? UW research scientist Christopher Lum said it takes a very long 
+time for everyone besides hobbyists to get official permission to fly a drone 
+outside.</P>
+<P>"The federal regulations are a little bit stifling on that front,” he 
+explained. “We need to file for paperwork. We need to register our aircraft. We 
+need to obtain what is called a Certificate of Authorization -- or waiver."</P>
+<P>All of which can take months. That's why Lum said he and some of the students 
+from the autonomous flight lab he heads have relocated to more accommodating 
+Australia for the past two summers to log flying time. A Western Washington 
+University professor took his department's two drones across the border to 
+British Columbia for the same reason.</P>
+<P>"To be fair, I think the FAA has a very hard job,” Lum acknowledged. “They 
+have to worry about safety first. Safety has to be paramount in their eyes and 
+very rightly so."</P>
+<P><STRONG>New regulations and good job prospects</STRONG></P>
+<P>The federal agency aims to replace its current case-by-case examination of 
+drone authorization requests with a national rule for civil and commercial UAS 
+operations later in 2016.</P>
+<P>“At this time, Kansas State University is the only school with a... 
+regulatory exemption to offer unmanned aircraft flight instruction to students 
+[outdoors]. We are currently evaluating similar petitions from a number of other 
+universities and colleges,” an FAA spokesperson wrote in an email Thursday.</P>
+<P>Kansas State began offering bachelor's degrees in UAS in 2011. This fall, the 
+university added a second degree option in "drone design and integration." KSU, 
+along with Embry Riddle Aeronautical University and the University of North 
+Dakota were first to create UAS degrees according to the Alliance for System 
+Safety of UAS through Research Excellence. The University of Colorado-Boulder 
+also has a mature UAS program.</P>
+<P>In any case, the prospects for graduates in this field look good. A number of 
+the seniors in the UW Autonomous Flight Systems lab were getting invitations to 
+job interviews long before graduation.</P></DIV></DIV></DIV>
+<DIV class="field field-name-field-tags field-type-taxonomy-term-reference field-label-inline clearfix">
+<DIV class="field-label">Tags:&nbsp;</DIV>
+<DIV class="field-items">
+<DIV class="field-item even"><A href="http://nwnewsnetwork.org/term/drones" 
+property="rdfs:label skos:prefLabel" typeof="skos:Concept">drones</A></DIV>
+<DIV class="field-item odd"><A href="http://nwnewsnetwork.org/term/unmanned-aerial-vehicles" 
+property="rdfs:label skos:prefLabel" typeof="skos:Concept">unmanned aerial 
+vehicles</A></DIV></DIV></DIV>
+<DIV class="field field-name-field-related-posts field-type-node-reference field-label-above ">
+<DIV class="field-label">
+<H3>Related Content</H3></DIV>
+<UL>
+  <LI class="field-item even"><A href="http://nwnewsnetwork.org/post/boeing-subsidiary-makes-drone-test-flights-monitor-railway"></A>
+  <DIV class="related-box "><A href="http://nwnewsnetwork.org/post/boeing-subsidiary-makes-drone-test-flights-monitor-railway"> 
+      </A>
+  <DIV class="related-image"><A href="http://nwnewsnetwork.org/post/boeing-subsidiary-makes-drone-test-flights-monitor-railway"> 
+        <A href="http://nwnewsnetwork.org/post/boeing-subsidiary-makes-drone-test-flights-monitor-railway"><IMG 
+  width="700" height="500" alt="" src="KUOW_Story_files/102815TB_RailDrone2.jpg" 
+  typeof="foaf:Image"></A>    </DIV>
+  <DIV class="related-text">
+  <H6 class="related-title"><A href="http://nwnewsnetwork.org/post/boeing-subsidiary-makes-drone-test-flights-monitor-railway">Boeing 
+  Subsidiary Makes Drone Test Flights To Monitor Railway</A>       </H6>
+  <P class="created">        1 week ago      </P></DIV></DIV></LI>
+  <LI class="field-item odd"><A href="http://nwnewsnetwork.org/post/scientists-drone-captures-stunning-pictures-pacific-northwest-killer-whales"></A>
+  <DIV class="related-box "><A href="http://nwnewsnetwork.org/post/scientists-drone-captures-stunning-pictures-pacific-northwest-killer-whales"> 
+      </A>
+  <DIV class="related-image"><A href="http://nwnewsnetwork.org/post/scientists-drone-captures-stunning-pictures-pacific-northwest-killer-whales"> 
+        <A href="http://nwnewsnetwork.org/post/scientists-drone-captures-stunning-pictures-pacific-northwest-killer-whales"><IMG 
+  width="700" height="500" alt="" src="KUOW_Story_files/102115TB_OrcaDrone.jpg" 
+  typeof="foaf:Image"></A>    </DIV>
+  <DIV class="related-text">
+  <H6 class="related-title"><A href="http://nwnewsnetwork.org/post/scientists-drone-captures-stunning-pictures-pacific-northwest-killer-whales">Scientists' 
+  Drone Captures Stunning Pictures of Pacific Northwest Killer Whales</A>       
+  </H6>
+  <P class="created">        3 weeks ago      </P></DIV></DIV></LI>
+  <LI class="field-item even"><A href="http://nwnewsnetwork.org/post/feds-check-out-unmanned-aircraft-fighting-wildfires"></A>
+  <DIV class="related-box "><A href="http://nwnewsnetwork.org/post/feds-check-out-unmanned-aircraft-fighting-wildfires"> 
+      </A>
+  <DIV class="related-image"><A href="http://nwnewsnetwork.org/post/feds-check-out-unmanned-aircraft-fighting-wildfires"> 
+        <A href="http://nwnewsnetwork.org/post/feds-check-out-unmanned-aircraft-fighting-wildfires"><IMG 
+  width="700" height="500" alt="" src="KUOW_Story_files/101415TB_K-MAX.jpg" 
+  typeof="foaf:Image"></A>    </DIV>
+  <DIV class="related-text">
+  <H6 class="related-title"><A href="http://nwnewsnetwork.org/post/feds-check-out-unmanned-aircraft-fighting-wildfires">Feds 
+  Check Out Unmanned Aircraft For Fighting Wildfires</A>       </H6>
+  <P class="created">        3 weeks ago      </P></DIV></DIV></LI>
+  <LI class="field-item odd"><A href="http://nwnewsnetwork.org/post/park-service-borrows-drone-guide-olympic-rainforest-wildfire-fight"></A>
+  <DIV class="related-box "><A href="http://nwnewsnetwork.org/post/park-service-borrows-drone-guide-olympic-rainforest-wildfire-fight"> 
+      </A>
+  <DIV class="related-image"><A href="http://nwnewsnetwork.org/post/park-service-borrows-drone-guide-olympic-rainforest-wildfire-fight"> 
+        <A href="http://nwnewsnetwork.org/post/park-service-borrows-drone-guide-olympic-rainforest-wildfire-fight"><IMG 
+  width="700" height="500" alt="" src="KUOW_Story_files/082815TB_ScanEagle.jpg" 
+  typeof="foaf:Image"></A>    </DIV>
+  <DIV class="related-text">
+  <H6 class="related-title"><A href="http://nwnewsnetwork.org/post/park-service-borrows-drone-guide-olympic-rainforest-wildfire-fight">Park 
+  Service Borrows Drone To Guide Olympic Rainforest Wildfire Fight</A>       
+  </H6>
+  <P class="created">        2 months ago      </P></DIV></DIV></LI>
+  <LI class="field-item even"><A href="http://nwnewsnetwork.org/post/northwest-states-clarify-use-drones-hunters-no-no"></A>
+  <DIV class="related-box "><A href="http://nwnewsnetwork.org/post/northwest-states-clarify-use-drones-hunters-no-no"> 
+      </A>
+  <DIV class="related-image"><A href="http://nwnewsnetwork.org/post/northwest-states-clarify-use-drones-hunters-no-no"> 
+        <A href="http://nwnewsnetwork.org/post/northwest-states-clarify-use-drones-hunters-no-no"><IMG 
+  width="700" height="500" alt="" src="KUOW_Story_files/021513CL_drone1.jpg" 
+  typeof="foaf:Image"></A>    </DIV>
+  <DIV class="related-text">
+  <H6 class="related-title"><A href="http://nwnewsnetwork.org/post/northwest-states-clarify-use-drones-hunters-no-no">Northwest 
+  States Clarify That Use Of Drones By Hunters Is A No-No</A>       </H6>
+  <P class="created">        3 months ago      </P></DIV></DIV></LI></UL></DIV>
+<DIV id="disqus_thread"><NOSCRIPT>&lt;p&gt;&lt;a 
+href="http://npr-northwestnews.disqus.com/?url=http%3A%2F%2Fnwnewsnetwork.org%2Fpost%2Fdrones-go-college-northwest-universities-add-programs-unmanned-aerial-systems"&gt;View 
+the discussion 
+thread.&lt;/a&gt;&lt;/p&gt;</NOSCRIPT></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></ARTICLE></main></DIV><SECTION 
+class="post-content">
+<DIV>
+<DIV class="region region-post-content">
+<DIV class="block block-pi-responsive-ads" 
+id="block-pi-responsive-ads-mobile-1">
+<DIV class="content"></DIV></DIV></DIV></DIV></SECTION>
+<DIV class="bottom-ads">
+<DIV class="bottom-ads-inner"></DIV></DIV></DIV><FOOTER class="footer" role="contentinfo">
+<DIV class="row">
+<DIV class="footer-affiliate-container small-centered columns">
+<DIV class="region region-footer">
+<DIV class="block block-pi-table-queue" id="block-pi-table-queue-partnerfooter">
+<DIV class="content">
+<DIV class="table-queue" id="table-queue-partnerfooter">
+<P class="partnerslabel"></P>
+<DIV class="item-list">
+<UL class="partner-logos">
+  <LI class="first"><A href="http://spokanepublicradio.org/" 
+  target="_blank"><IMG title="Spokane Public Radio" alt="Spokane Public Radio" 
+  src="KUOW_Story_files/spokane-logo.png" typeof="foaf:Image"></A></LI>
+  <LI><A href="http://ijpr.org/" target="_blank"><IMG title="Jefferson Public Radio" 
+  alt="Jefferson Public Radio" src="KUOW_Story_files/jpr-logo.png" typeof="foaf:Image"></A></LI>
+  <LI><A href="http://klcc.org/" target="_blank"><IMG title="KLCC" alt="KLCC" 
+  src="KUOW_Story_files/klcc-logo.png" typeof="foaf:Image"></A></LI>
+  <LI><A href="http://boisestatepublicradio.org/" target="_blank"><IMG title="Boise State Public Radio" 
+  alt="Boise State Public Radio" src="KUOW_Story_files/boisestate-logo.png" 
+  typeof="foaf:Image"></A></LI>
+  <LI><A href="http://nwpr.org/" target="_blank"><IMG title="Northwest Public Radio" 
+  alt="Northwest Public Radio" src="KUOW_Story_files/northwestpublic-logo.png" 
+  typeof="foaf:Image"></A></LI>
+  <LI><A href="http://www.kplu.org/" target="_blank"><IMG title="KPLU" alt="KPLU" 
+  src="KUOW_Story_files/kplu-logo.png" typeof="foaf:Image"></A></LI>
+  <LI><A href="http://www.opb.org/news/" target="_blank"><IMG title="Oregon Public Broadcasting" 
+  alt="Oregon Public Broadcasting" src="KUOW_Story_files/opb-logo.png" typeof="foaf:Image"></A></LI>
+  <LI class="last"><A href="http://www.kuow.org/" target="_blank"><IMG title="KUOW" 
+  alt="KUOW" src="KUOW_Story_files/kuow-logo.png" 
+typeof="foaf:Image"></A></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class="block block-pi-table-queue" id="block-pi-table-queue-auxiliarylinksfooter">
+<DIV class="content">
+<DIV class="table-queue" id="table-queue-auxiliarylinksfooter">
+<DIV class="item-list">
+<UL class="auxiliary-links">
+  <LI class="first last"><SPAN>© 2015 NW News 
+Network</SPAN></LI></UL></DIV></DIV></DIV></DIV></DIV></DIV></DIV></FOOTER>
+<SCRIPT type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+<!--//--><![CDATA[//><!--
+ (function ($) { $(document).foundation({ topbar: { custom_back_text: true, back_text: 'back', mobile_show_parent_link: true } }); }(jQuery));
+//--><!]]>
+</SCRIPT>
+     </DIV>
+<SCRIPT type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"15ba4da3e8","applicationID":"1108724","transactionName":"NlMBMhAECEZRAU1eDg8ZNhQLSg9bVAdBGREJRg==","queueTime":0,"applicationTime":14,"ttGuid":"","agentToken":"","atts":"GhQCRFgeG0g=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</SCRIPT>
+ </BODY></HTML>

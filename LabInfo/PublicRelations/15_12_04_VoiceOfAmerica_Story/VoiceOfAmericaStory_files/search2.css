@@ -1,0 +1,138 @@
+.keyword {
+	color: rgb(255, 141, 43); font-weight: bold;
+}
+div.tab_list {
+	clear: both; margin-bottom: 0px; float: none; display: block;
+}
+div.search_form {
+	background: rgb(241, 241, 241); padding: 20px; border-top-color: rgb(255, 255, 255); border-top-width: 2px; border-top-style: solid;
+}
+.form_item {
+	clear: none; display: block;
+}
+.field_keyword label {
+	display: none;
+}
+.field_keyword input.input_text {
+	background: url("/img/top_search_sh.jpg?v=__7.5.0.0.9") repeat-x 0px -1px rgb(255, 255, 255); padding: 0px 6px; top: -0.5em; width: 550px; height: 2em; position: relative;
+}
+div.search_form hr.clear {
+	margin: 0px; padding: 0px; clear: both; visibility: hidden;
+}
+.errorMessage {
+	color: red; font-weight: bolder;
+}
+#search-results {
+	padding-right: 25%; padding-left: 20px;
+}
+.searchResultItem {
+	margin: 12px 0px 24px; clear: both;
+}
+p.resultText {
+	padding: 6px 0px;
+}
+p.resultPubDate {
+	margin: 0px 0px 0.5em; color: rgb(113, 112, 112); line-height: 1em; font-size: 11px;
+}
+p.resultZones {
+	margin: 0px 0px 0.5em; color: rgb(113, 112, 112); line-height: 1em; font-size: 11px;
+}
+p.resultTags {
+	margin: 0px 0px 0.5em; color: rgb(113, 112, 112); line-height: 1em; font-size: 11px;
+}
+p.resultAuthors {
+	margin: 0px 0px 0.5em; color: rgb(113, 112, 112); line-height: 1em; font-size: 11px;
+}
+p.more-results {
+	padding: 2em 0px 1em; text-align: center;
+}
+p.more-results button {
+	padding: 1em 1.5em;
+}
+.ui-autocomplete {
+	padding: 0px; border-radius: 0px; border: 1px solid rgb(222, 228, 234); border-image: none; font-family: inherit; font-size: inherit; box-shadow: 0px 0px 5px #717070; background-image: none; background-color: rgb(255, 255, 255);
+}
+.ui-autocomplete-category {
+	background: rgb(222, 228, 234); margin: 0px; padding: 0.25em 1em; border-radius: 0px; border: currentColor; border-image: none; color: rgb(102, 112, 121); text-transform: uppercase; line-height: 1.5; font-size: 0.8em;
+}
+.ui-autocomplete-category:hover {
+	background: rgb(222, 228, 234); margin: 0px; padding: 0.25em 1em; border-radius: 0px; border: currentColor; border-image: none; color: rgb(102, 112, 121); text-transform: uppercase; line-height: 1.5; font-size: 0.8em;
+}
+.ui-autocomplete .ui-menu-item {
+	
+}
+.ui-autocomplete .ui-menu-item a {
+	margin: 0px; padding: 0.25em 1em; border-radius: 0px; border: currentColor; border-image: none; line-height: 1.5;
+}
+.ui-autocomplete .ui-menu-item a.ui-state-focus {
+	margin: 0px; border-radius: 0px; border: currentColor; border-image: none; color: rgb(255, 255, 255); background-image: none; background-color: rgb(233, 104, 2);
+}
+.ui-autocomplete .ui-menu-item a.ui-state-active {
+	margin: 0px; border-radius: 0px; border: currentColor; border-image: none; color: rgb(255, 255, 255); background-image: none; background-color: rgb(233, 104, 2);
+}
+.ui-autocomplete .ui-menu-item a span.ui-menu-item-highlight {
+	font-weight: bold;
+}
+div.searchRefiners {
+	clear: both;
+}
+.searchRefiners ul {
+	list-style: none; margin: 0px; padding: 15px 0px;
+}
+.searchRefiners ul li {
+	margin: 0px; padding: 0px; float: left;
+}
+.searchRefiners ul li a {
+	margin: 0px 10px; padding: 0px; float: left;
+}
+.searchRefiners ul li ul {
+	background: rgb(244, 244, 244); padding: 10px; margin-top: 17px; display: none; position: absolute;
+}
+.searchRefiners ul li ul li {
+	float: none; display: block;
+}
+.searchRefiners ul li ul li a {
+	margin: 5px 0px; color: rgb(117, 115, 116);
+}
+.searchRefiners ul li ul li a:hover {
+	color: rgb(234, 105, 3);
+}
+.searchRefiners ul li a:hover + ul {
+	display: block;
+}
+.searchRefiners ul li ul:hover {
+	display: block;
+}
+.searchRefiners ul li ul li a {
+	float: none; display: block;
+}
+.display {
+	display: none;
+}
+.calendar {
+	z-index: 9999;
+}
+#modalWindow button {
+	margin: 20px 0px;
+}
+#formArabic {
+	direction: rtl;
+}
+.inlineModalWindow a.fancybox-close.fancybox-item {
+	top: 25px;
+}
+label.label#lblFrom {
+	margin-bottom: 5px; display: block;
+}
+label.label#lblTo {
+	margin-bottom: 5px; display: block;
+}
+img.calendarPicker#dtFrombutt {
+	margin-right: 8px;
+}
+img.calendarPicker#dtTobutt {
+	margin-right: 8px;
+}
+#modalContent .form_item {
+	clear: both; float: none; display: block;
+}

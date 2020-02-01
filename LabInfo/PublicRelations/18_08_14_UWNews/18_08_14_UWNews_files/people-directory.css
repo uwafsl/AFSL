@@ -1,0 +1,108 @@
+div.span8 {
+	position: relative;
+}
+body #filter {
+	top: 15px; width: 150px; height: 35px; right: 0px; position: absolute;
+}
+body #filter input {
+	border-radius: 20px; border: 1px solid rgb(223, 223, 223); border-image: none; width: 115px; color: rgb(148, 148, 148); padding-left: 15px;
+}
+div.profile-list img {
+	width: 80px !important; margin-top: -5px; margin-right: 20px; float: left; display: block;
+}
+.site-marketing div.profile-list img {
+	display: none;
+}
+.site-marketing .entry-content img.people-image {
+	display: none;
+}
+.site-marketing.single-people div.people-contact {
+	margin-top: 10px;
+}
+div.profile-list img.no-pic {
+	opacity: 0;
+}
+.searchable-container > h3 {
+	padding-top: 20px; padding-bottom: 15px; font-size: 20px; font-weight: 700; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.profile-list {
+	overflow: hidden; margin-top: 30px; margin-bottom: 40px; display: block;
+}
+div.profile-list p {
+	margin-bottom: 0px;
+}
+div.profile-list h3.name {
+	font-size: 19px; font-weight: bold; margin-top: 0px; margin-bottom: 2px;
+}
+div.profile-list div.info {
+	clear: right; float: left;
+}
+div.profile-list .title {
+	color: rgb(107, 107, 107); font-family: "Droid Serif", serif; font-size: 14px; font-style: italic; position: relative; text-rendering: optimizeLegibility;
+}
+div.people-contact .title {
+	color: rgb(107, 107, 107); font-family: "Droid Serif", serif; font-size: 14px; font-style: italic; position: relative; text-rendering: optimizeLegibility;
+}
+div.people-contact .title {
+	font-size: 18px; margin-bottom: 1em;
+}
+div.people-contact .contact {
+	padding-top: 20px;
+}
+div.people-contact div.big-contact {
+	padding-top: 10px;
+}
+div.people-contact {
+	margin-top: 30px; margin-left: 0px; display: inline-block; max-width: 300px;
+}
+div.big-people-contact {
+	margin-top: 20px;
+}
+div.wide-people-contact {
+	margin-top: 40px; margin-left: 20px; display: block; max-width: 100%;
+}
+img.people-image {
+	width: 240px; margin-top: 10px; margin-right: 70px; float: left; display: inline-block;
+}
+div.people-info {
+	padding-top: 30px; clear: both;
+}
+.single-people .contact p {
+	margin-bottom: 5px;
+}
+.single-people p.team {
+	margin-bottom: 0px;
+}
+.single-people div.people-contact {
+	margin-top: 50px;
+}
+.single-people div.people-info {
+	padding-top: 40px;
+}
+@media all and (max-width:979px)
+{
+div.people-contact {
+	max-width: 100%;
+}
+img.people-image {
+	margin-right: auto; margin-left: auto; float: none; display: block;
+}
+.single-people div.people-contact {
+	margin-left: 0px;
+}
+.single-people h1 {
+	margin-left: -25px;
+}
+}
+@media all and (max-width:767px)
+{
+div.profile-list div.info {
+	max-width: 185px;
+}
+article > div {
+	padding: 0px 20px;
+}
+body #filter {
+	margin: 0px 0px 0px -5px; position: static;
+}
+}

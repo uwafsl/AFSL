@@ -1,0 +1,5802 @@
+.BlockGrid-item {
+	margin: 0px; padding: 0px; border-radius: 10px; border: 5px solid transparent; border-image: none; overflow: hidden; float: left; position: relative; min-height: 50px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.BlockGrid-item img {
+	width: 100%; height: 100%; display: block;
+}
+.BlockGrid-item--size1 {
+	width: 50%;
+}
+.BlockGrid-item--size4 {
+	width: 100%;
+}
+.BlockGrid-itemTitle {
+	background: rgba(0, 0, 0, 0.8); padding: 10px 8px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 14px; font-weight: 500; position: absolute; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ImportFriendsCallout p {
+	margin: 15px 0px 30px; color: rgb(136, 153, 166); line-height: 32px; font-size: 28px; font-weight: 300;
+}
+.ImportFriendsCallout-title {
+	text-transform: uppercase; line-height: 20px; font-size: 16px; font-weight: 500;
+}
+.ImportFriendsCallout-photo {
+	width: 420px; margin-top: 16px;
+}
+.ImportFriendsCallout-smallImageContainer {
+	width: 132px; height: 132px; float: left;
+}
+.ImportFriendsCallout-smallFriendImage {
+	border-radius: 4px; width: 100%; display: block;
+}
+.ImportFriendsCallout-smallFriendImage + .ImportFriendsCallout-smallFriendImage {
+	margin-top: 10px;
+}
+.ImportFriendsCallout-largeFriendImage {
+	border-radius: 4px; width: 273px; height: 273px; margin-left: 10px;
+}
+.ImportFriendsCallout-primaryBtn {
+	padding: 16px; width: auto; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ImportFriendsCallout-primaryBtn--big {
+	padding: 16px 24px; min-width: 312px;
+}
+.ImportFriendsCallout-btn {
+	padding: 12px 16px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ImportFriendsCallout-emailIcon {
+	margin-right: 5px; vertical-align: middle;
+}
+.ImportFriendsCallout-disclaimer {
+	color: rgb(136, 153, 166); font-size: 12px; margin-top: 5px;
+}
+.ImportFriendsCallout-list {
+	counter-reset: ImportFriendsListCounter;
+}
+.ImportFriendsCallout-list li {
+	margin: 20px 0px; color: rgb(136, 153, 166); line-height: 22px; padding-left: 50px; font-size: 20px; font-weight: 300; position: relative; min-height: 50px; counter-increment: ImportFriendsListCounter;
+}
+.ImportFriendsCallout-list li::before {
+	padding: 4px; border-radius: 50%; left: 2px; top: 0px; width: 22px; height: 22px; text-align: center; color: rgb(102, 117, 127); font-size: 16px; font-weight: bold; display: block; position: absolute; content: counter(ImportFriendsListCounter); background-color: rgb(204, 214, 221);
+}
+.ImportFriendsCallout-tooltip {
+	transition:0.5s; color: rgb(59, 148, 217); cursor: default; text-shadow: 0px 0px 0px transparent;
+}
+.ImportFriendsCallout-tooltip:hover {
+	color: rgb(28, 99, 153); text-shadow: 0px 0px 5px rgba(136,201,249,0.6);
+}
+.ImportFriendsCallout-no-reverse-contact-photo {
+	width: 510px; height: 238px;
+}
+.HomeNavPopover {
+	padding: 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; left: 10px; top: -50px; position: fixed; max-width: 250px; opacity: 0; background-color: rgb(255, 255, 255);
+}
+.HomeNavPopover h2 {
+	color: rgb(41, 47, 51); font-size: 14px; font-weight: 500; margin-bottom: 10px;
+}
+.HomeNavPopover-content p + p {
+	margin-top: 15px;
+}
+.HomeNavPopover.fadingOut {
+	transition:opacity 0.7s;
+}
+.HomeNavPopover-arrow {
+	left: 17px; top: -8px; width: 15px; height: 15px; border-top-color: rgb(225, 232, 237); border-left-color: rgb(225, 232, 237); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; position: absolute; transform: rotate(45deg); background-color: rgb(255, 255, 255); -webkit-transform: rotate(45deg);
+}
+.StartHeader {
+	margin-bottom: 23px; min-height: 80px;
+}
+.StartHeader p {
+	color: rgb(102, 117, 127); line-height: 24px; padding-right: 40px; font-size: 20px; font-weight: 300;
+}
+.StartHeader-title {
+	color: rgb(41, 47, 51); line-height: 36px; font-size: 30px; font-weight: 300; margin-bottom: 15px !important;
+}
+.StartHeader-tooltip {
+	transition:0.5s; color: rgb(59, 148, 217); cursor: default; text-shadow: 0px 0px 0px transparent;
+}
+.StartHeader-tooltip:hover {
+	color: rgb(28, 99, 153); text-shadow: 0px 0px 5px rgba(136,201,249,0.6);
+}
+.StartHeader--complete .StartHeader-default {
+	display: none;
+}
+.StartHeader-complete {
+	display: none;
+}
+.StartHeader--complete .StartHeader-complete {
+	display: block;
+}
+.StartActions {
+	margin: 0px auto; width: 80%; text-align: center;
+}
+.StartActions .btn {
+	padding: 15px 20px; width: 100%; margin-bottom: 10px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.StartActions .primary-btn {
+	padding: 15px 20px; border: 0px currentColor; border-image: none; width: 100%; height: 50px; font-size: 16px; font-weight: normal; margin-bottom: 10px; box-sizing: border-box; box-shadow: none; background-image: none; -moz-box-sizing: border-box;
+}
+.StartActions button:hover {
+	background-image: none;
+}
+.StartSetupProfile {
+	width: 262px;
+}
+.StartSetupProfile-profileCard {
+	position: relative;
+}
+.StartSetupProfile-profileCardPhoto {
+	border-radius: 5px; border: 3px dashed rgb(85, 172, 238); border-image: none; width: 256px; height: 256px; display: block; z-index: 2; background-color: rgb(255, 255, 255);
+}
+.StartSetupProfile-profileCardPhoto button {
+	border-radius: 8px; left: 0px; top: 0px; width: 100%; height: 100%; color: rgb(85, 172, 238); position: absolute; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.StartSetupProfile-profileCardPhoto button .Icon--cameraPlus {
+	line-height: 56px; font-size: 110px; margin-bottom: 50px;
+}
+.StartSetupProfile-profileCardPhoto button p {
+	font-size: 16px; font-weight: 300;
+}
+.StartSetupProfile-profileCardPhoto img {
+	border-radius: 5px; width: 100%; display: none;
+}
+.StartSetupProfile-profileCard.with-custom-photo .StartSetupProfile-profileCardPhoto img {
+	display: inline-block;
+}
+.StartSetupProfile-profileCard.with-custom-photo .StartSetupProfile-profileCardPhoto {
+	border-color: transparent;
+}
+.StartSetupProfile-photoOverlay {
+	border-radius: 6px; transition:0.2s; left: 3px; top: 3px; width: 256px; right: 3px; bottom: 3px; color: rgb(255, 255, 255); visibility: hidden; position: absolute; z-index: 1000; opacity: 0; text-shadow: 0px 1px 2px rgba(0,0,0,0.75); background-color: rgba(0, 0, 0, 0.5);
+}
+.StartSetupProfile-profileCardPhotoDrag {
+	cursor: copy;
+}
+.StartSetupProfile-profilePhotoOptions p {
+	margin-top: 10px;
+}
+.StartSetupProfile-profileCard.with-custom-photo .StartSetupProfile-profileCardPhoto:hover .StartSetupProfile-profilePhotoOptions {
+	visibility: visible; opacity: 1;
+}
+.StartSetupProfile-profileCardPhotoDrag--show {
+	visibility: visible; opacity: 1;
+}
+.StartSetupProfile-profileCard .profilePhotoHelp {
+	display: inline-block;
+}
+.StartSetupProfile-profileCard.with-custom-photo .profilePhotoHelp {
+	display: none;
+}
+.StartSetupProfile-profileCardPhotoDragMessage {
+	left: 10px; top: 50%; text-align: center; right: 10px; font-size: 14px; margin-top: -14px; position: absolute;
+}
+.StartSetupProfile-profileCardPhotoOrDrag {
+	display: none;
+}
+.StartSetupProfile-profileCardPhotoDragHere {
+	display: none;
+}
+.StartSetupProfile-profileCardPhotoDrag--showOrDrag .StartSetupProfile-profileCardPhotoOrDrag {
+	display: block;
+}
+.StartSetupProfile-profileCardPhotoDrag--showDragHere .StartSetupProfile-profileCardPhotoDragHere {
+	display: block;
+}
+.StartSetupProfile-facebookConnect {
+	height: 80px; margin-top: 40px; position: relative;
+}
+.StartSetupProfile-facebookConnected {
+	height: 80px; margin-top: 40px; position: relative;
+}
+.StartSetupProfile-facebookConnected .facebook-avatar {
+	margin-right: 10px; float: left;
+}
+.StartSetupProfile-facebookConnect p {
+	color: rgb(102, 117, 127); padding-right: 40px; font-size: 14px; font-weight: 300; margin-bottom: 10px;
+}
+.StartSetupProfile-facebookConnect p span {
+	white-space: nowrap;
+}
+.StartSetupProfile-facebookConnected p {
+	color: rgb(102, 117, 127); line-height: 14px; padding-right: 40px; font-size: 14px; font-weight: 300;
+}
+.StartSetupProfile-facebookLogo {
+	border-radius: 0px; width: 36px; height: 36px; display: inline-block; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAEjklEQVRYR+2YbWhbVRjH/+fcm5ukbZqla7e2Y2OuuE3Xin6wiE1XhutA8IUW9xK/TKGiHcJ0ssFs96FWFItv2EGxVXTCQN3qBNmHOalsun2YbARaEVs7tXSszTKTdm2T+5J75Nz05rVdibnbEPZ8yctNzv3d/3me/3N4iHdXbxMDOUwpqdR1xggBwW0MxsAopUTXYwEwvZV4fb3XBEEq1TT1tsOYz82hRNFGYjElSLzPfsLYHVAmcxM4FKGEkLpdffqt2iZCAJESCJSAv2cMYOCvDGqMGZ9Tw4Dy+voyvs4/gfjNbQKBrjNMTqsYDWuAwgAbAZEIVkoUq4ptEEWSBWUpEH8yrghX4EIgCrddQvNDZbhvrRsFDhERWcNsREPohoLB0esITStZUJYBmTCyquPKrI42Xw0a69djuccFt8uekF3jWwWCj4/8iNc+G8LmdYWIqnriumVAlBLISgySJOKtvQ3wPlyVkR8MxEwkQnDkq5/wwruXsGWTC3PKLQCSBILzAQWnOrZi8yP3GjA8h0yGZIkzCALFp0fPYk+3Hw0bixCxGkgSKfwTEex/egP2t26FQOOVZCiySHzx9c9o6bqILdUWK2RUFCU4f03F6Tca4a2tMpThW2jG1cA0FFk2WoDOAIfdhqPfXEDbsRF4VzvB886MvHOIe8xsNIbKEicOdzyF1RXuNHUGzg3j+a6zmAhF40bEQ2PYWGGHp0CExrc1RcW8gUSB4OqUCu+GZejubIbTISWAFDWG1vYTODMUQNUKB3iFmcHfc7UyI28gboBjYRXbqj3ofnO7kbBm/siKitbX+3Hp8lRCjaVs9z8DUcp7AIFNAMbDKh6rLsFHnc9kAGnY09aPi6NhLC+Kb0+i2vR4G7FEIZ4KshZPRF7uv/6jYseDJeh5e0cWUMuBYzgzHMYqVxKI/98uxntcJlTOCpmOXOwQDCC+aHBGRe16D7oONWUB7es4gd/GpuF2iojNK0QJwYysIarGfSo1cgLi+TJyXcH22jJ0HngC4PUxXzmEEhQ4ky2C34RfikRkI6fMnxqOrur4oHcAfaf/xv0r7VC0pE45AUkigX9SRkt9Bd5pb1oqPxe9Hr4h45XO7+AfCcJTZEurvpyBhgIydteVLwi0kDMb6syHzhgESjF2JYQn930LN9UA43SQZM8ZaDAg47m6cnQdas5ZIdMOhi9PoGb3cdTf44Scsl18wTsCNHDudzx+8HvUry1MVKv5dDkB8YrgDlvsFPHAOrexBq+YuaiGNZXFePXFxrQqU1QN7/X8gMngDOySEE9uAH9NzGE8GLHmxGhC/RFWjb132QjGJxXsfLQUn7/vSy97WYVv75c4ORhG+TIRkflz9BqXiEI7d3SLjNE8M/Pl+JGV97KGTR582JHt1C+398P/5xQ8hUkfiulIeJIlTp26iNHLQiq21SzUyzS8dPA4fhmdQmlREuhm1ZBTDi200M2baxKoLKOXLQZ1F2gp87qr0P9PoXyHDVZWWXzYkOc4xiqgxDgm34GVFUBpA6u6nX3NEFgPhbBC1/Wcp2j5AmWO9P4F53geXJFxCREAAAAASUVORK5CYII="); background-repeat: no-repeat;
+}
+.StartSetupProfile-facebookConnectedText {
+	left: 50px; width: 500px; position: absolute;
+}
+.StartSetupProfile-facebookConnect .fb-btn.disabled {
+	pointer-events: none; text-shadow: none;
+}
+.StartSetupProfile-absolute {
+	position: absolute;
+}
+.StartSetupProfile div.photo-selector button {
+	display: none;
+}
+.StartSetupProfile div.photo-selector span.photo-file-name {
+	display: none;
+}
+.StartSetupProfile .uploader-image .dropdown-menu {
+	padding: 7px 0px 6px; top: -30px; z-index: 1001; min-width: 220px; box-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+}
+.StartSetupProfile .uploader-image .dropdown-menu li:hover .dropdown-link {
+	background: rgb(85, 172, 238);
+}
+.StartCongratulations-bodyText {
+	color: rgb(102, 117, 127); line-height: 1.2; font-size: 24px; font-weight: 200; margin-bottom: 1em;
+}
+.StartCongratulations-heading1 {
+	color: rgb(41, 47, 51); line-height: 1.2em; font-size: 30px; font-weight: 300; margin-bottom: 24px;
+}
+.StartCongratulations-heading2 {
+	color: rgb(41, 47, 51); font-weight: 300; margin-bottom: 1em;
+}
+.StartCongratulations-leftCol {
+	padding-top: 51px;
+}
+.StartCongratulations-buttons {
+	margin-top: 24px;
+}
+.StartCongratulations-button {
+	padding: 15px 20px; border: 0px currentColor; border-image: none; text-align: center; font-size: 16px; font-weight: normal; box-shadow: none; background-image: none;
+}
+.StartCongratulations a:hover {
+	background-image: none;
+}
+.StartCongratulations-image {
+	border-radius: 5px; margin-bottom: 10px; display: block; animation-name: StartCongratulationsFadeIn; animation-duration: 1s; animation-fill-mode: backwards; -webkit-animation-duration: 1s; -webkit-animation-name: StartCongratulationsFadeIn; -webkit-animation-fill-mode: backwards;
+}
+:nth-child(2n+1).StartCongratulations-image {
+	float: right;
+}
+:nth-child(1).StartCongratulations-image {
+	animation-delay: 0.6s; -webkit-animation-delay: .6s;
+}
+:nth-child(2).StartCongratulations-image {
+	animation-delay: 0.8s; -webkit-animation-delay: .8s;
+}
+:nth-child(3).StartCongratulations-image {
+	animation-delay: 1s; -webkit-animation-delay: 1.0s;
+}
+:nth-child(4).StartCongratulations-image {
+	animation-delay: 1.2s; -webkit-animation-delay: 1.2s;
+}
+.StartNavigation {
+	background: url("../../img/t1/lohp_streams_header_bg_v4.png") 0% 0% / 100% 100% rgb(85, 172, 238); left: 0px; top: 0px; right: 0px; position: fixed; z-index: 1000;
+}
+.StartNavigation-container {
+	width: 100%; height: 46px; position: relative;
+}
+.StartNavigation-containerInner {
+	margin: 0px auto; padding: 0px 30px 0px 0px; width: auto; height: 46px; min-width: 530px; max-width: 970px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.StartNavigation-search {
+	margin: 5px 0px 0px; transition:opacity 0.2s; float: right;
+}
+.StartNavigation .form-search {
+	width: 250px; margin-right: 0px;
+}
+@media screen and (max-width:600px)
+{
+.StartNavigation .form-search {
+	width: 180px;
+}
+}
+.StartNavigation-container.global-nav .search-input {
+	color: rgb(41, 47, 51); background-color: rgb(255, 255, 255);
+}
+.StartNavigation-container.global-nav .search-input:focus {
+	color: rgb(102, 117, 127); opacity: 1; background-color: rgb(255, 255, 255);
+}
+.StartNavigation-container.global-nav :-ms-input-placeholder.search-input {
+	color: rgb(41, 47, 51);
+}
+.StartNavigation-container.global-nav :-ms-input-placeholder.search-input:focus {
+	color: rgb(102, 117, 127);
+}
+.StartNavigation-search .search-icon .Icon {
+	color: rgb(102, 117, 127);
+}
+.StartNavigationItem--logo {
+	left: 50%; margin-left: -12px; position: absolute;
+}
+.StartNavigationItem {
+	padding: 10px 18px 17px 0px; transition:opacity 0.2s; height: 46px; color: rgb(255, 255, 255); vertical-align: top; display: inline-block; position: relative; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.StartNavigationItem-step {
+	top: 4px;
+}
+.StartNavigationItem .Icon--large {
+	transition:0.5s 0.15s;
+}
+.StartNavigationItem-title {
+	transition:opacity 0.5s; font-size: 15px; font-weight: 300; margin-right: 5px; display: inline-block; max-width: 155px;
+}
+.StartPage {
+	background: rgb(255, 255, 255);
+}
+.StartPage .ProfilePopupContainer .go-to-profile {
+	display: none;
+}
+.StartPage .ProfilePopupContainer--bellbird .go-to-profile {
+	display: none;
+}
+.StartPage .ProfilePopupContainer .UserActions .dropdown {
+	display: none;
+}
+.StartPage .ProfilePopupContainer--bellbird .UserActions .dropdown {
+	display: none;
+}
+.StartPage #nux-search-dialog {
+	z-index: 4999;
+}
+.StartPage .wrapper#page-container {
+	width: 970px; padding-top: 55px; margin-bottom: 30px;
+}
+.StartPage .wrapper .content-main {
+	margin: 0px; padding: 0px; border-radius: 0px; width: 100%; float: none;
+}
+.StartPage-import .wrapper .content-main {
+	background-color: transparent;
+}
+.StartPage-import .StartActions {
+	width: 100%;
+}
+.StartPage-import .ContactImportButtons-primaryBtn {
+	padding: 12px 20px; width: auto;
+}
+.StartPage .content-main > .StartPage-module {
+	margin: 0px; padding: 28px 30px 20px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(255, 255, 255);
+}
+.StartPage-interest .content-main > .StartPage-module {
+	padding: 0px;
+}
+.StartPage .content-main > .StartPage-module + .StartPage-module {
+	margin-top: 20px; border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+.StartPage .tweet {
+	cursor: auto; background-color: transparent;
+}
+.StartPage .tweet:hover {
+	cursor: auto; background-color: transparent;
+}
+.StartPage .listview-find-friends-result .contact-select-box {
+	right: 0px;
+}
+.StartPage-notice {
+	color: rgb(136, 153, 166); font-size: 18px; max-width: 600px;
+}
+.StartPage-next {
+	text-align: center; color: rgb(136, 153, 166); font-size: 14px; margin-top: 10px; display: block;
+}
+.StartPage-footer-wrapper {
+	margin: 0px 30px; border-top-color: rgb(204, 214, 221); border-top-width: 1px; border-top-style: solid;
+}
+.StartPage-disclaimer {
+	width: 60%; color: rgb(204, 214, 221); line-height: 1.3em; font-size: 12px; margin-top: 10px;
+}
+.StartPage-error {
+	padding: 100px 0px;
+}
+.StartPage-error p {
+	margin: 20px auto;
+}
+.StartPage-errorButton {
+	padding: 20px 40px; font-size: 16px; margin-bottom: 10px; display: inline-block;
+}
+.StartPage .stream-item {
+	border-right-color: transparent; border-left-color: transparent;
+}
+.StartPage .stream-end-item {
+	border: 0px currentColor; border-image: none;
+}
+.StartPage .stream-end {
+	border: 0px currentColor; border-image: none;
+}
+.StartPage .stream-loading {
+	border: 0px currentColor; border-image: none;
+}
+.StartPage .stream-placeholder {
+	border: 0px currentColor; border-image: none;
+}
+.StartPage-transitioning :not(.StartNavigationItem--logo).StartNavigationItem {
+	opacity: 0;
+}
+.StartPage-transitioning .StartNavigation-search {
+	opacity: 0;
+}
+.StartPage.StartPage-valueOfTwitter-02 .wrapper#page-container {
+	width: 1200px;
+}
+.StartPage.StartPage-valueOfTwitter-03 .wrapper#page-container {
+	width: 1200px;
+}
+.StartPage.StartPage-valueOfTwitter-05 .wrapper#page-container {
+	width: 1200px;
+}
+.StartPage .ContactImportButtons-btn {
+	border-color: rgb(85, 172, 238); box-shadow: none; background-image: none; background-color: transparent;
+}
+.StartPage .profile-avatar-modal {
+	width: 350px;
+}
+.StartFindFriends-timelineHeader {
+	background: rgb(255, 255, 255); padding: 20px 0px; transition:top 0.15s ease-out; font-size: 14px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.StartFindFriends-timelineHeader h5 {
+	color: rgb(102, 117, 127); line-height: 22px; font-size: 20px; font-weight: 300;
+}
+.StartFindFriends-timelineHeader label {
+	color: rgb(43, 123, 185); margin-bottom: 0px; display: inline-block;
+}
+.StartFindFriends-timelineHeader .Checkbox {
+	margin-left: 5px;
+}
+.StartFindFriends-loadMore {
+	margin: 20px 0px; font-size: 14px; font-weight: 300; display: block;
+}
+.StartFindFriends .ContactImportButtons {
+	width: 50%;
+}
+.StartInterestsHeader {
+	padding: 20px 0px 10px; left: -10px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.StartInterestsHeader p {
+	color: rgb(102, 117, 127); line-height: 28px; font-size: 24px; font-weight: 300; margin-top: 20px;
+}
+.StartInterestsHeader h3 {
+	margin-top: 20px;
+}
+.StartInterestsHeader .StartSearchBox {
+	padding: 20px 40px; margin-top: 20px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.StartInterestNav {
+	margin-top: -80px; margin-left: -10px;
+}
+.StartInterestNav-item {
+	padding-bottom: 25px;
+}
+.StartInterestNav-itemWrapper {
+	padding: 10px;
+}
+.StartInterestNav-text {
+	padding: 10px; color: rgb(255, 255, 255); font-size: 15px; font-weight: 500; text-decoration: none; white-space: pre; cursor: pointer; box-shadow: 0px 0px 1px #e1e8ed; background-color: rgb(136, 201, 249);
+}
+.StartInterestNav-text.is-active {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(34, 102, 153);
+}
+.StartInterestNav-text:hover {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(34, 102, 153);
+}
+.StartInterestNav-text:focus {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(34, 102, 153);
+}
+.StartInterestNav-text:active {
+	color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(34, 102, 153);
+}
+.StartInterestFooter {
+	padding: 40px 0px; color: rgb(255, 255, 255); background-color: rgb(80, 170, 240);
+}
+.StartInterestFooter-label {
+	color: rgb(255, 255, 255); font-weight: 300;
+}
+.StartInterestFooter-label a.is-active {
+	color: rgb(255, 255, 255);
+}
+.StartInterestFooter-label a:hover {
+	color: rgb(255, 255, 255);
+}
+.StartInterestFooter-label a:focus {
+	color: rgb(255, 255, 255);
+}
+.StartInterestFooter-label a:active {
+	color: rgb(255, 255, 255);
+}
+.StartInterestFooter-label span {
+	font-weight: bold;
+}
+.StartInterestFooter-userList {
+	padding: 15px 0px;
+}
+.StartInterestFooter-user {
+	padding-right: 5px; display: inline-block;
+}
+.StartInterestFooter-user img {
+	border-radius: 4px;
+}
+.StartInterestTypeahead {
+	width: 425px; margin-bottom: 20px; position: relative; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.StartInterestTypeahead-input {
+	padding: 12px 30px 8px 14px; width: 100%; height: 42px; color: rgb(170, 184, 194); font-size: 18px; font-weight: 300; box-sizing: border-box; background-color: rgb(245, 248, 250); -moz-box-sizing: border-box;
+}
+.StartInterestTypeahead-input:focus {
+	background-color: rgb(255, 255, 255);
+}
+.StartInterestTypeahead-add {
+	top: 12px; width: 20px; height: 20px; right: 10px; color: rgb(136, 153, 166); display: block; position: absolute;
+}
+.StartInterestTypeahead .dropdown-menu {
+	margin: 9px -7px 0px 0px; border-radius: 4px; width: 100%;
+}
+.StartInterestTypeahead .dropdown-caret {
+	display: block;
+}
+.StartValueOfTwitter-animate-fadeIn {
+	animation:StartValueOfTwitter-fadeIn 1s ease-in forwards; opacity: 0; -webkit-animation-duration: 1s; -webkit-animation: StartValueOfTwitter-fadeIn ease-in 1; -webkit-animation-fill-mode: forwards;
+}
+.StartValueOfTwitter-04-imageEnlarge {
+	animation:StartValueOfTwitter-04-imageEnlarge 500ms ease-in forwards; -webkit-animation-duration: 500ms; -webkit-animation: StartValueOfTwitter-04-imageEnlarge ease-in 1; -webkit-animation-fill-mode: forwards;
+}
+.StartValueOfTwitter-animationDelay-250 {
+	animation-delay: 250ms; -webkit-animation-delay: 250ms;
+}
+.StartValueOfTwitter-animationDelay-500 {
+	animation-delay: 500ms; -webkit-animation-delay: 500ms;
+}
+.StartValueOfTwitter-animationDelay-750 {
+	animation-delay: 750ms; -webkit-animation-delay: 750ms;
+}
+.StartValueOfTwitter-animationDelay-1000 {
+	animation-delay: 1000ms; -webkit-animation-delay: 1000ms;
+}
+.StartValueOfTwitter {
+	background-color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-welcome {
+	padding: 60px 54px 180px; color: rgb(41, 47, 51); line-height: 1;
+}
+.StartValueOfTwitter-header {
+	font-size: 28px; font-weight: 300; margin-bottom: 27px;
+}
+.StartValueOfTwitter-description {
+	font-size: 18px; font-weight: 300;
+}
+.StartValueOfTwitter-button {
+	padding: 17px 80px; margin-top: 10px;
+}
+.StartValueOfTwitter .Icon {
+	width: 32px; height: 32px;
+}
+.StartValueOfTwitter-collage .Icon {
+	animation:StartValueOfTwitter-fadein 3s; color: rgb(255, 255, 255); position: absolute; -webkit-animation: StartValueOfTwitter-fadein 3s;
+}
+.StartValueOfTwitter-collage .column1 {
+	left: 14px;
+}
+.StartValueOfTwitter-collage .column2 {
+	left: 74px;
+}
+.StartValueOfTwitter-collage .column3 {
+	left: 134px;
+}
+.StartValueOfTwitter-collage .column4 {
+	left: 194px;
+}
+.StartValueOfTwitter-collage .column5 {
+	left: 254px;
+}
+.StartValueOfTwitter-collage .column6 {
+	left: 314px;
+}
+.StartValueOfTwitter-collage .column7 {
+	left: 374px;
+}
+.StartValueOfTwitter-collage .column8 {
+	left: 434px;
+}
+.StartValueOfTwitter-collage .column9 {
+	left: 494px;
+}
+.StartValueOfTwitter-collage .column10 {
+	left: 554px;
+}
+.StartValueOfTwitter-collage .column11 {
+	left: 614px;
+}
+.StartValueOfTwitter-collage .column12 {
+	left: 674px;
+}
+.StartValueOfTwitter-collage .column13 {
+	left: 734px;
+}
+.StartValueOfTwitter-collage .column14 {
+	left: 794px;
+}
+.StartValueOfTwitter-collage .column15 {
+	left: 854px;
+}
+.StartValueOfTwitter-collage .column16 {
+	left: 914px;
+}
+.StartValueOfTwitter-collage .column17 {
+	left: 974px;
+}
+.StartValueOfTwitter-collage .column18 {
+	left: 1034px;
+}
+.StartValueOfTwitter-collage .column19 {
+	left: 1094px;
+}
+.StartValueOfTwitter-collage .column20 {
+	left: 1154px;
+}
+.StartValueOfTwitter-collage .row1 {
+	top: 14px;
+}
+.StartValueOfTwitter-collage .row2 {
+	top: 74px;
+}
+.StartValueOfTwitter-collage .row3 {
+	top: 134px;
+}
+.StartValueOfTwitter-collage .row4 {
+	top: 194px;
+}
+.StartValueOfTwitter-collageTop {
+	background: url("../../img/t1/start/welcome/value_of_twitter/02/collage_top.jpg") no-repeat; height: 120px; position: relative;
+}
+.StartValueOfTwitter-collageBottom {
+	background: url("../../img/t1/start/welcome/value_of_twitter/02/collage_bottom.jpg") no-repeat; height: 240px; position: relative;
+}
+.StartValueOfTwitter-steps li {
+	margin-bottom: 24px; position: relative;
+}
+.StartValueOfTwitter-steps li:last-child {
+	margin-bottom: 0px;
+}
+.StartValueOfTwitter-stepDescription {
+	width: 380px; line-height: 24px; padding-left: 30px; font-size: 18px; font-weight: 300; vertical-align: middle; display: table-cell;
+}
+.StartValueOfTwitter-steps .Icon::before {
+	margin-top: -2px; margin-left: 1px;
+}
+.StartValueOfTwitter-steps .Icon-wrap {
+	display: table-cell;
+}
+.StartValueOfTwitter-steps .Icon.Icon--heart {
+	background-position: center; background-image: url("../../img/t1/start/welcome/value_of_twitter/03/icon_heart.png"); background-repeat: no-repeat;
+}
+.StartValueOfTwitter-steps .Icon-wrap::after {
+	left: 28px; top: 62px; width: 6px; height: 100%; position: absolute; content: ""; background-color: rgb(85, 172, 238);
+}
+.StartValueOfTwitter-steps li:last-child .Icon-wrap::after {
+	height: 0px;
+}
+.StartValueOfTwitter-steps .Icon {
+	padding: 15px; border-radius: 35px; color: rgb(85, 172, 238); background-color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-01-image {
+	outline: 0px; position: relative;
+}
+.StartValueOfTwitter-01-image::after {
+	top: 0px; width: 100%; height: 100%; display: block; position: absolute; content: ""; background-image: linear-gradient(rgb(51, 51, 51) 0px, transparent 20%, transparent 90%, rgb(51, 51, 51));
+}
+.StartValueOfTwitter-01-image img {
+	vertical-align: top;
+}
+.StartValueOfTwitter-01 span {
+	width: 100%; text-align: center; color: rgb(255, 255, 255); display: none; position: absolute; z-index: 1;
+}
+.StartValueOfTwitter-01-image:active img {
+	-webkit-filter: grayscale(.5);
+}
+.StartValueOfTwitter-01-image:focus img {
+	-webkit-filter: grayscale(.5);
+}
+.StartValueOfTwitter-01-image:hover img {
+	-webkit-filter: grayscale(.5);
+}
+.StartValueOfTwitter-01-image:active span {
+	display: block;
+}
+.StartValueOfTwitter-01-image:focus span {
+	display: block;
+}
+.StartValueOfTwitter-01-image:hover span {
+	display: block;
+}
+.StartValueOfTwitter-01-title {
+	top: 15px; font-size: 20px; font-weight: 300;
+}
+.StartValueOfTwitter-01-user {
+	bottom: 10px; font-size: 14px; font-weight: 300;
+}
+.StartValueOfTwitter-02 {
+	background-color: rgb(26, 97, 149);
+}
+.StartValueOfTwitter-03 {
+	background-color: rgb(26, 97, 149);
+}
+.StartValueOfTwitter-05 {
+	background-color: rgb(26, 97, 149);
+}
+.StartValueOfTwitter-02 .StartValueOfTwitter-welcome {
+	padding: 84px; color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-02 .StartValueOfTwitter-header {
+	font-size: 64px; margin-bottom: 32px;
+}
+.StartValueOfTwitter-05 .StartValueOfTwitter-header {
+	font-size: 64px; margin-bottom: 32px;
+}
+.StartValueOfTwitter-02 .StartValueOfTwitter-description {
+	width: 600px; line-height: 30px; font-size: 24px;
+}
+.StartValueOfTwitter-05 .StartValueOfTwitter-description {
+	width: 600px; line-height: 30px; font-size: 24px;
+}
+.StartValueOfTwitter-02 .StartValueOfTwitter-button {
+	margin-top: 69px;
+}
+.StartValueOfTwitter-03 .StartValueOfTwitter-welcome {
+	padding: 48px 84px 48px 120px; color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-03 .StartValueOfTwitter-button {
+	margin-top: 135px;
+}
+.StartValueOfTwitter-04-image {
+	padding: 0px 30px; height: 452px; color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-04-image-you {
+	background: rgb(46, 103, 146);
+}
+.StartValueOfTwitter-04-image-we {
+	background: rgb(80, 165, 230);
+}
+.StartValueOfTwitter-04-image-together {
+	background: rgb(146, 102, 204);
+}
+.StartValueOfTwitter-04-image-bounds {
+	width: 246px; height: 334px;
+}
+.StartValueOfTwitter-04-image img {
+	margin: 0px auto; padding: 44px 0px 54px; display: block;
+}
+.StartValueOfTwitter-04-who {
+	line-height: 1; font-size: 24px; margin-bottom: 4px; display: block;
+}
+.StartValueOfTwitter-04-who {
+	text-transform: uppercase; line-height: 28px; font-size: 18px; display: block;
+}
+.StartValueOfTwitter-04 .StartValueOfTwitter-header {
+	margin-top: 22px;
+}
+.StartValueOfTwitter-05 .StartValueOfTwitter-welcome {
+	padding: 96px 84px 96px 120px; height: 234px; color: rgb(255, 255, 255);
+}
+.StartValueOfTwitter-05 .StartValueOfTwitter-sequence1of2 {
+	padding: 45px 0px;
+}
+.StartValueOfTwitter-05 .StartValueOfTwitter-button {
+	margin-top: 87px;
+}
+.FollowPopover {
+	padding: 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; top: -50px; display: none; position: absolute; max-width: 160px; background-color: rgb(255, 255, 255);
+}
+.FollowPopover-content {
+	color: rgb(41, 47, 51); font-size: 14px; font-weight: 500; margin-bottom: 10px;
+}
+.FollowPopover-arrow {
+	display: none;
+}
+body:not(.ie8) .FollowPopover-arrow {
+	border-width: 1px 0px 0px 1px; border-style: solid; border-color: rgb(225, 232, 237); left: -8px; top: 15px; width: 15px; height: 15px; display: block; position: absolute; transform: rotate(315deg); background-color: rgb(255, 255, 255); -webkit-transform: rotate(315deg);
+}
+.FollowPopover-footer {
+	color: rgb(136, 153, 166); line-height: 15px; padding-top: 15px; font-size: 12px; font-weight: 300;
+}
+.StartAlertModal-title {
+	font-size: 20px; font-weight: bold; margin-top: 20px; margin-bottom: 10px;
+}
+.StartAlertModal-message {
+	line-height: 1.3; font-size: 16px; margin-right: 40px;
+}
+.StartExitTransitionDialog {
+	transition:opacity 0.5s 0.2s; top: 0px; width: 100%; height: 100%; position: fixed; z-index: -1; opacity: 0; background-color: white;
+}
+.StartExitTransitionDialog--active {
+	z-index: 999; opacity: 1;
+}
+.StartExitTransitionDialog-content {
+	transition:0.5s 0.7s; top: -100px; position: relative;
+}
+.StartExitTransitionDialog--active .StartExitTransitionDialog-content {
+	top: 200px;
+}
+.StartExitTransitionDialog-content img {
+	transition:0.5s 0.9s; height: 70px; margin-top: 20px; opacity: 0;
+}
+.StartExitTransitionDialog--active .StartExitTransitionDialog-content img {
+	opacity: 1;
+}
+.ProfileThumbnailPicker .StartWCSelectTeam-team {
+	width: auto; height: auto; position: relative;
+}
+.ProfileThumbnailPicker .StartWCFlag {
+	margin: 4px; width: 60px; height: 60px;
+}
+.ProfileThumbnailPicker p {
+	color: rgb(102, 117, 127); line-height: 24px; padding-left: 5px; font-size: 20px; font-weight: 300; margin-top: 40px; margin-bottom: 12px;
+}
+.ProfileThumbnailPicker-manual {
+	margin: 4px; border-radius: 3px; width: 60px; height: 60px; color: rgb(255, 255, 255); box-shadow: 0px 0px 3px rgba(0,0,0,0.166); transition-duration: 0.3s; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); background-color: rgb(136, 201, 249);
+}
+.ProfileThumbnailPicker-manual:focus {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.33); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)); background-color: rgb(85, 172, 238);
+}
+.ProfileThumbnailPicker-manual:hover {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.33); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)); background-color: rgb(85, 172, 238);
+}
+.ProfileThumbnailPicker-manual .Icon {
+	margin: 10px 0px 0px;
+}
+.ProfileThumbnailPicker-manual .Icon--camera.Icon--large {
+	margin-top: 6px;
+}
+.ProfileThumbnailPicker .photo-file-name {
+	display: none;
+}
+.ProfileThumbnailPicker .DashboardProfileCard-avatarLink {
+	margin: -60px 0px 0px 15px;
+}
+.ProfileThumbnailPicker .DashboardProfileCard-avatarImage {
+	width: 120px; height: 120px;
+}
+.ProfileThumbnailPicker .DashboardProfileCard-userFields {
+	margin: 0px 6px 3px 0px; left: 152px;
+}
+.ProfileThumbnailPicker .DashboardProfileCard-screennameLink {
+	font-size: 16px; font-weight: 400; margin-top: 3px;
+}
+.ProfileThumbnailPicker .DashboardProfileCard-name {
+	line-height: 25px; font-size: 22px;
+}
+.StandaloneQuestionModule {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 10px 30px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; width: 350px;
+}
+.StandaloneQuestionModule-question {
+	margin: 10px auto 20px; font-size: 16px; font-weight: bold;
+}
+.StandaloneQuestionModule p {
+	margin-bottom: 20px;
+}
+.StandaloneQuestionModule .btn {
+	padding: 15px; font-size: 16px; margin-bottom: 10px;
+}
+.StartCheckboxList-item {
+	padding-bottom: 18px;
+}
+.StartCheckboxList-label {
+	line-height: 20px; font-size: 24px; margin-left: 10px; vertical-align: middle;
+}
+.ContactImportButtons {
+	position: relative;
+}
+.ContactImportButtons-btn {
+	padding: 12px 16px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ContactImportButtons-primaryBtn {
+	padding: 12px 20px;
+}
+.ContactImportButtons-emailIcon {
+	margin-right: 5px; vertical-align: middle;
+}
+.ContactImportButtons-toggle {
+	cursor: pointer;
+}
+.ContactImportButtons--transition.ContactImportButtons--showSingleService .ContactImportButtons-singleService {
+	animation-name: ContactImportButtonsTransitionIn; animation-duration: 0.5s; -webkit-animation-duration: .5s; -webkit-animation-name: ContactImportButtonsTransitionIn;
+}
+.ContactImportButtons--transition.ContactImportButtons--showMultipleServices .ContactImportButtons-multipleServices {
+	animation-name: ContactImportButtonsTransitionIn; animation-duration: 0.5s; -webkit-animation-duration: .5s; -webkit-animation-name: ContactImportButtonsTransitionIn;
+}
+.ContactImportButtons--showSingleService .ContactImportButtons-multipleServices {
+	top: 0px; visibility: hidden; position: absolute;
+}
+.ContactImportButtons--showMultipleServices .ContactImportButtons-singleService {
+	top: 0px; visibility: hidden; position: absolute;
+}
+.ContactImportButtons--transition.ContactImportButtons--showSingleService .ContactImportButtons-multipleServices {
+	animation-name: ContactImportButtonsTransitionOut; animation-duration: 0.5s; -webkit-animation-duration: .5s; -webkit-animation-name: ContactImportButtonsTransitionOut;
+}
+.ContactImportButtons--transition.ContactImportButtons--showMultipleServices .ContactImportButtons-singleService {
+	animation-name: ContactImportButtonsTransitionOut; animation-duration: 0.5s; -webkit-animation-duration: .5s; -webkit-animation-name: ContactImportButtonsTransitionOut;
+}
+.Avatar {
+	border-radius: 3px; display: block; -moz-force-broken-image-icon: 1;
+}
+.Avatar--size48 {
+	width: 48px; height: 48px;
+}
+.BlocksYouTimeline {
+	margin: 40px 0px 35px 15px;
+}
+.BlocksYouTimeline-heading {
+	color: rgb(102, 117, 127); font-size: 22px; font-weight: 300; margin-bottom: 15px;
+}
+.BlocksYouTimeline-explanation {
+	color: rgb(102, 117, 127);
+}
+.BlockedWarningTimeline {
+	margin: 35px 0px 35px 15px; display: none;
+}
+.BlockedWarningTimeline-heading {
+	color: rgb(102, 117, 127); font-size: 22px; font-weight: 300; margin-top: -5px; margin-bottom: 15px;
+}
+.BlockedWarningTimeline-explanation {
+	color: rgb(102, 117, 127);
+}
+.BlockedWarningTimeline-button {
+	margin-top: 30px; margin-bottom: 15px;
+}
+.GridTimeline {
+	margin-bottom: 50px; position: relative;
+}
+.GridTimeline-emptyText {
+	margin: 35px 0px 35px 15px; color: rgb(102, 117, 127); font-size: 22px; font-weight: 300;
+}
+.GridTimeline .has-items .GridTimeline-emptyText {
+	display: none;
+}
+.GridTimeline-failure {
+	padding: 25px 0px 20px; text-align: center; color: rgb(102, 117, 127); font-size: 16px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.GridTimeline-retry {
+	margin: 20px 0px;
+}
+.GridTimeline-footer {
+	text-align: center; margin-top: 20px; position: relative;
+}
+.GridTimeline-footer::before {
+	background: rgb(225, 232, 237); left: 0px; top: 45%; height: 1px; right: 0px; position: absolute; z-index: -1; content: "";
+}
+.GridTimeline-footerIcon {
+	padding: 0px 15px; color: rgb(204, 214, 221); display: inline-block; background-color: rgb(245, 248, 250);
+}
+.GridTimeline .has-more-items .spinner {
+	background: url("../../img/t1/spinner-rosetta-gray-26x26.gif") no-repeat 0px 0px; display: block;
+}
+.GridTimeline .spinner {
+	display: none;
+}
+.GridTimeline .has-more-items .Icon {
+	display: none;
+}
+.GridTimeline .has-items-error .spinner {
+	display: none;
+}
+.GridTimeline-end .GridTimeline-smsFollowers {
+	display: block;
+}
+.GridTimeline-end.has-more-items .GridTimeline-smsFollowers {
+	display: none;
+}
+.GridTimeline-smsFollowers {
+	text-align: center; margin-top: 20px;
+}
+.ListCreationModule-title {
+	margin: 25px 0px 15px; color: rgb(102, 117, 127); line-height: 18px; font-size: 18px; font-weight: 300;
+}
+.ListCreationModule-description {
+	color: rgb(102, 117, 127); margin-bottom: 10px;
+}
+.ListCreationModule-moreInfoLink {
+	font-size: 12px; font-weight: bold;
+}
+.ListCreationModule-action .btn {
+	font-size: 14px;
+}
+.PhotoRail {
+	display: none;
+}
+.PhotoRail-heading {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-bottom: 10px;
+}
+.PhotoRail-heading .Icon {
+	min-width: 18px;
+}
+.PhotoRail-mediaBox {
+	margin: -5px 0px 0px -5px; overflow: hidden; max-height: 176px;
+}
+.PhotoRail-mediaBox .tweet-media-img-placeholder {
+	margin: 5px 0px 0px 5px; border-radius: 4px; width: 83px; height: 83px; overflow: hidden; float: left; position: relative; cursor: pointer; background-color: rgb(102, 117, 127);
+}
+.PhotoRail-mediaBox .grid-tweet-actions-container {
+	display: none;
+}
+.PhotoRail-headingWithCount {
+	display: none;
+}
+.PhotoRail-headingWithoutCount {
+	display: none;
+}
+.PhotoRail-headingText--withCount .PhotoRail-headingWithCount {
+	
+}
+.PhotoRail-headingText--withoutCount .PhotoRail-headingWithoutCount {
+	
+}
+.ProfileAvatar {
+	background: rgb(255, 255, 255); border-radius: 12px; border: 5px solid rgb(255, 255, 255); border-image: none; width: 200px; height: 200px; position: relative; box-shadow: 0px 1px 1px rgba(136,153,166,0.15);
+}
+.ProfileAvatar-image {
+	border-radius: 8px; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; -moz-force-broken-image-icon: 1;
+}
+.ProfileAvatar-placeholderImage {
+	border-radius: 8px; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; -moz-force-broken-image-icon: 1;
+}
+.ProfileAvatar-container {
+	outline: 0px;
+}
+.ProfileCanopy {
+	position: relative;
+}
+.ProfileCanopy {
+	transition:height 0.3s; height: 175px;
+}
+.ProfileCanopy-header {
+	transition:height 0.3s; height: 175px;
+}
+.ProfileCanopy-header::before {
+	width: 100%; height: 100%; display: block; position: absolute; z-index: 1; content: ""; box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.2);
+}
+.ProfileCanopy--withNav {
+	padding-bottom: 60px;
+}
+.ProfileCanopy--large {
+	height: 280px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 280px;
+}
+.ProfileCanopy-inner {
+	width: 100%; position: relative; z-index: 4;
+}
+.ProfileCanopy-header {
+	position: relative; z-index: 3; max-width: 2560px; background-color: rgb(99, 174, 238);
+}
+.ProfileCanopy-headerBg {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; position: absolute;
+}
+.ProfileCanopy-headerBg img {
+	margin: auto 0px; left: 0px; top: -9999px; width: 100%; right: 0px; bottom: -9999px; position: absolute;
+}
+.ProfileCanopy-header .AppContainer {
+	height: 100%; position: relative;
+}
+.ProfileCanopy-addHeaderCallout {
+	transition:opacity 0.25s ease-in-out; width: 100%; height: 100%; text-align: center; opacity: 0;
+}
+.ProfileCanopy-addHeaderCallout:focus {
+	outline: 0px;
+}
+.ProfileCanopy-addHeaderCallout:hover {
+	opacity: 1;
+}
+.ProfileCanopy-addHeaderCalloutText {
+	left: 0px; width: 100%; bottom: 25px; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; position: absolute;
+}
+.ProfileCanopy-avatar {
+	transition:bottom 0.3s; left: 10px; bottom: -87px; position: absolute; z-index: 3;
+}
+.ProfileCanopy-navBar {
+	height: 60px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; box-sizing: border-box; background-color: rgb(255, 255, 255); -moz-box-sizing: border-box;
+}
+.ProfileCanopy-card {
+	transition:padding-top 0.3s; height: 60px; overflow: hidden; padding-top: 60px; margin-right: -10px; max-width: 100%; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfileCanopy-nav .ProfileNav {
+	margin-bottom: -1px;
+}
+.ProfileCanopy.is-locked .ProfileCanopy-inner {
+	top: 0px; width: 100%; position: fixed; transform: translateZ(0px); -webkit-transform: translateZ(0);
+}
+.ProfileCanopy.is-locked .ProfileCanopy-header {
+	cursor: pointer;
+}
+.ProfileCanopy.is-locked .ProfileCanopy-avatar {
+	bottom: 100px;
+}
+.ProfileCanopy.is-locked .ProfileCanopy-card {
+	padding-top: 0px;
+}
+@media all and (min-width:1100px)
+{
+.ProfileCanopy--large {
+	height: 300px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 300px;
+}
+}
+@media all and (min-width:1200px)
+{
+.ProfileCanopy--large {
+	height: 320px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 320px;
+}
+}
+@media all and (min-width:1370px)
+{
+.ProfileCanopy--large {
+	height: 360px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 360px;
+}
+}
+@media all and (min-width:1450px)
+{
+.ProfileCanopy--large {
+	height: 380px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 380px;
+}
+}
+@media all and (min-width:1510px)
+{
+.ProfileCanopy--large {
+	height: 420px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 420px;
+}
+}
+@media all and (min-width:1670px)
+{
+.ProfileCanopy--large {
+	height: 460px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 460px;
+}
+}
+@media all and (min-width:1820px)
+{
+.ProfileCanopy--large {
+	height: 500px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 500px;
+}
+}
+@media all and (min-width:1990px)
+{
+.ProfileCanopy--large {
+	height: 540px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 540px;
+}
+}
+@media all and (min-width:2150px)
+{
+.ProfileCanopy--large {
+	height: 580px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 580px;
+}
+}
+@media all and (min-width:2300px)
+{
+.ProfileCanopy--large {
+	height: 600px;
+}
+.ProfileCanopy--large .ProfileCanopy-header {
+	height: 600px;
+}
+}
+.ProfileCardMini {
+	padding: 12px 15px; height: 60px; text-align: left; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfileCardMini-avatar {
+	width: 36px; height: 36px; margin-right: 10px; float: left;
+}
+.ProfileCardMini-avatarImage {
+	border-radius: 4px; width: 36px; height: 36px; max-width: 100%;
+}
+.ProfileCardMini-details {
+	height: 36px; margin-left: 46px;
+}
+.ProfileCardMini-screenname {
+	height: 14px;
+}
+.ProfileCardMini-screenname > * {
+	vertical-align: text-top;
+}
+.ProfileCardMini-screennameLink {
+	color: rgb(102, 117, 127); line-height: 1; font-size: 13px; font-weight: 400;
+}
+.ProfileCardMini-screennameLink:hover {
+	color: rgb(102, 117, 127); line-height: 1; font-size: 13px; font-weight: 400;
+}
+.ProfileClusterFollow {
+	padding: 20px 0px; border-bottom-color: rgb(225, 232, 238); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(245, 248, 250);
+}
+.ProfileClusterFollow-header {
+	line-height: 1; margin-bottom: 20px;
+}
+.ProfileClusterFollow-title {
+	color: rgb(136, 153, 166); font-size: 22px; font-weight: 300; margin-left: 2px;
+}
+.ProfileClusterFollow-closeButtonText {
+	color: rgb(59, 136, 195); font-size: 13px;
+}
+.ProfileClusterFollow-closeButtonIcon {
+	color: rgb(136, 153, 166); font-size: 11px; margin-left: 4px;
+}
+.ProfileCustomTimelineItem {
+	margin: 0px 15px; padding: 10px 0px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.ProfileCustomTimelineItem-avatar {
+	border-radius: 5px; width: 60px; height: 60px; display: block;
+}
+.ProfileCustomTimelineItem-name {
+	line-height: 1; font-weight: bold;
+}
+.ProfileCustomTimelineItem-ownerName {
+	color: rgb(136, 153, 166);
+}
+.ProfileCustomTimelineItem-byLine {
+	color: rgb(136, 153, 166); font-size: 12px;
+}
+.ProfileCustomTimelineItem-bio {
+	line-height: 1; margin-top: 12px;
+}
+.ProfileCustomTimelineItem-memberCount {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 13px; margin-top: 12px;
+}
+.ProfileEmptyTimeline-prefilledTweetsHeading {
+	color: rgb(102, 117, 127); padding-right: 20px; padding-left: 15px; font-size: 14px; font-weight: 300; margin-bottom: 20px;
+}
+.ProfileEmptyTimeline .ProfileHeading-title {
+	padding-right: 20px; padding-left: 15px; font-size: 22px;
+}
+.ProfileEmptyTimeline .ProfilePrefilledTweet {
+	color: rgb(102, 117, 127); margin-top: 20px;
+}
+.ProfileEmptyTimeline-tweetBoxHeading {
+	color: rgb(102, 117, 127); font-size: 14px; font-weight: 300; margin-top: 30px; margin-bottom: 15px;
+}
+.ProfileEmptyTimeline-tweetBox {
+	margin-bottom: 20px;
+}
+.ProfileFeatureBox {
+	width: 250px; text-align: center; margin-left: 65px; float: left;
+}
+:first-child.ProfileFeatureBox {
+	margin-left: 0px;
+}
+.ProfileFeatureBox-img {
+	width: 122px; margin-bottom: 25px;
+}
+.ProfileFeatureBox-heading {
+	line-height: 25px; font-size: 15px; font-weight: 600; margin-bottom: 3px;
+}
+.ProfileFeatureBox-description {
+	line-height: 20px; font-size: 13px;
+}
+.ProfileHeaderCard {
+	margin-top: 37px;
+}
+.ProfileHeaderCard-name {
+	line-height: 1;
+}
+.ProfileHeaderCard-nameLink {
+	line-height: 1; font-size: 22px; font-weight: 700; -ms-word-wrap: break-word;
+}
+.ProfileHeaderCard-screenname {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; font-weight: 400; margin-bottom: 10px;
+}
+.ProfileHeaderCard-screennameLink {
+	color: rgb(136, 153, 166);
+}
+.ProfileHeaderCard-screennameLink:hover {
+	color: rgb(136, 153, 166);
+}
+.ProfileHeaderCard-bio {
+	line-height: 20px; font-size: 14px; font-weight: 400; margin-bottom: 10px; -ms-word-wrap: break-word;
+}
+.ProfileHeaderCard-location {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-top: 6px;
+}
+.ProfileHeaderCard-url {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-top: 6px;
+}
+.ProfileHeaderCard-vineProfile {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-top: 6px;
+}
+.ProfileHeaderCard-joinDate {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-top: 6px;
+}
+.ProfileHeaderCard-birthdate {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 14px; margin-top: 6px;
+}
+.ProfileHeaderCard-locationText {
+	color: rgb(41, 47, 51);
+}
+.ProfileHeaderCard-joinDateText {
+	color: rgb(41, 47, 51);
+}
+.ProfileHeaderCard-vineProfileText {
+	color: rgb(41, 47, 51);
+}
+.ProfileHeaderCard-birthdateText {
+	color: rgb(41, 47, 51);
+}
+.ProfileHeaderCard-location .Icon {
+	min-width: 18px;
+}
+.ProfileHeaderCard-url .Icon {
+	min-width: 18px;
+}
+.ProfileHeaderCard-vineProfile .Icon {
+	min-width: 18px;
+}
+.ProfileHeaderCard-joinDate .Icon {
+	min-width: 18px;
+}
+.ProfileHeaderCard-birthdate .Icon {
+	min-width: 18px;
+}
+.ProfileHeaderCard-location > * {
+	vertical-align: middle; display: inline-block;
+}
+.ProfileHeaderCard-url > * {
+	vertical-align: middle; display: inline-block;
+}
+.ProfileHeaderCard-vineProfile > * {
+	vertical-align: middle; display: inline-block;
+}
+.ProfileHeaderCard-joinDate > * {
+	vertical-align: middle; display: inline-block;
+}
+.ProfileHeaderCard-birthdate > * {
+	vertical-align: middle; display: inline-block;
+}
+.ProfileHeaderCard-locationText {
+	margin-top: 2px;
+}
+.ProfileHeaderCard-urlText {
+	margin-top: 2px;
+}
+.ProfileHeaderCard-vineProfileText {
+	margin-top: 2px;
+}
+.ProfileHeaderCard-joinDateText {
+	margin-top: 2px;
+}
+.ProfileHeaderCard-birthdateText {
+	margin-top: 2px;
+}
+.ProfileHeaderCard-url .Icon {
+	position: absolute;
+}
+.ProfileHeaderCard-joinDate .Icon {
+	padding-bottom: 3px;
+}
+.ProfileHeaderCard-urlText {
+	width: 100%; padding-left: 23px; -ms-word-wrap: break-word; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfileHeaderCard-bio a .invisible {
+	line-height: 0; font-size: 0px;
+}
+.ProfileHeaderCard-more {
+	line-height: 22px; margin-bottom: 16px;
+}
+.ProfileHeaderCard-userActions {
+	margin: 14px 12px 0px 0px;
+}
+:not(:hover).ProfileHeaderCard-birthdateTextLink:focus {
+	text-decoration: none;
+}
+.ProfileHeaderCard-nameWithBadges--1 {
+	padding-right: 23px;
+}
+.ProfileHeaderCard-nameWithBadges--2 {
+	padding-right: 46px;
+}
+.ProfileHeaderCard-badges {
+	font-size: 18px;
+}
+.ProfileHeaderCard-badges .Icon {
+	margin-left: 5px;
+}
+.ProfileHeaderCard-badges--1 {
+	margin-left: -23px;
+}
+.ProfileHeaderCard-badges--2 {
+	margin-left: -46px;
+}
+.ProfileHeaderCard .ProfileMessagingActions {
+	margin-top: 15px;
+}
+.ProfileHeading {
+	position: relative; z-index: 1;
+}
+.ProfileHeading-spacer {
+	margin-top: 10px;
+}
+.ProfileHeading .NotificationsHeadingContent {
+	margin-bottom: -1px;
+}
+.ProfileHeading-content {
+	border-radius: 5px 5px 0px 0px; border: 1px solid rgb(225, 232, 237); border-image: none; margin-bottom: -1px; background-color: rgb(255, 255, 255);
+}
+.ProfileHeading-content--noFill {
+	border: 0px currentColor; border-image: none; margin-bottom: 5px; background-color: transparent;
+}
+.ProfileHeading-title {
+	padding: 15px 15px 12px; color: rgb(102, 117, 127); line-height: 1; font-size: 18px; font-weight: 300; display: block;
+}
+.ProfileHeading-toggleItem {
+	padding: 15px 15px 12px; color: rgb(204, 214, 221); line-height: 1; font-size: 18px; font-weight: 300; display: inline-block;
+}
+.ProfileHeading-toggleItem.is-active {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.ProfileHeading-toggleItem.is-active:hover {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.ProfileHeading-toggleItem.is-active:focus {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.ProfileHeading-description {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(225, 232, 237) rgb(225, 232, 237); padding: 0px 15px 12px; border-image: none; color: rgb(102, 117, 127); line-height: 1; font-size: 12px; font-weight: 300; margin-bottom: -1px; display: block; background-color: rgb(255, 255, 255);
+}
+.ProfileHeading-title--withButtons {
+	display: inline-block;
+}
+.ProfileHeading-editButtons {
+	display: inline-block;
+}
+.ProfileHeading-editButtons {
+	padding: 7px 9px 0px 0px;
+}
+.ProfileLifelineInfo {
+	line-height: 18px; font-size: 14px;
+}
+.ProfileLifelineInfo .Icon {
+	margin-right: 10px;
+}
+.ProfileLifelineInfo-text {
+	color: rgb(136, 153, 166);
+}
+.ProfileListItem {
+	margin: 0px 15px; padding: 10px 0px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.ProfileListItem-avatar {
+	border-radius: 5px; width: 60px; height: 60px; display: block;
+}
+.ProfileListItem-name {
+	line-height: 1; font-weight: bold;
+}
+.ProfileListItem-ownerName {
+	color: rgb(136, 153, 166);
+}
+.ProfileListItem-byLine {
+	color: rgb(136, 153, 166); font-size: 12px;
+}
+.ProfileListItem-bio {
+	line-height: 1; margin-top: 12px;
+}
+.ProfileListItem-memberCount {
+	display: inline-block;
+}
+.ProfileListItem-listActions {
+	display: inline-block;
+}
+.ProfileListItem-listAction {
+	display: inline-block;
+}
+.ProfileListItem-memberCount {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 13px; margin-top: 12px;
+}
+.ProfileListItem-linkDivider {
+	padding: 0px 1px;
+}
+.ProfileListItem-listActions {
+	color: rgb(204, 214, 221); line-height: 1; font-size: 13px;
+}
+.ProfileListItem:hover .ProfileListItem-listAction {
+	color: rgb(136, 153, 166);
+}
+.ProfileListItem-listAction button:hover {
+	text-decoration: underline;
+}
+.ProfileListItem-listActionButton.is-featured .ProfileListItem-featureListText {
+	display: none;
+}
+.ProfileListItem-listActionButton.is-unfeatured .ProfileListItem-unfeatureListText {
+	display: none;
+}
+.ProfileMessagingActions-actionsContainer {
+	margin: 0px 0px -5px -5px;
+}
+.ProfileMessagingActions-buttonWrapper {
+	padding: 0px 0px 5px 5px; width: 50%; vertical-align: top; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfileMessagingActions-buttonWrapper--xlarge {
+	width: 79%;
+}
+.ProfileMessagingActions-buttonWrapper--large {
+	width: 58%;
+}
+.ProfileMessagingActions-buttonWrapper--small {
+	width: 21%;
+}
+@media all and (max-width:1200px)
+{
+.ProfileMessagingActions .NewTweetButton-text {
+	display: none;
+}
+.ProfileMessagingActions .DMButton-text {
+	display: none;
+}
+.ProfileMessagingActions-buttonWrapper.u-sizeFull .NewTweetButton-text {
+	display: inline-block;
+}
+.ProfileMessagingActions-buttonWrapper.u-sizeFull .DMButton-text {
+	display: inline-block;
+}
+}
+.ProfileNav {
+	height: 60px; position: relative;
+}
+.ProfileNav-item {
+	display: inline-block;
+}
+.ProfileNav .is-hidden {
+	display: none;
+}
+.ProfileNav-item--userActions {
+	padding: 12px 0px 0px 2px; top: 0px; height: 59px; right: 0px; position: absolute; box-sizing: border-box; background-color: rgb(255, 255, 255); -moz-box-sizing: border-box;
+}
+.ProfileNav-stat {
+	padding: 14px 15px 7px; transition:0.15s ease-in-out; height: 60px; line-height: 1; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: solid; display: block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfileNav-stat--link:hover {
+	text-decoration: none;
+}
+.ProfileNav-stat--link:focus {
+	text-decoration: none;
+}
+.ProfileNav-label {
+	display: block;
+}
+.ProfileNav-value {
+	display: block;
+}
+.ProfileNav-label {
+	transition:color 0.15s ease-in-out; color: rgb(102, 117, 127); text-transform: uppercase; letter-spacing: 0.02em; font-size: 11px;
+}
+.ProfileNav-value {
+	transition:color 0.15s ease-in-out; padding-top: 3px; font-size: 18px; font-weight: 500;
+}
+.ProfileNav-item.is-active {
+	border-color: rgb(102, 117, 127); color: rgb(102, 117, 127); cursor: default;
+}
+.ProfileNav-item.is-active:hover {
+	border-color: rgb(102, 117, 127); color: rgb(102, 117, 127); cursor: default;
+}
+.ProfileNav-item.is-active .ProfileNav-label {
+	color: rgb(102, 117, 127);
+}
+.ProfileNav-item.is-active:hover .ProfileNav-label {
+	color: rgb(102, 117, 127);
+}
+.ProfileNav-item.is-active .ProfileNav-value {
+	color: rgb(41, 47, 51);
+}
+.ProfileNav-item.is-active:hover .ProfileNav-value {
+	color: rgb(41, 47, 51);
+}
+.ProfileNav-item.is-active .ProfileNav-stat {
+	border-bottom-width: 4px;
+}
+.ProfileNav-stat:hover {
+	border-bottom-width: 4px;
+}
+.ProfileNav-stat:focus {
+	border-bottom-width: 4px;
+}
+.ProfileNav-stat--moreLink:hover {
+	border-bottom-width: 0px;
+}
+.ProfileNav-stat--moreLink:focus {
+	border-bottom-width: 0px;
+}
+.ProfileNav-stat:hover .ProfileNav-label {
+	color: inherit;
+}
+.ProfileNav-stat:focus .ProfileNav-label {
+	color: inherit;
+}
+.ProfileNav-stat:hover .ProfileNav-value {
+	color: inherit;
+}
+.ProfileNav-stat:focus .ProfileNav-value {
+	color: inherit;
+}
+.ProfileNav-dropdownCaret {
+	color: rgb(136, 153, 166); line-height: 1; font-size: 12px;
+}
+.ProfileNav-item--more.open .ProfileNav-dropdownCaret {
+	color: inherit;
+}
+.ProfileNav-item--more:hover .ProfileNav-dropdownCaret {
+	color: inherit;
+}
+.ProfileNav-item--more .dropdown-menu {
+	margin-top: -1px;
+}
+.ProfileNav-dropdownItem {
+	font-size: 14px !important;
+}
+.ProfilePage {
+	line-height: 1.375; min-width: 936px; background-image: none !important; background-color: rgb(245, 248, 250) !important;
+}
+.ProfilePage .content-main {
+	border-radius: 0px; width: auto; float: none; position: relative;
+}
+.ProfilePage.three-col .AppContent-main.content-main {
+	margin: 0px; float: none;
+}
+.ProfilePage .AppContent {
+	padding: 46px 0px 0px;
+}
+.ProfilePage .topbar-with-navBanner + #page-outer .AppContent {
+	padding-top: 91px;
+}
+.ProfilePage .withheld-message {
+	margin: 10px 0px;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .GridTimeline {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning #timeline {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeading-content {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .PhotoRail-heading {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .PhotoRail-mediaBox {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .PhotoRail-headingText {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileUserList {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeaderCard-bio {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeaderCard-location {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeaderCard-url {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeaderCard-joinDate {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileHeaderCard-birthdate {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileMessagingActions {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--tweets {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--following {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--followers {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--favorites {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--more {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .ProfileNav-item--lists {
+	display: none;
+}
+.ProfilePage--withBlockedWarning.is-showingWarning .BlockedWarningTimeline {
+	display: inline-block;
+}
+.ProfilePage .ProfileNav-item--userActions.profile-blocks-you .user-actions-follow-button {
+	display: none;
+}
+.ProfilePage-editingButtons {
+	display: none;
+}
+.ProfilePage-editingOverlay {
+	display: none;
+}
+.ProfilePage .ProfileHeaderCardEditing {
+	display: none;
+}
+.ProfilePage .ProfileAvatarEditing {
+	display: none;
+}
+.ProfilePage .ProfileHeaderEditing {
+	display: none;
+}
+.ProfilePage-testForEditingCss {
+	display: none;
+}
+.ProfilePopupContainer .modal {
+	width: 520px; overflow: visible; min-height: 200px;
+}
+.ProfilePopupContainer .modal-content {
+	overflow: visible;
+}
+.ProfilePopupContainer .modal-body {
+	padding: 0px;
+}
+.ProfilePopupContainer .follow-status {
+	display: inline;
+}
+.ProfilePopupContainer .stats a {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfilePopupContainer .recent-tweets {
+	margin-bottom: 0px;
+}
+.ProfilePopupContainer .recent-tweets p {
+	margin: 0px; font-size: 100%;
+}
+.ProfilePopupContainer .draggable .profile-modal-header {
+	cursor: default;
+}
+.ProfilePopupContainer .profile-popup-rounded-bottom {
+	border-radius: 0px 0px 6px 6px;
+}
+.ProfilePopupContainer .profile-modal-header-inner .fullname a {
+	overflow: hidden; vertical-align: top; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 290px;
+}
+.ProfilePopupContainer .profile-header .profile-header-inner {
+	border-radius: 0px;
+}
+.ProfilePopupContainer .profile-header .profile-banner-footer {
+	border-radius: 0px;
+}
+.ProfilePopupContainer .profile-header .profile-social-proof {
+	border-radius: 0px;
+}
+.ProfilePopupContainer .user-actions {
+	float: right;
+}
+.ProfilePopupContainer .profile-header {
+	border: 0px currentColor; border-image: none; margin-bottom: 0px; float: none;
+}
+.ProfilePopupContainer .profile-card.profile-header {
+	width: 520px;
+}
+.ProfilePopupContainer .go-to-profile {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.ProfilePopupContainer .go-to-profile .view-profile {
+	padding: 14px 12px 14px 56px; font-size: 13px; display: inline-block;
+}
+.ProfilePopupContainer .social-proof {
+	height: 32px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ProfilePopupContainer .QuoteTweet {
+	cursor: default;
+}
+.ProfilePopupContainer--bellbird .modal {
+	width: 590px;
+}
+.ProfilePopupContainer--bellbird .ProfileHeader a {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .ProfileHeader a b {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .ProfileHeader a strong {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .ProfileHeader a s {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a b {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a s {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a:hover {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a:hover b {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .tweet-text a:hover s {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .ProfileHeader .user-dropdown:hover {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .account-group:hover .fullname {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird a.details:hover b {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird a.view-profile {
+	color: rgb(59, 136, 195);
+}
+.ProfilePopupContainer--bellbird .modal-body {
+	padding: 0px;
+}
+.ProfilePopupContainer--bellbird .follow-status {
+	top: 0px;
+}
+.ProfilePopupContainer--bellbird .ProfileHeader-userActions {
+	right: 0px; position: absolute;
+}
+.ProfilePopupContainer--bellbird .ProfileHeader .profile-header-inner {
+	background-position: center; border-radius: 0px; height: 194px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; background-size: cover;
+}
+.ProfilePopupContainer--bellbird .ProfileHeader .profile-header-inner.no-image {
+	height: 85px;
+}
+.ProfilePopupContainer--bellbird .profile-social-proof {
+	border-radius: 0px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; background-color: rgb(245, 248, 250);
+}
+.ProfilePopupContainer--bellbird .ProfileHeader .profile-picture {
+	background: white; margin: -70px 10px 0px; border-radius: 9px; border: 4px solid rgb(255, 255, 255); border-image: none; width: 120px; height: 120px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.ProfilePopupContainer--bellbird .ProfileHeader .profile-picture .avatar {
+	border-radius: 6px; width: 100%; height: 100%;
+}
+.ProfilePopupContainer--bellbird .stats {
+	margin-top: 1px;
+}
+.ProfilePopupContainer--bellbird .stats th {
+	text-align: left; color: rgb(102, 117, 127); text-transform: uppercase; line-height: 16px; padding-top: 7px; font-size: 10px; font-weight: normal;
+}
+.ProfilePopupContainer--bellbird .stats td {
+	padding-bottom: 0px;
+}
+.ProfilePopupContainer--bellbird .stats th {
+	padding-left: 25px;
+}
+.ProfilePopupContainer--bellbird .stats td {
+	padding-left: 25px;
+}
+.ProfilePopupContainer--bellbird .stats th:first-child {
+	padding-left: 0px;
+}
+.ProfilePopupContainer--bellbird .stats td:first-child {
+	padding-left: 0px;
+}
+.ProfilePopupContainer--bellbird .stats a {
+	padding: 0px;
+}
+.ProfilePopupContainer--bellbird .stats a strong {
+	color: rgb(59, 148, 217); font-size: 18px; font-weight: 500;
+}
+.ProfilePopupContainer--bellbird .stats li + li a {
+	padding-right: 0px; padding-left: 30px;
+}
+.ProfilePopupContainer--bellbird .user-actions {
+	margin-right: 15px;
+}
+.ProfilePopupContainer--bellbird .user-actions > .dropdown + button {
+	margin-left: 5px;
+}
+.ProfilePopupContainer--bellbird .profile-details {
+	margin: 5px 15px 0px; text-align: left;
+}
+.ProfilePopupContainer--bellbird .profile-details .fullname {
+	text-align: left; margin-bottom: 5px;
+}
+.ProfilePopupContainer--bellbird .profile-details .fullname a {
+	color: rgb(41, 47, 51); font-size: 22px; font-weight: 700;
+}
+.ProfilePopupContainer--bellbird .profile-details .screen-name {
+	color: rgb(102, 117, 127); font-size: 14px; font-weight: 400;
+}
+.ProfilePopupContainer--bellbird .profile-details .screen-name s {
+	color: rgb(102, 117, 127);
+}
+.ProfilePopupContainer--bellbird .bio-container {
+	margin: 9px 0px;
+}
+.ProfilePopupContainer--bellbird .bio-container p {
+	color: rgb(41, 47, 51);
+}
+.ProfilePopupContainer--bellbird .divider {
+	color: rgb(41, 47, 51);
+}
+.ProfilePopupContainer--bellbird .go-to-profile {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.ProfilePopupContainer--bellbird .go-to-profile .view-profile {
+	padding: 14px 12px 14px 15px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.ProfilePopupContainer--bellbird .badges {
+	margin-left: 5px;
+}
+.ProfilePopupContainer--bellbird .badges .Icon {
+	font-size: 18px;
+}
+.ProfilePopupContainer--bellbird .facepile a {
+	margin-right: 5px; float: left;
+}
+.ProfilePopupContainer--bellbird .social-proof {
+	padding-left: 15px;
+}
+.ProfilePopupContainer--bellbird .recent-tweets {
+	margin-bottom: 0px;
+}
+.ProfilePopupContainer--bellbird .recent-tweets .tweet {
+	border-color: rgb(225, 232, 237);
+}
+.ProfilePopupContainer--bellbird .recent-tweets .content {
+	margin-left: 61px;
+}
+.ProfilePopupContainer--bellbird .recent-tweets .avatar {
+	border-radius: 5px; width: 48px; height: 48px; margin-left: -60px;
+}
+.ProfilePopupContainer--bellbird .profile-details .profile-dialog-blocks-you {
+	margin-top: 20px; margin-right: -15px; margin-left: -15px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; background-color: rgb(245, 248, 250);
+}
+.ProfilePopupContainer--bellbird .profile-dialog-blocks-you-inner {
+	padding: 20px;
+}
+.ProfilePopupContainer--bellbird .profile-dialog-blocks-you-inner p {
+	color: rgb(102, 117, 127); margin-top: 12px;
+}
+.ProfilePopupContainer--bellbird .blocks-you .user-actions-follow-button {
+	display: none;
+}
+.ProfilePrefilledTweet-tweetBtn {
+	padding-right: 15px; padding-left: 20px; position: relative; min-width: 100px;
+}
+.ProfilePrefilledTweet-tweetBtn .btn {
+	display: inline-block;
+}
+.ProfilePrefilledTweet.is-sending .ProfilePrefilledTweet-spinner {
+	display: inline-block;
+}
+.ProfilePrefilledTweet.is-sending .ProfilePrefilledTweet-spinner {
+	top: 50%; right: 0px; margin-top: -7px; position: absolute;
+}
+.ProfilePrefilledTweet .tweet {
+	padding: 13px 15px 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; line-height: 1.37em; position: relative; box-sizing: border-box; background-color: rgb(255, 255, 255); -moz-box-sizing: border-box;
+}
+.ProfilePrefilledTweet .tweet .avatar {
+	margin-right: 10px; margin-left: 0px;
+}
+.ProfilePrefilledTweet .tweet .tweet-text {
+	color: rgb(41, 47, 51);
+}
+.ProfileSidebar .ProfileHeaderCard {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .ProfileTweetbox {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .ProfileLifelineInfo {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .ProfileUserList {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .PhotoRail {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .BusinessProfile {
+	padding-right: 15px; padding-left: 15px;
+}
+.ProfileSidebar .TweetImpressionsModule {
+	padding: 15px;
+}
+.ProfileSidebar .ProfileTweetbox {
+	margin-top: 20px;
+}
+.ProfileSidebar .ProfileUserList {
+	margin-top: 20px;
+}
+.ProfileSidebar .PhotoRail {
+	margin-top: 20px;
+}
+.ProfileSidebar .siderail-related-tweets-container {
+	margin-top: 10px;
+}
+.ProfileSidebar .ProfileHeaderCard {
+	margin-bottom: 25px;
+}
+.ProfileSidebar .ProfileUserList {
+	margin-bottom: 25px;
+}
+.ProfileSidebar .PhotoRail {
+	margin-bottom: 25px;
+}
+.ProfileSidebar .TweetImpressionsModule {
+	border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; margin-top: 10px; background-color: rgb(255, 255, 255);
+}
+.ProfileSidebar .ProfileLifelineInfo {
+	border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; margin-top: 10px; background-color: rgb(255, 255, 255);
+}
+.ProfileSidebar .RelatedUsers {
+	border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; margin-top: 10px; background-color: rgb(255, 255, 255);
+}
+.ProfileSidebar .flex-module-header h3 {
+	color: rgb(41, 47, 51); font-size: 18px; font-weight: inherit;
+}
+.ProfileSidebar .flex-module-header {
+	margin-bottom: 15px;
+}
+.ProfileTweetbox {
+	border-width: 1px; border-style: solid; padding: 15px; border-radius: 5px;
+}
+.ProfileTweetbox .tweet-box {
+	padding: 11px; color: rgb(136, 153, 166); font-size: 14px;
+}
+.ProfileTweetbox .Icon--geo {
+	margin: 0px;
+}
+.ProfileTweetbox .photo-selector .text {
+	display: none;
+}
+.ProfileTweetbox .condensed .tweet-box {
+	padding-right: 30px;
+}
+.ProfileTweetbox .tweet-action {
+	text-shadow: none; background-image: none;
+}
+.ProfileUserList-heading {
+	color: rgb(136, 153, 166); margin-bottom: 13px;
+}
+.ProfileUserList-title {
+	line-height: 1; font-size: 14px;
+}
+.ProfileUserList-name .Icon {
+	min-width: 18px;
+}
+.ProfileUserList-description {
+	line-height: 16px; font-size: 12px; margin-top: 6px;
+}
+.ProfileUserList-details {
+	font-size: 12px; margin-top: 5px;
+}
+.ProfileUserList-actions button:hover {
+	text-decoration: underline;
+}
+.ProfileUserList-linkDivider {
+	padding: 0px 1px;
+}
+.ProfileUserList-subscribeAction.is-subscribed .ProfileUserList-subscribeText {
+	display: none;
+}
+.ProfileUserList-subscribeAction.is-unsubscribed .ProfileUserList-removeText {
+	display: none;
+}
+.ProfileUserList-facepile {
+	margin: -5px -5px 0px;
+}
+.ProfileUserList-facepileItem {
+	margin: 5px 0px 0px 5px; float: left;
+}
+.ProfileUserList-footer {
+	font-size: 12px; margin-top: 5px;
+}
+.ProfileUserList .Avatar {
+	border-radius: 4px;
+}
+.Balloon {
+	left: 0px; width: 130px; height: 240px; bottom: -240px; position: fixed; z-index: 100; opacity: 0.9; pointer-events: none; backface-visibility: hidden; background-size: contain; -webkit-backface-visibility: hidden;
+}
+.Balloon--small {
+	z-index: 101;
+}
+.Balloon--medium {
+	z-index: 102;
+}
+.Balloon--large {
+	z-index: 103;
+}
+.Balloon--red {
+	background-image: url("../../img/profiles/balloons/red.png");
+}
+.Balloon--blue {
+	background-image: url("../../img/profiles/balloons/blue.png");
+}
+.Balloon--purple {
+	background-image: url("../../img/profiles/balloons/purple.png");
+}
+.Balloon--yellow {
+	background-image: url("../../img/profiles/balloons/yellow.png");
+}
+.Balloon--green {
+	background-image: url("../../img/profiles/balloons/green.png");
+}
+.BusinessProfile-field {
+	padding: 6px 0px; font-size: 14px; border-bottom-color: rgb(204, 214, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.BusinessProfile-fieldLabel {
+	width: 10%; text-align: center; padding-right: 5px; vertical-align: top; display: inline-block;
+}
+.BusinessProfile-fieldLabel .Icon--small {
+	padding-top: 6px;
+}
+.BusinessProfile-fieldLabelText {
+	display: inline-block;
+}
+.BusinessProfile-fieldValue {
+	width: calc(90% - 5px); line-height: 27px; overflow: hidden; vertical-align: middle; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.BusinessProfile .Icon {
+	color: rgb(136, 153, 166);
+}
+.BusinessProfile-hours .BusinessProfile-fieldValue {
+	padding: 5px 0px; line-height: 1.375;
+}
+.BusinessProfile-hoursForDayGroup {
+	overflow: hidden; padding-bottom: 8px;
+}
+.BusinessProfile-hoursForWeek {
+	margin-bottom: -8px;
+}
+.BusinessProfile-openStatus--open {
+	color: rgb(119, 178, 85);
+}
+.BusinessProfile-openStatus--closed {
+	color: rgb(221, 46, 68);
+}
+.BusinessProfileCTAButton {
+	padding: 9px 13px 7px 14px; border-radius: 4px; border: 1px solid transparent; border-image: none; text-align: center; color: rgb(255, 255, 255); display: block;
+}
+.BusinessProfileCTAButton-content {
+	line-height: 1.6; margin-top: -1px; vertical-align: bottom; display: block;
+}
+.BusinessProfileCTAButton .BusinessProfileCTAButton-icon {
+	left: 0px; top: -2px; width: 19px; font-size: 21px; margin-right: 7px; vertical-align: bottom;
+}
+.BusinessProfileCTAButton-text {
+	vertical-align: bottom;
+}
+.BusinessProfileEdit-redBorder {
+	border-color: red;
+}
+.BusinessProfileEdit-cta {
+	line-height: 1.6; margin-left: -8px;
+}
+.BusinessProfileEdit-ctaWrapper {
+	padding-top: 10px; padding-bottom: 14px;
+}
+.BusinessProfileEdit-ctaIcon {
+	padding-right: 5px; vertical-align: middle;
+}
+.BusinessProfileEdit-ctaNote {
+	width: 410px; font-size: 12px; float: right; display: none;
+}
+.BusinessProfileEdit-cityWrapper {
+	margin-right: -2px;
+}
+.BusinessProfileEdit-city.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	width: 35%; float: left;
+}
+.BusinessProfileEdit-regionSelect.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	width: 30%; margin-right: 8px; margin-left: 10px; display: none;
+}
+.BusinessProfileEdit-regionInput.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	width: 24%; margin-right: 8px; margin-left: 10px;
+}
+.BusinessProfileEdit-zipCode.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	width: 25%; float: right;
+}
+.BusinessProfileEdit-countryWrapper {
+	margin-right: -16px;
+}
+.BusinessProfileEdit-country {
+	width: 100%; margin-right: -8px;
+}
+.BusinessProfileEdit-countryCode.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	background: white; border-radius: 4px 0px 0px 4px; width: 40px; padding-right: 0px; margin-left: -8px; border-right-color: currentColor; border-right-width: 0px; border-right-style: none; float: left;
+}
+.BusinessProfileEdit-phoneWrapper {
+	margin-right: -1px; margin-left: 45px;
+}
+.BusinessProfileEdit-phone.BusinessProfileEdit-editableField.ProfileHeaderCardEditing-editableField {
+	border-radius: 0px 4px 4px 0px; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.BusinessProfileEdit-dialog .modal {
+	width: 660px;
+}
+.BusinessProfileEdit-dialog .modal-body {
+	padding: 20px; border-radius: 6px; overflow: hidden;
+}
+.BusinessProfileEdit-dialog .modal-header {
+	display: none;
+}
+.BusinessProfileEdit-dialog .modal-footer {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.BusinessProfileEdit-dialog .modal-close {
+	right: -30px;
+}
+.BusinessProfileEdit-dialog .modal-close .Icon {
+	color: white; font-size: 21px;
+}
+.BusinessProfileEdit-dialog .BusinessProfileEdit-dialogHeader {
+	padding: 20px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.BusinessProfileEdit-dialog .BusinessProfileEdit-dialogTitle {
+	margin: 0px; color: rgb(41, 47, 51); line-height: 22px; font-size: 22px; font-weight: 300;
+}
+.BusinessProfileEdit-dialogLabel {
+	font-weight: bold;
+}
+.BusinessProfileEdit-dialogInput {
+	margin: auto; width: 200px;
+}
+.BusinessProfileEdit-dialogInputShort {
+	margin: auto 5px; width: 110px;
+}
+.BusinessProfileEdit-dialogItem {
+	padding-bottom: 20px;
+}
+.BusinessProfileEdit-timeZoneSelect {
+	width: 215px;
+}
+.BusinessProfileEdit-hours {
+	resize: vertical;
+}
+.BusinessProfileEdit-hoursRow {
+	margin-bottom: 5px; margin-left: -5px; white-space: nowrap;
+}
+.BusinessProfileEdit-hoursRowEmpty {
+	display: none;
+}
+.BusinessProfileEdit-addHoursRow {
+	top: -14px; position: relative;
+}
+.ProtectedTimeline {
+	margin: 35px 0px 35px 15px;
+}
+.ProtectedTimeline-heading {
+	color: rgb(102, 117, 127); font-size: 22px; font-weight: 300; margin-bottom: 15px;
+}
+.ProtectedTimeline-explanation {
+	color: rgb(102, 117, 127);
+}
+.ScrollBump {
+	margin: 30px 0px;
+}
+.ScrollBump-header {
+	margin-bottom: 10px; margin-left: 16px;
+}
+.ScrollBump-title {
+	color: rgb(102, 117, 127); padding-left: 22px; font-size: 13px; position: relative;
+}
+.ScrollBump-title a {
+	color: rgb(0, 132, 180);
+}
+.ScrollBump-title a:hover {
+	color: rgb(0, 132, 180);
+}
+.ScrollBump-title a:focus {
+	color: rgb(0, 132, 180);
+}
+.ScrollBump-title a:active {
+	color: rgb(0, 132, 180);
+}
+.ScrollBump-title .Icon {
+	left: 0px; top: -1px; position: absolute;
+}
+.ScrollBump .ScrollBump-profileCard.selected-stream-item {
+	border-radius: 5px;
+}
+.ScrollBumpDialog .modal-body {
+	padding: 0px; -ms-overflow-y: scroll; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+.ScrollBumpDialog-usersList {
+	list-style: none; margin-left: 0px;
+}
+.ScrollBumpDialog :last-child.stream-item .account {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.StreamItem {
+	position: relative;
+}
+.StreamToggler-item {
+	display: inline-block;
+}
+.StreamToggler-link {
+	padding: 15px 15px 12px; color: rgb(204, 214, 221); line-height: 1; font-size: 18px; font-weight: 400; display: block;
+}
+.StreamToggler-link.is-active {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.StreamToggler-link.is-active:hover {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.StreamToggler-link.is-active:focus {
+	color: rgb(41, 47, 51); font-weight: 500; text-decoration: none; cursor: default;
+}
+.Trends {
+	padding: 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; line-height: inherit; background-clip: inherit; background-color: rgb(255, 255, 255);
+}
+.Trends .flex-module {
+	padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; background-color: inherit;
+}
+.Trends .flex-module-header {
+	line-height: 20px; margin-bottom: 10px;
+}
+.Trends .flex-module-header .middot {
+	color: rgb(102, 117, 127); font-size: 12px;
+}
+.Trends .trend-location {
+	color: rgb(102, 117, 127); font-size: 18px; font-weight: 300;
+}
+.Trends .change-trends {
+	font-size: 12px;
+}
+.Trends .trend-items {
+	margin-top: -4px;
+}
+.Trends .trend-item {
+	line-height: 13px; font-size: 13px; margin-bottom: 7px; -ms-word-wrap: break-word;
+}
+.Trends :last-child.trend-item {
+	margin-bottom: 0px;
+}
+.Trends .promoted .with-icn {
+	padding-bottom: 3px; margin-top: -1px; display: block;
+}
+.Trends .promoted-text {
+	color: rgb(136, 153, 166); font-size: 13px;
+}
+.Trends .Icon--promoted {
+	top: 2px; font-size: 14px; position: relative;
+}
+.Trends .Icon--promotedGray {
+	top: 2px; font-size: 14px; position: relative;
+}
+.Trends .Icon--political {
+	top: 2px; font-size: 14px; position: relative;
+}
+.Trends .Icon--top {
+	top: 2px; font-size: 14px; position: relative;
+}
+.Trends--wide {
+	padding: 0px;
+}
+.Trends--wide .flex-module {
+	padding: 15px 40px; background-color: rgb(255, 255, 255);
+}
+.Trends--wide .flex-module-header h3 {
+	display: block;
+}
+.Trends--wide .flex-module-header .middot {
+	display: none;
+}
+.Trends--wide .flex-module-header .change-trends {
+	display: none;
+}
+.Trends--wide li {
+	padding-right: 15px; display: inline;
+}
+.Trends--wide .trend-item {
+	line-height: 20px; font-size: 12px;
+}
+.Trends--wide .promoted-text {
+	line-height: 20px; font-size: 12px;
+}
+.Trends--wide .promoted .with-icn {
+	display: inline;
+}
+.Trends--blankBackground {
+	border: 0px currentColor; border-image: none; background-color: transparent;
+}
+.Trends .context-trend-item {
+	line-height: 17px; margin-bottom: 10px;
+}
+.Trends :last-child.context-trend-item {
+	margin-bottom: 0px;
+}
+.Trends .context-trend-item a {
+	display: block;
+}
+.Trends .context-trend-item .trend-name {
+	font-weight: bold;
+}
+.Trends .context-trend-item .trend-item-context {
+	color: rgb(41, 47, 51); overflow: hidden; font-weight: normal; max-height: 34px;
+}
+.Trends .context-trend-item .trend-item-stats {
+	color: rgb(41, 47, 51); overflow: hidden; font-weight: normal; max-height: 34px;
+}
+.Trends .context-trend-item .trend-item-stats {
+	color: rgb(136, 153, 166);
+}
+.Trends .context-trend-item .promoted .with-icn {
+	padding-bottom: 0px; margin-top: 0px;
+}
+.Trends .context-trend-item .promoted .promoted-text {
+	color: inherit; text-decoration: inherit;
+}
+.Trends .context-trends-container .Icon--promoted {
+	margin-top: -3px;
+}
+.Trends .context-trends-container .Icon--promotedGray {
+	margin-top: -3px;
+}
+.TweetImpressionsModule {
+	line-height: inherit; overflow: visible; display: table; position: relative; background-clip: inherit;
+}
+.TweetImpressionsModule-heading {
+	color: rgb(102, 117, 127); font-size: 16px; margin-bottom: 15px;
+}
+.TweetImpressionsModule-impressions {
+	color: rgb(41, 47, 51); font-size: 13px; margin-bottom: 8px;
+}
+.TweetImpressionsModule-chartArea {
+	width: 250px; margin-top: 5px;
+}
+.TweetImpressionsModule-chart {
+	width: 100%; height: 72px;
+}
+.TweetImpressionsModule-chartBar {
+	width: 30px; margin-right: 3px; margin-left: 3px; vertical-align: bottom; float: left; position: relative; opacity: 0.4;
+}
+.TweetImpressionsModule-chartBar--thin {
+	width: 16.1px; margin-right: 2.5px; margin-left: 2.5px;
+}
+.TweetImpressionsModule-chartBar:hover {
+	opacity: 1;
+}
+.TweetImpressionsModule-chartBar:hover .TweetImpressionsModule-barchart-tooltip {
+	display: block;
+}
+:first-child.TweetImpressionsModule-chartBar {
+	padding-left: 0px; margin-left: 0px;
+}
+:last-child.TweetImpressionsModule-chartBar {
+	padding-right: 0px; margin-right: 0px;
+}
+.TweetImpressionsModule-organic {
+	color: transparent; position: relative; background-color: rgb(59, 148, 217);
+}
+.TweetImpressionsModule-promoted {
+	color: transparent; position: relative; background-color: rgb(255, 204, 77);
+}
+.TweetImpressionsModule-xAxis {
+	width: 250px; height: 2px; float: left; background-color: rgb(204, 214, 221);
+}
+.TweetImpressionsModule-text {
+	color: rgb(41, 47, 51); font-size: 12px;
+}
+.TweetImpressionsModule-analyticsLink {
+	width: 100%; color: rgb(43, 123, 185); font-size: 14px; margin-top: 10px; margin-bottom: 5px; float: left;
+}
+.TweetImpressionsModule-barchart-tooltip {
+	background: black; padding: 5px 8px; border-radius: 3%; margin-top: 20px; display: none; position: absolute; z-index: 10; max-width: 150px; pointer-events: none;
+}
+.TweetImpressionsModule-barchart-tooltip-thinner {
+	left: -7px;
+}
+.TweetImpressionsModule-barchart-tooltip-rightAligned {
+	right: 0px;
+}
+.TweetImpressionsModule-barchart-tooltip-rightAligned-thinner {
+	right: -7px;
+}
+.TweetImpressionsModule-barchart-tooltip-opensleft::before {
+	left: 9px; top: -7px; border-right-color: transparent; border-bottom-color: rgb(255, 255, 255); border-left-color: transparent; border-right-width: 7px; border-bottom-width: 4px; border-left-width: 7px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.TweetImpressionsModule-barchart-tooltip-opensleft::after {
+	left: 10px; top: -6px; border-right-color: transparent; border-bottom-color: black; border-left-color: transparent; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.TweetImpressionsModule-barchart-tooltip-opensright::before {
+	top: -7px; right: 9px; border-right-color: transparent; border-bottom-color: rgb(255, 255, 255); border-left-color: transparent; border-right-width: 7px; border-bottom-width: 4px; border-left-width: 7px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.TweetImpressionsModule-barchart-tooltip-opensright::after {
+	top: -6px; right: 10px; border-right-color: transparent; border-bottom-color: black; border-left-color: transparent; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: inline-block; position: absolute; content: "";
+}
+.TweetImpressionsModule-barchart-tooltipcolor {
+	padding-right: 3px;
+}
+.TweetImpressionsModule-barchart-colorfill {
+	border-radius: 6px; width: 6px; height: 12px; overflow: hidden; margin-right: 7px; vertical-align: middle; display: inline-block;
+}
+.TweetImpressionsModule-barchart-colorfill.organic {
+	background-color: rgb(59, 148, 217);
+}
+.TweetImpressionsModule-barchart-colorfill.promoted {
+	background-color: rgb(255, 204, 77);
+}
+.TweetImpressionsModule-barchart-tooltipdate {
+	color: white; padding-bottom: 3px; font-size: 12px; font-weight: 400; white-space: nowrap;
+}
+.TweetImpressionsModule-barchart-tooltipvalue {
+	color: white; line-height: 20px; font-size: 12px; font-weight: 400; vertical-align: top; white-space: nowrap;
+}
+.UserActions .user-actions .dropdown-menu {
+	right: -6px; margin-top: 4px;
+}
+.UserActions .user-actions .dropdown.open button {
+	border-color: transparent;
+}
+.UserActions-moreActions {
+	padding-right: 4px; min-height: 29px;
+}
+.UserActions-moreActions > * {
+	vertical-align: baseline;
+}
+.UserActions-editButton {
+	padding-top: 9px; padding-bottom: 9px;
+}
+.UserActions .user-dropdown {
+	color: rgb(136, 153, 166); padding-top: 2px;
+}
+.UserActions--small .user-dropdown {
+	padding-top: 0px;
+}
+.UserActions--withheld .user-actions {
+	display: none;
+}
+.UserActions--withheld .user-actions.following {
+	display: block;
+}
+.UserActions--withheld .user-actions.pending {
+	display: block;
+}
+.RelatedUsers {
+	padding: 10px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; font-size: 12px; background-clip: padding-box; background-color: rgb(255, 255, 255);
+}
+.RelatedUsers-header {
+	line-height: 20px; margin-bottom: 10px;
+}
+.RelatedUsers-title {
+	color: rgb(102, 117, 127); line-height: 1; font-size: 18px; font-weight: 300; display: inline-block;
+}
+.RelatedUsers-users > .account-summary {
+	min-height: 36px;
+}
+.RelatedUsers-users > .account-summary .avatar {
+	border-radius: 4px; width: 36px; height: 36px;
+}
+.RelatedUsers-users .fullname {
+	color: rgb(41, 47, 51); font-size: 13px;
+}
+.RelatedUsers-users .username {
+	color: rgb(136, 153, 166); display: block;
+}
+.RelatedUsers-users > .account-summary .content {
+	margin-left: 46px;
+}
+.RelatedUsers-avatar-list .account-summary {
+	min-height: 48px;
+}
+.RelatedUsers-avatar-list .account-summary .avatar {
+	border-radius: 4px; width: 48px; height: 48px;
+}
+.RelatedUsers-avatar-list .account-summary .content {
+	margin-left: 58px;
+}
+.RelatedUsers-avatar-list .account-summary .account-group {
+	line-height: 17px; padding-top: 5px;
+}
+.RelatedUsers-grid .account-summary {
+	min-height: 170px;
+}
+.RelatedUsers-grid .account-summary .content {
+	margin-right: 0px; margin-left: 0px;
+}
+.RelatedUsers-grid .avatar {
+	border-radius: 4px; width: 124px; height: 124px; position: relative;
+}
+.RelatedUsers-grid .fullname {
+	vertical-align: middle; display: inline-block; max-width: 104px;
+}
+.RelatedUsers-grid .username {
+	max-width: 124px;
+}
+.CommerceDiscoveryProfileButton-wrapper {
+	text-align: center;
+}
+.CommerceDiscoveryProfileButton {
+	margin: 15px auto; width: 260px; padding-top: 5px;
+}
+.CommerceDiscoveryProfileButton-contentText {
+	color: white; font-weight: normal;
+}
+.CommerceDiscovery {
+	padding: 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; background-color: rgb(255, 255, 255);
+}
+.CommerceDiscovery-title {
+	margin-bottom: 5px;
+}
+.CommerceDiscovery-discription {
+	font-size: 16px; margin-top: 5px;
+}
+.CommerceDiscovery-header {
+	margin-bottom: 10px;
+}
+.CommerceDiscovery-image {
+	margin: 0px 0px 10px; border-radius: 6px; height: 103px; overflow: hidden; position: relative; cursor: pointer;
+}
+.CommerceDiscovery-image img {
+	margin: auto; top: -100%; width: 100%; text-align: center; bottom: -100%; position: absolute; max-width: 100%;
+}
+.CommerceDiscovery-profileButton {
+	border-color: transparent; height: 33px; padding-bottom: 7px; font-size: 13px; font-weight: normal;
+}
+.CommercePageContainer.wrapper-product {
+	padding: 47px 0px 0px; height: 100%; margin-right: 0px; margin-left: 0px; min-width: 100%; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.CommercePageContainer.wrapper-custom_timeline {
+	padding: 47px 0px 0px; height: 100%; margin-right: 0px; margin-left: 0px; min-width: 100%; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.CommercePageContainer .CommercePage {
+	height: 100%;
+}
+.CommercePageContainer .CommercePageIframe {
+	width: 100%; height: 100%; color: white;
+}
+.AdaptiveFiltersBar {
+	margin: 0px auto; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.AdaptiveFiltersBar-nav {
+	text-align: center;
+}
+.AdaptiveFiltersBar-item {
+	transition:0.15s; height: 46px; border-bottom-color: rgb(85, 172, 238); border-bottom-width: 0px; border-bottom-style: solid; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.AdaptiveFiltersBar-item:hover {
+	border-bottom-color: rgb(85, 172, 238); border-bottom-width: 4px;
+}
+.AdaptiveFiltersBar-item:focus {
+	border-bottom-color: rgb(85, 172, 238); border-bottom-width: 4px;
+}
+.AdaptiveFiltersBar-item.is-selected {
+	border-bottom-color: rgb(85, 172, 238); border-bottom-width: 4px;
+}
+.AdaptiveFiltersBar-item--more {
+	vertical-align: top;
+}
+.AdaptiveFiltersBar-target {
+	padding: 14px 0px; color: rgb(85, 172, 238); display: block;
+}
+.AdaptiveFiltersBar-target--link {
+	text-decoration: none;
+}
+.AdaptiveFiltersBar-target--link:hover {
+	text-decoration: none;
+}
+.AdaptiveFiltersBar-target--link:focus {
+	text-decoration: none;
+}
+.AdaptiveFiltersBar-target--more {
+	padding: 14px 24px 10px;
+}
+.AdaptiveFiltersBar-target--more:focus {
+	outline: 0px;
+}
+.AdaptiveFiltersBar-label {
+	padding-right: 24px; padding-left: 24px; border-right-color: rgb(204, 214, 221); border-right-width: 1px; border-right-style: solid;
+}
+.AdaptiveFiltersBar-moreCaretIcon {
+	line-height: 8px; font-size: 8px;
+}
+.AdaptiveFiltersDropdown.dropdown-menu {
+	padding: 8px 0px; text-align: left; margin-top: 4px; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.AdaptiveFiltersDropdown.dropdown-menu li > .AdaptiveFiltersDropdown-target {
+	color: rgb(102, 117, 127); padding-right: 30px; padding-left: 10px;
+}
+.AdaptiveFiltersDropdown.dropdown-menu li > .AdaptiveFiltersDropdown-target:hover {
+	color: rgb(255, 255, 255); background-color: rgb(85, 172, 238);
+}
+.AdaptiveFiltersDropdown.dropdown-menu li > .AdaptiveFiltersDropdown-target:focus {
+	color: rgb(255, 255, 255); background-color: rgb(85, 172, 238);
+}
+.AdaptiveFiltersDropdown.dropdown-menu li > .AdaptiveFiltersDropdown-target--advanced {
+	color: rgb(85, 172, 238); font-weight: bold;
+}
+.AdaptiveFiltersDropdown-label {
+	padding-left: 20px;
+}
+.AdaptiveFiltersDropdown-label.is-selected {
+	padding-left: 8px;
+}
+.AdaptiveFiltersDropdown-checkIcon {
+	color: rgb(85, 172, 238);
+}
+.AdaptiveFiltersDropdown-target:hover .AdaptiveFiltersDropdown-checkIcon {
+	color: rgb(255, 255, 255);
+}
+.AdaptiveGeoPlace {
+	padding: 10px 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; font-weight: 300; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.AdaptiveGeoPlace-title {
+	color: rgb(41, 47, 51); line-height: 30px; overflow: hidden; font-size: 24px; margin-bottom: 4px; -ms-word-wrap: break-word; max-height: 60px;
+}
+.AdaptiveGeoPlace-address {
+	color: rgb(41, 47, 51); line-height: 21px; overflow: hidden; font-size: 14px; margin-bottom: 6px; -ms-word-wrap: break-word; max-height: 42px;
+}
+.AdaptiveGeoPlace-vendorInfo {
+	height: 35px; line-height: 35px; position: relative;
+}
+.AdaptiveGeoPlace-ratingImage {
+	width: 82px; height: 15px; margin-bottom: 2px; vertical-align: middle; display: inline-block;
+}
+.AdaptiveGeoPlace-ratingText {
+	margin: 0px 3px 0px 4px;
+}
+.AdaptiveGeoPlace-logo {
+	vertical-align: middle; display: inline;
+}
+.AdaptiveGeoPlace--yelp .AdaptiveGeoPlace-logo {
+	width: 40px; height: 20px; margin-bottom: 6px;
+}
+.AdaptiveGeoPlace--foursquare .AdaptiveGeoPlace-logo {
+	width: 158px; height: 20px;
+}
+.AdaptiveGeoPlace-linkButton {
+	right: 0px; bottom: 0px; color: rgb(41, 47, 51); position: absolute;
+}
+.AdaptiveNewsHeadlineDetails {
+	width: 100%; font-size: 12px; display: table;
+}
+.AdaptiveNewsHeadlineDetails-userContainer {
+	vertical-align: middle; display: table-cell;
+}
+.AdaptiveNewsHeadlineDetails-dateContainer {
+	vertical-align: middle; display: table-cell;
+}
+.AdaptiveNewsHeadlineDetails-user {
+	line-height: 14px; display: inline-block;
+}
+.AdaptiveNewsHeadlineDetails-date {
+	line-height: 14px; display: inline-block;
+}
+.AdaptiveNewsHeadlineDetails-dateContainer {
+	text-align: right; padding-left: 0px;
+}
+.AdaptiveNewsHeadlineDetails-date {
+	color: rgb(136, 153, 166);
+}
+.AdaptiveNewsHeadlineDetails-date:focus {
+	color: rgb(136, 153, 166);
+}
+.AdaptiveNewsHeadlineDetails-date:hover {
+	color: rgb(136, 153, 166);
+}
+.AdaptiveNewsHeadlineDetails-userContainer {
+	text-align: left; padding-right: 0px;
+}
+.AdaptiveNewsHeadlineDetails-user {
+	max-width: 185px;
+}
+.AdaptiveNewsHeadlineDetails-user {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsHeadlineDetails-user:focus {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsHeadlineDetails-user:hover {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsHeadlineDetails-userImage {
+	top: 3px; height: 16px; margin-right: 5px; position: relative;
+}
+.AdaptiveNewsHeadlineDetails-userName {
+	font-weight: bold; max-width: 200px;
+}
+.AdaptiveNewsLargeImageHeadline {
+	margin-bottom: 10px;
+}
+.AdaptiveNewsLargeImageHeadline-image {
+	border-radius: 5px 5px 0px 0px; width: 100%; height: 300px; display: block; background-size: cover; background-color: rgb(255, 255, 255);
+}
+.AdaptiveNewsLargeImageHeadline-body {
+	padding: 10px 15px; border-radius: 0px 0px 5px 5px; border: 1px solid rgb(225, 232, 237); border-image: none; font-weight: 300; background-color: rgb(255, 255, 255);
+}
+.AdaptiveNewsLargeImageHeadline-title {
+	color: rgb(41, 47, 51); line-height: 30px; overflow: hidden; font-size: 24px; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 60px;
+}
+.AdaptiveNewsLargeImageHeadline-title:focus {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsLargeImageHeadline-title:hover {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsLargeImageHeadline-description {
+	width: 100%; color: rgb(102, 117, 127); line-height: 21px; overflow: hidden; font-size: 14px; margin-bottom: 9px; display: block; -ms-word-wrap: break-word; max-height: 42px;
+}
+.AdaptiveNewsLargeImageHeadline-description:focus {
+	text-decoration: none;
+}
+.AdaptiveNewsLargeImageHeadline-description:hover {
+	text-decoration: none;
+}
+.AdaptiveNewsRelatedHeadlines-headline {
+	margin: 15px 15px 0px; padding-bottom: 15px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+:first-child.AdaptiveNewsRelatedHeadlines-headline {
+	padding-top: 0px; margin-top: 0px;
+}
+:last-child.AdaptiveNewsRelatedHeadlines-headline {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.AdaptiveNewsRelatedHeadlines-title {
+	color: rgb(41, 47, 51); line-height: 18px; overflow: hidden; font-size: 14px; font-weight: 500; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 36px;
+}
+.AdaptiveNewsRelatedHeadlines-headline:focus {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsRelatedHeadlines-headline:hover {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsRelatedHeadlines-description {
+	color: rgb(102, 117, 127); line-height: 18px; overflow: hidden; font-size: 12px; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 36px;
+}
+.AdaptiveNewsRelatedHeadlines-description:focus {
+	text-decoration: none;
+}
+.AdaptiveNewsRelatedHeadlines-description:hover {
+	text-decoration: none;
+}
+.AdaptiveNewsSmallImageHeadline {
+	margin-bottom: 10px;
+}
+.AdaptiveNewsSmallImageHeadline-body {
+	padding: 15px 15px 10px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; background-color: rgb(255, 255, 255);
+}
+.AdaptiveNewsSmallImageHeadline-article {
+	width: 390px; font-weight: 300; vertical-align: middle; display: inline-block;
+}
+.AdaptiveNewsSmallImageHeadline-image {
+	border-radius: 5px; width: 150px; height: 150px; margin-bottom: 10px; margin-left: 15px; vertical-align: middle; display: inline-block; background-size: cover;
+}
+.AdaptiveNewsSmallImageHeadline-title {
+	color: rgb(41, 47, 51); line-height: 30px; overflow: hidden; font-size: 24px; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 60px;
+}
+.AdaptiveNewsSmallImageHeadline-title:focus {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsSmallImageHeadline-title:hover {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsSmallImageHeadline-description {
+	width: 100%; color: rgb(102, 117, 127); line-height: 21px; overflow: hidden; font-size: 14px; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 63px;
+}
+.AdaptiveNewsSmallImageHeadline-description:focus {
+	text-decoration: none;
+}
+.AdaptiveNewsSmallImageHeadline-description:hover {
+	text-decoration: none;
+}
+.AdaptiveNewsTextHeadline {
+	margin-bottom: 10px;
+}
+.AdaptiveNewsTextHeadline-body {
+	padding: 10px 15px; border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; font-weight: 300; background-color: rgb(255, 255, 255);
+}
+.AdaptiveNewsTextHeadline-title {
+	color: rgb(41, 47, 51); line-height: 30px; overflow: hidden; font-size: 24px; margin-bottom: 4px; display: block; -ms-word-wrap: break-word; max-height: 60px;
+}
+.AdaptiveNewsTextHeadline-title:focus {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsTextHeadline-title:hover {
+	color: rgb(41, 47, 51);
+}
+.AdaptiveNewsTextHeadline-description {
+	color: rgb(102, 117, 127); line-height: 21px; overflow: hidden; font-size: 14px; margin-bottom: 8px; display: block; -ms-word-wrap: break-word; max-height: 42px;
+}
+.AdaptiveNewsTextHeadline-description:focus {
+	text-decoration: none;
+}
+.AdaptiveNewsTextHeadline-description:hover {
+	text-decoration: none;
+}
+.AdaptiveNewsUserGallery--white {
+	border-radius: 5px; border: 1px solid rgb(225, 232, 237); border-image: none; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.AdaptiveNewsUserGallery-user {
+	margin: 0px 15px 15px;
+}
+:first-child.AdaptiveNewsUserGallery-user {
+	padding-bottom: 15px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+:only-child.AdaptiveNewsUserGallery-user {
+	padding-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.AdaptiveNewsUserGallery-userHeader {
+	position: relative;
+}
+.AdaptiveNewsUserGallery-userLinkable {
+	display: inline-block;
+}
+.AdaptiveNewsUserGallery-userLinkable:hover {
+	text-decoration: none;
+}
+.AdaptiveNewsUserGallery-userImage {
+	border-radius: 5px; width: 36px;
+}
+.AdaptiveNewsUserGallery-userTitle {
+	padding-left: 5px; vertical-align: top; display: inline-block;
+}
+.AdaptiveNewsUserGallery-userFullName {
+	color: rgb(41, 47, 51); font-size: 15px; font-weight: bold;
+}
+.AdaptiveNewsUserGallery-userLinkable:hover .AdaptiveNewsUserGallery-userFullName {
+	color: inherit; text-decoration: underline;
+}
+.AdaptiveNewsUserGallery-userScreenName {
+	color: rgb(136, 153, 166); font-size: 13px;
+}
+.AdaptiveNewsUserGallery-userFullName {
+	vertical-align: top; display: inline-block; max-width: 150px;
+}
+.AdaptiveNewsUserGallery-userScreenName {
+	vertical-align: top; display: inline-block; max-width: 150px;
+}
+.AdaptiveNewsUserGallery .UserActionsIconOnlyFollowButton {
+	top: 4px; right: 0px; position: absolute;
+}
+.AdaptiveNewsUserGallery .UserActionsIconOnlyFollowButton .follow-btn {
+	padding: 1px 8px 3px; font-size: 18px;
+}
+.AdaptiveNewsUserGallery-userDescription {
+	color: rgb(136, 153, 166); overflow: hidden; padding-top: 5px; max-height: 54px;
+}
+.AdaptiveRelatedSearches-items {
+	padding: 0px 15px 15px;
+}
+.AdaptiveRelatedSearches-item {
+	margin-bottom: 6px;
+}
+:last-child.AdaptiveRelatedSearches-item {
+	margin-bottom: 0px;
+}
+.AdaptiveRelatedSearches-itemAnchor {
+	-ms-word-wrap: break-word;
+}
+.AdaptiveSearchPage {
+	background-image: none !important; background-color: rgb(245, 248, 250) !important;
+}
+.AdaptiveSearchPage .AppContent {
+	padding: 46px 0px 15px; min-width: 910px;
+}
+.AdaptiveSearchPage .AppContent-main {
+	margin: 15px auto 0px; min-width: 890px; max-width: 1190px;
+}
+.AdaptiveSearchPage.three-col .content-main {
+	margin: 0px; float: none;
+}
+.AdaptiveSearchPage-moduleHeader {
+	padding: 15px 15px 10px; line-height: 1; position: relative;
+}
+.AdaptiveSearchPage-moduleTitle {
+	color: rgb(102, 117, 127); font-size: 18px;
+}
+.AdaptiveSearchPage-moduleLink {
+	color: rgb(85, 172, 238); padding-top: 2px; font-size: 12px; font-weight: normal; float: right;
+}
+.AdaptiveSearchPage-relatedModule {
+	float: right;
+}
+.AdaptiveSearchPage .SignupCallOut {
+	margin-top: 0px;
+}
+.AdaptiveSearchPage .Trends {
+	margin-top: 0px;
+}
+.AdaptiveSearchPage .WhoToFollow {
+	margin-top: 0px;
+}
+.AdaptiveSearchPage .BannersContainer {
+	margin: 10px auto; width: 80%;
+}
+.AdaptiveSearchPage.AdaptiveSoccerPage .AppContainer {
+	min-width: 1236px; max-width: 1236px;
+}
+.AdaptiveSearchPage.AdaptiveSoccerPage .AppContent {
+	min-width: 1236px;
+}
+@media screen and (max-width:1236px)
+{
+.AdaptiveSearchPage.AdaptiveNewsPage .AdaptiveSearchPage-relatedModule {
+	display: none;
+}
+}
+.AdaptiveSearchTitle {
+	padding: 11px 0px; background-color: rgb(85, 172, 238);
+}
+.AdaptiveSearchTitle-title {
+	margin: 0px 10%; text-align: center; color: rgb(255, 255, 255); line-height: 1.3; overflow: hidden; font-size: 28px; font-weight: 300; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.AdaptiveSearchTitle--withBgImageHeader {
+	padding: 0px; background-color: transparent;
+}
+.AdaptiveSearchTitle-overlay::after {
+	background: rgba(0, 0, 0, 0.4); width: 100%; height: 100%; position: absolute; content: "";
+}
+.AdaptiveSearchTitle--withBgImageHeader .AdaptiveSearchTitle-title {
+	left: 40%; top: 50%; color: rgb(255, 255, 255); font-size: 52px; font-weight: 500; position: absolute; z-index: 4; max-width: 80%; text-shadow: 0px 1px 2px #000; transform: translate(-50%, -50%); background-color: transparent; -webkit-transform: translate(-50%, -50%);
+}
+.AdaptiveSpellingSuggestion {
+	text-align: center; color: rgb(255, 255, 255); font-size: 13px; font-weight: normal;
+}
+.AdaptiveSpellingSuggestion-query {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.AdaptiveSpellingSuggestion-originalQuery {
+	text-decoration: underline;
+}
+.AdaptiveSpellingSuggestion-query:hover {
+	color: rgb(255, 255, 255);
+}
+.AdaptiveSpellingSuggestion-query:focus {
+	color: rgb(255, 255, 255);
+}
+.AdaptiveSpellingSuggestion-query:active {
+	color: rgb(255, 255, 255);
+}
+.AdaptiveStickersPage .AdaptiveSearchTitle--sticker .AdaptiveStickersPage-stickerImage {
+	margin: 24px auto; display: block; max-height: 140px; max-width: 140px;
+}
+.AdaptiveStickersPage .AdaptiveSearchTitle--sticker .AdaptiveStickersPage-attribution {
+	text-align: center; color: rgb(255, 255, 255); padding-bottom: 8px; font-size: 14px; font-weight: 300;
+}
+.AdaptiveStickersPage .AdaptiveSearchTitle--sticker .AdaptiveStickersPage-attributionLink {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.AdaptiveStickersPage .AdaptiveSearchTitle--sticker .Icon--verified {
+	color: rgb(255, 255, 255);
+}
+.AdaptiveStickersPage .AdaptiveSearchTitle--sticker .Icon--verified::before {
+	color: transparent;
+}
+.AdaptiveStreamImageGallery-images {
+	border-radius: 6px; overflow: hidden;
+}
+.AdaptiveStreamImageGallery-images .AdaptiveStreamGridImage.first-row {
+	margin-top: 0px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item {
+	border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item > .tweet {
+	border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item > .expanded-conversation > li:last-child {
+	border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item > .expanded-conversation > li:last-child > .inline-reply-tweetbox {
+	border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item > .expanded-conversation > li:last-child > .view-more-container {
+	border-bottom-right-radius: 6px !important; border-bottom-left-radius: 6px !important;
+}
+.AdaptiveStreamTweetGallery :last-child.stream-item > .expanded-conversation > .original-tweet-container > .tweet:hover {
+	border-top-left-radius: 6px; border-top-right-radius: 6px;
+}
+.AdaptiveStreamTweetGallery > .stream-items > :first-child:last-child.stream-item.open {
+	border-radius: 6px; border-top-width: 1px; border-bottom-width: 1px;
+}
+.AdaptiveSportsScore-module {
+	border-radius: 6px; border: 1px solid rgb(225, 232, 237); border-image: none; overflow: hidden; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.AdaptiveSportsScore-header {
+	padding: 15px 15px 0px; color: rgb(102, 117, 127); line-height: 1; font-size: 18px; font-weight: 300;
+}
+.AdaptiveSportsScore-logo {
+	width: 32px;
+}
+.AdaptiveSportsScore-inlineTeams {
+	padding: 15px; width: 90%; display: table;
+}
+.AdaptiveSportsScore-inlineTeams .AdaptiveSportsScore-team {
+	font-weight: bold; display: table-cell;
+}
+.AdaptiveSportsScore-versus {
+	bottom: 12px; display: table-cell; position: relative;
+}
+.AdaptiveSportsScore-inlineTeams .AdaptiveSportsScore-teamHome {
+	text-align: left;
+}
+.AdaptiveSportsScore-inlineTeams .AdaptiveSportsScore-teamAway {
+	text-align: right;
+}
+.AdaptiveSportsScore-teamHome .AdaptiveSportsScore-logo {
+	padding-right: 10px;
+}
+.AdaptiveSportsScore-teamAway .AdaptiveSportsScore-logo {
+	padding-left: 10px;
+}
+.AdaptiveSportsScore-team .AdaptiveSportsScore-abbrevName {
+	bottom: 11px; position: relative;
+}
+.AdaptiveSportsScore-team .AdaptiveSportsScore-abbrevNameLight {
+	bottom: 11px; position: relative;
+}
+.AdaptiveSportsScore-score {
+	font-size: 15px; font-weight: 300; margin-top: 0px;
+}
+.AdaptiveSportsScore-message {
+	padding: 0px 15px 21px; font-size: 14px; font-weight: 700;
+}
+.AdaptiveSportsScore-link {
+	color: rgb(41, 47, 51); text-decoration: none;
+}
+.AdaptiveSportsScore-link:hover {
+	color: rgb(41, 47, 51); text-decoration: none;
+}
+.AdaptiveSportsScore-link:visited {
+	color: rgb(41, 47, 51); text-decoration: none;
+}
+.AdaptiveSportsScore-link:active {
+	color: rgb(41, 47, 51); text-decoration: none;
+}
+.AdaptiveSportsScore-players {
+	width: 100%; margin-top: 10px; display: table;
+}
+.AdaptiveSportsScore-player {
+	display: table-cell;
+}
+.AdaptiveSportsScore-playerName {
+	top: 2px; color: rgb(102, 117, 127); line-height: 1.3; font-size: 12px; vertical-align: top; display: table-cell; position: relative;
+}
+.AdaptiveSportsScore-teams .AdaptiveSportsScore-team {
+	padding: 15px;
+}
+.AdaptiveSportsScore-teams .AdaptiveSportsScore-team .AdaptiveSportsScore-abbrevName {
+	font-weight: bold;
+}
+.AdaptiveSportsScore-teams .AdaptiveSportsScore-logo {
+	padding-right: 8px;
+}
+.AdaptiveSportsScore-playerInfo {
+	width: 50%; display: table;
+}
+.AdaptiveSportsScore-batting .AdaptiveSportsScore-playerInfo {
+	width: 100%;
+}
+.AdaptiveSportsScore-playerName {
+	width: 100%;
+}
+.AdaptiveSportsScore-playerAvatar {
+	border-radius: 16px; width: 32px; margin-right: 13px; display: table-cell;
+}
+.AdaptiveSportsScore-teams .AdaptiveSportsScore-teamAwayDetails {
+	padding-top: 13px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.AdaptiveSportsScore-abbrevNameLight {
+	font-weight: normal;
+}
+.AdaptiveSportsScore-inlineScore {
+	font-weight: bold;
+}
+.AdaptiveSearchTimeline .search-stream :first-child.stream-item {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; border-top-left-radius: 6px; border-top-right-radius: 6px;
+}
+.AdaptiveSearchTimeline .search-stream :first-child.stream-item .tweet {
+	border-top-left-radius: 6px !important; border-top-right-radius: 6px !important;
+}
+.AdaptiveSearchTimeline-separationModule {
+	margin-bottom: 15px;
+}
+.AdaptiveSearchTimeline-separationModule + .stream-item {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; border-top-left-radius: 6px; border-top-right-radius: 6px;
+}
+.AdaptiveSearchTimeline-separationModule + .stream-item .tweet {
+	border-top-left-radius: 6px; border-top-right-radius: 6px;
+}
+.AdaptiveSearchTimeline-separationModule.before-expanded {
+	border-radius: 0px; border: 0px currentColor; border-image: none;
+}
+.AdaptiveSearchTimeline-separationModule.after-expanded {
+	border-radius: 0px; border: 0px currentColor; border-image: none;
+}
+.AdaptiveSearchTimeline-separationModule.selected-stream-item:focus {
+	margin: 0px 0px 15px; border: 0px currentColor; border-image: none;
+}
+:not(.AdaptiveSearchTimeline-separationModule).AdaptiveSearchTimeline-beforeModule {
+	border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+:not(.AdaptiveSearchTimeline-separationModule).AdaptiveSearchTimeline-beforeModule .tweet {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+.AdaptiveSearchTimeline.content-main :not(.AdaptiveSearchTimeline-separationModule).AdaptiveSearchTimeline-beforeModule .original-tweet-container {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+.AdaptiveSearchTimeline .new-tweets-bar-visible + .search-stream > .stream-items > :first-child.stream-item {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.AdaptiveSearchTimeline .tweet .Icon--verified {
+	top: 1px; line-height: 13px; font-size: 14px;
+}
+.AdaptiveSearchTimeline .stream-container .AdaptiveStreamGridImage.grid-tweet {
+	margin: 1px 0px 0px 1px; transition:height 0.5s, width 0.5s;
+}
+.AdaptiveSearchTimeline--mediaGrid .stream-items::before {
+	display: table; content: " ";
+}
+.AdaptiveSearchTimeline--mediaGrid .stream-items::after {
+	display: table; content: " ";
+}
+.AdaptiveSearchTimeline--mediaGrid .stream-items::after {
+	clear: both;
+}
+.AdaptiveSearchTimeline .stream-end-inner {
+	background: none;
+}
+.AdaptiveSearchTimeline .stream-end {
+	border: 0px currentColor; border-image: none;
+}
+.AdaptiveSearchTimeline .stream-loading {
+	border: 0px currentColor; border-image: none;
+}
+.AdaptiveSearchTimeline .stream-placeholder {
+	border: 0px currentColor; border-image: none;
+}
+.AdaptiveSearchTimeline--mediaGrid :not(.has-items).timeline-end {
+	width: 590px;
+}
+.SiderailRelatedTweets {
+	border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; background-clip: padding-box; background-color: rgb(255, 255, 255);
+}
+.SiderailRelatedTweets-header {
+	padding: 10px; color: rgb(102, 117, 127); font-size: 18px; font-weight: 300; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.SiderailRelatedTweets-hiddenTweets {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; display: none;
+}
+.SiderailRelatedTweets-viewMore {
+	padding: 8px 10px; width: 100%; text-align: center; color: rgb(102, 117, 127); border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.SiderailRelatedTweets-viewMore:hover {
+	cursor: pointer; background-color: rgb(245, 248, 250);
+}
+.SiderailRelatedTweets-viewMore:focus {
+	outline: 0px;
+}
+:last-child.SiderailRelatedTweets-viewMore {
+	border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+:last-child.SiderailRelatedTweets-visibleTweets :last-child.RelatedTweet {
+	border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;
+}
+.TimelineRelatedVideoTweets.stream-item.separated-module {
+	margin-top: 38px; margin-bottom: 38px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .stream-item {
+	width: 286px;
+}
+.TimelineRelatedVideoTweets .TimelineRelatedVideoTweets-content > .stream-items > .stream-item {
+	border-radius: 6px; border: 1px solid rgb(225, 232, 237); border-image: none;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content > .stream-items {
+	display: flex; justify-content: space-between; -webkit-justify-content: space-between; -moz-box-pack: justify;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content > .stream-items > .stream-item {
+	display: flex;
+}
+.TimelineRelatedVideoTweets.has-vertical-layout .TimelineRelatedVideoTweets-content > .stream-items > .stream-item .expansion-container .original-tweet-container .tweet {
+	border-radius: 6px 6px 0px 0px;
+}
+.TimelineRelatedVideoTweets.has-vertical-layout .TimelineRelatedVideoTweets-content > .stream-items > .stream-item .expansion-container .original-tweet-container {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.TimelineRelatedVideoTweets.has-vertical-layout .TimelineRelatedVideoTweets-content > .stream-items > .stream-item .expansion-container :last-child.stream-item .tweet {
+	border-radius: 0px 0px 6px 6px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.TimelineRelatedVideoTweets.has-vertical-layout .TimelineRelatedVideoTweets-content > .stream-items > .stream-item .expansion-container :last-child.stream-item {
+	border-radius: 0px 0px 6px 6px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet-video {
+	border-radius: 0px; width: 100%; margin-bottom: 10px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet {
+	padding: 15px 0px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet-textContainer {
+	margin-right: 15px; margin-left: 15px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet-authorContainer {
+	margin-right: 15px; margin-left: 15px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .ProfileTweet-actionCountList {
+	margin-right: 15px; margin-left: 15px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .ProfileTweet-actionList {
+	margin-right: 15px; margin-left: 15px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .ProfileTweet-tweetLink {
+	margin-right: 15px; margin-left: 15px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .ProfileTweet-action {
+	width: 75px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .ProfileTweet-action--more {
+	width: 30px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet-authorDetails {
+	margin-left: 10px;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .TimelineRelatedVideoTweets-content .RelatedTweet-authorContainer {
+	align-self: flex-start; -webkit-align-self: flex-start;
+}
+.TimelineRelatedVideoTweets-title {
+	color: rgb(102, 117, 127); font-size: 18px; font-weight: 300;
+}
+.TimelineRelatedVideoTweets-header {
+	margin: 0px 5px 8px;
+}
+.TimelineRelatedVideoTweets-header .TimelineRelatedVideoTweets-dismissBtn {
+	color: rgb(102, 117, 127); font-size: 12px; margin-top: 0px; float: right;
+}
+.TimelineRelatedVideoTweets-header .TimelineRelatedVideoTweets-refreshBtn {
+	font-size: 12px;
+}
+.TimelineRelatedVideoTweets-content .RelatedTweet:hover .RelatedTweet-dismiss {
+	display: none;
+}
+.TimelineRelatedVideoTweets-content .RelatedTweet-date {
+	display: none;
+}
+.TimelineRelatedVideoTweets-content .RelatedTweet {
+	border-radius: 6px; width: 100%; padding-right: 0px; padding-left: 0px; display: flex; flex-direction: column; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal;
+}
+.TimelineRelatedVideoTweets-content .RelatedTweet-textContainer {
+	flex-grow: 1; -moz-box-flex: 1; -webkit-flex-grow: 1;
+}
+.TimelineRelatedVideoTweets.after-expanded {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .PlayableMedia-attribution {
+	display: none;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .PlayableMedia-title {
+	display: none;
+}
+.TimelineRelatedVideoTweets.has-horizontal-layout .PlayableMedia-description {
+	display: none;
+}
+.RelatedTweet {
+	padding: 10px; line-height: 18px; font-size: 13px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative;
+}
+.RelatedTweet:hover {
+	background-color: rgb(245, 248, 250);
+}
+:last-child.RelatedTweet {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.RelatedTweet-tweetLink {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 0;
+}
+.RelatedTweet-authorContainer {
+	font-size: 0px; display: inline-block; position: relative; z-index: 1;
+}
+.RelatedTweet-authorContainer:hover {
+	text-decoration: none;
+}
+.RelatedTweet-authorImage {
+	border-radius: 5px; width: 36px;
+}
+.RelatedTweet-authorDetails {
+	font-size: 13px; margin-left: 5px; vertical-align: top; display: inline-block;
+}
+.RelatedTweet-authorDetails .Icon--verified {
+	top: 1px; position: relative;
+}
+.RelatedTweet-authorFullName {
+	color: rgb(41, 47, 51); font-weight: bold;
+}
+.RelatedTweet-authorContainer:hover .RelatedTweet-authorFullName {
+	color: inherit; text-decoration: underline;
+}
+.RelatedTweet-authorScreenName {
+	color: rgb(136, 153, 166);
+}
+.RelatedTweet-authorFullName {
+	vertical-align: top; display: inline-block; max-width: 120px;
+}
+.RelatedTweet-authorScreenName {
+	vertical-align: top; display: inline-block; max-width: 120px;
+}
+.RelatedTweet-date {
+	top: 10px; text-align: right; right: 10px; color: rgb(136, 153, 166); position: absolute;
+}
+.RelatedTweet:hover .RelatedTweet-date {
+	display: none;
+}
+.RelatedTweet-dismiss {
+	display: none;
+}
+.RelatedTweet:hover .RelatedTweet-dismiss {
+	top: 9px; text-align: right; right: 10px; color: rgb(136, 153, 166); display: inline; position: absolute;
+}
+.RelatedTweet .RelatedTweet-image {
+	border-radius: 5px; width: 268px; height: 160px; line-height: 0; overflow: hidden; margin-top: 6px; display: block; position: relative; z-index: 1;
+}
+.RelatedTweet .RelatedTweet-video {
+	border-radius: 5px; width: 268px; height: 160px; line-height: 0; overflow: hidden; margin-top: 6px; display: block; position: relative; z-index: 1;
+}
+.RelatedTweet .RelatedTweet-video.has-playable-media {
+	height: auto;
+}
+.RelatedTweet-mediaThumbnail {
+	background-position: center; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; background-size: cover;
+}
+.RelatedTweet-videoInformation {
+	padding: 3px 5px; border-radius: 2px; left: 8px; bottom: 8px; color: white; line-height: 18px; font-size: 13px; position: absolute; background-color: rgba(0, 0, 0, 0.5);
+}
+.RelatedTweet-playIcon {
+	margin: -45px 0px 0px -18px; font-size: 34px;
+}
+.RelatedTweet-textContainer {
+	position: static;
+}
+.RelatedTweet-textContainer a {
+	position: relative;
+}
+.Streams {
+	background-color: rgb(245, 248, 250);
+}
+.Streams .AppContent {
+	padding-top: 30px; margin-bottom: 40px; transform: translateZ(0px); -webkit-transform: translateZ(0);
+}
+.Streams-mainContent {
+	margin-bottom: 80px;
+}
+.Streams-module {
+	padding: 18px 23px; border-radius: 6px; overflow: hidden; margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.Streams-headerModule {
+	padding: 45px 23px; border-radius: 6px; line-height: 32px; overflow: hidden; margin-bottom: 10px; background-color: rgb(85, 172, 238);
+}
+.Streams-headerModule h2 {
+	color: white;
+}
+.Streams-headerModule p {
+	color: white;
+}
+.Streams-headerModule p {
+	font-weight: 300;
+}
+.Streams-featuredStreamsDescription {
+	margin: 5px 0px 33px; color: rgb(136, 153, 166); font-size: 16px;
+}
+.Streams-recentStreamsList {
+	text-align: justify;
+}
+.Streams-featuredStreamList {
+	text-align: justify;
+}
+.Streams-featuredStreamList::after {
+	width: 100%; display: inline-block; content: "";
+}
+.Streams-featuredStream {
+	width: 264px; text-align: left; margin-bottom: 16px; vertical-align: top; display: inline-block; -ms-zoom: 1; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.Streams .dashboard-right-fixed .LoginCallOut {
+	width: 290px; position: fixed; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.Streams .dashboard-right-fixed .SignupCallOut {
+	width: 290px; position: fixed; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.Streams .stream-dashboard-right-fixed .LoginCallOut {
+	width: 290px; position: fixed; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.Streams .stream-dashboard-right-fixed .SignupCallOut {
+	width: 290px; position: fixed; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.Streams .dashboard-right-fixed .LoginCallOut {
+	top: 60px;
+}
+.Streams .dashboard-right-fixed .SignupCallOut {
+	top: 285px;
+}
+.Streams .dashboard-right-fixed.dashboard-single-module .LoginCallout {
+	top: 60px;
+}
+.Streams .dashboard-right-fixed.dashboard-single-module .SignupCallOut {
+	top: 60px;
+}
+.Streams .stream-dashboard-right-fixed .LoginCallOut {
+	top: 140px;
+}
+.Streams .stream-dashboard-right-fixed .SignupCallOut {
+	top: 365px;
+}
+.Streams .SignupCallOut {
+	background: rgb(255, 255, 255) !important; border: 0px currentColor; border-image: none; margin-bottom: 10px;
+}
+.Streams .LoginCallOut {
+	background: rgb(255, 255, 255) !important; border: 0px currentColor; border-image: none; margin-bottom: 10px;
+}
+.Streams .LoginCallOut-title {
+	color: rgb(102, 117, 133); font-size: 16px; font-weight: normal;
+}
+.Streams .SignupCallOut-title {
+	color: rgb(102, 117, 133); font-size: 16px; font-weight: normal;
+}
+.Streams .LoginCallOut .primary-btn {
+	padding: 11px 16px; border: 0px currentColor; border-image: none; font-size: 16px; font-weight: normal; box-shadow: none; background-image: none;
+}
+.Streams .SignupCallOut .primary-btn {
+	padding: 11px 16px; border: 0px currentColor; border-image: none; font-size: 16px; font-weight: normal; box-shadow: none; background-image: none;
+}
+.Streams .LoginDialog .primary-btn {
+	padding: 11px 16px; border: 0px currentColor; border-image: none; font-size: 16px; font-weight: normal; box-shadow: none; background-image: none;
+}
+.Streams .LoginCallOut .primary-btn:active {
+	background-color: rgb(35, 121, 200);
+}
+.Streams .SignupCallOut .primary-btn:active {
+	background-color: rgb(35, 121, 200);
+}
+.Streams .LoginDialog .primary-btn:active {
+	background-color: rgb(35, 121, 200);
+}
+.Streams .LoginForm input:-ms-input-placeholder {
+	color: rgb(168, 182, 192);
+}
+.Streams .SignupForm input:-ms-input-placeholder {
+	color: rgb(168, 182, 192);
+}
+.Streams .SignupCallOut-subheader {
+	color: rgb(133, 153, 167);
+}
+.Streams .front-warning {
+	margin: 0px 0px 10px; width: auto; height: auto; position: static;
+}
+.Streams .stream-items :first-child.stream-item {
+	border-radius: 6px 6px 0px 0px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.Streams .stream-end-inner {
+	background-color: rgb(245, 248, 250);
+}
+.Streams-momentsContainer {
+	margin: 6px auto 0px; width: 1220px;
+}
+.Streams-momentsModules {
+	padding: 0px 10px; display: flex;
+}
+.Streams-momentsModules .MomentCapsuleSummary {
+	margin: 0px 5px; width: 100%;
+}
+.Streams-momentsModules .InStreamLogin {
+	margin: 0px 5px; width: 100%;
+}
+.Streams-momentsModules .InStreamSignup {
+	margin: 0px 5px; width: 100%;
+}
+.Streams-momentsTitle {
+	padding: 0px 20px 15px; color: rgb(102, 117, 127); font-size: 18px;
+}
+.Streams-momentsViewAll {
+	font-size: 12px;
+}
+.Streams-momentsViewAll a {
+	color: rgb(41, 47, 51);
+}
+.Streams-momentsDivider {
+	margin: 38px 15px 26px; text-align: center; position: relative;
+}
+.Streams-momentsDivider::before {
+	background: rgb(204, 214, 221); left: 0px; top: 45%; height: 1px; right: 0px; position: absolute; z-index: -1; content: "";
+}
+.Streams-momentsDividerText {
+	padding: 0px 15px; color: rgb(102, 117, 127); font-size: 18px; display: inline-block; background-color: rgb(245, 248, 250);
+}
+.Streams-momentsContainer .InStreamSignup .SignupCallOut-title {
+	line-height: 26px; letter-spacing: 1.5px; font-size: 22px;
+}
+.Streams-momentsContainer .InStreamLogin .LoginCallOut-title {
+	line-height: 26px; letter-spacing: 1.5px; font-size: 22px;
+}
+.Streams-momentsContainer .InStreamLogin .LoginCallOut-title {
+	margin-top: 42px; margin-bottom: 0px;
+}
+.Streams-momentsContainer .InStreamLogin .primary-btn.submit {
+	margin-top: 18px;
+}
+.Streams-momentsContainer .InStreamSignup .SignupCallOut-title {
+	margin-top: 70px; margin-bottom: 14px;
+}
+.Streams-momentsContainer .InStreamSignup .SignupCallOut-subheader {
+	line-height: 18px; letter-spacing: 0.5px; font-size: 14px;
+}
+.Streams-momentsContainer .InStreamSignup .SignupForm {
+	margin: 0px 40px;
+}
+.Streams-momentsContainer .InStreamSignup .SignupForm-submit {
+	margin-top: 12px;
+}
+.StreamsFooter {
+	padding: 11px 0px; width: 100%; bottom: -10%; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; position: fixed; z-index: 2; background-color: white;
+}
+.StreamsFooter--slide {
+	transition:bottom 300ms;
+}
+.StreamsFooter--fixed {
+	width: 100%; bottom: 0px;
+}
+.StreamsFooter-list {
+	margin: 0px auto; width: 890px; text-align: center;
+}
+@media screen and (min-width:1236px)
+{
+.StreamsFooter-list {
+	width: 1190px;
+}
+}
+.StreamsFooter-item {
+	padding: 0px 9px; display: inline-block;
+}
+.StreamsFooter-item a {
+	color: rgb(170, 184, 194); font-size: 12px;
+}
+.StreamsFooter-copyright {
+	color: rgb(170, 184, 194); font-size: 12px;
+}
+.StreamsHero {
+	position: relative;
+}
+.StreamsHero-image {
+	background-position: center; position: absolute; background-size: 100%;
+}
+.StreamsHero {
+	width: 100%; height: 300px;
+}
+.StreamsHero-image {
+	width: 100%; height: 300px;
+}
+.StreamsHero-content {
+	margin: 0px auto; transition:top 300ms linear; width: 680px; text-align: center; position: relative;
+}
+.StreamsHero .Icon--bird {
+	color: rgb(255, 255, 255); font-size: 32px;
+}
+.StreamsHero-header {
+	color: rgb(255, 255, 255); line-height: 48px; font-size: 32px; font-weight: 100; margin-bottom: -5px;
+}
+.StreamsHero-blurb {
+	transition:opacity 300ms linear; color: rgb(255, 255, 255); line-height: 28px; font-size: 21px; font-weight: 200; opacity: 0.7;
+}
+.StreamsHero-buttons {
+	width: 100%; position: fixed;
+}
+.StreamsHero-buttonContainer {
+	margin: 0px auto; width: 1195px; text-align: right; color: rgb(255, 255, 255); padding-top: 20px;
+}
+@media all and (max-width:1236px)
+{
+.StreamsHero-buttonContainer {
+	width: 95%;
+}
+}
+.StreamsHero-buttonContainer .Icon {
+	float: left; position: relative;
+}
+.StreamsHero-buttonContainer .Button {
+	padding: 10px 35px; border-radius: 5px; border: 1px solid rgba(255, 255, 255, 0.3); border-image: none; font-size: 16px;
+}
+.StreamsHero-buttonContainer .Button + .Button {
+	margin-left: 8px;
+}
+.StreamsHero-buttonContainer .Button.StreamsLogin {
+	background: rgba(255, 255, 255, 0.3); border: 1px solid transparent; border-image: none;
+}
+.StreamsHero-buttonContainer .Button:hover {
+	background: rgb(255, 255, 255); color: rgb(85, 172, 238);
+}
+.StreamsTopBar-container {
+	height: 60px;
+}
+.StreamsTopBar {
+	height: 60px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; z-index: 1000; box-sizing: border-box; background-color: rgb(255, 255, 255); -moz-box-sizing: border-box;
+}
+.StreamsTopBar--fixed {
+	left: 0px; top: 0px; width: 100%; position: fixed;
+}
+.StreamsTopBar-innerContainer {
+	margin: 0px auto; width: 890px; position: relative;
+}
+@media all and (min-width:1236px)
+{
+.StreamsTopBar-innerContainer {
+	width: 1180px;
+}
+}
+.StreamsTopBar .Icon--bird {
+	transition:top 300ms linear; color: rgb(255, 255, 255); font-size: 30px;
+}
+.StreamsTopBar--fixed .Icon--bird {
+	top: 10px;
+}
+.StreamsTopBar-searchContainer {
+	margin: 0px auto; width: 544px; padding-top: 10px;
+}
+@media all and (max-width:1236px)
+{
+.StreamsTopBar-searchContainer {
+	width: 450px;
+}
+}
+.StreamsTopBar-searchButton {
+	left: 15px; top: 7px; height: 22px; color: rgb(168, 182, 192); padding-left: 1px; font-size: 20px; position: absolute;
+}
+.StreamsTopBar-searchInput {
+	padding: 10px 10px 10px 45px; border-radius: 6px; border: 0px currentColor; border-image: none; width: 100%; font-size: 14px; box-sizing: border-box; background-color: rgb(237, 240, 243); -moz-box-sizing: border-box;
+}
+:-ms-input-placeholder.StreamsTopBar-searchInput {
+	color: rgb(170, 184, 194); -ms-text-overflow: ellipsis !important;
+}
+.StreamsTopBar-searchDismiss {
+	top: 5px; width: 50px; height: 50px; right: -15px; color: rgb(170, 184, 194); position: absolute;
+}
+.StreamsTopBar-container--withStreamHero {
+	transition:height 300ms linear; height: 190px;
+}
+.StreamsTopBar-container--withStreamHero .StreamsTopBar {
+	transition:height 300ms linear; height: 190px;
+}
+.StreamsTopBar .StreamsHero {
+	transition:height 300ms linear; height: 130px;
+}
+.StreamsTopBar .StreamsHero-image {
+	transition:height 300ms linear; height: 130px;
+}
+.StreamsTopBar .StreamsHero-content {
+	top: -45px;
+}
+.StreamsTopBar .StreamsHero-content.StreamsHero-content--noBlurb {
+	top: -23px;
+}
+.StreamsTopBar-container--withTallHeader {
+	height: 270px;
+}
+.StreamsTopBar-container--withTallHeader .StreamsTopBar {
+	height: 270px;
+}
+.StreamsTopBar-container--withTallHeader .StreamsHero {
+	height: 210px;
+}
+.StreamsTopBar-container--withTallHeader .StreamsHero-image {
+	height: 210px;
+}
+.StreamsTopBar-container--withTallHeader .StreamsHero-content {
+	top: 0px;
+}
+.StreamsTopBar-container--collapsedHero {
+	height: 140px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsTopBar {
+	height: 140px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero {
+	height: 80px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero-image {
+	height: 80px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero-content {
+	margin: 0px auto; top: -45px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero-content.StreamsHero-content--noBlurb {
+	margin: 0px auto; top: -45px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero-header {
+	font-size: 32px;
+}
+.StreamsTopBar-container--collapsedHero .StreamsHero-blurb {
+	opacity: 0;
+}
+.StreamsTopBar-searchContainer--wide {
+	transition:100ms ease-in; width: 1150px; margin-right: 50px; display: block;
+}
+.StreamsTopBar--invisible {
+	opacity: 0;
+}
+.Streams .TweetForwardTimeline {
+	margin: -20px auto 0px; width: 1220px;
+}
+.Streams .TweetForwardTimeline > .Grid-cell {
+	max-width: 400px;
+}
+.Streams .TweetForwardTimeline > .Grid-cell + .Grid-cell {
+	margin-left: 10px;
+}
+.Streams .TweetForwardTimeline .tweet {
+	margin: 15px; padding: 15px; border-radius: 4px; border: 1px solid rgb(225, 232, 237); border-image: none; width: 370px; box-sizing: border-box; background-color: rgb(255, 255, 255); -moz-box-sizing: border-box;
+}
+.Streams .TweetForwardTimeline .tweet .stream-item-header {
+	margin-bottom: 10px; position: relative;
+}
+.Streams .TweetForwardTimeline .tweet .stream-item-header .avatar {
+	width: 28px; height: 28px; margin-right: 5px; margin-left: 0px;
+}
+.Streams .TweetForwardTimeline .tweet .username {
+	display: block;
+}
+.Streams .TweetForwardTimeline .tweet .time {
+	top: 0px; right: 0px; position: absolute;
+}
+.Streams .TweetForwardTimeline .tweet .tweet-timestamp {
+	display: inline-block;
+}
+.Streams .TweetForwardTimeline .tweet .time::before {
+	display: none;
+}
+.Streams .TweetForwardTimeline .tweet.animated-gif-playing .AdaptiveMedia-videoPreview.is-playing {
+	display: none;
+}
+.Streams .TweetForwardTimeline .stream-end {
+	border: 0px currentColor; border-image: none;
+}
+.Streams .TweetForwardTimeline .stream-loading {
+	border: 0px currentColor; border-image: none;
+}
+.Streams .TweetForwardTimeline .stream-placeholder {
+	border: 0px currentColor; border-image: none;
+}
+.Streams .u-textUserColorHover:hover {
+	color: rgb(85, 172, 238);
+}
+.Streams .tweet-timestamp:hover {
+	color: rgb(85, 172, 238);
+}
+.Streams .ProfileTweet-actionButton:active {
+	outline: 0px;
+}
+.Streams .TweetForwardTimeline .tweet .PlayableMedia-attribution {
+	display: none;
+}
+.Streams .TweetForwardTimeline .tweet .PlayableMedia-title {
+	display: none;
+}
+.Streams .TweetForwardTimeline .tweet .PlayableMedia-description {
+	display: none;
+}
+.TweetWithPivotModule {
+	display: inline-block;
+}
+.TweetWithPivotModule-header {
+	margin: 25px 0px 0px 20px; font-size: 13px; font-weight: 500;
+}
+.TweetWithPivotModule-header a {
+	color: rgb(41, 47, 51);
+}
+.TweetWithPivotModule-header .Icon--caretRight {
+	padding-left: 4px; font-size: 8px;
+}
+.StreamsCategoryBar {
+	transition:100ms ease-out; display: flex; -webkit-flex-flow: space-between;
+}
+.StreamsCategoryBar-item {
+	transition:border-width 100ms; flex:1 0 auto; height: 60px; text-align: center; box-sizing: border-box; align-items: center; -moz-box-sizing: border-box; -webkit-flex: 0 0 auto; -moz-box-flex: 1; -webkit-align-items: center; -moz-box-align: center; -webkit-flex-grow: 1;
+}
+.StreamsCategoryBar-itemInner {
+	border-right-color: rgb(225, 232, 237); border-right-width: 1px; border-right-style: solid;
+}
+.StreamsCategoryBar-itemName {
+	padding: 21px 35px; height: 60px; color: rgb(85, 172, 238); font-size: 18px; font-weight: 200; display: inline-block; white-space: nowrap; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.dropdown .StreamsCategoryBar-itemInner {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.StreamsCategoryBar-item:active {
+	color: rgb(85, 172, 238); border-bottom-color: rgb(85, 172, 238); border-bottom-width: 5px; border-bottom-style: solid; cursor: pointer;
+}
+.StreamsCategoryBar-item:hover {
+	color: rgb(85, 172, 238); border-bottom-color: rgb(85, 172, 238); border-bottom-width: 5px; border-bottom-style: solid; cursor: pointer;
+}
+.StreamsCategoryBar-item:focus {
+	color: rgb(85, 172, 238); border-bottom-color: rgb(85, 172, 238); border-bottom-width: 5px; border-bottom-style: solid; cursor: pointer;
+}
+.StreamsCategoryBar-item.StreamsCategoryBar-item--selected {
+	color: rgb(85, 172, 238); border-bottom-color: rgb(85, 172, 238); border-bottom-width: 5px; border-bottom-style: solid; cursor: pointer;
+}
+.StreamsCategoryBar-itemName--reduced {
+	padding: 10px 20px; width: 200px; height: 25px; text-align: left; box-sizing: content-box; -moz-box-sizing: content-box;
+}
+.StreamsCategoryBar-itemName--reduced:active {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; cursor: pointer;
+}
+.StreamsCategoryBar-itemName--reduced:hover {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; cursor: pointer;
+}
+.StreamsCategoryBar-itemName--reduced:focus {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; cursor: pointer;
+}
+.StreamsCategoryBar-moreIcon {
+	font-size: 9px;
+}
+.StreamsCategoryBar .dropdown-menu {
+	margin-top: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px; background-color: rgb(255, 255, 255);
+}
+.InStreamSignup {
+	margin: 15px; padding: 15px; border-radius: 5px; width: 370px; box-sizing: border-box; background-color: rgb(85, 172, 238); -moz-box-sizing: border-box;
+}
+.InStreamLogin {
+	margin: 15px; padding: 15px; border-radius: 5px; width: 370px; box-sizing: border-box; background-color: rgb(85, 172, 238); -moz-box-sizing: border-box;
+}
+.InStreamSignup .SignupCallOut {
+	border-radius: 5px; background-color: rgb(85, 172, 238) !important;
+}
+.InStreamLogin .LoginCallOut {
+	border-radius: 5px; background-color: rgb(85, 172, 238) !important;
+}
+.InStreamSignup .SignupCallOut-title {
+	text-align: center; color: rgb(255, 255, 255) !important; font-weight: 200;
+}
+.InStreamSignup .SignupCallOut-subheader {
+	text-align: center; color: rgb(255, 255, 255) !important; font-weight: 200;
+}
+.InStreamLogin .LoginCallOut-title {
+	text-align: center; color: rgb(255, 255, 255) !important; font-weight: 200;
+}
+.InStreamSignup .SignupCallOut-title {
+	font-size: 30px; font-weight: 100; margin-bottom: 15px;
+}
+.InStreamLogin .LoginCallOut-title {
+	font-size: 30px; font-weight: 100; margin-bottom: 15px;
+}
+.InStreamSignup .SignupCallOut-subheader {
+	color: rgb(225, 232, 237); line-height: 24px; letter-spacing: 1px; font-size: 18px;
+}
+.InStreamSignup .SignupForm-submit {
+	border: 1px solid white; border-image: none; color: rgb(85, 172, 238); margin-top: 30px; background-color: rgb(255, 255, 255);
+}
+.InStreamLogin .primary-btn.submit {
+	border: 1px solid white; border-image: none; color: rgb(85, 172, 238); margin-top: 30px; background-color: rgb(255, 255, 255);
+}
+.InStreamSignup .SignupForm-input input {
+	border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgba(255, 255, 255, 0.5); border-radius: 0px; border-image: none; color: white; letter-spacing: 1px; font-size: 14px; background-color: transparent;
+}
+.InStreamLogin .LoginForm-input input {
+	border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgba(255, 255, 255, 0.5); border-radius: 0px; border-image: none; color: white; letter-spacing: 1px; font-size: 14px; background-color: transparent;
+}
+.InStreamLogin .LoginForm-input input:focus {
+	border-bottom-color: rgba(255, 255, 255, 0.5); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.InStreamSignup .SignupForm-input input:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.6); letter-spacing: 0.5px; font-size: 14px; font-weight: 200;
+}
+.InStreamLogin .LoginForm-input input:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.6); letter-spacing: 0.5px; font-size: 14px; font-weight: 200;
+}
+.InStreamLogin .LoginForm-rememberForgot label {
+	color: rgb(255, 255, 255) !important; opacity: 0.5;
+}
+.InStreamLogin .LoginForm-rememberForgot a {
+	color: rgb(255, 255, 255) !important; line-height: 26px; padding-top: 3px; float: right; opacity: 0.5;
+}
+.InStreamSignup--extraPivotMargin {
+	margin-top: 60px;
+}
+.InStreamLogin--extraPivotMargin {
+	margin-top: 60px;
+}
+.Streams .TweetForwardTimeline .AdaptiveMedia {
+	margin: -16px -16px 11px; border-radius: 5px 5px 0px 0px; border: 1px solid rgb(225, 232, 237); border-image: none; max-height: 276px; max-width: 368px;
+}
+.Streams .AdaptiveMedia-singlePhoto {
+	width: 368px;
+}
+.Streams .AdaptiveMedia-singlePhoto img {
+	width: 100%;
+}
+.Streams .AdaptiveMedia-doublePhoto {
+	width: 368px; height: 184px;
+}
+.Streams .AdaptiveMedia-triplePhoto {
+	width: 368px; height: 245.33px;
+}
+.Streams .AdaptiveMedia-quadPhoto {
+	width: 368px; height: 276px;
+}
+.Streams .AdaptiveMedia-video {
+	width: 368px;
+}
+.Streams [data-card2-name='animated_gif'].AdaptiveMedia-video.card2 {
+	border-radius: 5px 5px 0px 0px; min-height: 200px;
+}
+.login-responsive .nav .dropdown-signin {
+	display: none;
+}
+.nav li .dropdown-signup {
+	display: none;
+}
+.login-responsive .nav .dropdown-signup {
+	display: block;
+}
+.login-responsive .nav .dropdown-signup .emphasize {
+	color: rgb(255, 204, 0);
+}
+.login-responsive .page-canvas {
+	box-shadow: 0px 0px 225px rgba(255,255,255,0.55); background-color: rgb(255, 255, 255);
+}
+.language-dropdown {
+	display: none;
+}
+.country-dropdown {
+	display: none;
+}
+.session-dropdown {
+	padding-left: 10px; display: block;
+}
+.route-mobile-gallery .topbar .form-search {
+	display: none;
+}
+.route-download .topbar .form-search {
+	display: none;
+}
+.route-unsubscribe .topbar .form-search {
+	display: none;
+}
+.front-page .language-dropdown {
+	display: block;
+}
+.route-mobile-gallery .language-dropdown {
+	display: block;
+}
+.route-download .language-dropdown {
+	display: block;
+}
+.fast-signup .language-dropdown {
+	display: block;
+}
+.login-responsive .language-dropdown {
+	display: block;
+}
+.front-page .country-dropdown {
+	display: block;
+}
+.route-mobile-gallery .country-dropdown {
+	display: block;
+}
+.route-download .country-dropdown {
+	display: block;
+}
+.fast-signup .country-dropdown {
+	display: block;
+}
+.login-responsive .country-dropdown {
+	display: block;
+}
+.front-page .session-dropdown {
+	display: none;
+}
+.login-responsive .session-dropdown {
+	display: none;
+}
+.route-download .language-dropdown {
+	display: none;
+}
+.logged-out .global-nav .form-search {
+	margin-right: 5px;
+}
+.country-dropdown .dropdown-menu {
+	width: 375px; right: 0px; position: absolute;
+}
+.language-dropdown .dropdown-menu {
+	width: 375px; right: 0px; position: absolute;
+}
+.country-dropdown .dropdown-menu li {
+	width: 125px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.language-dropdown .dropdown-menu li {
+	width: 125px; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.language-dropdown .dropdown-menu {
+	width: 250px;
+}
+.language-dropdown .dropdown-menu li {
+	width: 50%;
+}
+body.de .country-dropdown .dropdown-menu {
+	width: 432px;
+}
+.dropdown-form {
+	padding: 15px; left: auto; right: 0px;
+}
+.dropdown-form label {
+	color: rgb(41, 47, 51);
+}
+.dropdown-form .remember {
+	line-height: 25px; float: right; cursor: pointer;
+}
+.dropdown-form .divider {
+	margin: 15px -15px;
+}
+.dropdown-form p a {
+	display: inline;
+}
+.signin-wrapper {
+	width: 400px; clear: both; display: block;
+}
+.signup-wrapper {
+	width: 400px; clear: both; display: block;
+}
+.resend-password-wrapper {
+	width: 400px; clear: both; display: block;
+}
+.mobile-complete-wrapper {
+	width: 400px; clear: both; display: block;
+}
+.signin-wrapper {
+	margin: 0px auto 10px;
+}
+.signup-wrapper {
+	margin: 0px auto 10px;
+}
+.resend-password-wrapper {
+	margin: 0px auto 30px;
+}
+.mobile-complete-wrapper {
+	margin: 0px auto 40px;
+}
+.signin-wrapper h1 {
+	padding: 40px 0px 20px; clear: both;
+}
+.signup-wrapper h1 {
+	padding: 40px 0px 20px; clear: both;
+}
+.resend-password-wrapper h1 {
+	padding: 40px 0px 20px; clear: both;
+}
+.mobile-complete-wrapper h1 {
+	padding: 40px 0px 20px; clear: both;
+}
+.signup {
+	padding: 10px 0px; border-radius: 5px;
+}
+.resend-password {
+	padding: 10px 0px; border-radius: 5px;
+}
+.mobile-complete {
+	padding: 10px 0px; border-radius: 5px;
+}
+.signin fieldset {
+	margin-bottom: 16px;
+}
+.resend-password fieldset {
+	margin-bottom: 16px;
+}
+.resend-password .separator {
+	padding: 10px 0px;
+}
+.resend-password .input-prepend input.username-prepended-input {
+	width: 254px;
+}
+.notification-prepended {
+	margin-left: 4px;
+}
+.twttr-dialog-body .signin fieldset {
+	margin-bottom: 0px;
+}
+.signin .password {
+	width: 150px; font-size: 13px;
+}
+.signin .username {
+	width: 150px; font-size: 13px;
+}
+.signin .subchck {
+	margin-bottom: 0px; display: inline-block;
+}
+.ie9 .signin .remember input {
+	min-height: 0px;
+}
+.signin .remember {
+	text-align: left; color: rgb(41, 47, 51); line-height: 30px; margin-left: 12px;
+}
+.signin .field {
+	margin-bottom: 15px;
+}
+.login-responsive .mobile {
+	padding: 20px 12px 20px 126px; color: rgb(136, 153, 166); line-height: 13px; font-size: 13px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(244, 244, 244);
+}
+.route-resend-password .mobile {
+	padding: 20px 12px 20px 126px; color: rgb(136, 153, 166); line-height: 13px; font-size: 13px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(244, 244, 244);
+}
+.contact-support {
+	padding: 20px 12px 20px 126px; color: rgb(136, 153, 166); line-height: 13px; font-size: 13px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(244, 244, 244);
+}
+.signin-wrapper form input[type=text] {
+	width: 97%; margin-right: 10px; max-width: 280px;
+}
+.signin-wrapper form input[type=password] {
+	width: 97%; margin-right: 10px; max-width: 280px;
+}
+.resend-password-wrapper form input[type=text] {
+	width: 97%; margin-right: 10px; max-width: 280px;
+}
+.signin-wrapper form .help-text-inline {
+	left: 0px; top: 0px; display: inline-block; position: relative;
+}
+.global-nav--newLoggedOut #signin-dropdown {
+	margin-top: 19px; background-color: rgb(255, 255, 255);
+}
+.dropdown-menu {
+	width: auto;
+}
+.dropdown-menu .signin label {
+	width: auto;
+}
+.dropdown-menu .signin {
+	padding: 0px; width: 240px;
+}
+.dropdown-menu .signin p a {
+	padding: 0px;
+}
+.dropdown-menu .password {
+	padding-top: 10px;
+}
+.dropdown-menu .remember {
+	margin: 0px; color: rgb(136, 153, 166);
+}
+.dropdown-menu .subchck {
+	display: block;
+}
+.dropdown-menu .button {
+	float: right;
+}
+.dropdown-menu input[type=text] {
+	width: 230px;
+}
+.dropdown-menu input[type=password] {
+	width: 230px;
+}
+.permalink-footer .SignupCallOut {
+	margin-bottom: 10px;
+}
+.link-form {
+	display: inline;
+}
+.link-form .btn-link {
+	color: rgb(0, 132, 180); font-size: 14px;
+}
+#sms-codes-dialog #sms_codes {
+	width: 100%;
+}
+#sms-codes-dialog #sms_codes th {
+	text-align: left; font-weight: bold;
+}
+#sms-codes-dialog #sms_codes tfoot td {
+	padding-top: 1em;
+}
+.login-responsive .global-nav .container {
+	width: auto; max-width: 865px;
+}
+.login-responsive .wrapper {
+	width: auto; max-width: 837px;
+}
+.login-responsive .page-canvas {
+	width: auto; max-width: 835px;
+}
+.login-responsive .signin-wrapper {
+	padding: 0px 10px; width: auto; max-width: 585px;
+}
+.login-responsive .mobile {
+	padding: 20px 10px; width: auto;
+}
+.login-responsive .mobile p {
+	margin: 0px auto; max-width: 585px;
+}
+.login-responsive .mobile .signup-helper {
+	margin-bottom: 15px;
+}
+@media screen and (max-width:1024px)
+{
+.login-responsive .signin-wrapper form {
+	line-height: 22px; font-size: 14px;
+}
+.login-responsive .signin-wrapper input {
+	padding: 6px; line-height: 22px; font-size: 16px;
+}
+.login-responsive .subchck {
+	padding: 6px; line-height: 22px; font-size: 16px;
+}
+.signin-wrapper .primary-btn {
+	padding: 9px 13px; font-size: 18px;
+}
+.login-responsive .signin .remember {
+	line-height: 35px; font-size: 14px;
+}
+}
+@media screen and (max-width:520px)
+{
+.login-responsive .page-canvas {
+	border: 0px currentColor; border-image: none;
+}
+.login-responsive .signin-wrapper {
+	padding: 0px 3%;
+}
+.login-responsive .wrapper {
+	padding: 20px 0px 0px;
+}
+.login-responsive .signin-wrapper form input[type=text] {
+	width: 94%; display: block; max-width: none;
+}
+.login-responsive .signin-wrapper form input[type=password] {
+	width: 94%; display: block; max-width: none;
+}
+.login-responsive .signin-wrapper form .help-text-inline {
+	line-height: 2.1;
+}
+.login-responsive .signin .field {
+	margin-bottom: 4px;
+}
+.login-responsive .signin-wrapper .primary-btn {
+	width: 98%; padding-right: 0px; padding-left: 0px;
+}
+.login-responsive .signin .remember {
+	margin-left: 0px;
+}
+.message {
+	width: 92%;
+}
+}
+.login-verification {
+	margin: 0px 0px 20px;
+}
+.login-verification-push p {
+	margin-bottom: 16px;
+}
+.logged-out .home .Icon {
+	color: rgb(85, 172, 238); padding-right: 2px;
+}
+.logged-out .nav > li > .nav-logo-link {
+	padding: 0px 20px; height: 46px; font-size: 24px; display: block;
+}
+.logged-out .pull-right {
+	margin: 7px 30px 0px 0px;
+}
+.logged-out .global-nav .pull-right .nav {
+	margin-top: 8px;
+}
+.logged-out .global-nav .pull-right .dropdown-toggle {
+	height: auto; padding-bottom: 5px; margin-top: 0px;
+}
+.logged-out .global-nav .pull-right .dropdown-toggle .caret {
+	margin-top: 0px; vertical-align: middle;
+}
+.global-nav--newLoggedOut .SignupForm {
+	padding-bottom: 5px;
+}
+.global-nav--newLoggedOut #global-actions > li > a {
+	border-bottom-color: rgb(85, 172, 238);
+}
+.global-nav--newLoggedOut a {
+	color: rgb(85, 172, 238);
+}
+.global-nav--newLoggedOut a:hover {
+	color: rgb(85, 172, 238);
+}
+.global-nav--newLoggedOut a:focus {
+	color: rgb(85, 172, 238);
+}
+.global-nav--newLoggedOut a:active {
+	color: rgb(85, 172, 238);
+}
+.global-nav--newLoggedOut .SignupForm .SignupForm-submit {
+	padding: 8px 16px; color: rgb(255, 255, 255); background-color: rgb(136, 153, 166);
+}
+.logged-out .global-nav .form-search {
+	text-align: left; margin-top: 0px;
+}
+.front-signin .submit {
+	line-height: 11px;
+}
+.front-signup .signup-btn {
+	line-height: 11px;
+}
+.front-page .wrapper {
+	display: none;
+}
+.front-page {
+	background-color: rgb(41, 41, 41);
+}
+.front-page.front-random-image-cricket {
+	background-color: rgb(136, 40, 17);
+}
+.front-page.front-random-image-iphone-concert {
+	background-color: rgb(170, 0, 48);
+}
+.front-page.front-random-image-city-balcony {
+	background-color: rgb(0, 103, 200);
+}
+.front-page.front-random-image-jp-square {
+	background-color: rgb(52, 56, 65);
+}
+.front-page.front-random-image-jp-boat {
+	background-color: rgb(78, 74, 64);
+}
+.front-page.front-random-image-jp-mountain {
+	background-color: rgb(39, 80, 108);
+}
+.front-page.front-random-image-de-flags {
+	background-color: rgb(162, 23, 0);
+}
+.front-page.front-random-image-de-mobile {
+	background-color: rgb(220, 177, 0);
+}
+.front-page.front-random-image-de-plaza {
+	background-color: rgb(6, 103, 200);
+}
+.front-container {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: absolute; min-height: 545px; max-height: 750px;
+}
+.front-page .front-container {
+	display: block;
+}
+.front-card {
+	left: 50%; width: 838px; position: absolute;
+}
+.front-card {
+	margin: -154px 0px 0px -418px; top: 50%; width: 838px; height: 328px;
+}
+.front-welcome {
+	background: url("../../img/t1/front_page/cricket.jpg") no-repeat left top rgb(0, 0, 0); border: 0px currentColor; border-image: none; width: 520px; height: 328px; float: left; display: block; box-shadow: 0px 1px 0px rgba(0,0,0,0.2), 0px 0px 125px rgba(255,255,255,0.35);
+}
+.front-random-image-cricket .front-welcome {
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.2), 0px 0px 125px rgba(255,190,43,0.35); background-image: url("../../img/t1/front_page/cricket.jpg");
+}
+.front-random-image-jp-mountain .front-welcome {
+	border-radius: 6px; background-image: url("../../img/t1/front_page/jp-mountain.jpg");
+}
+.front-random-image-city-balcony .front-welcome {
+	border-radius: 6px; background-image: url("../../img/t1/front_page/city-balcony.jpg");
+}
+.front-random-image-de-flags .front-welcome {
+	background-image: url("../../img/t1/front_page/de-flags.png");
+}
+.front-random-image-de-mobile .front-welcome {
+	background-image: url("../../img/t1/front_page/de-mobile.png");
+}
+.front-random-image-de-plaza .front-welcome {
+	background-image: url("../../img/t1/front_page/de-plaza.png");
+}
+.front-random-image-de-flags .front-welcome {
+	border-radius: 6px;
+}
+.front-random-image-de-mobile .front-welcome {
+	border-radius: 6px;
+}
+.front-random-image-de-plaza .front-welcome {
+	border-radius: 6px;
+}
+.front-welcome-text {
+	padding: 20px; left: 0px; width: 470px; text-align: left; bottom: 0px; color: rgb(204, 214, 221); line-height: 22px; font-size: 20px; font-weight: 300; position: absolute; text-shadow: 0px 1px 2px #000;
+}
+.front-welcome-text h1 {
+	color: rgb(255, 255, 255); font-size: 20px; font-weight: 700; margin-bottom: 3px;
+}
+.front-signin {
+	width: 300px; margin-bottom: 11px; float: right;
+}
+.front-signup {
+	width: 300px; height: 206px; float: right;
+}
+.front-welcome {
+	border-radius: 4px;
+}
+.front-signin {
+	border-radius: 4px;
+}
+.front-signup {
+	border-radius: 4px;
+}
+.front-signup .signup {
+	padding: 0px;
+}
+.front-welcome .signup-welcome-link {
+	color: rgb(255, 170, 34);
+}
+.front-signin {
+	background: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221)); border-right-color: rgb(225, 232, 237); border-bottom-color: rgb(204, 214, 221); border-left-color: rgb(225, 232, 237); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+}
+.front-signup {
+	background: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221)); border-right-color: rgb(225, 232, 237); border-bottom-color: rgb(204, 214, 221); border-left-color: rgb(225, 232, 237); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+}
+.front-card .text-input {
+	border: 1px solid rgb(204, 214, 221); border-image: none; box-shadow: inset 0px 1px 0px #eee, 0px 1px 0px #fff;
+}
+.front-signin .signin {
+	margin: 12px 12px 6px;
+}
+.front-signin .field {
+	height: 30px;
+}
+.front-card .text-input:focus {
+	border: 1px solid rgb(86, 180, 239); border-image: none; box-shadow: inset 0px 1px 3px rgba(0,0,0,0.05), 0px 0px 8px rgba(82,168,236,0.6);
+}
+.front-card .text-input {
+	height: 20px;
+}
+.front-signin .username .text-input {
+	width: 266px;
+}
+.front-signin .password .text-input {
+	height: 30px;
+}
+.front-signin .username {
+	width: 276px; color: rgb(41, 47, 51);
+}
+.front-signin .password {
+	width: 100%;
+}
+.front-signin .password-signin {
+	margin-top: 6px;
+}
+.front-signin .remember-forgot {
+	margin-top: 4px;
+}
+.front-signin .submit {
+	height: 30px; box-shadow: 0px 1px 0px #fff;
+}
+.front-signin .remember {
+	margin: 0px; color: rgb(136, 153, 166); line-height: 13px; font-size: 11px; display: inline; text-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+}
+.front-signin .forgot {
+	margin: 0px; color: rgb(136, 153, 166); line-height: 13px; font-size: 11px; display: inline; text-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+}
+.front-signin .separator {
+	margin: 0px; color: rgb(136, 153, 166); line-height: 13px; font-size: 11px; display: inline; text-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+}
+.front-signin .remember input[type='checkbox'] {
+	margin: 0px; height: 13px; vertical-align: text-top;
+}
+.ie9 .front-signin .remember input[type='checkbox'] {
+	min-height: auto;
+}
+.front-signin .separator {
+	margin: 0px 1px 0px 2px; color: rgb(136, 153, 166); font-weight: bold;
+}
+.front-signup h2 {
+	padding: 10px 12px; color: rgb(102, 117, 127); font-size: 16px; font-weight: 300; margin-bottom: 12px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative; box-shadow: 0px 1px 0px #fff; text-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+}
+.front-signin h2 {
+	padding: 10px 12px; color: rgb(102, 117, 127); font-size: 16px; font-weight: 300; margin-bottom: 12px; border-bottom-color: rgb(225, 232, 237); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative; box-shadow: 0px 1px 0px #fff; text-shadow: 0px 1px 0px rgba(255,255,255,0.6);
+}
+.front-signup h2 strong {
+	color: rgb(41, 47, 51); font-weight: 500;
+}
+.front-signin h2 strong {
+	color: rgb(41, 47, 51); font-weight: 500;
+}
+body.ru .front-signup h2 {
+	font-size: 13px;
+}
+body.pl .front-signup h2 {
+	font-size: 13px;
+}
+body.ru .front-signup h2 strong {
+	font-weight: bold;
+}
+body.pl .front-signup h2 strong {
+	font-weight: bold;
+}
+.front-signup .field {
+	margin: 6px auto; width: 276px; display: block;
+}
+.front-signup .text-input {
+	width: 266px;
+}
+.front-signup .btn {
+	margin: 1px 12px 0px; height: 30px; padding-right: 12px; padding-left: 12px; box-shadow: 0px 1px 0px #fff;
+}
+.front-signup .legal {
+	width: 280px; color: rgb(153, 153, 153); line-height: 14px; padding-left: 12px; font-size: 11px;
+}
+.front-container .footer {
+	width: 100%; text-align: center; bottom: 30px; color: rgb(255, 255, 255); font-size: 11px; position: absolute;
+}
+.front-container .footer {
+	color: rgba(255, 255, 255, 0.25);
+}
+.front-container .footer a {
+	color: rgb(255, 255, 255);
+}
+.front-container .footer a {
+	color: rgba(255, 255, 255, 0.5);
+}
+.front-container .footer ul {
+	display: inline-block;
+}
+.front-container .footer a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.front-container .footer li {
+	margin: 0px 3px; display: inline;
+}
+.front-container .footer .divider {
+	display: none;
+}
+.front-warning {
+	margin: 0px 0px 0px -418px; padding: 15px 20px; border-radius: 6px; left: 50%; top: 50px; width: 798px; height: 30px; color: rgb(204, 214, 221); line-height: 1.5; position: absolute; z-index: 2; background-color: rgba(20, 20, 20, 0.9);
+}
+.front-warning h3 {
+	color: rgb(254, 198, 50); font-weight: bold;
+}
+.front-warning a {
+	color: rgb(117, 198, 247);
+}
+#front-no-cookies-warn {
+	display: none;
+}
+.front-page-photo-set .front-signin {
+	background: white; border: 1px solid rgb(111, 163, 196); border-image: none; box-shadow: none;
+}
+.front-page-photo-set .front-signin h2 {
+	padding: 12px; font-size: 14px;
+}
+.front-page-photo-set .front-signin .username {
+	left: auto; top: auto; width: auto; position: relative;
+}
+.front-page-photo-set .username input {
+	width: 266px;
+}
+.front-page-photo-set .password input {
+	width: 98%;
+}
+.front-page-photo-set .session-dropdown .username span {
+	line-height: 25px; font-size: 12px; font-weight: bold;
+}
+.front-page-photo-set .session-dropdown .password span {
+	line-height: 25px; font-size: 12px; font-weight: bold;
+}
+.front-page-photo-set .front-signin .subchck {
+	text-align: right; display: block;
+}
+.front-page-photo-set .front-signin .remember {
+	font-size: 12px;
+}
+.front-page-photo-set .front-signin .forgot {
+	font-size: 12px;
+}
+.front-page-photo-set .front-signin .remember {
+	line-height: 20px;
+}
+.front-page-photo-set .front-signin .forgot {
+	color: rgb(0, 132, 180);
+}
+.front-page-photo-set .front-signin .remember input[type='checkbox'] {
+	vertical-align: baseline;
+}
+.front-page-photo-set .front-signin .footer-links {
+	bottom: 14px; color: rgb(0, 132, 180); position: absolute;
+}
+.front-page-photo-set .front-signup {
+	background: rgb(255, 255, 255); box-shadow: none;
+}
+.front-page-photo-set .front-container .footer a {
+	color: white;
+}
+.front-page-photo-set .front-container .footer .copyright {
+	color: white;
+}
+.front-page-photo-set .footer.inline-list {
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+}
+.front-page-photo-set .front-signup {
+	border: 1px solid rgb(111, 163, 196); border-image: none;
+}
+.front-page-photo-set .front-container {
+	min-height: 690px;
+}
+.front-page-photo-set .front-bg .front-image {
+	display: block;
+}
+.front-page-photo-set .front-card {
+	margin-top: -228px;
+}
+.front-page-photo-set .front-card {
+	height: 410px;
+}
+.front-page-photo-set .front-container-full-signup .front-welcome {
+	height: 410px;
+}
+.front-page-photo-set .front-welcome-text {
+	top: 0px; height: 328px;
+}
+.front-page-photo-set .front-welcome-text h1 {
+	color: rgb(255, 255, 255); line-height: 44px; font-size: 38px; margin-bottom: 30px; text-shadow: none;
+}
+.front-page-photo-set .front-welcome-text p {
+	color: rgb(255, 255, 255); line-height: 31px; font-size: 21px; text-shadow: none;
+}
+.front-page-photo-set .background-companion-tweets {
+	width: 400px; height: 82px; bottom: 0px; position: absolute;
+}
+.front-page-photo-set .companion-tweet {
+	display: none;
+}
+.front-page-photo-set .companion-tweet a {
+	color: rgb(255, 255, 255);
+}
+.front-page-photo-set .companion-tweet .text {
+	margin-bottom: 20px; white-space: pre-line;
+}
+.front-page-photo-set .companion-tweet .time {
+	text-align: left; clear: both; text-decoration: underline; margin-bottom: 7px; float: left; white-space: nowrap;
+}
+.front-page-photo-set .companion-tweet .username {
+	text-align: left; clear: both; text-decoration: underline; margin-bottom: 7px; float: left; white-space: nowrap; direction: ltr;
+}
+.front-page-photo-set .front-signin {
+	border: 1px solid rgb(225, 232, 237); border-image: none;
+}
+.front-page-photo-set .front-signup {
+	border: 1px solid rgb(225, 232, 237); border-image: none;
+}
+.front-page-photo-set .front-signin .text-input {
+	border: 1px solid rgb(204, 214, 221); border-image: none;
+}
+.front-page-photo-set .front-signup .text-input {
+	border: 1px solid rgb(204, 214, 221); border-image: none;
+}
+.front-page-photo-set .front-container-full-signup .footer ul {
+	width: auto; text-align: center;
+}
+.front-bg {
+	background: rgb(0, 0, 0); left: -50%; width: 200%; height: 200%; position: fixed;
+}
+.front-bg img {
+	margin: auto; left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; min-height: 50%; min-width: 50%;
+}
+.front-random-image-cricket .front-bg .front-image {
+	display: block;
+}
+.front-random-image-city-balcony .front-bg .front-image {
+	display: block;
+}
+.front-random-image-jp-mountain .front-bg .front-image {
+	display: block;
+}
+.front-container-full-signup .front-welcome {
+	background: 0px; box-shadow: none;
+}
+.front-container-full-signup .front-welcome-text {
+	padding: 0px; bottom: 50%;
+}
+.front-container-full-signup .footer ul {
+	margin: 0px auto; width: 838px; text-align: left;
+}
+.front-container-full-signup .footer ul li {
+	margin: 0px 6px 0px 0px;
+}
+.WebUpdatedHomepage {
+	font-size: 12px;
+}
+.WebUpdatedHomepage.front-page {
+	background: rgb(245, 248, 250);
+}
+.WebUpdatedHomepage .front-container {
+	height: 650px;
+}
+.WebUpdatedHomepage-frontmain {
+	background: url("../../img/t1/front_page/nh-headerbg.png") repeat-x; height: 550px;
+}
+.WebUpdatedHomepage-frontmain a {
+	color: rgb(31, 158, 204); text-decoration: none;
+}
+.WebUpdatedHomepage-frontmain a:hover {
+	text-decoration: underline;
+}
+.WebUpdatedHomepage-frontmain a:focus {
+	text-decoration: underline;
+}
+.WebUpdatedHomepage .global-nav {
+	background-color: rgb(255, 255, 255);
+}
+.WebUpdatedHomepage .global-nav-inner {
+	margin: 0px auto; max-width: 950px;
+}
+.WebUpdatedHomepage .global-nav-inner > li .Icon {
+	float: left;
+}
+.WebUpdatedHomepage .global-nav-inner .dropdown {
+	float: right;
+}
+.WebUpdatedHomepage .front-container .footer {
+	color: rgb(136, 153, 166); line-height: 20px; font-size: 12px; position: absolute;
+}
+.WebUpdatedHomepage .front-container .footer {
+	color: rgb(136, 153, 166);
+}
+.WebUpdatedHomepage .front-container .footer a {
+	color: rgb(0, 132, 180); text-decoration: none;
+}
+.WebUpdatedHomepage .front-container .footer a {
+	color: rgb(0, 132, 180);
+}
+.WebUpdatedHomepage .front-container .footer a:focus {
+	color: rgb(0, 132, 180); text-decoration: underline;
+}
+.WebUpdatedHomepage .front-container .footer a:hover {
+	color: rgb(0, 132, 180); text-decoration: underline;
+}
+.WebUpdatedHomepage .front-container .footer li {
+	margin: 0px 4px;
+}
+.FrontCard {
+	margin: 0px auto; width: 892px; padding-top: 120px;
+}
+.FrontCard-welcome {
+	letter-spacing: 0.5px;
+}
+.FrontCard-welcome-blurb {
+	width: 500px; color: rgb(245, 248, 250); padding-bottom: 30px; padding-left: 5px;
+}
+.FrontCard-welcome-blurb .Icon {
+	line-height: 44px; padding-right: 10px; font-size: 46px;
+}
+.FrontCard-welcome h1 {
+	color: rgb(255, 255, 255); font-size: 28px; font-weight: 700; margin-bottom: 44px;
+}
+.FrontCard-welcome h3 {
+	color: rgb(245, 248, 250); padding-top: 5px; font-size: 16px; font-weight: 500;
+}
+.FrontCard-sidebar {
+	width: 300px; margin-top: -30px;
+}
+.FrontCard-sidebarMobile {
+	color: rgb(41, 47, 51); line-height: 45px; font-size: 12px;
+}
+.FrontCard-sidebarMobile a {
+	margin: 0px 4px;
+}
+.FrontCard .front-signin {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(225, 232, 237); border-radius: 6px; border-image: none; margin-bottom: 12px; position: static;
+}
+.FrontCard .front-signup {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(225, 232, 237); border-radius: 6px; border-image: none; margin-bottom: 12px; position: static;
+}
+.FrontCard-sidebarMobile {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(225, 232, 237); border-radius: 6px; border-image: none; margin-bottom: 12px; position: static;
+}
+.FrontCard .front-signin {
+	padding-top: 10px;
+}
+.FrontCard .front-signup {
+	height: 204px;
+}
+.FrontCard .text-input {
+	border-radius: 6px; height: 20px; padding-left: 5px; font-size: 12px;
+}
+.FrontCard .front-signin .username {
+	margin: 6px auto; height: 30px; position: static;
+}
+.FrontCard .front-signin .password-signin {
+	margin: 6px auto; height: 30px; position: static;
+}
+.FrontCard .front-signin .remember-forgot {
+	margin: 6px auto; height: 30px; position: static;
+}
+.FrontCard .front-signin .password .text-input {
+	height: 30px;
+}
+.FrontCard .front-signin .forgot a {
+	color: rgb(31, 158, 204);
+}
+.FrontCard .front-signin .primary-btn {
+	padding: 0px 10px; letter-spacing: 0.5px; font-size: 13px;
+}
+.FrontCard .signup-btn.btn {
+	padding: 0px 7px; letter-spacing: 0.5px; font-size: 13px; margin-right: 12px; position: static; text-shadow: none;
+}
+.SignupCallOut {
+	padding: 15px; border-radius: 6px; border: 1px solid rgb(225, 232, 237); border-image: none; background-color: rgb(136, 153, 166);
+}
+.SignupCallOut--wide {
+	padding: 30px 40px; border: 1px solid rgba(0, 0, 0, 0.1); border-image: none;
+}
+.SignupCallOut--collapsed .SignupForm {
+	display: none;
+}
+.SignupCallOut-title {
+	color: rgb(255, 255, 255); line-height: 26px; font-size: 22px; font-weight: 300; margin-bottom: 5px;
+}
+.SignupCallOut-title b {
+	font-weight: 700;
+}
+.SignupCallOut-subheader {
+	color: rgb(136, 153, 166);
+}
+.SignupCallOut .SignupCallOut-expand {
+	width: 100%; margin-top: 10px;
+}
+.SignupCallOut--fastSignup {
+	color: rgb(136, 153, 166); background-color: rgb(225, 232, 237);
+}
+.SignupCallOut--fastSignup .SignupForm--wide .SignupForm-submit {
+	float: left;
+}
+.SignupCallOut--fastSignup .SignupCallOut-title {
+	color: rgb(102, 117, 127);
+}
+.SignupCallOut--fastSignup .signup {
+	padding-bottom: 0px;
+}
+.SignupDialog .SignupDialog-body {
+	padding: 30px;
+}
+.SignupDialog-icon {
+	color: rgb(85, 172, 238);
+}
+.SignupDialog-heading {
+	margin: 20px 0px; color: rgb(102, 117, 127); line-height: 26px; font-size: 22px; font-weight: 300;
+}
+.SignupDialog-form {
+	margin: 0px auto; width: 260px;
+}
+.SignupDialog .SignupDialog-footer {
+	border-color: rgb(225, 232, 237); color: rgb(136, 153, 166); line-height: 1; font-size: 14px; font-weight: 400;
+}
+.SignupDialog-signinLink {
+	color: rgb(59, 148, 217);
+}
+.SignupForm input {
+	width: 100%; margin-top: 10px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.SignupForm-header {
+	margin-bottom: 10px;
+}
+.SignupForm--wide .SignupForm-inputsContainer {
+	margin-bottom: 15px;
+}
+.SignupForm--wide .SignupForm-input {
+	width: 33.33%; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.SignupForm--wide .SignupForm-name {
+	padding-right: 5px;
+}
+.SignupForm--wide .SignupForm-email {
+	padding: 0px 5px;
+}
+.SignupForm--wide .SignupForm-password {
+	padding-left: 5px;
+}
+.SignupForm--wide .SignupForm-submit {
+	width: auto; margin-top: 0px; float: right;
+}
+.SignupForm .SignupForm-submit {
+	padding: 11px 16px; border: 0px currentColor; border-image: none; font-size: 16px; font-weight: normal; box-shadow: none; background-image: none;
+}
+.SignupForm .btn:focus {
+	box-shadow: none;
+}
+.SignupForm .btn.focus {
+	box-shadow: none;
+}
+.SignupForm-submit.SignupForm-submit--yellowButton {
+	border-color: rgb(255, 170, 34); color: rgb(41, 47, 51); background-image: linear-gradient(rgb(254, 233, 79), rgb(253, 154, 15)); background-repeat: repeat-x; background-color: rgb(253, 154, 15);
+}
+.SignupForm-submit.SignupForm-submit--yellowButton:hover {
+	border-color: rgb(236, 139, 17); background-image: linear-gradient(rgb(254, 220, 77), rgb(253, 149, 18)); background-repeat: repeat-x; background-color: rgb(253, 149, 18);
+}
+.SignupForm-submit.SignupForm-submit--yellowButton:focus {
+	border-color: rgb(236, 139, 17); background-image: linear-gradient(rgb(254, 220, 77), rgb(253, 149, 18)); background-repeat: repeat-x; background-color: rgb(253, 149, 18);
+}
+.SignupForm-submit.SignupForm-submit--yellowButton:active {
+	border-color: rgb(236, 139, 17); background-image: none;
+}
+.SignupForm input:focus {
+	border-color: rgb(85, 172, 238); box-shadow: none;
+}
+.SignupForm .primary-btn:focus {
+	border-color: rgb(255, 255, 255);
+}
+.LoginCallOut {
+	padding: 15px; border-radius: 6px; border: 1px solid rgb(225, 232, 237); border-image: none; background-color: rgb(136, 153, 166) !important;
+}
+.LoginCallOut-title {
+	color: rgb(255, 255, 255); line-height: 26px; font-size: 22px; font-weight: 300; margin-bottom: 5px;
+}
+.LoginDialog .LoginDialog-body {
+	padding: 30px;
+}
+.LoginDialog-bird {
+	color: rgb(85, 172, 238);
+}
+.LoginDialog-form {
+	margin: 0px auto; width: 260px;
+}
+.LoginDialog .LoginForm-rememberForgot {
+	text-align: left;
+}
+.LoginDialog .LoginDialog-footer {
+	border-color: rgb(225, 232, 237); color: rgb(136, 153, 166); line-height: 1; font-size: 14px; font-weight: 400;
+}
+.LoginDialog-signupLink {
+	color: rgb(59, 148, 217);
+}
+.LoginForm input {
+	width: 100%; margin-top: 10px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.LoginForm input[type=checkbox] {
+	width: auto;
+}
+.LoginForm label {
+	color: rgb(136, 153, 166);
+}
+.LoginForm .separator {
+	color: rgb(136, 153, 166);
+}
+.LoginForm-rememberForgot {
+	font-size: 12px;
+}
+.LoginForm--wide .LoginForm-inputsContainer {
+	margin-bottom: 15px;
+}
+.LoginForm--wide .LoginForm-input {
+	width: 33.33%; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.LoginForm--wide .LoginForm-name {
+	padding-right: 5px;
+}
+.LoginForm--wide .LoginForm-email {
+	padding: 0px 5px;
+}
+.LoginForm--wide .LoginForm-password {
+	padding-left: 5px;
+}
+.LoginForm--wide .LoginForm-submit {
+	width: auto; margin-top: 0px; float: right;
+}
+.LoginForm input:focus {
+	border-color: rgb(85, 172, 238); box-shadow: none;
+}
+.LoginForm .primary-btn:focus {
+	border-color: rgb(255, 255, 255);
+}
+.MomentSensitiveContentDialog .modal-body {
+	border-radius: 4px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(29, 161, 242);
+}
+.MomentSensitiveContentDialog .Icon--close {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.MomentSensitiveContentDialog-message {
+	margin: 100px 0px;
+}
+.MomentSensitiveContentDialog-title {
+	color: rgb(255, 255, 255); margin-bottom: 10px;
+}
+.MomentSensitiveContentDialog-actions {
+	display: flex; flex-direction: column; justify-content: inherit; align-items: center; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -webkit-align-items: center; -moz-box-align: center; -webkit-justify-content: inherit; -moz-box-pack: inherit;
+}
+.MomentSensitiveContentDialog-button {
+	padding: 10px 40px; border-radius: 4px; border: 0px currentColor; border-image: none; color: rgb(29, 161, 242); margin-bottom: 10px; background-color: rgb(255, 255, 255);
+}
+.MomentSensitiveContentDialog-link {
+	color: rgb(255, 255, 255);
+}
+.MomentSensitiveContentDialog-link:hover {
+	color: rgb(255, 255, 255);
+}
+.MomentSensitiveContentDialog-link:focus {
+	color: rgb(255, 255, 255);
+}
+.MomentSensitiveContentDialog .MomentSensitiveContentDialog-button:focus {
+	box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 3px rgba(255,255,255,0.5);
+}
+.MomentShareDialog .MomentShareDialog-description {
+	font-size: 12px; margin-bottom: 10px;
+}
+.MomentShareDialog-description a {
+	color: rgb(136, 153, 166);
+}
+.MomentShareDialog .MomentShareDialog-url {
+	padding: 7px 9px; width: 100%; height: 35px; line-height: 21px; overflow: hidden; font-size: 14px; display: block; white-space: nowrap; cursor: default; box-sizing: border-box; -moz-box-sizing: border-box; resize: none;
+}
+.MomentShareDialog .MomentShareDialog-url--embed {
+	height: 56px;
+}
+.MomentShareDialog-loading {
+	background: url("../../img/t1/spinner-rosetta-blue-26x26.gif") no-repeat 0px 0px; margin: 10px auto; width: 26px; height: 26px;
+}
+.MomentMediaBadge-animation--bars {
+	background: url("../../img/moments/audio_equalizer.png") no-repeat left / 4900%; width: 11px; height: 11px;
+}
+.MomentCapsuleItem.is-playing .MomentMediaBadge-animation--bars {
+	animation-name: audio-animation; animation-duration: 1s; animation-timing-function: steps(48, end); animation-iteration-count: infinite; -webkit-animation-duration: 1s; -webkit-animation-timing-function: steps(48); -webkit-animation-name: audio-animation; -webkit-animation-iteration-count: infinite;
+}
+.MomentMediaBadge {
+	background: rgba(0, 0, 0, 0.5); border-radius: 3px; color: rgb(255, 255, 255); line-height: 12px; display: inline-block; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.MomentMediaBadge-text {
+	padding: 1px 4px; text-transform: uppercase; line-height: 14px; letter-spacing: 0.05em; font-size: 10px; font-weight: 500;
+}
+.MomentMediaBadge .Icon--vineBadge {
+	padding: 1px 4px;
+}
+.MomentMediaBadge .Icon--gifBadge {
+	padding: 0px 4px;
+}
+.MomentMediaBadge-animation {
+	padding: 3px 4px 4px;
+}
+.MomentMediaItem {
+	overflow: hidden; background-color: rgb(225, 232, 237);
+}
+:not(.MomentMediaItem--preview).MomentMediaItem {
+	display: flex; max-height: 784px; flex-direction: column; justify-content: center; align-items: center; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -webkit-align-items: center; -moz-box-align: center; -webkit-justify-content: center; -moz-box-pack: center;
+}
+:not(.MomentMediaItem--preview).MomentMediaItem::after {
+	transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; content: ""; pointer-events: none; background-image: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.4));
+}
+.MomentMediaItem-playOnHover {
+	left: 0px; top: 0px; width: 100%; height: 70%; position: absolute;
+}
+.MomentMediaItem-embedOverlay {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.MomentMediaItem.is-playing .MomentMediaItem-playButton .Icon--playButton {
+	transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); opacity: 0; transform: scale(1.5); -webkit-transform: scale(1.5);
+}
+.MomentMediaItem-muteToggle {
+	left: 10px; top: 10px; position: absolute;
+}
+.MomentMediaItem-muteToggle button {
+	padding: 0px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); font-size: 20px; text-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+.MomentMediaItem.is-muted .MomentMediaItem-muteButton {
+	display: none;
+}
+:not(.is-muted).MomentMediaItem .MomentMediaItem-unmuteButton {
+	display: none;
+}
+:not(.is-muted).MomentMediaItem .MomentMediaItem-muteButton {
+	display: block;
+}
+.MomentMediaItem.is-muted .MomentMediaItem-unmuteButton {
+	display: block;
+}
+.MomentMediaItem-entity {
+	transition:opacity 0.5s ease-in-out; flex:0 0 auto; opacity: 0; -webkit-flex: 0 0 auto; -moz-box-flex: 0;
+}
+[data-loaded='true'].MomentMediaItem .MomentMediaItem-entity {
+	opacity: 1;
+}
+.MomentMediaItem-entity--image {
+	display: block;
+}
+.MomentMediaItem-entity--embed iframe {
+	width: 100%; height: 100%; position: static;
+}
+.MomentMediaItem-cta {
+	padding: 3px 7px; border-radius: 4px; border: 1px solid rgb(255, 255, 255); transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); border-image: none; top: 10px; right: 10px; position: absolute; opacity: 0.8; background-color: rgba(0, 0, 0, 0.8);
+}
+.MomentMediaItem-cta:hover {
+	opacity: 1;
+}
+.MomentMediaItem-ctaLink {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.MomentMediaItem-ctaLink:hover {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.MomentMediaItem-ctaLink:focus {
+	color: rgb(255, 255, 255); font-size: 12px; text-decoration: none;
+}
+.MomentCapsuleDetails {
+	padding-right: 14px; display: flex; flex-direction: column; justify-content: space-between; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal; -webkit-justify-content: space-between; -moz-box-pack: justify;
+}
+.MomentCapsuleDetails .MomentCapsuleSubtitle {
+	text-transform: uppercase; letter-spacing: 0.5px; font-size: 10px; font-weight: 500;
+}
+.MomentCapsuleDetails-articleInfo {
+	flex:2 0 auto; -webkit-flex: 2; -moz-box-flex: 2;
+}
+.MomentCapsuleDetails-title {
+	padding: 0px; color: inherit; font-size: 21px; font-weight: 500; margin-bottom: 8px;
+}
+.MomentCapsuleDetails-titleLink {
+	color: rgb(41, 47, 51);
+}
+.MomentCapsuleDetails-titleLink:hover {
+	color: rgb(85, 172, 238); text-decoration: none;
+}
+.MomentCapsuleDetails-description {
+	padding: 0px; color: rgb(136, 153, 166); line-height: 1.3; font-size: 14px; font-weight: 400; -ms-word-wrap: break-word;
+}
+.MomentCapsuleDetails-state {
+	display: flex; align-items: center; -webkit-align-items: center; -moz-box-align: center;
+}
+.MomentCapsuleDetails-state .MomentPromotedBadge {
+	order: 1; -webkit-order: 1; -moz-box-ordinal-group: 2;
+}
+.MomentCapsuleDetails-state .MomentTimeBadge {
+	order: 1; -webkit-order: 1; -moz-box-ordinal-group: 2;
+}
+.MomentCapsuleDetails-state .MomentTimeBadge-live {
+	margin-right: 2px;
+}
+.MomentCapsuleDetails .MomentFollowButton {
+	margin-right: 10px;
+}
+.MomentCapsuleItem {
+	overflow: visible; position: relative;
+}
+:first-child.MomentCapsuleItem {
+	border-top-left-radius: 4px; border-top-right-radius: 4px;
+}
+:first-child.MomentCapsuleItem .MomentMediaItem-entity {
+	border-top-left-radius: 4px; border-top-right-radius: 4px;
+}
+:first-child.MomentCapsuleItem :not(.MomentMediaItem--preview).MomentMediaItem::after {
+	border-top-left-radius: 4px; border-top-right-radius: 4px;
+}
+:last-child.MomentCapsuleItem {
+	border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+:last-child.MomentCapsuleItem .MomentMediaItem-entity {
+	border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+:last-child.MomentCapsuleItem :not(.MomentMediaItem--preview).MomentMediaItem::after {
+	border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+.MomentCapsuleItem:hover {
+	cursor: pointer;
+}
+.MomentCapsuleItem--withText {
+	padding: 28px 40px 20px;
+}
+.MomentCapsuleItem--withText::before {
+	left: 50%; top: 0px; width: 48px; height: 1px; margin-left: -24px; display: block; position: absolute; z-index: 1; content: ""; background-color: rgb(204, 214, 221);
+}
+:first-child.MomentCapsuleItem--withText::before {
+	display: none;
+}
+.MomentCapsuleItem--withMedia + .MomentCapsuleItem--withText::before {
+	display: none;
+}
+.MomentCapsuleItem--withMedia {
+	overflow: hidden;
+}
+.MomentCapsuleItem--withMedia:hover {
+	overflow: visible; z-index: 4;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItem-tweetWrapper {
+	left: 0px; width: 100%; height: 30%; bottom: 0px; position: absolute;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItemTweet-textFull {
+	transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); max-height: 0px; opacity: 0;
+}
+.MomentCapsuleItem--withMedia .MomentTweetActions {
+	transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); max-height: 0px; opacity: 0;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItem-tweetWrapper:hover .MomentCapsuleItemTweet-textTruncated {
+	opacity: 0;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItem-tweetWrapper:hover .MomentCapsuleItemTweet-textFull {
+	max-height: 100px; opacity: 1;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItem-tweetWrapper:hover .MomentTweetActions {
+	max-height: 21px; opacity: 1;
+}
+.MomentCapsuleItem--withMedia .MomentCapsuleItem-tweetWrapper:hover ~ .MomentMediaItem::after {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.MomentCapsuleItemTweet {
+	color: rgb(255, 255, 255); line-height: 1.5;
+}
+.MomentCapsuleItemTweet .Icon {
+	text-shadow: none;
+}
+.MomentCapsuleItemTweet-text .TweetTextSize {
+	line-height: 1.3;
+}
+.MomentCapsuleItemTweet-text .invisible {
+	line-height: 0; font-size: 0px;
+}
+.MomentCapsuleItemTweet-fullname {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet-fullname .Icon--verified {
+	top: 1px; color: rgb(255, 255, 255); line-height: 1; font-size: 14px; margin-left: 3px;
+}
+.MomentCapsuleItemTweet-fullname .Icon--verified::before {
+	color: rgb(41, 47, 51);
+}
+.MomentCapsuleItemTweet-byline .account-group:hover .MomentCapsuleItemTweet-fullname {
+	text-decoration: underline;
+}
+.MomentCapsuleItemTweet-byline {
+	white-space: nowrap;
+}
+.MomentCapsuleItemTweet-byline {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleItemTweet-username {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleItemTweet-date a {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleItemTweet-date a:hover {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleItemTweet-date .time a {
+	font-size: 14px;
+}
+.MomentCapsuleItemTweet--withText {
+	color: rgb(41, 47, 51); padding-top: 28px; display: flex; flex-direction: column; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal;
+}
+.MomentCapsuleItemTweet--withText .Icon--verified {
+	color: rgb(136, 201, 249);
+}
+.MomentCapsuleItemTweet--withText .Icon--verified::before {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-byline {
+	margin: 0px auto 10px; color: rgb(41, 47, 51); display: table;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-avatar {
+	border-radius: 5px; width: 48px; height: 48px; margin-right: 8px; float: left;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-fullname {
+	color: rgb(41, 47, 51); line-height: 1; font-size: 17px; white-space: nowrap;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-nameBreak {
+	display: block;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-text {
+	text-align: center; margin-bottom: 10px;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-text .TweetTextSize {
+	font-size: 17px;
+}
+.MomentCapsuleItemTweet--withText .MomentCapsuleItemTweet-textTruncated {
+	display: none;
+}
+.MomentCapsuleItemTweet--withMedia {
+	left: 12px; right: 12px; bottom: 12px; font-size: 12px; position: absolute;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-byline .account-group {
+	color: rgb(136, 153, 166); overflow: hidden; vertical-align: bottom; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 70%;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-fullname {
+	font-weight: 600;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-username {
+	color: rgba(255, 255, 255, 0.6);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text .TweetTextSize {
+	font-size: 12px;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-date a {
+	font-size: 12px;
+}
+.MomentCapsuleItemTweet--withMedia .Icon--verified {
+	font-size: 12px;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text {
+	position: relative; min-height: 16px;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text .TweetTextSize {
+	white-space: normal;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-textTruncated .TweetTextSize {
+	overflow: hidden; padding-right: 5px; white-space: nowrap; -ms-text-overflow: ellipsis; max-height: 16px;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-textTruncated {
+	transition:0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); left: 0px; top: 0px; right: 0px; position: absolute; pointer-events: none;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:active {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:focus {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:hover {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a b {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:active b {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:focus b {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:hover b {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a s {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:active s {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:focus s {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-text a:hover s {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-fullname {
+	color: rgb(255, 255, 255);
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-avatar {
+	display: none;
+}
+.MomentCapsuleItemTweet--withMedia .MomentCapsuleItemTweet-date {
+	display: none;
+}
+.MomentCapsuleList-title {
+	padding: 15px 13px; font-size: 18px; border-top-color: rgb(225, 232, 237); border-right-color: rgb(225, 232, 237); border-left-color: rgb(225, 232, 237); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-left-radius: 4px; border-top-right-radius: 4px; background-color: rgb(255, 255, 255);
+}
+.MomentCapsuleList .MomentCapsuleSummary {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.MomentCapsuleList-featured {
+	margin-bottom: 10px;
+}
+.MomentCapsuleList-featured .MomentCapsuleSummary {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.MomentCapsuleList-title + .MomentCapsuleList-featured .MomentCapsuleSummary {
+	border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.MomentCapsuleList-title + .MomentCapsuleList-featured .MomentMediaItem {
+	border-top-right-radius: 0px;
+}
+.MomentCapsuleList-list :first-child.MomentCapsuleSummary {
+	border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid; border-top-left-radius: 4px; border-top-right-radius: 4px;
+}
+.MomentCapsuleList :last-child.MomentCapsuleSummary {
+	border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+.MomentCapsuleList--siderail :first-child.MomentCapsuleSummary {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none; border-top-left-radius: 0px; border-top-right-radius: 0px;
+}
+.MomentCapsuleList--siderail .MomentCapsuleList-title {
+	padding: 15px 12px 0px;
+}
+.MomentCapsuleMenu {
+	float: right;
+}
+.MomentCapsuleMenu-button {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleMenu-button:hover {
+	color: rgb(85, 172, 238);
+}
+.MomentCapsuleMenu.open .MomentCapsuleMenu-button {
+	color: rgb(85, 172, 238);
+}
+.MomentCapsuleMenu .dropdown-menu {
+	left: -12px;
+}
+.MomentCapsuleMenu .dropdown-menu--rightAlign {
+	right: -10px;
+}
+.MomentCapsulePermalink {
+	position: relative;
+}
+.MomentCapsulePermalink-content {
+	border-radius: 4px; border: 1px solid rgb(225, 232, 237); border-image: none; background-color: rgb(255, 255, 255);
+}
+.MomentCapsulePermalink .MomentsCapsuleItemCard.card2 {
+	padding: 0px; margin-top: 5px; margin-bottom: 15px;
+}
+.MomentCapsuleSubtitle {
+	color: rgb(136, 153, 166);
+}
+.MomentCapsuleSubtitle-icon {
+	border-radius: 2px; top: -1px; width: 12px; height: 12px; vertical-align: middle; display: inline-block; position: relative;
+}
+.MomentCapsuleSummary {
+	background: rgb(255, 255, 255); padding: 18px 14px; border: 1px solid rgb(225, 232, 237); border-image: none; width: 100%; display: flex; position: relative; cursor: pointer; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.MomentCapsuleSummary .MomentCapsuleSummary-preview {
+	order: 1; -webkit-order: 1; -moz-box-ordinal-group: 2;
+}
+.MomentCapsuleSummary .MomentCapsuleDetails {
+	flex:2 1 0px; -webkit-flex: 2; -moz-box-flex: 2;
+}
+.MomentCapsuleSummary--large {
+	padding: 0px; border-radius: 4px; border: 1px solid rgb(225, 232, 237); border-image: none; overflow: hidden;
+}
+.MomentCapsuleSummary--large .MomentCapsuleSummary-preview {
+	flex:2.2 1 0px; -webkit-flex: 2.2; -moz-box-flex: 2.2;
+}
+.MomentCapsuleSummary--large .MomentMediaItem {
+	overflow: hidden; z-index: 1; border-top-right-radius: 4px; border-bottom-right-radius: 4px;
+}
+.MomentCapsuleSummary--large .MomentCapsuleDetails {
+	padding: 18px 14px;
+}
+.MomentCapsuleSummary--large .MomentCapsuleDetails-title {
+	line-height: 22px; overflow: hidden; font-size: 18px; margin-bottom: 5px; max-height: 44px;
+}
+.MomentCapsuleSummary--large .MomentCapsuleDetails-description {
+	overflow: hidden; max-height: 54.6px;
+}
+.MomentCapsuleSummary--medium .MomentCapsuleDetails-title {
+	padding: 0px; line-height: 22px; overflow: hidden; font-size: 18px; margin-bottom: 5px; max-height: 44px;
+}
+.MomentCapsuleSummary--medium .MomentCapsuleDetails-description {
+	overflow: hidden; max-height: 54.6px;
+}
+.MomentCapsuleSummary--medium .MomentCapsuleSummary-preview {
+	width: 162px;
+}
+.MomentCapsuleSummary--small {
+	padding: 12px;
+}
+.MomentCapsuleSummary--small .MomentCapsuleSummary-preview {
+	width: 56px;
+}
+.MomentCapsuleSummary--small .MomentCapsuleDetails-state {
+	display: block;
+}
+.MomentCapsuleSummary--small .MomentCapsuleDetails-time {
+	margin-bottom: 5px;
+}
+.MomentCapsuleSummary--small .MomentCapsuleDetails-title {
+	line-height: 18px; overflow: hidden; font-size: 14px; margin-bottom: 5px; max-height: 36px;
+}
+.MomentCapsuleSummary--small .MomentFollowButton {
+	display: none;
+}
+.MomentCapsuleSummary--small .MomentCapsuleDetails-description {
+	display: none;
+}
+.MomentCapsuleSummary--card {
+	padding: 0px; border-radius: 5px; flex-direction: column; -webkit-flex-direction: column; -moz-box-orient: vertical; -moz-box-direction: normal;
+}
+.MomentCapsuleSummary--card .MomentCapsuleDetails {
+	padding: 10px; flex:0 0 auto; -webkit-flex: none; -moz-box-flex: 0;
+}
+.MomentCapsuleSummary--card .MomentCapsuleDetails-title {
+	line-height: 18px; overflow: hidden; font-size: 14px; font-weight: 500; margin-bottom: 5px; -ms-word-wrap: break-word; max-height: 18px;
+}
+.MomentCapsuleSummary--card .MomentCapsuleDetails-titleLink:hover {
+	color: rgb(41, 47, 51); text-decoration: underline;
+}
+.MomentCapsuleSummary--card .MomentCapsuleDetails-description {
+	display: none;
+}
+.MomentCapsuleSummary--card .MomentMediaItem {
+	z-index: 1; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;
+}
+.MomentCategories .list-link:focus {
+	font-weight: 500;
+}
+.MomentCategories .active .list-link {
+	font-weight: 500;
+}
+.MomentCategories .active .list-link:focus {
+	font-weight: 500;
+}
+.MomentCoverSiderail {
+	border-radius: 4px; border: 1px solid rgb(225, 232, 237); border-image: none; z-index: 3; background-color: rgb(255, 255, 255);
+}
+.MomentCoverSiderail .MomentMediaItem {
+	border-top-left-radius: 4px; border-top-right-radius: 4px;
+}
+.MomentCoverSiderail.is-fixed {
+	top: 56px; width: 288px; position: fixed;
+}
+.MomentCoverSiderail.is-fixed .MomentMediaItem {
+	display: none;
+}
+.MomentCoverSiderail-summaryContainer {
+	padding: 15px;
+}
+.MomentCoverSiderail-shareContainer {
+	padding: 15px; border-top-color: rgb(225, 232, 237); border-top-width: 1px; border-top-style: solid;
+}
+.MomentCoverSiderail-title {
+	color: rgb(41, 47, 51);
+}
+.MomentCoverSiderail-details {
+	margin-top: 12px;
+}
+.MomentCoverSiderail-description {
+	margin-top: 12px;
+}
+.MomentCoverSiderail .MomentFollowButton {
+	margin-top: 12px;
+}
+.MomentCoverSiderail .MomentPromotedBadge {
+	margin-top: 12px;
+}
+.MomentCoverSiderail .MomentCapsuleSubtitle {
+	font-size: 11px; display: inline-block;
+}
+.MomentCoverSiderail .MomentCapsuleSubtitle-author {
+	color: rgb(41, 47, 51); font-weight: 600;
+}
+.MomentCoverSiderail .MomentCapsuleSubtitle-category {
+	font-weight: 400;
+}
+.MomentCoverSiderail .MomentCapsuleSubtitle + .MomentTimeBadge::before {
+	content: "\2022";
+}
+.MomentCoverSiderail .MomentTimeBadge {
+	font-size: 11px; display: inline-block;
+}
+.MomentCoverSiderail-imageAttribution {
+	color: rgb(136, 153, 166);
+}
+.MomentCoverSiderail-imageAttribution:active {
+	color: rgb(136, 153, 166);
+}
+.MomentCoverSiderail-imageAttribution:hover {
+	color: rgb(136, 153, 166);
+}
+.MomentCoverSiderail-share .btn-link {
+	color: rgb(85, 172, 238); font-size: 13px; font-weight: 500;
+}
+.MomentFollowButton {
+	padding: 2px 12px 7px;
+}
+.MomentFollowButton.is-following {
+	border: 1px solid rgb(59, 148, 217); border-image: none; color: rgb(255, 255, 255); box-shadow: inset 0px 1px 0px rgba(255,255,255,0.15); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05)); background-color: rgb(85, 172, 238);
+}
+.MomentFollowButton-text {
+	padding-top: 5px;
+}
+.MomentFollowButton.is-following .MomentFollowButton-text--notFollowing {
+	display: none;
+}
+.MomentFollowButton.is-notFollowing .MomentFollowButton-text--following {
+	display: none;
+}
+.MomentFollowButton.is-following .MomentFollowButton-text--following {
+	display: inline-block;
+}
+.MomentFollowButton.is-notFollowing .MomentFollowButton-text--notFollowing {
+	display: inline-block;
+}
+.MomentFollowButton .Icon--lightning {
+	top: 2px; position: relative;
+}
+.MomentFollowButton.is-following .Icon--lightning {
+	display: none;
+}
+.MomentPromotedBadge {
+	color: rgb(136, 153, 166); line-height: 1.3; font-size: 12px; font-weight: 400;
+}
+.MomentPromotedBadge .Icon--promotedGray {
+	top: 2px; position: relative;
+}
+.MomentScrollBump-title {
+	padding: 50px 0px; text-align: center; color: rgb(102, 117, 127); font-size: 18px; font-weight: 300; position: relative;
+}
+.MomentScrollBump-title::before {
+	left: 0px; top: 50%; width: 100%; height: 100%; border-top-color: rgb(204, 214, 221); border-top-width: 1px; border-top-style: solid; position: absolute; content: "";
+}
+.MomentScrollBump-titleText {
+	padding: 0px 10px; display: inline-block; position: relative; background-color: rgb(245, 248, 250);
+}
+.MomentScrollBump-content {
+	display: flex;
+}
+.MomentScrollBump-item {
+	border-radius: 4px; flex:1 0 auto; margin-right: 10px; max-width: 100%; -webkit-flex: 1; -moz-box-flex: 1;
+}
+.MomentScrollBump :last-child.MomentScrollBump-item {
+	margin-right: 0px;
+}
+@media screen and (max-width:1236px)
+{
+.MomentScrollBump :last-child.MomentScrollBump-item {
+	display: none;
+}
+}
+.MomentTimeBadge {
+	color: rgb(136, 153, 166); line-height: 1.3; font-size: 12px; font-weight: 400;
+}
+.MomentTimeBadge-live {
+	padding: 2px 4px; border-radius: 3px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 11px; background-color: rgb(25, 207, 134);
+}
+.MomentTweetActions {
+	width: 180px; color: rgb(204, 214, 221); display: flex; justify-content: space-between; -webkit-justify-content: space-between; -moz-box-pack: justify;
+}
+.MomentTweetActions .dropdown-menu {
+	margin: 8px -10px 0px;
+}
+.MomentTweetActions .ProfileTweet-action {
+	width: auto;
+}
+.MomentTweetActions :last-child.ProfileTweet-action {
+	width: auto;
+}
+.MomentTweetActions--withMedia {
+	color: rgb(255, 255, 255); margin-top: 5px;
+}
+.MomentTweetActions--withMedia .ProfileTweet-actionButton {
+	color: rgb(255, 255, 255);
+}
+.MomentTweetActions--withMedia .ProfileTweet-actionButtonUndo {
+	color: rgb(255, 255, 255);
+}
+.MomentTweetActions--withMedia .ProfileTweet-actionCount {
+	color: rgb(255, 255, 255);
+}
+.MomentTweetActions--withMedia .ProfileTweet-action--more:hover .ProfileTweet-actionButton {
+	text-shadow: 0px 0px 7px rgba(255,255,255,0.6);
+}
+.MomentTweetActions--withText {
+	margin: 0px auto; padding-bottom: 28px;
+}
+.MomentsPage-sidebar .MomentCapsuleList {
+	margin-top: 0px; margin-bottom: 10px;
+}
+.MomentsPage-sidebar .MomentCoverSiderail {
+	margin-top: 0px; margin-bottom: 10px;
+}
+.MomentsPage-sidebar .SignupCallOut {
+	margin-top: 0px; margin-bottom: 10px;
+}
+.MomentsPage-sidebar .Trends {
+	margin-top: 0px; margin-bottom: 10px;
+}
+.MomentsPage-sidebar .WhoToFollow {
+	margin-top: 0px; margin-bottom: 10px;
+}
+.MomentsPage--permalink.has-sensitive-content-mask .AppContainer {
+	-webkit-filter: blur(10px);
+}
+.MomentsPage--permalink.has-sensitive-content-mask .MomentCapsulePermalink-content {
+	opacity: 0.05;
+}
+@media screen and (max-width:1236px)
+{
+.MomentsPage-sidebar--right {
+	display: none;
+}
+}
+.u-layer-top {
+	z-index: 3;
+}
+.u-layer-middle {
+	z-index: 2;
+}
+.u-layer-bottom {
+	z-index: 1;
+}
+.PlayableMedia-attribution {
+	margin-bottom: 15px; display: inline-block;
+}
+.PlayableMedia-attribution .avatar {
+	width: 20px; height: 20px; vertical-align: middle;
+}
+.PlayableMedia-player {
+	height: 0px; position: relative;
+}
+.PlayableMedia-title {
+	font-weight: bold; margin-top: 8px;
+}
+.PlayableMedia-description {
+	margin-top: 4px;
+}

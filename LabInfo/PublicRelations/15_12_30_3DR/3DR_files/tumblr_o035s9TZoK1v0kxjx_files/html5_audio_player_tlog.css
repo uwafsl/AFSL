@@ -1,0 +1,48 @@
+html {
+	height: 100%;
+}
+body {
+	background: none; font: 14px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; margin: 0px auto; padding: 0px; height: 100%; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
+}
+.has_art.audio_player_container {
+	height: 100%;
+}
+.audio_player_container {
+	height: 100%;
+}
+.audio_player_container .audio_player {
+	height: 100%;
+}
+.audio_player_container .audio_controls {
+	margin-right: 0px;
+}
+.has_art.audio_player_container .audio_visualizer {
+	height: 84px;
+}
+.audio_player_container .stretch_button.audio_player .play_pause_container {
+	margin: 0px; top: 0px; height: 100%;
+}
+.audio_player_container .stretch_button.audio_player .seek_time {
+	padding: 0px;
+}
+.audio_player_container .no_scrubbing.audio_player .progress_container {
+	display: none;
+}
+.audio_player_container .no_scrubbing.audio_player .seek_overlay {
+	display: none;
+}
+.audio_player_container .overlay_toggle.audio_player .audio_player_overlay {
+	display: block;
+}
+.main.album_art {
+	min-height: 100%; min-width: 100%;
+}
+.hide_art.has_art.audio_player_container .album_art_container {
+	display: none;
+}
+.hide_art.has_art.audio_player_container .audio_player {
+	padding-right: 0px;
+}
+.hide_visualizer.has_visualizer.audio_player_container .audio_controls {
+	margin-right: 0px;
+}

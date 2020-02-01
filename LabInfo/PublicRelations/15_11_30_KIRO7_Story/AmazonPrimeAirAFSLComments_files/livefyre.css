@@ -1,0 +1,27 @@
+.fyre .fyre-widget {
+	background-color: white;
+}
+.fyre .fyre-stream-stats {
+	visibility: hidden;
+}
+.fyre-hovercard {
+	display: none;
+}
+.fyre-comment-author {
+	cursor: default;
+}
+.fyre-comment-username {
+	cursor: default !important;
+}
+.fyre .fyre-livecount {
+	visibility: hidden;
+}
+.fyre-modal-alert .fyre-modal-alert-content {
+	color: white;
+}
+.fyre .fyre-live-container {
+	display: none;
+}
+.openl {
+	color: black;
+}

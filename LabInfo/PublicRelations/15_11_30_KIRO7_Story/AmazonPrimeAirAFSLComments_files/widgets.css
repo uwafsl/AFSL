@@ -1,0 +1,2031 @@
+.cmNavigation {
+	width: 960px; padding-top: 11px; clear: both; min-height: 24px;
+}
+.cmSiteNav a {
+	padding: 6px 0px 5px;
+}
+.cmClassifiedSiteNav a {
+	padding: 6px 0px 5px;
+}
+.cmSiteNav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.cmClassifiedSiteNav ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul.cmSiteNav li.primaryNavMenu {
+	margin: 0px; padding: 0px; float: left; display: inline;
+}
+.cmSiteNav li {
+	margin: 0px; padding: 0px; float: left; display: inline;
+}
+ul.cmClassifiedSiteNav li.primaryNavMenu {
+	margin: 0px; padding: 0px; float: left; display: inline;
+}
+.cmClassifiedSiteNav li {
+	margin: 0px; padding: 0px; float: left; display: inline;
+}
+.cmSiteNav a {
+	display: block;
+}
+.cmClassifiedSiteNav a {
+	display: block;
+}
+.cmSiteNav li:hover {
+	background: none;
+}
+.cmSiteNav li.cmPrimaryNavHover {
+	background: none;
+}
+.cmClassifiedSiteNav li:hover {
+	background: none;
+}
+.cmClassifiedSiteNav li.cmPrimaryNavHover {
+	background: none;
+}
+.cmSiteNav li.cmPrimaryNavMenu a {
+	text-align: center; display: block;
+}
+.cmSiteNav li.cmPrimaryNavMenu a:link {
+	text-align: center; display: block;
+}
+.cmClassifiedSiteNav li.cmPrimaryNavMenu a {
+	text-align: center; display: block;
+}
+.cmClassifiedSiteNav li.cmPrimaryNavMenu a:link {
+	text-align: center; display: block;
+}
+.cmSiteNav li.cmSubNavMenu a {
+	text-align: left;
+}
+.cmSiteNav li.cmSubNavMenu a:link {
+	text-align: left;
+}
+.cmClassifiedSiteNav li.cmSubNavMenu a {
+	text-align: left;
+}
+.cmClassifiedSiteNav li.cmSubNavMenu a:link {
+	text-align: left;
+}
+ul.cmSubNav {
+	display: none;
+}
+.cmSiteNav ul.cmSubNav {
+	margin: 0px; width: 12em; height: auto; line-height: 1; position: absolute;
+}
+.cmClassifiedSiteNav ul.cmSubNav {
+	margin: 0px; width: 12em; height: auto; line-height: 1; position: absolute;
+}
+.cmSiteNav li.cmSubNavMenu a {
+	padding: 8px 5px 8px 8px; width: 10.92em;
+}
+.cmSiteNav li.cmSubNavMenu a:link {
+	padding: 8px 5px 8px 8px; width: 10.92em;
+}
+.cmClassifiedSiteNav li.cmSubNavMenu a {
+	padding: 8px 5px 8px 8px; width: 10.92em;
+}
+.cmClassifiedSiteNav li.cmSubNavMenu a:link {
+	padding: 8px 5px 8px 8px; width: 10.92em;
+}
+.cmSiteNav ul.cmSubNav ul {
+	margin: -2.5em 0px 0px 12em;
+}
+.cmClassifiedSiteNav ul.cmSubNav ul {
+	margin: -2.5em 0px 0px 12em;
+}
+.cmSiteNav ul.cmSubNav {
+	margin-top: -1px; box-shadow: 0px 2px 5px #666; -webkit-box-shadow: 0px 2px 5px #666; -moz-box-shadow: 0px 2px 5px #666; -o-box-shadow: 0px 2px 5px #666;
+}
+.cmClassifiedSiteNav ul.cmSubNav {
+	margin-top: -1px; box-shadow: 0px 2px 5px #666; -webkit-box-shadow: 0px 2px 5px #666; -moz-box-shadow: 0px 2px 5px #666; -o-box-shadow: 0px 2px 5px #666;
+}
+.cmSiteNav .cmPrimaryNavHover.cmPrimaryNavMenu span {
+	right: 4px; position: absolute;
+}
+.cmClassifiedSiteNav .cmPrimaryNavMenuimaryNavHover.cmPrimaryNavMenu span {
+	right: 4px; position: absolute;
+}
+.cmCalendar {
+	border-radius: 8px; border: 1px solid rgb(216, 213, 205); text-align: center; margin-bottom: 10px; background-color: rgb(228, 226, 219); -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px;
+}
+.cmCalendar .cmCalendarBorder {
+	border-radius: 8px; border: 2px solid rgb(255, 255, 255); padding-bottom: 5px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px;
+}
+.cmCalendar h3.cmCalendarHeader {
+	margin: 5px 5px 5px 10px; text-align: left; color: rgb(124, 124, 124); font-size: 1.33em; text-shadow: 1px 1px 2px #fff; -webkit-text-shadow: 1px 1px 2px #fff; -moz-text-shadow: 1px 1px 2px #fff; -o-text-shadow: 1px 1px 2px #fff;
+}
+.calendar {
+	margin: 0px auto; width: 97%;
+}
+.ui-datepicker {
+	padding: 3px; border: 1px solid rgb(203, 203, 203); margin-top: 2px; display: none; background-color: rgb(255, 255, 255);
+}
+.ui-datepicker-header {
+	margin: 2px; border: 1px solid rgb(93, 93, 93); height: 100%; font-size: 1.08em; font-weight: bold; box-shadow: 0px 0px 4px #bbb; background-color: rgb(18, 116, 192); -webkit-box-shadow: 0px 0px 4px #bbb; -moz-box-shadow: 0px 0px 4px #bbb; -o-box-shadow: 0px 0px 4px #bbb;
+}
+.ui-datepicker-header::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.ui-datepicker-header a {
+	padding: 0px; text-decoration: none; cursor: pointer;
+}
+.ui-datepicker-header a span {
+	padding: 0px; text-decoration: none; cursor: pointer;
+}
+.ui-datepicker-header a:hover {
+	color: rgb(68, 68, 68); background-color: rgb(104, 161, 198);
+}
+.ui-datepicker-title {
+	padding: 7px 0px; text-align: center; text-transform: uppercase; font-size: 1.16em; text-shadow: 2px 2px 0px #7b7b7b; -webkit-text-shadow: 2px 2px 0px #7b7b7b; -moz-text-shadow: 2px 2px 0px #7b7b7b; -o-text-shadow: 2px 2px 0px #7b7b7b;
+}
+.ui-datepicker-title span {
+	color: rgb(255, 255, 255); cursor: pointer;
+}
+.ui-datepicker-prev {
+	float: left;
+}
+.ui-datepicker-prev span {
+	background-position: -32px -134px; background-image: url("../images/sprites/sprites.png"); background-repeat: no-repeat;
+}
+.ui-datepicker-next {
+	float: right;
+}
+.ui-datepicker-next span {
+	background-position: 0px -166px; background-image: url("../images/sprites/sprites.png"); background-repeat: no-repeat;
+}
+.ui-datepicker-calendar {
+	margin: 0px; border-collapse: separate; border-spacing: 3px 2px;
+}
+.ui-datepicker-calendar th {
+	padding: 4px; border: 1px solid rgb(93, 93, 93); text-align: center; box-shadow: 0px 0px 4px #bbb; background-color: rgb(125, 125, 125); -webkit-box-shadow: 0px 0px 4px #bbb; -moz-box-shadow: 0px 0px 4px #bbb; -o-box-shadow: 0px 0px 4px #bbb;
+}
+.ui-datepicker-calendar th span {
+	color: rgb(255, 255, 255);
+}
+.ui-datepicker-calendar td {
+	width: 14%;
+}
+.ui-datepicker-calendar td a {
+	background: rgb(232, 232, 232); padding: 2px 5px; border: 1px solid rgb(134, 171, 200); color: rgb(3, 109, 190); display: block; -webkit-transition: color 0.175s linear, background 0.175s linear;
+}
+.ui-datepicker-calendar td a:hover {
+	background: rgb(150, 185, 211); color: rgb(255, 255, 255);
+}
+.ui-datepicker-calendar td.ui-datepicker-current-day a {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(150, 185, 211);
+}
+.ui-datepicker-calendar td.ui-datepicker-other-month a {
+	background: rgb(205, 205, 205); border: 1px solid rgb(68, 68, 68); color: rgb(68, 68, 68); -webkit-transition: color 0.175s linear, background 0.175s linear;
+}
+.ui-datepicker-calendar td.ui-datepicker-other-month a:hover {
+	background: rgb(153, 153, 153); color: rgb(255, 255, 255);
+}
+#ui-datepicker-div {
+	width: 220px;
+}
+.ui-datepicker-calendar {
+	width: 220px;
+}
+.ui-datepicker-header a span {
+	width: 20px; height: 31px; display: block;
+}
+.cmBodyWrap .cmCalendar .ui-datepicker {
+	display: block;
+}
+.ui-datepicker-inline .ui-datepicker-calendar {
+	width: 100%;
+}
+.ui-datepicker-inline .ui-datepicker-calendar td a {
+	padding: 4px 0px; text-align: center;
+}
+.ui-datepicker-calendar td {
+	box-shadow: 0px 0px 4px #bbb; -webkit-box-shadow: 0px 0px 4px #bbb; -moz-box-shadow: 0px 0px 4px #bbb; -o-box-shadow: 0px 0px 4px #bbb;
+}
+.sidebar .ui-datepicker {
+	margin-bottom: 20px; display: block;
+}
+.sidebar .ui-datepicker-header a {
+	padding: 5px 15px;
+}
+.cmSearchResultsListHeader a.cmSearchFeedback {
+	font-size: 0.91em;
+}
+.cmSearchResultsListFooter a.cmSearchFeedback {
+	font-size: 0.91em;
+}
+.cmSearchResultsListHeader {
+	padding-bottom: 0.25em;
+}
+.cmSearchResultsListFooter {
+	padding-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmSearchResultsForm input {
+	width: 350px;
+}
+.cmSearchResultsListWellEmpty {
+	padding: 10px 0px; clear: both;
+}
+.cmSearchFiltersList {
+	width: 90px; margin-right: 15px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 3px; border-bottom-style: double; float: left;
+}
+.cmSearchFilter {
+	margin: 0px 0px 10px; padding: 10px 0px 5px; border-top-color: rgb(153, 153, 153); border-top-width: 3px; border-top-style: double;
+}
+.cmSortFilter {
+	margin: 0px 0px 10px; padding: 10px 0px 5px; border-top-color: rgb(153, 153, 153); border-top-width: 3px; border-top-style: double;
+}
+.cmSearchFilter h5 {
+	margin-bottom: 5px;
+}
+.cmSearchFilter h6 {
+	font-weight: normal; margin-bottom: 0px;
+}
+.cmSearchFilter p {
+	padding: 0px; margin-bottom: 10px;
+}
+.cmSearchFilterBorderless {
+	margin: 0px 0px 10px; padding: 10px 0px 0px;
+}
+.cmSearchFilterBorderless h5 {
+	margin-bottom: 5px;
+}
+.cmSearchFilter label {
+	font-weight: normal;
+}
+.cmSearchFilterBorderless label {
+	font-weight: normal;
+}
+.cmSearchFilter input {
+	width: 60px; margin-bottom: 5px;
+}
+.cmSearchFilterBorderless input {
+	width: 60px; margin-bottom: 5px;
+}
+.cmSearchFilter .ui-datepicker-trigger {
+	margin: 0px 0px 0px 5px; padding: 0px; border: currentColor; width: 16px; height: 16px; cursor: pointer; background-color: transparent;
+}
+.cmSearchFilterBorderless .ui-datepicker-trigger {
+	margin: 0px 0px 0px 5px; padding: 0px; border: currentColor; width: 16px; height: 16px; cursor: pointer; background-color: transparent;
+}
+.cmSearchResultsList {
+	width: 500px; float: left;
+}
+.cmSearchFilter .ui-datepicker-trigger {
+	top: 5px; position: relative;
+}
+.cmSearchFilterBorderless .ui-datepicker-trigger {
+	top: 5px; position: relative;
+}
+.cmSearchFilter .iconMapStar.cmSpriteMap {
+	margin-right: 5px;
+}
+.cmEventSearchResultsListHeader .label_column {
+	margin: 0px 15px 0px 0px; width: 100px; display: inline-block;
+}
+.cmEventSearchResultsListHeader li {
+	margin: 0px 0px 5px;
+}
+.cmEventSearchResultsListHeader input {
+	width: 350px;
+}
+.cmEventSearchResultsListHeader .date_picker_input {
+	width: 60px;
+}
+.cmEventSearchResultsListHeader .submit_button {
+	margin-left: 115px; display: inline-block;
+}
+.cmEventSearchResultsListHeader .ui-datepicker-trigger {
+	margin: 0px 0px 0px 5px; padding: 0px; border: currentColor; width: 16px; height: 16px; vertical-align: middle; cursor: pointer; background-color: transparent;
+}
+.cmEventSearchResultsListHeader .iconQuestion.sprite {
+	cursor: pointer;
+}
+.cmSchoolClosings .cmSearchFiltersList {
+	width: 120px;
+}
+.cmSchoolClosings .cmSearchResultsList {
+	width: 480px;
+}
+.cmSchoolClosings .cmSearchFilter .disabled {
+	color: rgb(153, 153, 153);
+}
+.cmSchoolClosings .cmSearchResultsList dt {
+	width: 55px; font-weight: bold; float: left;
+}
+.cmSchoolClosings .cmSearchResultsList dd {
+	width: 425px; float: left;
+}
+.cmSchoolClosings .cmListItem h4 {
+	margin-bottom: 5px;
+}
+.cmSchoolClosings .cmListItem h5 {
+	margin-bottom: 5px;
+}
+.cmSchoolClosings .cmListHeader ul {
+	margin: 10px 0px 5px;
+}
+.cmSchoolClosingsAlphaFilter li {
+	list-style: none; padding: 0px 4px; border-right-color: rgb(68, 68, 68); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+.cmSchoolClosingsAlphaFilter .first {
+	padding-left: 0px;
+}
+.cmSchoolClosingsAlphaFilter .last {
+	padding-right: 0px; border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cmSchoolClosingsEntity .cmTimeStamp {
+	margin: 10px 0px;
+}
+#cmSchoolClosingsEntityWell {
+	margin: 10px 0px;
+}
+#cmSchoolClosingsEntityWell dl {
+	margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmSchoolClosingsEntityWell dt {
+	width: 115px; clear: both; font-weight: bold; margin-bottom: 5px; float: left;
+}
+#cmSchoolClosingsEntityWell dd {
+	width: 500px; margin-bottom: 5px; float: left;
+}
+.cmPaginationContainer {
+	margin-top: 10px; float: right;
+}
+.cmPaginationContainer a:link {
+	color: rgb(0, 0, 152);
+}
+.cmPaginationContainer a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmPaginationContainer a:visited {
+	color: rgb(125, 0, 100); border-bottom-color: rgb(125, 0, 100); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmPaginationContainer a {
+	margin-left: 10px;
+}
+.cmPaginationRedux .cmPaginationResults {
+	margin-right: 10px;
+}
+.cmPaginationRedux .cmPaginationPrevious {
+	margin-right: 10px;
+}
+.cmContentRule {
+	background: rgb(204, 204, 204); width: 100%; height: 1px; clear: both; margin-bottom: 10px;
+}
+.cmToolBox {
+	width: 100%; margin-bottom: 10px; display: inline-block; background-color: transparent;
+}
+.cmToolBox a {
+	border: currentColor; text-decoration: none;
+}
+.cmToolBox .cmComments {
+	white-space: nowrap;
+}
+.cmToolBox .iconComments.sprite {
+	clear: both;
+}
+.cmToolBox .cmCount {
+	padding-left: 5px;
+}
+.cmToolBox ul li {
+	margin: 1px 0px 0px; height: 23px; padding-right: 10px; float: left; display: inline; min-width: 95px;
+}
+.cmToolBox ul li p {
+	text-align: center;
+}
+.cmToolBox ul li a {
+	text-transform: uppercase; font-size: 0.91em;
+}
+.cmToolBox .vote_form {
+	padding: 0.09em 0px; margin-left: 15px;
+}
+.cmToolBox .iconVoteUp.sprite {
+	background-position: -384px -1358px; border: currentColor; text-transform: uppercase; cursor: pointer; background-color: transparent;
+}
+.cmFlagArea .iconVoteUp.sprite {
+	background-position: -384px -1358px; border: currentColor; text-transform: uppercase; cursor: pointer; background-color: transparent;
+}
+.cmToolBox span.count {
+	color: rgb(0, 0, 152);
+}
+.cmToolBox form.vote_form button span.count {
+	color: rgb(0, 0, 152);
+}
+.cmToolBox form.vote_form button {
+	color: rgb(0, 0, 152);
+}
+span.count {
+	color: rgb(0, 0, 152);
+}
+form.vote_form button {
+	width: 80px; height: 20px; padding-right: 60px !important; padding-left: 20px; float: left; display: inline-block; position: relative;
+}
+form.vote_form .cmVoteText {
+	margin: 2px 0px 0px -55px; color: rgb(0, 0, 152); text-transform: uppercase; padding-bottom: 1px; float: left; display: inline-block;
+}
+form.vote_form .cmVoteText span {
+	color: rgb(0, 0, 152); text-transform: uppercase;
+}
+form.vote_form .cmVoteText span:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+form.vote_form button:hover + .cmVoteText span:hover {
+	border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmToolBox span.st_sharethis {
+	top: -1px; position: relative;
+}
+.cmTopicsBox {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); width: 350px; margin-bottom: 10px; display: inline-block;
+}
+.cmTopicsBox span {
+	margin-top: 5px; margin-right: 4px; float: left;
+}
+.cmTopicsBox ul li {
+	margin: 4px 0px; padding: 0px 5px; border-right-color: rgb(68, 68, 68); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.cmTopicsBox ul li:last-child {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cmRelatedArticlesBox {
+	margin-bottom: 10px;
+}
+.cmRelatedArticlesBox h6 {
+	margin: 8px 0px 10px;
+}
+.cmRelatedArticlesBox ul {
+	padding: 0px; list-style-type: none;
+}
+.cmRelatedArticlesBox ul li {
+	margin: 0px 0px 0px -5px; padding: 0px 0px 5px 15px;
+}
+.cmInfoBox {
+	padding-top: 10px; margin-bottom: 20px;
+}
+.cmInfoBox hr {
+	background: rgb(205, 205, 205); margin: 0px 0px 10px; border: currentColor; height: 2px;
+}
+#cmArticleWell .cmInfoBox p {
+	padding: 0px 0px 0.5em;
+}
+.cmLeadRelatedMap {
+	width: 405px; margin-right: 1.5em; float: left; min-height: 200px;
+}
+.cmLeadLargeRelatedMap {
+	width: 615px; margin-right: 0px; margin-bottom: 15px; float: none; min-height: 300px;
+}
+#cmLeadRelatedMapCanvas {
+	border: 2px solid rgb(255, 255, 255); width: 405px; height: 200px;
+}
+.cmLeadLargeRelatedMap #cmLeadRelatedMapCanvas {
+	width: 615px; height: 300px;
+}
+.cmLeadRelatedMap .cmElementEnlarge {
+	margin-bottom: 5px; float: right; white-space: nowrap;
+}
+.cmRelatedMap .cmElementEnlarge {
+	margin-bottom: 5px; float: right; white-space: nowrap;
+}
+.cmLeadRelatedMap .cmCredit {
+	text-align: right; padding-bottom: 2px; clear: both; margin-top: 7px;
+}
+.cmRelatedMap .cmCredit {
+	text-align: right; padding-bottom: 2px; clear: both; margin-top: 7px;
+}
+.cmLeadRelatedMap .cmCaption {
+	margin-top: 5px;
+}
+.cmRelatedMap .cmCaption {
+	margin-top: 5px;
+}
+.cmRelatedMap {
+	padding: 0px 0px 10px; width: 195px; margin-bottom: 0px;
+}
+.cmRelatedMap #cmRelatedMapCanvas {
+	border: 2px solid rgb(255, 255, 255); width: 188px; height: 195px;
+}
+.cmLeadRelatedVideo {
+	margin: 0px 1.5em 0.5em 0px; width: 405px; float: left;
+}
+.cmLeadLargeVideo.cmLeadRelatedVideo {
+	width: 615px; margin-right: 0px; margin-bottom: 15px; float: none;
+}
+.cmLeadRelatedVideo .cmElementEnlarge {
+	margin-bottom: 5px; float: right; white-space: nowrap;
+}
+.cmLeadRelatedVideoOembed {
+	
+}
+.cmFeedUtilities {
+	padding: 6px 0px; border-top-color: rgb(205, 205, 205); border-bottom-color: rgb(205, 205, 205); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+.cmFeedUtilities ul {
+	text-align: center;
+}
+.cmFeedUtilities ul li {
+	display: inline;
+}
+.cmFeedUtilities ul li:last-child {
+	margin-right: 0px;
+}
+.cmFeedUtilities ul li.iconEmail {
+	padding-left: 17px;
+}
+.cmFeedUtilities a {
+	margin: 0px 25px 0px 0px; color: rgb(0, 0, 152); font-weight: bold;
+}
+.cmFeedUtilities a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmFeedUtilities a:visited {
+	color: rgb(125, 0, 100); border-bottom-color: rgb(125, 0, 100); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.error.cmInput input {
+	color: rgb(187, 1, 1); background-color: rgb(255, 216, 217);
+}
+.cmError {
+	color: rgb(187, 1, 1); background-color: rgb(255, 216, 217);
+}
+.cmSearchResultsError input {
+	color: rgb(187, 1, 1); background-color: rgb(255, 216, 217);
+}
+.cmEventsSearchResultsError input {
+	color: rgb(187, 1, 1); background-color: rgb(255, 216, 217);
+}
+.cmErrorBox {
+	margin: 0px auto 10px; padding: 5px 10px; width: 90%; font-weight: normal; background-color: rgb(187, 1, 2);
+}
+.cmErrorBox p {
+	color: rgb(255, 255, 255); padding-left: 20px; font-size: 1.08em; font-weight: bold;
+}
+.cmErrorBox li {
+	color: rgb(255, 255, 255); padding-left: 20px; font-size: 1.08em; font-weight: bold;
+}
+.cmErrorBox .cmErrorMessage {
+	padding-left: 18px; font-weight: normal; list-style-type: none;
+}
+.cmErrorBox label {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.cmMessageBox {
+	margin: 0px auto 10px; padding: 5px 10px; border: 1px solid rgb(111, 132, 149); width: 90%; background-color: rgb(51, 155, 143);
+}
+.cmMessageBox p {
+	color: rgb(255, 255, 255); padding-left: 20px; font-weight: bold;
+}
+.cmMessageBox label {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.tooltip {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipBottom {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipTop {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipLeft {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipRight {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipTop {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipDivLeft {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tipDivRight {
+	border: 1px solid rgb(206, 206, 206);
+}
+.tooltip {
+	margin: 0px; padding: 8px; position: absolute; background-color: rgb(255, 255, 255);
+}
+.tipBottom {
+	margin: 0px; padding: 0px; border: currentColor; overflow: hidden; position: absolute; background-image: url("../images/tooltip.png"); background-repeat: no-repeat;
+}
+.tipTop {
+	margin: 0px; padding: 0px; border: currentColor; overflow: hidden; position: absolute; background-image: url("../images/tooltip.png"); background-repeat: no-repeat;
+}
+.tipLeft {
+	margin: 0px; padding: 0px; border: currentColor; overflow: hidden; position: absolute; background-image: url("../images/tooltip.png"); background-repeat: no-repeat;
+}
+.tipRight {
+	margin: 0px; padding: 0px; border: currentColor; overflow: hidden; position: absolute; background-image: url("../images/tooltip.png"); background-repeat: no-repeat;
+}
+.tipDivBottom {
+	top: 100%; display: none; position: absolute;
+}
+.tipBottom {
+	background-position: 0px 0px; left: 10px; top: -1px; width: 21px; height: 11px;
+}
+.tipDivTop {
+	bottom: 100%; display: none; position: absolute;
+}
+.tipTop {
+	background-position: 0px -32px; left: 10px; top: -10px; width: 21px; height: 11px;
+}
+.tipDivLeft {
+	right: 100%; display: none; position: absolute;
+}
+.tipLeft {
+	background-position: -10px -11px; top: 10px; width: 11px; height: 21px; right: 0px;
+}
+.tipDivRight {
+	left: 100%; display: none; position: absolute;
+}
+.tipRight {
+	background-position: 0px -11px; left: 0px; top: 10px; width: 11px; height: 21px;
+}
+.hidden {
+	display: none;
+}
+#jquery-overlay {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute;
+}
+#jquery-lightbox {
+	left: 0px; top: 0px; width: 100%; text-align: center; line-height: 0; position: absolute;
+}
+#jquery-lightbox a img {
+	border: currentColor;
+}
+#lightbox-container-image-box {
+	margin: 0px auto; width: 250px; height: 250px; position: relative; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image {
+	padding: 10px;
+}
+#lightbox-loading {
+	left: 0%; top: 40%; width: 100%; height: 25%; text-align: center; line-height: 0; position: absolute;
+}
+#lightbox-nav {
+	left: 0px; top: 30px; width: 100%; height: 85%; position: absolute; z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+	left: 0px;
+}
+#lightbox-container-image-box a {
+	border: currentColor;
+}
+#lightbox-nav-btnPrev {
+	width: 49%; height: 100%; display: block; -ms-zoom: 1;
+}
+#lightbox-nav-btnNext {
+	width: 49%; height: 100%; display: block; -ms-zoom: 1;
+}
+#lightbox-nav-btnPrev {
+	left: 0px; float: left;
+}
+#lightbox-nav-btnNext {
+	right: 0px; float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px/1.4em Verdana, Helvetica, sans-serif; margin: 0px auto; padding: 0px 10px; width: 100%; overflow: hidden; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);
+}
+#lightbox-container-image-data {
+	padding: 0px 10px; color: rgb(102, 102, 102);
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 100%; text-align: left; float: left;
+}
+#lightbox-image-details-caption {
+	padding-bottom: 10px;
+}
+#lightbox-image-details-caption div {
+	text-align: right;
+}
+#lightbox-image-details-caption p {
+	padding: 5px 0px;
+}
+#lightbox-image-details-currentNumber {
+	margin: -25px 0px 0px; padding-bottom: 1em; clear: left; display: block;
+}
+#lightbox-secNav-btnClose {
+	padding: 5px 0px; width: 66px; float: right;
+}
+#lightbox-container-image #lightbox-image {
+	max-width: 960px;
+}
+.cmMapStatic {
+	width: 615px; height: 405px;
+}
+.cmTease #cmTrafficMap {
+	margin-bottom: 4px;
+}
+.cmTeaseCol3 #cmTrafficMap {
+	width: 100%; height: 300px;
+}
+.cmTeaseCol3 #cmTrafficMap #cmTraffic {
+	width: 100%; height: 300px;
+}
+.cmTease #cmTrafficMap #cmTrafficSpeed {
+	bottom: 35px;
+}
+.cmTeaseListHeadlineMap.cmTease .cmMapListTease {
+	margin-bottom: 10px;
+}
+.cmTeaseListHeadlineMap.cmTease .cmCounter {
+	font-weight: bold;
+}
+.cmTeaseListHeadlineMap.cmTease ul li {
+	background: none;
+}
+h4 .map.sprite {
+	float: none;
+}
+.cmTeaseCol3 .cmMapListTease {
+	width: 100%; height: 300px;
+}
+.cmTeaseCol4 .cmMapListTease {
+	width: 100%; height: 300px;
+}
+.cmTeaseCol6 .cmMapListTease {
+	width: 100%; height: 500px;
+}
+.cmMapListDetail {
+	width: 100%; height: 405px; margin-top: 10px;
+}
+.cmMapSearchResults {
+	width: 100%; height: 330px; margin-bottom: 10px;
+}
+.cmMapInfoWindowContent {
+	overflow: hidden; margin-right: 10px;
+}
+.cmMapTeaseContent {
+	width: 97%;
+}
+.cmMapTeaseContent .cmTease .cmTeaseListItemPhoto {
+	margin-right: 0px; margin-left: 10px; float: right;
+}
+.cmAlertBox {
+	background: rgb(194, 56, 54); margin: 5px 15px 10px; padding: 6px 10px; border-radius: 5px; border: 1px solid rgb(177, 3, 0); color: rgb(255, 255, 255); min-height: 31px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.cmAlertBoxTypeMarket {
+	padding-right: 20px; float: left;
+}
+#cmAlertBoxAd {
+	height: 31px; padding-right: 20px; margin-top: -2px; float: left;
+}
+.cmAlertBoxTypeMarket p {
+	padding: 0px;
+}
+.cmAlertBoxLink {
+	padding-top: 5px; float: left;
+}
+.cmAlertBoxNoObj.cmAlertBoxType {
+	padding-top: 5px;
+}
+.cmAlertBoxNoObj.cmAlertBoxLink {
+	padding-top: 6px;
+}
+.cmNote {
+	margin-bottom: 5px;
+}
+.cmAlertBoxes {
+	margin: 5px 15px 6px;
+}
+.cmNewAlertBox {
+	border-width: 2px; border-style: solid; padding: 0px; border-radius: 10px; overflow: hidden; margin-bottom: 4px; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+.cmNewAlertBoxWrapper {
+	width: 100%; display: table;
+}
+.cmNewAlertBoxWrapper > div {
+	vertical-align: middle; display: table-cell; position: relative; z-index: 100;
+}
+.cmNewAlertBoxWrapper > div:last-child {
+	border-radius: 0px 5px 8px 0px; border-right-width: 2px; -webkit-border-radius: 0 5px 8px 0; -moz-border-radius: 0 5px 8px 0;
+}
+.cmNewAlertBoxWrapper > div > * {
+	display: inline-block;
+}
+.cmNewAlertBoxWrapper > div > .cmNewAlertBoxContentStructure {
+	display: table;
+}
+.cmNewAlertBoxTypeMarket {
+	border-width: 2px 0px 2px 2px; border-style: solid; border-radius: 8px 0px 0px 8px; width: 168px; z-index: 150; box-shadow: 2px 0px 6px rgba(0,0,0,0.45); -webkit-box-shadow: 2px 0px 6px rgba(0, 0, 0, .45); -webkit-border-radius: 8px 0 0 8px; -moz-border-radius: 8px 0 0 8px;
+}
+.cmNewAlertBoxType {
+	background: url("../images/alerts.png") no-repeat 0px 0px; padding: 0px; width: 166px; height: 82px; overflow: hidden;
+}
+.cmNewAlertBoxCustomPrefix.cmNewAlertBoxType {
+	padding: 10px; width: 146px; height: auto; overflow: visible; vertical-align: middle; background-image: none;
+}
+.cmNewAlertBoxPhoto {
+	vertical-align: middle; display: table-cell;
+}
+.cmNewAlertBoxPhoto a:hover {
+	border: 0px currentColor;
+}
+.cmNewAlertBoxPhoto img {
+	margin: 5px 0px 5px 15px; border: 1px solid rgb(255, 255, 255);
+}
+.cmNewAlertBoxLink {
+	padding: 10px 30px 10px 21px; vertical-align: middle; display: table-cell;
+}
+.cmNewAlertBoxLink a {
+	border: 0px currentColor;
+}
+.cmNewAlertBoxContent {
+	border-width: 2px 0px; border-style: solid;
+}
+.cmNewAlertBoxAd {
+	border-width: 2px 0px; border-style: solid;
+}
+.cmNewAlertBoxAd {
+	padding-right: 10px;
+}
+.cmNewAlertBoxAd > *:first-child {
+	width: 88px;
+}
+.cmNewAlertBoxAd > *:first-child::before {
+	content: "Sponsored by";
+}
+.cmNewAlertBoxMini .cmNewAlertBoxType {
+	height: 36px;
+}
+.cmNewAlertBoxMini .cmNewAlertBoxLink {
+	padding-top: 6px; padding-bottom: 6px;
+}
+.cmNewAlertBoxContainsCustomPrefix.cmNewAlertBoxMini .cmNewAlertBoxType {
+	height: inherit;
+}
+.cmNewAlertBoxBreaking {
+	border-color: rgb(217, 0, 0); background-image: linear-gradient(rgb(198, 12, 19), rgb(131, 0, 3)); background-color: rgb(198, 12, 19);
+}
+.cmNewAlertBoxBreaking .cmNewAlertBoxContent {
+	border-color: rgb(212, 70, 75) rgb(112, 2, 5) rgb(101, 2, 5);
+}
+.cmNewAlertBoxBreaking .cmNewAlertBoxAd {
+	border-color: rgb(212, 70, 75) rgb(112, 2, 5) rgb(101, 2, 5);
+}
+.cmNewAlertBoxBreaking .cmNewAlertBoxTypeMarket {
+	border-color: rgb(255, 61, 61) rgb(255, 61, 61) rgb(151, 9, 15) rgb(227, 68, 71); background-image: linear-gradient(rgb(255, 0, 0), rgb(198, 12, 19)); background-color: rgb(227, 6, 10);
+}
+.cmNewAlertBoxVideo {
+	border-color: rgb(6, 131, 255); background-image: linear-gradient(rgb(2, 99, 195), rgb(0, 71, 141)); background-color: rgb(2, 99, 195);
+}
+.cmNewAlertBoxVideo .cmNewAlertBoxContent {
+	border-color: rgb(61, 144, 226) rgb(0, 71, 143) rgb(0, 54, 107);
+}
+.cmNewAlertBoxVideo .cmNewAlertBoxAd {
+	border-color: rgb(61, 144, 226) rgb(0, 71, 143) rgb(0, 54, 107);
+}
+.cmNewAlertBoxVideo .cmNewAlertBoxTypeMarket {
+	border-color: rgb(66, 161, 255) rgb(255, 61, 61) rgb(2, 75, 148) rgb(65, 148, 229); background-image: linear-gradient(rgb(6, 131, 255), rgb(2, 99, 195)); background-color: rgb(6, 131, 255);
+}
+.cmNewAlertBoxVideo .cmNewAlertBoxType {
+	background-position: 0px -82px;
+}
+.cmNewAlertBoxMini.cmNewAlertBoxVideo .cmNewAlertBoxType {
+	background-position: 0px -164px;
+}
+.cmBreakingAlertRelatedContent {
+	overflow: hidden;
+}
+.cmBreakingAlertRelatedContent li {
+	display: inline-block; list-style-type: none;
+}
+.cmBreakingAlertRelatedContent li + li::before {
+	content: "\00a0| ";
+}
+.cmTeaseAlert {
+	background: rgb(174, 28, 13); border-radius: 5px; height: 35px; padding-left: 25px; margin-bottom: 20px; position: relative; box-shadow: 0px 0px 5px rgba(0,0,0,0.25); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0.25); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .25); -webkit-border-radius: 5px 5px; -moz-border-radius: 5px 5px;
+}
+body.current_conditions .cmTeaseAlert {
+	margin-bottom: 20px;
+}
+.cmTeaseAlertWeather {
+	padding-left: 45px; margin-left: 25px;
+}
+.cmTeaseAlertWeather .cmTeaseAlertSprite {
+	display: block !important;
+}
+.cmTeaseAlert .cmTeaseAlertSprite {
+	left: -26px; top: -6px; width: 48px; height: 48px; display: none; position: absolute;
+}
+.cmTeaseAlert .cmTeaseAlertSprite span {
+	width: 48px; height: 48px; text-indent: -9999px; display: block;
+}
+.cmTeaseAlert .cmTeaseAlertSprite .warning {
+	background: url("../images/alert_icon_warning.png") no-repeat left top;
+}
+.cmTeaseAlert .cmTeaseAlertType {
+	float: left;
+}
+.cmTeaseAlert .cmTeaseAlertTypeLabel {
+	padding: 0px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 35px; font-size: 1.33em; font-weight: bold; text-shadow: 0px 2px 3px rgba(0,0,0,0.5); -webkit-text-shadow: 0 1px 3px rgba(0, 0, 0, .5); -moz-text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+.cmTeaseAlert .cmTeaseAlertLink {
+	background: rgb(122, 123, 123); margin: 5px 20px 5px 0px; padding: 0px 15px; border-radius: 5px; height: 24px; border-top-color: rgb(78, 78, 78); border-top-width: 1px; border-top-style: solid; float: right; display: block; -webkit-border-radius: 5px 5px; -moz-border-radius: 5px 5px;
+}
+.cmTeaseAlert .cmTeaseAlertLink a {
+	background: url("../images/alert_icon_link.png") no-repeat right; padding: 0px 15px 0px 0px; color: rgb(254, 219, 168); text-transform: uppercase; line-height: 20px; font-size: 1.16em; font-weight: bold; text-decoration: none; display: inline; white-space: nowrap; text-shadow: 0px 1px 2px rgba(0,0,0,0.5); -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, .5); -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+.cmTeaseAlert .cmTeaseAlertLink p {
+	background: url("../images/alert_icon_link.png") no-repeat right; padding: 0px 15px 0px 0px; color: rgb(254, 219, 168); text-transform: uppercase; line-height: 20px; font-size: 1.16em; font-weight: bold; text-decoration: none; display: inline; white-space: nowrap; text-shadow: 0px 1px 2px rgba(0,0,0,0.5); -webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, .5); -moz-text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+.cmTeaseAlert .cmTeaseAlertLink a:hover {
+	border-bottom-color: rgb(254, 219, 168); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmTeaseAlertContent {
+	margin: 0px 0px 20px; padding-top: 1px; padding-bottom: 10px; border-top-color: rgb(174, 28, 13); border-bottom-color: rgb(174, 28, 13); border-top-width: 2px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+.cmTeaseAlertContent h4 {
+	color: rgb(174, 28, 13); text-transform: uppercase; padding-top: 10px; font-size: 1.16em; font-weight: bold; margin-bottom: 15px; border-top-color: rgb(174, 28, 13); border-top-width: 1px; border-top-style: solid;
+}
+.cmTeaseAlertContent ul {
+	margin: 0px; list-style-position: outside;
+}
+.cmTeaseAlertContent ul li {
+	padding: 0px; width: 33.33%; float: left; display: inline;
+}
+.cmTeaseAlertContent ul li a {
+	margin: 0px 0px 0px 20px;
+}
+.cmTeaseAlertContent ul li a:hover {
+	border-bottom-color: rgb(158, 158, 158) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.cmTeaseListRotate {
+	overflow: hidden; position: relative;
+}
+.cmTeaseListRotate h2 {
+	float: left;
+}
+.cmRotator {
+	overflow: visible;
+}
+.cmNowHiring.cmRotator {
+	overflow: hidden;
+}
+.cmRotateWidget.cmRotator {
+	overflow: hidden;
+}
+.cmRotator ul li {
+	background: none; padding: 0px 3px; float: left; display: list-item;
+}
+.cmRotator ul.cmRotatorControls li {
+	padding: 0px 3px;
+}
+.cmRotator ul.cmRotatorList li {
+	padding: 0px 3px;
+}
+.cmRotator .cmRotatorControls {
+	margin-bottom: 5px; float: right; display: inline-block; min-width: 50px;
+}
+.cmRotator .cmRotatorControls li a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; cursor: pointer;
+}
+.cmRotator .cmRotatorControls .sprite {
+	padding-left: 8px;
+}
+.cmRotator ul.cmRotatorList {
+	width: 999999px; position: relative;
+}
+.ie7 .cmNowHiring.cmRotator ul.cmRotatorList {
+	width: 100%;
+}
+.ie7 .cmRotateWidget.cmRotator ul.cmRotatorList {
+	width: 100%;
+}
+.cmCol3 .cmRotate2.cmRotator ul.cmRotatorList li {
+	width: 143px;
+}
+.cmCol3 .cmRotate3.cmRotator ul.cmRotatorList li {
+	width: 94px;
+}
+.cmCol6 .cmCol4 .cmRotate4.cmRotator ul.cmRotatorList li {
+	width: 95px;
+}
+.cmCol6 .cmRotate4.cmRotator ul.cmRotatorList li {
+	width: 147px;
+}
+.cmCol6 .cmRotate6.cmRotator ul.cmRotatorList li {
+	width: 96px;
+}
+.cmCol3 .gridBackground .cmRotate2.cmRotator ul.cmRotatorList li {
+	width: 131px;
+}
+.cmCol3 .gridBackground .cmRotate3.cmRotator ul.cmRotatorList li {
+	width: 86px;
+}
+.cmCol6 .cmCol4 .gridBackground .cmRotate4.cmRotator ul.cmRotatorList li {
+	width: 89px;
+}
+.cmCol6 .gridBackground .cmRotate4.cmRotator ul.cmRotatorList li {
+	width: 140px;
+}
+.cmCol6 .gridBackground .cmRotate6.cmRotator ul.cmRotatorList li {
+	width: 92px;
+}
+.cmRotator .cmTeaseListItemPhoto {
+	width: 97%; height: auto; margin-bottom: 8px;
+}
+.cmRotator .cmTeaseListItemLink {
+	padding-right: 2px; padding-left: 2px; font-weight: bold;
+}
+.cmRotator .cmTeaseListItemSponsored {
+	position: relative;
+}
+.cmRotator .cmTeaseListItemSponsored::after {
+	background: rgba(0, 0, 0, 0.7); left: 2px; text-align: center; right: 2px; bottom: 2px; color: rgb(255, 255, 255); font-style: italic; display: block; position: absolute; content: "Sponsored Content";
+}
+.cmRotator .cmNoImageOuter {
+	margin: 0px auto; width: 100%; vertical-align: middle; display: table; position: relative; background-color: rgb(236, 236, 236);
+}
+.cmRotator .cmNoImageInner {
+	border: 2px solid rgb(255, 255, 255); width: 100%; text-align: center; font-weight: bold; vertical-align: middle; display: table-cell; position: relative;
+}
+.cmRotator .cmNoImageInner p {
+	color: rgb(173, 173, 173);
+}
+.cmCol3 .cmRotate2.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 100px;
+}
+.cmCol3 .cmRotate3.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 71px;
+}
+.cmCol6 .cmCol4 .cmRotate4.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 73px;
+}
+.cmCol6 .cmRotate4.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 103px;
+}
+.cmCol6 .cmRotate6.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 84px;
+}
+.cmCol6 .cmCol4 .gridBackground .cmRotate4.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 65px;
+}
+.cmCol6 .gridBackground .cmRotate4.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 100px;
+}
+.cmCol6 .gridBackground .cmRotate6.cmRotator ul.cmRotatorList li .cmNoImageOuter {
+	height: 70px;
+}
+#cmWeatherWidget {
+	background: url("../images/weather_widget.png") no-repeat; margin: 7px -2px; padding: 2px 16px 0px 12px; width: 198px; height: 55px; float: right;
+}
+#cmWeatherWidget .cmWeatherWidgetImage {
+	margin-right: 10px; float: left;
+}
+#cmWeatherWidget .cmWeatherWidgetIcon {
+	width: 32px; height: 32px; display: block;
+}
+#cmWeatherWidget .cmWeatherWidgetTemp {
+	margin: 3px 12px 0px 0px; float: left;
+}
+#cmWeatherWidget .cmWeatherWidgetInfo {
+	margin-top: 4px; float: left;
+}
+#cmWeatherWidget .cmWeatherWidgetExt {
+	margin-top: 6px;
+}
+#cmWeatherWidgetLarge {
+	width: 500px; height: 90px; text-align: center; float: left;
+}
+#cmWeatherWidgetLarge .cmWeatherBox {
+	margin: 0px auto; display: inline-block; -ms-zoom: 1;
+}
+#cmWeatherWidgetLarge :first-child.cmForecast {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+#cmWeatherWidgetLarge .cmForecast {
+	padding: 3px 10px 0px; height: 100%; float: left;
+}
+#cmWeatherWidgetLarge .cmForecast span {
+	display: block;
+}
+#cmWeatherWidgetLarge .cmForecast span.cmWeatherWidgetTemp .cmWeatherWidgetDegree {
+	vertical-align: top; display: inline;
+}
+#cmWeatherWidgetLarge .cmForecast span.cmWeatherDescription {
+	margin-bottom: 3px;
+}
+#cmWeatherWidgetLarge .cmForecast span.cmWeatherWidgetTime {
+	margin-bottom: 3px;
+}
+#cmWeatherWidgetLarge .cmForecast span.cmWeatherWidgetCity {
+	margin-bottom: 3px;
+}
+#cmWeatherWidgetLarge .cmForecast span.cmWeatherWidgetTempSmall {
+	margin-top: 3px;
+}
+#cmWeatherWidgetLarge .cmForecast .spriteWeatherSmall {
+	margin: 0px auto; display: inline-block;
+}
+#cmWeatherWidgetLarge .cmWeatherWidgetLinks {
+	height: 100%; padding-top: 5px; float: left;
+}
+#cmWeatherWidgetLarge .cmWeatherWidgetLinks ul {
+	margin-left: 25px;
+}
+#cmWeatherWidgetLarge .cmWeatherWidgetLinks ul li {
+	text-align: left; margin-bottom: 12px; list-style-type: disc;
+}
+#cmWeatherWidgetLarge .cmWeatherCurrent {
+	float: left; display: inline;
+}
+#cmWeatherWidgetLarge .cmSevereWeatherLinks {
+	padding: 2px 10px 0px; float: left; display: inline; min-width: 135px;
+}
+#cmWeatherWidgetLarge .cmSchoolClosingAlertLinks {
+	padding: 2px 10px 0px; float: left; display: inline; min-width: 135px;
+}
+#cmWeatherWidgetLarge .cmHeaderAlertLinks {
+	padding: 2px 10px 0px; float: left; display: inline; min-width: 135px;
+}
+#cmWeatherWidgetLarge .cmSevereWeatherLinks .cmSevereWeather {
+	background: rgb(153, 0, 0); margin: 0px; padding: 5px 10px; min-width: 135px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#cmWeatherWidgetLarge .cmSchoolClosingAlertLinks .cmSchoolClosingAlert {
+	background: rgb(153, 0, 0); margin: 0px; padding: 5px 10px; min-width: 135px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#cmWeatherWidgetLarge .cmHeaderAlertLinks .cmHeaderAlert {
+	background: rgb(153, 0, 0); margin: 0px; padding: 5px 10px; min-width: 135px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#cmWeatherWidgetLarge .cmSevereWeatherLinks .cmSevereWeather .cmCondition {
+	background: none; padding-top: 4px; margin-top: 4px;
+}
+#cmWeatherWidgetLarge .cmSchoolClosingAlertLinks .cmSchoolClosingAlert .cmClosings {
+	background: none; padding-top: 4px; margin-top: 4px;
+}
+#cmWeatherWidgetLarge .cmHeaderAlertLinks .cmHeaderAlert .cmClosings {
+	background: none; padding-top: 4px; margin-top: 4px;
+}
+.watch.alert#cmWeatherWidget {
+	background: url("../images/weather_widget_watch.png") no-repeat;
+}
+.advisory.alert#cmWeatherWidget {
+	background: url("../images/weather_widget_watch.png") no-repeat;
+}
+.statement.alert#cmWeatherWidget {
+	background: url("../images/weather_widget_watch.png") no-repeat;
+}
+.warning.alert#cmWeatherWidget {
+	background: url("../images/weather_widget_warning.png") no-repeat;
+}
+.alert#cmWeatherWidget .cmWeatherWidgetWarning {
+	top: 2px; position: relative;
+}
+.alert#cmWeatherWidget .cmWeatherWidgetTemp {
+	float: none;
+}
+.alert#cmWeatherWidget .cmWeatherWidgetTemp a {
+	float: none;
+}
+.alert#cmWeatherWidget .cmWeatherWidgetCity {
+	top: -3px; position: relative;
+}
+.cmWeatherWidgetNewspaper#cmWeatherWidget {
+	background: none; margin: 0px 25px 0px 0px; padding: 0px 25px 0px 0px; width: auto; height: auto; float: right;
+}
+.alert.cmWeatherWidgetNewspaper#cmWeatherWidget {
+	margin: 7px -2px 0px 75px; padding: 2px 16px 0px 12px; width: 198px; height: 55px; float: left;
+}
+#cmNowPlayingWidget {
+	background: url("../images/now_playing/now_playing_background.png") no-repeat left top; left: 254px; top: 3px; width: 420px; height: 96px; position: absolute;
+}
+.cmNowPlayingIcon {
+	background: url("../images/now_playing/now_playing_headphones.png") no-repeat left top; width: 68px; height: 96px; float: left;
+}
+a.cmNowPlayingRecentAds {
+	margin: 13px 15px -7px 0px; clear: right; float: right;
+}
+.cmNowPlayingSummary {
+	margin: 11px 0px 0px 6px; width: 247px; height: 50px; overflow: hidden; float: left;
+}
+.cmNowPlayingSummary img {
+	margin: 2px 10px 0px 0px; width: 41px; height: 41px; clear: left; float: left;
+}
+.cmNowPlayingSummary h3 {
+	margin: 0px 0px 1px; padding: 3px 0px 0px;
+}
+#cmNowPlayingWidget a.cmListenLiveButton {
+	background: url("../images/now_playing/listen_live_button_off.png") no-repeat left top; padding: 8px 0px 0px 13px; width: 83px; height: 40px; margin-top: 14px; float: left; display: block;
+}
+#cmNowPlayingWidget a.cmListenLiveButton:link {
+	background: url("../images/now_playing/listen_live_button_off.png") no-repeat left top; padding: 8px 0px 0px 13px; width: 83px; height: 40px; margin-top: 14px; float: left; display: block;
+}
+#cmNowPlayingWidget a.cmListenLiveButton:visited {
+	background: url("../images/now_playing/listen_live_button_off.png") no-repeat left top; padding: 8px 0px 0px 13px; width: 83px; height: 40px; margin-top: 14px; float: left; display: block;
+}
+#cmNowPlayingWidget a.cmListenLiveButton:hover {
+	background: url("../images/now_playing/listen_live_button_on.png");
+}
+#cmNowPlayingWidget a.cmListenLiveButton:active {
+	background: url("../images/now_playing/listen_live_button_on.png");
+}
+#cmNowPlayingDefaultHeader {
+	white-space: nowrap;
+}
+#cmNowPlayingDefaultTitle {
+	white-space: nowrap;
+}
+#cmNowPlayingDefaultSubtitle {
+	white-space: nowrap;
+}
+#cmNowPlayingHeader {
+	white-space: nowrap;
+}
+#cmNowPlayingTitle {
+	white-space: nowrap;
+}
+#cmNowPlayingSubtitle {
+	white-space: nowrap;
+}
+#cmNowPlayingWidget .cmListenLiveButton span {
+	width: 50px; display: block; -ms-word-wrap: break-word;
+}
+.ui-widget-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.ui-widget-overlay {
+	background: url("../images/jqueryui/ui-bg_flat_0_000000_40x100.png") repeat-x 50% 50% rgb(0, 0, 0); opacity: 0.5;
+}
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif; font-size: 1.1em;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input {
+	font-family: Verdana,Arial,sans-serif; font-size: 1em;
+}
+.ui-widget select {
+	font-family: Verdana,Arial,sans-serif; font-size: 1em;
+}
+.ui-widget textarea {
+	font-family: Verdana,Arial,sans-serif; font-size: 1em;
+}
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif; font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.ui-widget-content a {
+	
+}
+.ui-widget-header {
+	border: 1px solid rgb(255, 255, 255); color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.ui-widget-header a {
+	
+}
+.ui-state-default {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(230, 230, 230);
+}
+.ui-widget-content .ui-state-default {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(230, 230, 230);
+}
+.ui-widget-header .ui-state-default {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(230, 230, 230);
+}
+.ui-state-default a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-default a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-default a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-hover {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-widget-content .ui-state-hover {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-widget-header .ui-state-hover {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-state-focus {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-widget-content .ui-state-focus {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-widget-header .ui-state-focus {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(218, 218, 218);
+}
+.ui-state-hover a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-hover a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-active {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(255, 255, 255);
+}
+.ui-widget-content .ui-state-active {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(255, 255, 255);
+}
+.ui-widget-header .ui-state-active {
+	border: 1px solid rgb(0, 0, 0); color: rgb(0, 0, 0); font-weight: normal; background-color: rgb(255, 255, 255);
+}
+.ui-state-active a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-active a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-state-active a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.ui-widget :active {
+	
+}
+.ui-dialog {
+	padding: 0.2em; width: 300px; overflow: hidden; position: absolute;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: 0.4em 1em; position: relative;
+}
+.ui-dialog .ui-dialog-title {
+	margin: 0.1em 16px 0.1em 0px; float: left;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	margin: -10px 0px 0px; padding: 1px; top: 50%; width: 19px; height: 18px; right: 0.3em; position: absolute;
+}
+.ui-dialog .ui-dialog-titlebar-close span {
+	margin: 1px; display: block;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover {
+	padding: 0px;
+}
+.ui-dialog .ui-dialog-titlebar-close:focus {
+	padding: 0px;
+}
+.ui-dialog .ui-dialog-content {
+	background: none; padding: 0.5em 1em; border: 0px currentColor; position: relative;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	border-width: 1px 0px 0px; margin: 0.5em 0px 0px; padding: 0.3em 1em 0.5em 0.4em; text-align: left; background-image: none;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: 0.5em 0.4em 0.5em 0px; cursor: pointer;
+}
+.ui-dialog .ui-resizable-se {
+	width: 14px; height: 14px; right: 3px; bottom: 3px;
+}
+.ui-draggable .ui-dialog-titlebar {
+	cursor: move;
+}
+.cmLboxDialog .ui-dialog-content {
+	padding: 15px 25px;
+}
+.cmLboxDialog .ui-dialog-titlebar {
+	display: none;
+}
+.cmLboxDialog .cmLboxHeader {
+	
+}
+.cmLboxDialog .cmLboxHeader a {
+	color: rgb(0, 0, 152);
+}
+.cmLboxDialog .cmLboxFooter .cmLboxComments a {
+	color: rgb(0, 0, 152);
+}
+.cmLboxDialog .cmLboxFooter .cmLboxCaption a {
+	color: rgb(0, 0, 152);
+}
+.cmLboxDialog .cmLboxBuyLink a {
+	color: rgb(0, 0, 152);
+}
+.cmLboxCredit a {
+	color: rgb(0, 0, 152);
+}
+.cmLboxDialog .cmLboxHeader a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmLboxDialog .cmLboxFooter .cmLboxComments a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmLboxDialog .cmLboxFooter .cmLboxCaption a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmLboxDialog .cmLboxBuyLink a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmLboxCredit a:hover {
+	color: rgb(0, 0, 102); border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmLboxDialog .cmLboxClose {
+	right: 0px; padding-left: 20px; float: right;
+}
+.cmLboxDialog .cmLboxTitle {
+	left: 0px; float: left;
+}
+.cmLboxDialog .cmLboxTitle a {
+	white-space: nowrap;
+}
+.cmLboxDialog .cmLboxNavPrev {
+	width: 25px; position: absolute;
+}
+.cmLboxDialog .cmLboxNavNext {
+	width: 25px; position: absolute;
+}
+.cmLboxDialog .cmLboxNavPrev {
+	left: 0px; float: left;
+}
+.cmLboxDialog .cmLboxNavNext {
+	right: 0px; float: right;
+}
+.cmLboxDialog .cmLboxPreload {
+	text-align: center;
+}
+.cmLboxDialog .cmLboxFooter .cmLboxComments {
+	text-align: right; right: 0px;
+}
+.cmLboxDialog .cmLboxNavPrev .cmLboxPrevIcon {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px; margin: 0px 7px; top: 45%; width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmLboxDialog .cmLboxNavNext .cmLboxNextIcon {
+	background: url("../images/sprites/sprites.png") no-repeat 0px 0px; margin: 0px 7px; top: 45%; width: 9px; height: 17px; overflow: hidden; position: absolute; cursor: pointer;
+}
+.cmLboxDialog .cmLboxNavPrev .cmLboxPrevIcon {
+	background-position: -452px -495px; left: 0px;
+}
+.cmLboxDialog .cmLboxNavNext .cmLboxNextIcon {
+	background-position: -517px -431px; right: 0px;
+}
+.cmLboxBuyLink {
+	display: none;
+}
+.ui-autocomplete {
+	height: 200px; position: absolute; cursor: default; -ms-overflow-x: hidden; -ms-overflow-y: scroll;
+}
+* html .ui-autocomplete {
+	width: 1px;
+}
+.ui-menu {
+	list-style: none; margin: 0px; padding: 2px; float: left; display: block;
+}
+.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+	margin: 0px; padding: 0px; width: 100%; clear: left; float: left; -ms-zoom: 1;
+}
+.ui-menu .ui-menu-item a {
+	padding: 0.2em 0.4em; line-height: 1.5; text-decoration: none; display: block; -ms-zoom: 1;
+}
+.ui-menu .ui-menu-item a.ui-state-hover {
+	background-color: rgb(238, 238, 238);
+}
+.ui-menu .ui-menu-item a.ui-state-active {
+	background-color: rgb(238, 238, 238);
+}
+.ui-widget-content.ui-menu.ui-autocomplete {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170);
+}
+.ui-menu-item .item-label {
+	color: rgb(3, 109, 190); float: left; display: block;
+}
+.ui-menu-item .item-status {
+	color: rgb(3, 109, 190); float: right; display: block;
+}
+.cmGrouponWidget {
+	border: 1px solid rgb(111, 137, 164); width: 298px; height: 340px;
+}
+.cmGrouponWidgetHeader {
+	padding: 4px 10px 3px 16px; height: 40px;
+}
+img.cmGrouponAffiliateLogo {
+	height: 40px; margin-right: 10px; float: left;
+}
+.cmGrouponDealTagline {
+	padding: 4px 5px 0px 0px;
+}
+.cmTaglinePipe {
+	padding: 4px 5px 0px 0px;
+}
+#cmGrouponDealImage {
+	width: 298px; height: 180px; -webkit-box-shadow: 0px 3px 10px 0px #ccc inset; -moz-box-shadow: 0px 3px 10px 0px #ccc inset;
+}
+#cmGrouponDealImage img {
+	margin: 0px; width: 298px; position: relative; z-index: 0;
+}
+#cmGrouponImageLarge {
+	display: none;
+}
+.cmGrouponWidgetFooter {
+	height: 113px;
+}
+#cmGrouponDealText {
+	margin: 10px 0px 8px 18px; padding: 0px; width: 180px; height: 58px; overflow: hidden; float: left;
+}
+#cmGrouponDealSavings {
+	background: url("../images/deals/starburst.png") no-repeat left top; margin: 0px 7px 0px 0px; padding: 20px 0px 0px 12px; top: -12px; width: 61px; height: 53px; float: right; position: relative; transform: rotate(10deg); -webkit-transform: rotate(10deg); -moz-transform: rotate(10deg); -o-transform: rotate(10deg);
+}
+#cmGrouponDealSavings #cmPercentageAmount {
+	width: 30px; height: 25px; float: left;
+}
+#cmGrouponDealSavings .cmPercentage {
+	padding: 4px 0px 0px; width: 20px; float: left;
+}
+#cmGrouponDealSavings .cmPercentageOff {
+	padding: 4px 0px 0px; width: 20px; float: left;
+}
+#cmGrouponDealSavings .cmPercentageOff {
+	padding: 0px;
+}
+#cmGrouponDealButton {
+	margin: 0px; padding: 0px; clear: both;
+}
+#cmGrouponDealButton a {
+	background: rgb(61, 107, 153); margin: 0px 0px 0px 18px; padding: 2px 13px 3px; border-radius: 0.5em; border: 2px solid rgb(220, 229, 237); float: left; cursor: pointer; box-shadow: 0px 1px 5px #dcdcd9; -webkit-box-shadow: 0 1px 5px #dcdcd9; -moz-box-shadow: 0 1px 5px #dcdcd9; -webkit-border-radius: .5em; -moz-border-radius: .5em;
+}
+#cmGrouponDealButton a:hover {
+	background: rgb(61, 107, 153);
+}
+#cmGrouponDealButton a:active {
+	top: 1px; position: relative;
+}
+.cmGrouponLogo {
+	margin: 0px 17px 0px 0px; width: 80px; height: 20px; float: right;
+}
+.cmTabNavContainer {
+	width: 100%; clear: both; margin-bottom: 2px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.cmTabNav {
+	margin-bottom: -1px;
+}
+ul.cmTabNav li {
+	margin: 0px 3px 0px 0px; padding: 0px; float: left; display: inline;
+}
+ul.cmTabNav li a.cmTabNavLink:visited {
+	background: -ms-linear-gradient(rgb(250, 250, 250) 0%, rgb(204, 204, 204) 75%, rgb(238, 238, 238) 100%); padding: 6px 10px 5px; border: 1px solid rgb(153, 153, 153); text-align: center; color: rgb(3, 109, 190); text-transform: uppercase; font-size: 0.91em; font-weight: bold; text-decoration: none; display: block; white-space: nowrap; border-top-left-radius: 5px; border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.cmTabNav li a.cmTabNavLink {
+	background: -ms-linear-gradient(rgb(250, 250, 250) 0%, rgb(204, 204, 204) 75%, rgb(238, 238, 238) 100%); padding: 6px 10px 5px; border: 1px solid rgb(153, 153, 153); text-align: center; color: rgb(3, 109, 190); text-transform: uppercase; font-size: 0.91em; font-weight: bold; text-decoration: none; display: block; white-space: nowrap; border-top-left-radius: 5px; border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+ul.cmTabNav li a.cmCurrentTab.cmTabNavLink {
+	background: 0px 0px rgb(255, 255, 255); color: rgb(51, 51, 51);
+}
+.cmTipWidget {
+	position: relative;
+}
+span.cmTip {
+	height: 17px; float: left; display: inline;
+}
+.cmTipWidget h4 {
+	color: rgb(124, 124, 124); font-size: 1.5em; margin-bottom: 8px;
+}
+.cmTipWidget h5 {
+	margin-bottom: 3px;
+}
+.cmTipWidget .cmTipCtrls {
+	top: 0px; right: 0px; position: absolute;
+}
+.OUTBRAIN .AR_1 .ob_what {
+	text-align: right; clear: both;
+}
+.OUTBRAIN .AR_1 .ob_clear {
+	clear: both;
+}
+.OUTBRAIN .AR_1 {
+	clear: both; margin-bottom: 10px;
+}
+.OUTBRAIN .ob_org_header {
+	font-size: 1em; font-weight: bold;
+}
+.OUTBRAIN .ob_ads_header {
+	font-size: 1em; font-weight: bold;
+}
+.OUTBRAIN .ob_dual_left .ob_source {
+	padding: 5px 0px; display: none;
+}
+.OUTBRAIN .odb_li {
+	padding: 5px 0px;
+}
+.OUTBRAIN .AR_1 .ob_dual_container {
+	clear: both;
+}
+.OUTBRAIN .AR_1 .ob_dual_left {
+	padding: 0px; width: 300px; float: left;
+}
+.OUTBRAIN .AR_1 .ob_dual_right {
+	padding: 0px; width: 300px; float: left;
+}
+.OUTBRAIN .AR_1 .ob_dual_left {
+	margin-right: 15px;
+}
+.OUTBRAIN .ob_dual_container ul {
+	margin-top: 10px;
+}
+.OUTBRAIN .AR_1 .ob_empty {
+	display: none;
+}
+.OUTBRAIN .odb_li {
+	background: url("../images/sprites/sprites.png") no-repeat 0px -2543px; padding: 0px 0px 5px 15px; margin-left: -5px;
+}
+.cmRelated {
+	margin: 10px 10px 10px 0px; width: 200px; clear: left; float: left;
+}
+.cmRelatedHeader {
+	margin-bottom: 10px; border-bottom-color: rgb(137, 137, 137); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.cmRelated .cmModule {
+	padding-bottom: 10px; margin-bottom: 10px; border-bottom-color: rgb(137, 137, 137); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmRelated .cmModuleHeader {
+	background: none; padding: 0px; min-height: 10px;
+}
+.cmRelated .cmMedia {
+	margin: 0px; width: 200px; float: none;
+}
+#cmArticleWell .cmRelated .cmMedia img {
+	margin: 0px; padding: 2px; width: 188px; height: auto; overflow: hidden; max-width: 188px;
+}
+.cmRelated .cmCredit {
+	margin-right: 7px;
+}
+.cmRelated .cmCaption {
+	margin-left: 0px;
+}
+.cmRelated .cmPollResults .percent {
+	margin-left: 5px;
+}
+#cmArticleWell .cmRelated a:hover {
+	border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmArticleWell a:hover {
+	border-bottom-color: rgb(0, 0, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#cmArticleWell .cmRelated ul {
+	margin-left: 0px; list-style-type: none;
+}
+#cmArticleWell .cmRelated .cmPollBox p {
+	padding: 0.5em 0px 0px;
+}
+#cmArticleWell .cmRelated .cmPollMessage p {
+	padding: 2px 0px 0px 20px;
+}
+.cmRelated .cmAdSponsoredLinksBox {
+	margin-top: 0px;
+}
+.cmFeeds {
+	margin: 10px 0px; clear: both;
+}
+.cmFeedBorder.cmFeeds {
+	padding-top: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.cmFeeds span {
+	margin-right: 10px;
+}
+#cmZvSearchDiv {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(228, 226, 219) 50%); margin: 15px; border-radius: 5px; border: 2px solid rgb(212, 212, 212); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.cmZvCTAText {
+	background: url("../images/zvents_mag_glass_50x50.png") no-repeat 10px 50%; height: 60px; text-align: center; padding-left: 70px; vertical-align: middle; display: table-cell;
+}
+#cmZvCallToAction .cmZvFind {
+	display: block;
+}
+#cmZvCallToAction {
+	width: 245px; padding-top: 3px; padding-bottom: 3px; float: left; display: inline-block;
+}
+#cmZvFormDivParent {
+	padding-left: 15px; vertical-align: top; float: left; display: inline;
+}
+#cmZvFormsDiv {
+	margin: 10px 0px 2px;
+}
+#cmZvFormsDiv .cmZFormSubmitBttn {
+	background: -ms-linear-gradient(rgb(153, 204, 255) 0%, rgb(50, 133, 196) 60%); padding: 3px 10px; border-radius: 2px; border: currentColor; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+#cmZvFormsDiv .cmTextField {
+	margin: 2px 5px 2px 2px; width: 178px;
+}
+#cmZvTypeDiv {
+	margin-bottom: 10px; display: inline-block;
+}
+#cmZvTypeList li {
+	margin-right: 20px; float: left; display: inline-block;
+}
+.cmZvAddLink {
+	right: 25px; margin-top: 2px; border-bottom-color: rgb(3, 109, 190); border-bottom-width: 1px; border-bottom-style: dotted; position: absolute;
+}
+.cmZvAddLink:hover {
+	border-style: solid;
+}
+.cmErrorDialog {
+	padding: 20px; border-radius: 4px; border: 4px solid rgb(204, 204, 204); left: 15%; top: 25%; font-size: 18pt; font-weight: bold; position: absolute; z-index: 10000; background-color: rgb(238, 238, 238);
+}
+#ndn-video-single {
+	padding-bottom: 5px;
+}
+.cmListImage {
+	position: relative;
+}
+.cmTeaseListItemPhoto {
+	position: relative;
+}
+.cmTeasePhoto > a {
+	position: relative;
+}
+.cmPlayBtn {
+	background: url("../images/play/play.svg") no-repeat left bottom / 20px 20px; left: 6px; width: 33px; height: 33px; bottom: 6px; display: block; position: absolute;
+}
+.cmTeaseListItemPhoto .cmPlayBtn {
+	background-size: 19px 19px;
+}
+.cmTeaseCol6 .cmRotate4.cmRotator ul.cmRotatorList li .cmTeaseListItemPhoto .cmPlayBtn {
+	background-size: 23px 23px;
+}
+.cmCol6 .cmRotate6.cmRotator ul.cmRotatorList li .cmTeaseListItemPhoto .cmPlayBtn {
+	background-size: 20px 20px;
+}
+.cmTeasePhoto .cmPlayBtn {
+	bottom: 9px;
+}
+.cmTeasePhotoTop .cmTeasePhoto .cmPlayBtn {
+	left: 9px; bottom: 12px; background-size: 23px 23px;
+}
+.no-svg .cmPlayBtn {
+	background: url("../images/play/play_28x28.png") no-repeat left bottom; left: 4px; bottom: 3px;
+}
+.no-svg .cmTeaseListItemPhoto .cmPlayBtn {
+	left: 6px; bottom: 4px; background-image: url("../images/play/play_26x26.png"); background-size: auto;
+}
+.no-svg .cmTeaseCol6 .cmRotate4.cmRotator ul.cmRotatorList li .cmTeaseListItemPhoto .cmPlayBtn {
+	background-image: url("../images/play/play_33x33.png");
+}
+.no-svg .cmCol6 .gridBackground .cmRotate6.cmRotator ul.cmRotatorList li .cmTeaseListItemPhoto .cmPlayBtn {
+	background-image: url("../images/play/play_26x26.png"); background-size: auto;
+}
+.no-svg .cmCol6 .cmRotate6.cmRotator ul.cmRotatorList li .cmTeaseListItemPhoto .cmPlayBtn {
+	background-image: url("../images/play/play_28x28.png"); background-size: auto;
+}
+.no-svg .cmTeasePhoto .cmPlayBtn {
+	bottom: 6px;
+}
+.no-svg .cmTeasePhotoTop .cmTeasePhoto .cmPlayBtn {
+	left: 7px; bottom: 7px; background-image: url("../images/play/play_33x33.png"); background-size: auto;
+}
+#dataVizChart .axis {
+	shape-rendering: crispEdges;
+}
+#dataVizChart .axis.x path {
+	fill: none; stroke: #000; stroke-width: 1;
+}
+#dataVizChart .axis.y path {
+	fill: none; stroke: #000; stroke-width: 1;
+}
+#dataVizChart .axis.x line {
+	fill: none; stroke: #444; stroke-width: 1;
+}
+#dataVizChart .axis.y line {
+	fill: none; stroke: #444; stroke-width: 1;
+}
+#dataVizChart .major.tick {
+	font-size: 12px;
+}
+#dataVizChart .linechart-line {
+	fill: none; stroke-width: 2;
+}
+#dataVizChart .arc:hover {
+	cursor: pointer;
+}
+#dataVizLegend {
+	margin-bottom: 20px;
+}
+#dataVizLegend .legend-result span {
+	margin-right: 15px; display: inline-block; cursor: pointer;
+}
+#dataVizLegend .legend-result .legend-box-color {
+	border: 1px solid rgb(68, 68, 68); width: 15px; height: 15px;
+}
+#dataVizTable {
+	clear: both; border-bottom-color: rgb(68, 68, 68); border-bottom-width: thin; border-bottom-style: double; cursor: default;
+}
+.table-striped#dataVizTable thead {
+	color: rgb(255, 255, 255); background-color: rgb(0, 56, 150);
+}
+.table-striped#dataVizTable th {
+	text-align: left; text-transform: capitalize; font-weight: normal;
+}
+.table-striped#dataVizTable tbody tr:nth-child(2n) td {
+	background-color: rgb(228, 237, 255);
+}
+.dataTables_wrapper {
+	margin: 20px 0px;
+}
+.dataTables_paginate {
+	margin: -5px 10px 10px;
+}
+.dataTables_paginate a {
+	margin: 0px 5px;
+}
+.dataTables_length label select {
+	margin: 0px 5px; width: auto;
+}
+.cmDetailTooltip {
+	float: right;
+}
+.cmTeaseImageSlider {
+	overflow: hidden; position: relative;
+}
+.cmImageSlider ul li {
+	background: none; padding: 0px; float: left; display: list-item;
+}
+.cmTeaseImageSliderListItemPhoto {
+	width: 615px; height: 300px;
+}
+.cmImageSlider {
+	height: 340px;
+}
+.cmImageSlider ul.cmImageSliderList {
+	left: -615px; width: 999999px; height: 300px; display: block; position: absolute;
+}
+.cmTeaseImageSliderListItemLink {
+	background: rgba(0, 0, 0, 0.7); padding: 16px 22px; width: 571px; margin-top: -63px; margin-left: 0px; position: absolute;
+}
+.cmImageSliderPrevArrow {
+	top: 110px; display: none; position: absolute;
+}
+.cmImageSliderNextArrow {
+	top: 110px; display: none; position: absolute;
+}
+.cmImageSliderPrevArrow {
+	left: 0px;
+}
+.cmImageSlider:hover .cmImageSliderPrevArrow {
+	display: inline;
+}
+.cmImageSlider:hover .cmImageSliderNextArrow {
+	display: inline;
+}
+.cmImageSliderPrevArrow a {
+	background: url("../premium/images/arrow_left_on_small.png") no-repeat 0px 0px; left: 0px; width: 37px; height: 72px; position: absolute; cursor: pointer;
+}
+.cmImageSliderNextArrow a {
+	background: url("../premium/images/arrow_right_on_small.png") no-repeat 0px 0px; width: 37px; height: 72px; right: 0px; position: absolute; cursor: pointer;
+}
+.cmImageSliderPrevArrow a:hover {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmImageSliderNextArrow a:hover {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmImageSliderNextArrow {
+	right: 0px;
+}
+.cmImageSliderControls {
+	height: 30px; margin-top: 10px;
+}
+.cmImageSlider ul.cmImageSliderControls {
+	padding: 0px; left: 50%; float: left; position: relative;
+}
+.cmImageSlider ul.cmImageSliderControls li.cmImageSliderIndicator {
+	right: 50%; margin-top: 300px; float: left; position: relative;
+}
+.cmImageSlider ul.cmImageSliderControls li.cmImageSliderIndicator a {
+	cursor: pointer;
+}
+.cmImageSlider ul.cmImageSliderList .cmTeaseImageSliderListItemPhoto a:hover {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.cmMediaRotatorFrame {
+	position: relative;
+}
+.cmMediaRotatorFrame img {
+	width: 612px; height: 388px;
+}
+.cmMediaRotatorContainer {
+	width: 612px;
+}
+.cmMediaRotatorNav {
+	padding: 15px; width: 100%; height: 80px; overflow: hidden; position: relative;
+}
+.cmMediaRotator {
+	width: 100%; position: relative;
+}
+.cmMediaRotator .cmStatusBarContainer {
+	background: rgb(255, 255, 255); top: 0px; width: 100%; height: 2px; right: 0px; visibility: hidden; position: absolute; z-index: 2;
+}
+.cmT1VideoPlaceHolder {
+	width: 612px; height: 388px;
+}
+.cmMediaRotator .cmStatusBar {
+	background: rgb(0, 83, 155); top: 0px; width: 100%; height: 2px; right: 0px; position: absolute; z-index: 3;
+}
+.cmMediaRotatorNavContainer {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(204, 204, 204); width: 100%; height: 80px; display: table;
+}
+.cmMediaRotatorImgContainer {
+	background: url("../images/loading_31x31.gif") no-repeat center rgb(255, 255, 255); width: 100%; height: 388px; position: relative;
+}
+.cmMediaRotatorEl {
+	background: rgb(255, 255, 255); padding: 0px; transition:250ms linear; width: 25%; font-family: arial, sans-serif; font-size: 16px; vertical-align: top; border-top-color: rgb(221, 221, 221); border-right-color: rgb(221, 221, 221); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; display: table-cell; position: relative; -webkit-transition: all 250ms linear;
+}
+.cmMediaRotatorEl img {
+	-webkit-translateZ: 0; translateZ: 0;
+}
+:last-of-type.cmMediaRotatorEl {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.cmMediaRotatorEl a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.cmMediaRotatorEl a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.cmMediaRotatorEl a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.cmMediaRotatorEl a::before {
+	background: none; transition:250ms linear; left: 0px; top: 0px; width: 100%; height: 6px; position: absolute; content: " "; -webkit-transition: all 250ms linear;
+}
+.cmSlideActive_3 :first-child.cmMediaRotatorEl + .cmMediaRotatorEl + .cmMediaRotatorEl + .cmMediaRotatorEl {
+	background-color: rgb(248, 248, 248);
+}
+.cmSlideActive_2 :first-child.cmMediaRotatorEl + .cmMediaRotatorEl + .cmMediaRotatorEl {
+	background-color: rgb(248, 248, 248);
+}
+.cmSlideActive_1 :first-child.cmMediaRotatorEl + .cmMediaRotatorEl {
+	background-color: rgb(248, 248, 248);
+}
+.cmSlideActive_0 :first-child.cmMediaRotatorEl {
+	background-color: rgb(248, 248, 248);
+}
+.cmMediaRotatorEl:hover {
+	cursor: pointer;
+}
+.cmMediaRotatorEl:hover a::before {
+	background: rgb(0, 83, 155); content: " ";
+}
+.cmSlideActive_3 :nth-of-type(4).cmMediaRotatorEl a::before {
+	background: rgb(0, 83, 155); content: " ";
+}
+.cmSlideActive_2 :nth-of-type(3).cmMediaRotatorEl a::before {
+	background: rgb(0, 83, 155); content: " ";
+}
+.cmSlideActive_1 :nth-of-type(2).cmMediaRotatorEl a::before {
+	background: rgb(0, 83, 155); content: " ";
+}
+.cmSlideActive_0 :nth-of-type(1).cmMediaRotatorEl a::before {
+	background: rgb(0, 83, 155); content: " ";
+}
+.cmMediaRotatorContainer * {
+	box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.cmSwipe {
+	overflow: hidden; visibility: hidden; position: relative;
+}
+.cmSwipeWrap {
+	overflow: hidden; position: relative; min-height: 388px;
+}
+.cmSwipeWrap > div {
+	width: 100%; float: left; position: relative;
+}
+.cmMediaRotatorArrow {
+	background: url("../images/rotator-icons.png") no-repeat -135px 0px; padding: 0px; transition:100ms linear; left: 0px; top: 123px; width: 0px; height: 127px; line-height: 125px; overflow: hidden; font-size: 32px; position: absolute; z-index: 99; -webkit-transition: all 100ms linear;
+}
+.cmMediaRotatorArrow:hover {
+	cursor: pointer;
+}
+.cmMediaRotatorNxt.cmMediaRotatorArrow {
+	left: auto; right: 0px; transform: rotate(-180deg); -webkit-transform: rotate(-180deg);
+}
+.cmMediaRotator:hover .cmMediaRotatorArrow {
+	width: 70px;
+}
+.cmMediaRotatorContainer a:link {
+	color: rgb(0, 0, 0); font-size: 14px; text-decoration: none;
+}
+.cmMediaRotatorContainer a:hover {
+	text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.cmMediaRotatorAdSponsor {
+	top: 0px; right: 0px; position: absolute;
+}
+.cmMediaRotatorAdSponsor .cmSponsored {
+	padding: 0px 5px 20px; font-size: 11px; vertical-align: middle; display: inline-block;
+}
+.cmMediaRotatorAdSponsor .adgeletti-ad-div {
+	padding-top: 10px; display: inline-block;
+}
+.cmMediaRotatorAdSponsor .npr02-override#adgeletti-ad-div-NPR02-0px-infinity {
+	display: inline-block !important;
+}
+.cmMediaRotatorAdSponsorHeading {
+	height: 46px;
+}
+.cmMediaRotatorAdHide {
+	display: none;
+}
+.cmMediaRotatorAdTL span {
+	color: rgb(0, 0, 0); text-transform: uppercase; font-size: 9px;
+}
+.janrainSocialRoot .janrainShareSelectedContactRemoveButton {
+	background-image: none !important;
+}

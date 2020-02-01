@@ -1,0 +1,7 @@
+Purple:
+RGB: 51, 0, 111
+
+Gold:
+RGB: 232, 211, 162
+
+http://www.washington.edu/brand/primary-color-palette/

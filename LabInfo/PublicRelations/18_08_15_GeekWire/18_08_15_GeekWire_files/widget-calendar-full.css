@@ -1,0 +1,177 @@
+.tribe-mini-calendar-wrapper {
+	width: 100%;
+}
+.tribe-mini-calendar-grid-wrapper {
+	margin-bottom: 10px;
+}
+.tribe-mini-calendar {
+	width: 100%; line-height: 1; margin-left: -1px; border-collapse: collapse;
+}
+.tribe-mini-calendar td {
+	padding: 0px; border: 1px solid rgb(210, 210, 210); border-image: none; width: 14.28%; text-align: center; vertical-align: top;
+}
+.tribe-mini-calendar th {
+	padding: 0px; border: 1px solid rgb(210, 210, 210); border-image: none; width: 14.28%; text-align: center; vertical-align: top;
+}
+.tribe-mini-calendar thead {
+	background: rgb(102, 102, 102);
+}
+.tribe-mini-calendar div[id*='daynum-'] a {
+	padding: 5px 0px 15px; text-decoration: none; display: block; position: relative;
+}
+.tribe-mini-calendar .tribe-events-has-events div[id*='daynum-'] {
+	font-weight: bold;
+}
+.tribe-mini-calendar .tribe-events-has-events:hover {
+	background: rgb(68, 68, 68);
+}
+.tribe-mini-calendar .tribe-events-has-events:hover a:hover {
+	background: rgb(153, 153, 153);
+}
+.tribe-mini-calendar .tribe-events-has-events:hover a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.tribe-mini-calendar .tribe-events-has-events:hover a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.tribe-mini-calendar .tribe-events-has-events div[id*='daynum-'] a::before {
+	background: rgb(153, 153, 153); margin: 5px auto 0px -4px; padding: 0px; border-radius: 7px; left: 50%; width: 7px; height: 7px; bottom: 4px; display: block; position: absolute; content: ""; -moz-border-radius: 7px; -webkit-border-radius: 7px;
+}
+.tribe-mini-calendar .tribe-events-has-events.tribe-mini-calendar-today:hover {
+	background: rgb(102, 102, 102);
+}
+.tribe-mini-calendar .tribe-events-has-events.tribe-mini-calendar-today a {
+	color: rgb(255, 255, 255);
+}
+.tribe-mini-calendar .tribe-events-has-events.tribe-mini-calendar-today div[id*='daynum-'] a::before {
+	background: rgb(255, 255, 255);
+}
+.tribe-mini-calendar .tribe-events-past {
+	opacity: 0.6;
+}
+.tribe-events-has-events.tribe-events-present div[id*='daynum-'] a::before {
+	background: rgb(255, 255, 255);
+}
+.tribe-events-has-events div[id*='daynum-'] a:hover::before {
+	background: rgb(255, 255, 255);
+}
+.tribe-mini-calendar-dayofweek {
+	background: rgb(221, 221, 221); padding: 3px 0px; color: rgb(51, 51, 51); text-transform: uppercase; font-weight: bold;
+}
+.tribe-mini-calendar-no-event {
+	padding: 5px 5px 15px; color: rgb(153, 153, 153); font-weight: bold; text-decoration: none; display: block;
+}
+.tribe-mini-calendar-nav {
+	background: rgb(102, 102, 102); border: 1px solid rgb(102, 102, 102); border-image: none; text-align: center; color: rgb(255, 255, 255); vertical-align: middle;
+}
+.tribe-mini-calendar-nav div {
+	position: relative;
+}
+.tribe-mini-calendar-nav span {
+	margin: 0px auto; color: rgb(255, 255, 255); text-transform: uppercase; font-weight: bold; display: inline-block;
+}
+.tribe-mini-calendar-nav span.active {
+	visibility: hidden;
+}
+.tribe-mini-calendar-nav .tribe-mini-calendar-nav-link {
+	padding: 5px; color: rgb(153, 153, 153); display: inline-block;
+}
+.tribe-mini-calendar-nav .prev-month {
+	margin: 0px 20px 0px 0px;
+}
+.tribe-mini-calendar-nav .next-month {
+	margin: 0px 0px 0px 20px;
+}
+.tribe-mini-calendar-nav .tribe-mini-calendar-nav-link:hover {
+	color: rgb(111, 183, 255);
+}
+.tribe-mini-calendar-nav #ajax-loading-mini {
+	margin: -8px 0px 0px -8px; left: 50%; top: 50%; width: 16px; height: 16px; display: none; position: absolute;
+}
+.tribe-mini-calendar .tribe-events-present {
+	background-color: rgb(102, 102, 102);
+}
+.tribe-mini-calendar .tribe-mini-calendar-today {
+	background-color: rgb(102, 102, 102);
+}
+.tribe-mini-calendar .tribe-events-present a {
+	color: rgb(255, 255, 255);
+}
+.tribe-mini-calendar-event {
+	width: 100%; overflow: hidden; padding-bottom: 5px; margin-bottom: 5px; border-bottom-color: rgb(47, 47, 47); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.tribe-mini-calendar-event.first {
+	margin-top: 10px;
+}
+.tribe-mini-calendar-event .list-date {
+	background: rgb(102, 102, 102); margin: 10px 5% 10px 0px; padding: 3px; width: 15%; text-align: center; overflow: hidden; font-weight: bold; float: left; display: inline; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.tribe-mini-calendar-event .list-info {
+	margin: 10px 0px; width: 80%; float: left; display: inline;
+}
+.tribe-mini-calendar-event .list-date .list-dayname {
+	background: rgb(255, 255, 255); padding: 3px; text-align: center; color: rgb(102, 102, 102); text-transform: uppercase; letter-spacing: 0.5px; font-size: 11px; display: block;
+}
+.tribe-mini-calendar-event .list-date .list-daynumber {
+	width: 100%; text-align: center; color: white; line-height: 1.6; font-size: 15px; display: block;
+}
+.tribe-mini-calendar-event .list-date .list-daymonth {
+	background: white; width: 100%; text-align: center; color: rgb(102, 102, 102); text-transform: uppercase; line-height: 1.6; font-size: 12px; display: block;
+}
+.tribe-mini-calendar-event .list-info {
+	line-height: 1.6; font-size: 13px;
+}
+.tribe-mini-calendar-event .list-info h2 {
+	line-height: 18px; font-size: 14px; font-weight: bold; margin-top: 0px; margin-bottom: 10px;
+}
+.tribe-mini-calendar-event .list-info p {
+	margin: 5px 0px; display: none;
+}
+.tribe-mini-calendar-event.first .list-info p {
+	display: block;
+}
+.tribe-mini-calendar-event .tribe-events-divider {
+	font-weight: normal; display: inline;
+}
+.tribe-mini-calendar-event .tribe-events-event-schedule-details {
+	display: inline-block;
+}
+.tribe-mini-calendar-event-cost {
+	font-weight: bold;
+}
+.tribe-mini-calendar-right :last-child.tribe-mini-calendar-event {
+	border: 0px currentColor; border-image: none;
+}
+.tribe-mini-calendar-event .tribe-events-event-schedule-details {
+	margin: 5px 0px 0px;
+}
+.tribe-mini-calendar-event-venue {
+	margin: 5px 0px 0px;
+}
+.tribe-mini-calendar-wrapper a.tribe-events-button {
+	padding: 6px 9px; border-radius: 3px; border: 0px currentColor; border-image: none; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; line-height: normal; letter-spacing: 1px; font-size: 11px; font-weight: bold; text-decoration: none; margin-top: 10px; display: inline-block; cursor: pointer; box-shadow: none; background-image: none; background-color: rgb(102, 102, 102);
+}
+.tribe-theme-twentyfifteen .tribe_mini_calendar_widget {
+	-ms-word-wrap: normal;
+}
+.tribe-theme-twentyfifteen .tribe-events-adv-list-widget {
+	-ms-word-wrap: normal;
+}
+.tribe-theme-twentyfifteen .tribe-events-countdown-widget {
+	-ms-word-wrap: normal;
+}
+.tribe-theme-twentyfifteen .tribe-mini-calendar-event {
+	margin-right: 0px; margin-left: 0px;
+}
+.tribe-theme-twentyfifteen .tribe-mini-calendar-event .list-date {
+	width: 18%; margin-right: 7%;
+}
+.tribe-theme-twentyfifteen .tribe-mini-calendar-event .list-info {
+	width: 75%;
+}
+.tribe-theme-twentyfifteen .tribe-mini-calendar-list-wrapper .type-tribe_events {
+	margin-right: 0px; margin-left: 0px; box-shadow: none;
+}
+.tribe-theme-twentyfifteen .tribe-mini-calendar div[id*='daynum-'] a {
+	padding: 5px 0px 15px;
+}
